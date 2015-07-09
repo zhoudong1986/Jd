@@ -1,0 +1,1013 @@
+/*京东公共部分
+ *2015-7-1 AM 10:25
+ * yoyo 77315016@qq.com
+*/
+*{margin: 0px;padding: 0px;}
+body{
+  font:12px/150% Arial,Verdana,SimSun;
+  color:#666;
+}
+li{list-style-type: none}
+a{text-decoration: none;}
+.clear{clear:both}
+.hover{display: block}
+
+/*
+*样式一头部
+*yoyo 77135016@qq.com
+*/
+#headBox{
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#headBox .head{
+  width: 1210px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+#headBox .head .cityBox{
+  width: 405px;
+  height: 30px;
+  position: relative;
+  float:left;
+  z-index: 1;
+}
+#headBox .head .cityBox div.shadow{
+  width: 93px;
+  height: 30px;
+  border-left: 1px solid #ddd ;
+  border-right: 1px solid #ddd ;
+  /*border-bottom: 1px solid #fff;*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  display: none;
+}
+#headBox .head .cityBox p{
+  width: 75px;
+  padding: 0 12px 0 8px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+#headBox .head .cityBox p i.ci-cor{
+  height: 7px;
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 12px;
+  font: 400 15px/15px consolas;
+  overflow: hidden;
+}
+#headBox .head .cityBox p i.ci-cor span{
+  color: #6a6a6a;
+  position: relative;
+  top:-7px;
+}
+
+#headBox .head .cityBox ul.citys{
+  width: 301px;
+  height: 234px;
+  padding-left: 10px;
+  padding-top: 12px;
+  border: 1px solid #dddddd;
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 29px;
+  left: 0px;
+  z-index: 2;
+}
+#headBox .head .cityBox ul.citys li{
+  width: 60px;
+  height: 24px;
+  float: left;
+}
+
+#headBox .head .cityBox ul.citys li a{
+  display: inline-block;
+  color: #666666;
+  font-size: 13px;
+  width: 40px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+#headBox .head .cityBox ul.citys li a.over{
+  background-color: #f4f4f4;
+  color: #c81623;
+}
+#headBox .head .cityBox ul.citys li a.checked{
+  color: #fff ;
+  background-color: #c81623;
+}
+
+#headBox .head ul.rightBox{
+  float:left;
+  height: 30px;
+  /*width: 837px;*/
+}
+#headBox .head ul.rightBox li{
+  float:left;
+  height: 30px;
+  line-height: 30px;
+}
+#headBox .head ul.rightBox li.login{
+  padding-right: 12px;
+}
+#headBox .head ul.rightBox li.login a.please{
+  color: red;
+}
+#headBox .head ul.rightBox li.login a.default{
+  color: #666;
+}
+#headBox .head ul.rightBox li.separate{
+  width: 1px;
+  height: 12px;
+  background-color: #ddd;
+  margin-top: 9px;
+}
+#headBox .head ul.rightBox li.myOrder a{
+  padding: 0 11px 0 10px;
+  color: #666;
+}
+#headBox .head ul.rightBox li.myOrder a:hover{
+  color:red;
+}
+#headBox .head ul.rightBox li.myJd{
+  position: relative;
+  z-index: 1;
+}
+#headBox .head ul.rightBox li.myJd a.jd{
+  color: #666;
+  padding: 0 28px 0 8px;
+  margin: 0 1px 0 1px;
+  display: inline-block;
+  float: left;
+}
+#headBox .head ul.rightBox li.myJd i.ci-right{
+  position: absolute;
+  left: 62px;
+  top:12px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 17px/15px consolas;
+  display: block;
+  width: 15px;
+}
+#headBox .head ul.rightBox li.myJd i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox .head ul.rightBox li.myJd div.up{
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  /*border-bottom: 1px solid #fff;*/
+  width: 82px;
+  height: 30px;
+  left: 1px;
+  top:0px;
+  display: none;
+}
+#headBox .head ul.rightBox li.myJd div.line{
+  width: 82px;
+  height: 1px;
+  position: absolute;
+  left: 2px;
+  top:29px;
+  background-color: #fff;
+  display: none;
+  z-index: 5;
+}
+#headBox .head ul.rightBox li.myJd div.conBox{
+  width: 260px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top:29px;
+  left:1px;
+  background: #fff;
+  padding: 10px 0 15px 10px;
+  display: none;
+  z-index: 2;
+}
+#headBox .head ul.rightBox li.myJd div.conBox img.pic{
+  display: inline-block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right{
+  float: left;
+  width: 150px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right a{
+  color: #666;
+  height: 20px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right a.first{
+  font-weight: 700;
+  font-size: 13px;
+  display: block;
+
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right a.first:hover{
+  color: #c81623;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right p.second{
+  float: left;
+  padding-left: 2px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.right p.second s{
+  width:1px;
+  height: 12px;
+  background: #9b669b;
+  margin: 0px 12px 0 11px;
+  display: inline-block;
+  position: relative;
+  top:1px;
+
+}
+
+#headBox .head ul.rightBox li.myJd div.conBox div.right p.second a:hover{
+  color: #c81623;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.bottomBox{
+  width: 270px;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.bottomBox a{
+  color: #666;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.bottomBox a:hover{
+  color: #c81623;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.bottomBox ul li{
+  width: 75px;
+  height: 25px;
+  line-height: 25px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.bottomBox ul.left{
+  width: 123px;
+  float: left;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently{
+  width: 255px;
+  border-top: 1px dotted #ddd;
+  padding: 10px 0 0 15px;
+  float: left;
+  position: relative;
+  left: -10px;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently p.left{
+  width: 206px;
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  font-weight: 700;
+  float: left;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently p.right{
+  height: 20px;
+  line-height: 20px;
+  color:#666;
+  float:left;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently p.right a{
+  color: #666;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently p.right a:hover{
+  color: #c81623;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently div.imgs{
+  padding: 6px 0 0 4px;
+  float: left;
+}
+#headBox .head ul.rightBox li.myJd div.conBox div.recently div.imgs img{
+  display: inline-block;
+  margin-right: 8px;
+  float: left;
+}
+
+#headBox .head ul.rightBox li.memBox{
+  position: relative;
+  z-index: 1;
+}
+#headBox .head ul.rightBox li.memBox a.member{
+  color: #666;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  float: left;
+}
+#headBox .head ul.rightBox li.memBox a.member:hover{
+  color: red;
+}
+
+#headBox .head ul.rightBox li.comBox{
+  position: relative;
+}
+#headBox .head ul.rightBox li.comBox a.company{
+  color: #666;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  float: left;
+}
+#headBox .head ul.rightBox li.comBox a.company:hover{
+  color: red;
+}
+
+#headBox .head ul.rightBox li.phBox{
+  position: relative;
+  height: 30px;
+}
+#headBox .head ul.rightBox li.phBox a.phone{
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 26px 0 25px;
+  padding: 0 26px 0 25px;
+  margin:0 2px 0 2px;
+  color: #666;
+  background: url("../images/jd2015img.png") no-repeat 8px 5px;
+}
+#headBox .head ul.rightBox li.phBox a.phone:hover{
+  color:red;
+}
+#headBox .head ul.rightBox li.phBox i.ci-right{
+  position: absolute;
+  left: 78px;
+  top:13px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 17px/15px consolas;
+  display: block;
+  width: 15px;
+}
+#headBox .head ul.rightBox li.phBox i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox .head ul.rightBox li.phBox div.up{
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 99px;
+  height: 30px;
+  left: 1px;
+  top:0px;
+  display: none;
+}
+#headBox .head ul.rightBox li.phBox div.line{
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 2px;
+  z-index: 7;
+  display: none;
+}
+#headBox .head ul.rightBox li.phBox div.bbt{
+  width: 250px;
+  height: 195px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 1px;
+  top:29px;
+  z-index: 5;
+  background: url("../images/556435dbN93884658.png");
+  cursor: pointer;
+  display: none;
+}
+
+#headBox .head ul.rightBox li.attenBox{
+  position: relative;
+  z-index: 1;
+}
+#headBox .head ul.rightBox li.attenBox p.attention{
+  padding: 0 27px 0 8px;
+  margin: 0 2px 0 2px;
+  height: 30px;
+  display: inline-block;
+  color: #666;
+}
+#headBox .head ul.rightBox li.attenBox i.ci-right{
+  position: absolute;
+  left: 60px;
+  top:13px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 17px/15px consolas;
+  display: block;
+  width: 15px;
+}
+#headBox .head ul.rightBox li.attenBox i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox .head ul.rightBox li.attenBox div.up{
+  width: 82px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  left: 1px;
+  top: 0px;
+  display: none;
+}
+#headBox .head ul.rightBox li.attenBox div.line{
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 2px;
+  z-index: 5;
+  display: none;
+}
+#headBox .head ul.rightBox li.attenBox div.code{
+  width: 82px;
+  height: 97px;
+  border: 1px solid #ddd;
+  left: 1px;
+  top: 29px;
+  background: url("../images/54c84f72Ncc1a02a2.jpg");
+  z-index: 3;
+  position: absolute;
+  display: none;
+}
+
+#headBox .head ul.rightBox li.clientBox {
+  position: relative;
+  z-index: 1;
+}
+#headBox .head ul.rightBox li.clientBox p.clientService{
+  padding: 0 27px 0 8px;
+  margin: 0 2px 0 2px;
+  color: #666;
+  height: 30px;
+  display: inline-block;
+}
+#headBox .head ul.rightBox li.clientBox div.up{
+  width: 82px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  left: 1px;
+  top: 0px;
+  display: none;
+}
+#headBox .head ul.rightBox li.clientBox div.line{
+  width: 82px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 2px;
+  z-index: 5;
+  display: none;
+}
+#headBox .head ul.rightBox li.clientBox i.ci-right{
+  position: absolute;
+  left: 60px;
+  top:13px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 17px/15px consolas;
+  display: block;
+  width: 15px;
+}
+#headBox .head ul.rightBox li.clientBox i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox .head ul.rightBox li.clientBox ul.content{
+  width: 82px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding-bottom: 5px;
+  position: absolute;
+  top:29px;
+  left:1px;
+  display: none;
+  z-index:2
+}
+#headBox .head ul.rightBox li.clientBox ul.content li{
+  width: 82px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+#headBox .head ul.rightBox li.clientBox ul.content li a{
+  color: #666;
+}
+#headBox .head ul.rightBox li.clientBox ul.content li a:hover{
+  color:  red;
+}
+
+#headBox .head ul.rightBox li.navBox{
+  position: relative;
+  z-index: 1;
+}
+#headBox .head ul.rightBox li.navBox p.navigation{
+  padding: 0 27px 0 8px;
+  margin: 0 2px 0 2px;
+  height: 30px;
+  color: #666;
+  display: inline-block;
+}
+#headBox .head ul.rightBox li.navBox div.up{
+  width: 82px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  left: 1px;
+  top: 0px;
+  display: none;
+}
+#headBox .head ul.rightBox li.navBox div.line{
+  width: 82px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 2px;
+  z-index: 5;
+  display: none;
+}
+#headBox .head ul.rightBox li.navBox i.ci-right{
+  position: absolute;
+  left: 60px;
+  top:13px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 17px/15px consolas;
+  display: block;
+  width: 15px;
+}
+#headBox .head ul.rightBox li.navBox i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox .head ul.rightBox li.navBox div.contents{
+  width:1187px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  position: absolute;
+  padding: 25px 0 0 20px;
+  top: 29px;
+  left: -1124px;
+  display: none;
+  padding-bottom: 10px;
+}
+#headBox .head ul.rightBox li.navBox div.contents h3{
+  width: 70px;
+  height: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 5px;
+  color:#666;
+  float: left;
+}
+#headBox .head ul.rightBox li.navBox div.contents a{
+  color:#666;
+}
+#headBox .head ul.rightBox li.navBox div.contents a:hover{
+  color:red;
+}
+#headBox .head ul.rightBox li.navBox div.contents div.fore1{
+  float:left;
+  width: 347px;
+  overflow: hidden;
+}
+
+#headBox .head ul.rightBox li.navBox div.contents div.fore2{
+  float:left;
+  width: 259px;
+  overflow: hidden;
+}
+#headBox .head ul.rightBox li.navBox div.contents ul li{
+  width: 86px;
+  height: 22px;
+  line-height: 22px;
+  float: left;
+}
+#headBox .head ul.rightBox li.navBox div.contents div.separate{
+  width: 1px;
+  height:126px;
+  float: left;
+  background-color: #ddd;
+  position: relative;
+  margin-right: 20px;
+}
+/*
+*样式二头部
+*yoyo 77135016@qq.com
+*/
+#headBox2{
+  width: 100%;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eee;
+  font-family: 微软雅黑;
+  /*overflow: hidden;*/
+}
+#headBox2 div.contents{
+  width: 1215px;
+  height: 30px;
+  margin: 0 auto;
+}
+#headBox2 div.contents ul.left{
+  width: 150px;
+  float: left;
+}
+#headBox2 div.contents ul.left li.first{
+  width: 60px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+#headBox2 div.contents ul.left li.second{
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+#headBox2 div.contents ul.left li.second span.start{
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+  background: url("../images/20130725.png") no-repeat;
+}
+#headBox2 div.contents a{
+   color: #666;
+ }
+#headBox2 div.contents a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+#headBox2 div.contents ul.right{
+  width: 650px;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+}
+#headBox2 div.contents ul.right li.login{
+  display: inline-block;
+  float: left;
+  padding-right: 7px;
+}
+#headBox2 div.contents ul.right li.register{
+  display: inline-block;
+  float: left;
+  padding-right: 11px;
+}
+#headBox2 div.contents ul.right li.separate{
+  width: 1px;
+  height: 12px;
+  background-color: #ddd;
+  margin-top: 9px;
+  float: left;
+}
+#headBox2 div.contents ul.right li.myOrder{
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+#headBox2 div.contents ul.right li.myOrder a{
+  padding: 0 11px;
+}
+#headBox2 div.contents ul.right li.memBox{
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+#headBox2 div.contents ul.right li.memBox a.member{
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  float: left;
+}
+
+#headBox2 div.contents ul.right  li.business{
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+#headBox2 div.contents ul.right  li.business img{
+  display: inline-block;
+  float: left;
+  margin: 9px 7px 0 9px;
+}
+#headBox2 div.contents ul.right  li.business a{
+  display: inline-block;
+  margin-right: 11px;
+}
+#headBox2 div.contents ul.right  li.phBox{
+  position: relative;
+  float: left;
+  height: 30px;
+  z-index: 1;
+  background-color: #f7f7f7;
+}
+#headBox2 div.contents ul.right  li.phBox a.phone2{
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 19px 0 25px;
+  margin:0 2px 0 2px;
+  color: #666;
+  background: url("../images/20130330A_2.png") no-repeat -121px -356px;
+}
+#headBox2 div.contents ul.right  li.phBox a.phone:hover{color: #c81623;}
+#headBox2 div.contents ul.right  li.phBox i.ci-right{
+  position: absolute;
+  left: 78px;
+  top:10px;
+  width: 12px;
+  height: 10px;
+  background: url("../images/20130330A_2.png") no-repeat -91px -53px;
+  display: block;
+}
+#headBox2 div.contents ul.right li.phBox div.up{
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 92px;
+  height: 30px;
+  left: 1px;
+  top:0px;
+  display: none;
+}
+#headBox2 div.contents ul.right  li.phBox div.line{
+  width: 92px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 2px;
+  z-index: 7;
+  display: none;
+}
+#headBox2 div.contents ul.right  li.phBox div.bbt{
+  width: 250px;
+  height: 195px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 1px;
+  top:29px;
+  z-index: 5;
+  background: url("../images/556435dbN93884658.png");
+  cursor: pointer;
+  display: none;
+}
+#headBox2 div.contents ul.right li.clientBox {
+  position: relative;
+  float: left;
+  z-index: 1;
+}
+#headBox2 div.contents ul.right li.clientBox p.clientService{
+  padding: 0 19px 0 7px;
+  margin: 0 4px 0 4px;
+  color: #666;
+  height: 30px;
+  display: inline-block;
+  color: #1b1b1b;
+}
+#headBox2 div.contents ul.right li.clientBox div.up{
+  width: 74px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  left: 3px;
+  top: 0px;
+  display: none;
+}
+#headBox2 div.contents ul.right li.clientBox div.line{
+  width: 74px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 4px;
+  z-index: 5;
+  display: none;
+}
+#headBox2 div.contents ul.right li.clientBox i.ci-right{
+  position: absolute;
+  left: 62px;
+  top:10px;
+  width: 12px;
+  height: 10px;
+  background: url("../images/20130330A_2.png") no-repeat -91px -53px;
+  display: block;
+}
+#headBox2 div.contents ul.right li.clientBox  ul.content{
+  width: 74px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding-bottom: 5px;
+  position: absolute;
+  top:29px;
+  left:3px;
+  display: none;
+  z-index:2
+}
+#headBox2 div.contents ul.right li.clientBox ul.content li{
+  width: 74px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+#headBox2 div.contents ul.right li.clientBox ul.content li a:hover{
+  color:  red;
+}
+#headBox2 div.contents ul.right li.navBox{
+  position: relative;
+  float:left;
+  z-index: 1;
+}
+#headBox2 div.contents ul.right li.navBox p.navigation{
+  padding: 0 18px 0 7px;
+  margin: 0 4px 0 4px;
+  height: 30px;
+  color: #1b1b1b;
+  display: inline-block;
+}
+#headBox2 div.contents ul.right li.navBox div.up{
+  width: 73px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  left: 3px;
+  top: 0px;
+  display: none;
+}
+#headBox2 div.contents ul.right li.navBox div.line{
+  width: 73px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top:29px;
+  left: 4px;
+  z-index: 5;
+  display: none
+}
+#headBox2 div.contents ul.right li.navBox i.ci-right{
+  position: absolute;
+  left: 60px;
+  top: 9px;
+  width: 12px;
+  height: 10px;
+  background: url("../images/20130330A_2.png") no-repeat -91px -53px;
+  display: block;
+}
+#headBox2 div.contents ul.right li.navBox i.ci-right s{
+  position: absolute;
+  top:-8px;
+  color:#6A6A6A;
+  display: block;
+}
+#headBox2 div.contents ul.right li.navBox div.contents{
+  width: 250px;
+  height: 230px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  position: absolute;
+  top: 29px;
+  left: -174px;
+  display: none;
+}
+#headBox2 div.contents ul.right li.navBox div.contents div.feature{
+  width: 232px;
+  overflow: hidden;
+  margin: 9px 0 0 9px;
+  font-family: 微软雅黑;
+}
+#headBox2 div.contents ul.right li.navBox div.contents div.separate2{
+  height: 1px;
+  width: 232px;
+  background: #f2f2f2;
+}
+#headBox2 div.contents ul.right li.navBox div.contents div.feature h3{
+  line-height: 15px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  color:#1b1b1b;
+}
+#headBox2 div.contents ul.right li.navBox div.contents div.feature ul.lis li{
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  float: left;
+}
+#headBox2 div.contents ul.right li.navBox div.contents a{
+  color:#666;
+}
+#headBox2 div.contents ul.right li.navBox div.contents a:hover{
+  color:red;
+}
+
+
+  /*京东底部*/
+#footBox{
+  width:100%;
+}
+#footBox div.items{
+  width: 100%;
+  height: 94px;
+  background-color: #f5f5f5;
+}
+#footBox div.items div.imgs{
+  width: 1210px;
+  height:94px;
+  line-height: 94px;
+  margin: 0 auto;
+}
+#footBox div.items div.imgs img{
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+  margin-top: 16px;
+}
+#footBox div.items div.buttom{
+  width: 1210px;
+  margin: 17px auto;
+}
+#footBox div.items div.buttom dl.fore1{
+  width: 199px;
+  float: left;
+}
+#footBox div.items div.buttom dl.fore2{
+  width: 100px;
+  float: left;
+}
+#footBox div.items div.buttom dl dd a{
+  color: #666;
+}
+#footBox div.items div.buttom dl dd a:hover{
+  color: red;
+}
+#footBox div.items div.buttom dl dt{
+  padding: 6px 0;
+  font:400 16px/24px "microsoft yahei";
+  color: #666;
+}
+#footBox div.items div.buttom dl dd{
+  line-height: 20px;
+}
+#footBox div.items div.buttom div.coverage{
+  width: 310px;
+  height: 168px;
+  float: right;
+  background: url("../images/20130330B_1.png") no-repeat 0px -131px;
+}
+#footBox div.items div.buttom div.coverage div.dt{
+  padding: 6px 40px 15px 80px;
+  font: 400 16px/24px "microsoft yahei";
+}
+#footBox div.items div.buttom div.coverage div.dd{
+  padding: 0px 40px 15px 80px;
+}
+#footBox div.items div.buttom div.coverage div.dd p.ar{
+  text-align: right;
+}
+#footBox div.items div.buttom div.coverage div.dd p.ar a{
+  color: #666;
+}
+
+
+
+
+
