@@ -2,6 +2,7 @@
  * Created by Administrator on 2015/7/7.
  */
 
+var index = null;
 $(function(){
   //顶部广告点击消失事件
   $('#banner').children('i').hover(function(){
@@ -20,11 +21,14 @@ $(function(){
   });
 
   //二级菜单事件
-  $('.dd-inner .item').mouseover(function(){
-    var $index = $(this).index();
-    $(this).css({left:'1px',backgroundColor:'#fff'}).find('h3 a').css('color','red');
-    $(this).siblings().css({left:'0px',backgroundColor:''}).find('h3 a').css('color','#fff');
+  $('.class').children('div').children('div').hover(function(){
+    $index = $(this).index();
+    $('.dd-inner .item').eq($index).css({left:'1px',backgroundColor:'#fff'}).find('h3 a').css('color','red');
     $('.dorpdown-layer').show();
-    $('div.item-sub').eq($index).show().siblings().hide();
+    $('div.item-sub').eq($index).show()
+  },function(){
+    $('.dd-inner .item').eq($index).css({left:'0px',backgroundColor:''}).find('h3 a').css('color','#fff');
+    $('.dorpdown-layer').hide();
+    $('div.item-sub').eq($index).siblings().hide();
   });
 });

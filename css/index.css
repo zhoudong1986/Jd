@@ -512,3 +512,354 @@
   display: block;
   margin-bottom: 1px;
 }
+
+/*轮换窗*/
+#ddBox div.turnBox{
+  width: 730px;
+  height: 454px;
+  margin: 18px 0 0 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+#ddBox div.turnBox div.imgsBox{
+  width: 730px;
+  height: 454px;
+  float: left;
+  overflow: hidden;
+}
+#ddBox div.turnBox ul.indexBox{
+  width: 160px;
+  position: absolute;
+  left: 300px;
+  top: 428px;
+}
+#ddBox div.turnBox ul.indexBox li{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 2px;
+  background: #3e3e3e;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+#ddBox div.turnBox div.peak{
+  width: 730px;
+  height: 62px;
+  position: absolute;
+  top: 190px;
+  left: 0px;
+}
+#ddBox div.turnBox div.peak div{
+  font-size: 25px;
+  width: 28px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  color: #fff;
+  background-color: #bfbfbf;
+  font-family: "sinsum";
+  opacity: 0.5;
+}
+#ddBox div.rightBox{
+  width: 250px;
+  height: 450px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 18px;
+  position: relative;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.news{
+  width: 248px;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+  float: left;
+}
+
+#ddBox div.rightBox div.news div.mt{
+  padding: 0 15px;
+  border-bottom: 1px dotted #E8E8E7;
+  height: 43px;
+  line-height: 43px;
+}
+#ddBox div.rightBox div.news div.mt h2{
+  float: left;
+  font-size: 16px;
+  font-family: "microsoft yahei";
+  font-weight: normal;
+}
+#ddBox div.rightBox div.news div.mt div.extra{
+  float: right;
+  font-family: consolas;
+}
+#ddBox div.rightBox div.news div.mt div.extra a{
+  color: #666;
+}
+#ddBox div.rightBox div.news div.mt div.extra a:hover{
+  color: red;
+}
+#ddBox div.rightBox div.news div.mc{
+  height: 140px;
+  padding: 8px 0 0 15px;
+}
+#ddBox div.rightBox div.news div.mc a{
+  color: #666;
+}
+#ddBox div.rightBox div.news div.mc a:hover{
+  color: red;
+}
+#ddBox div.rightBox div.news div.mc li{
+  width: 210px;
+  height: 27px;
+  line-height: 27px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.news div.mc li span{
+  font-weight: 700;
+  margin-right: 5px;
+}
+/*生活服务*/
+#ddBox div.rightBox div.lifeserv{
+  width: 248px;
+  border: solid 1px #e4e4e4;
+  border-top: dashed 1px #e4e4e4;
+  overflow: hidden;
+  position: absolute;
+  top: 175px;
+  right: 0;
+  padding: 0;
+}
+#ddBox div.rightBox div.lifeserv div.mt{
+  padding: 0 15px;
+  border-bottom: 1px dotted #E8E8E7;
+  height: 43px;
+  line-height: 43px;
+}
+#ddBox div.rightBox div.lifeserv div.mt h2{
+  float: left;
+  font-size: 16px;
+}
+#ddBox div.rightBox div.lifeserv div.mt div.extra{
+  float: right;
+  font-family: consolas;
+}
+#ddBox div.rightBox div.lifeserv div.mc{
+  height: 208px;
+  position: relative;
+}
+
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current{
+  position: relative;
+  width: 260px;
+  height: 209px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current li{
+  width: 62px;
+  height: 27px;
+  border-bottom: 1px solid #E8E8E7;
+  border-right: 1px solid #E8E8E7;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  cursor: pointer;
+}
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current li.current{
+  border-top: 2px solid #c81623;
+  border-bottom: none;
+  background: #fff;
+}
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current li a{
+  display: block;
+  width: 62px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 41px;
+  cursor: pointer;
+  position: relative;
+  zoom: 1;
+  color: #666;
+}
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current li a:hover{
+  color: red;
+}
+
+#ddBox div.rightBox div.lifeserv div.mc ul.lifeserv-current li a i{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  font-family: normal;
+  top: -25px;
+  left: 18px;
+  width: 25px;
+  height: 25px;
+  background: url("../images/5547211fN2f79c420.png") no-repeat 0 0;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner{
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 250px;
+  height: 180px;
+  background: #fff;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner a.close{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner a.close:hover{
+  background: #ccc;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner ul{
+  height: 19px;
+  padding: 15px 0 0 8px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner ul li{
+  float: left;
+  margin-right: 6px;
+  text-align: center;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner ul li a{
+  position: relative;
+  display: block;
+  padding: 0 2px;
+  line-height: 16px;
+  color: #666;
+  white-space: nowrap;
+  height: 19px;
+  width: 60px;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner ul li.tab-item-selected a{
+  color: #fff;
+  background: url('../images/iframe-san.png') center 0 no-repeat;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe{
+  position: relative;
+  height: 146px;
+  padding-left: 8px;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-top{
+  padding-top: 10px;
+  height: 23px;
+  line-height: 22px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dt{
+  margin-right: 5px;
+  float: left;
+  display: inline;
+  height: 23px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dt label{
+  display: inline-block;
+  width: 24px;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dd{
+  float: left;
+  display: inline;
+  height: 23px;
+  overflow: hidden;
+  margin-right: 5px;
+  line-height: 22px;
+  position: relative;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dd input.input-phone{
+  color: #999;
+  float: left;
+  width: 99px;
+  height: 20px;
+  padding: 0 4px;
+  margin: 0;
+  line-height: 20px;
+  border: 1px solid #ccc;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dd s.icon-right{
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 1px;
+  top: 1px;
+  background: url('../images/product_home_1.0.0.png') no-repeat 0 -340px ;
+  display: none;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dd.msg-wrap{
+  float: left;
+  display: inline;
+  height: 23px;
+  overflow: hidden;
+}
+dd.msg-wrap span{
+  color: #C81623;
+}
+
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom{
+  padding-top: 10px;
+  height: 23px;
+  line-height: 22px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom dd select{
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  border-radius: 0px;
+  height: 22px;
+  width: 109px;
+  border: 1px solid #ccc;
+  font-family: \5b8b\4f53;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom dd{
+  float: left;
+  display: inline;
+  height: 23px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom dd span.msg-price{
+  color: #c81623;
+}
+
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap{
+  height: 26px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap input.btn-submit{
+  width: 67px;
+  height: 26px;
+  background: #c81623;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  vertical-align: middle;
+  margin-right: 8px;
+  border: none;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap p.link-ad{
+  position: absolute;
+  left: 8px;
+  bottom: 4px;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+  color: #999;
+}
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap p.link-ad a{
+  color: #005ea7;
+}

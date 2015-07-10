@@ -11,7 +11,14 @@ li{list-style-type: none}
 a{text-decoration: none;}
 .clear{clear:both}
 .hover{display: block}
-
+.icon-hot{
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  margin-right: 5px;
+  vertical-align: -1px;
+  background: url(../images/iframe-hot.png) 0 0 no-repeat;
+}
 /*
 *样式一头部
 *yoyo 77135016@qq.com
