@@ -1,0 +1,3051 @@
+/* ::::: http://misc.360buyimg.com/??jdf/1.0.0/unit/ui-base/1.0.0/ui-base.css,jdf/1.0.0/unit/shortcut/2.0.0/shortcut.css,jdf/1.0.0/unit/global-header/1.0.0/global-header.css,jdf/1.0.0/unit/myjd/2.0.0/myjd.css,jdf/1.0.0/unit/nav/2.0.0/nav.css,jdf/1.0.0/unit/shoppingcart/2.0.0/shoppingcart.css,jdf/1.0.0/unit/global-footer/1.0.0/global-footer.css,jdf/1.0.0/unit/service/1.0.0/service.css,jdf/1.0.0/unit/basePatch/1.0.0/basePatch.css,product/global/1.0.0/css/basePath.css ::::: */
+
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var
+{
+    margin: 0; padding: 0;
+}
+button,
+html input[type='button'],
+input[type='submit']
+{
+    cursor: pointer;
+}
+button[disabled],
+html input[disabled]
+{
+    cursor: default;
+}
+ol,
+ul
+{
+list-style: outside none none;
+}
+img
+{vertical-align: middle; 
+
+    border: 0 none;
+}
+em,
+i,
+u
+{
+    font-style: normal;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+.hide
+                {
+    display: none;
+}
+.clear,
+.clr
+{font-size: 0; line-height: 0; 
+
+    display: block; clear: both; overflow: hidden; height: 0;
+}
+.clearfix::after
+{display: block; visibility: hidden; clear: both; height: 0; 
+
+    content: '.';
+}
+
+.dorpdown
+{
+    position: relative;
+}
+.dorpdown-layer
+{position: absolute; 
+
+    display: none;
+}
+.dorpdown:hover .dorpdown-layer,
+.hover .dorpdown-layer
+{
+    display: block;
+}
+.cw-icon
+{
+    position: relative; cursor: default;
+}
+.cw-icon .i,
+.cw-icon i
+{position: absolute; 
+
+    display: block; overflow: hidden;
+}
+.w
+{
+    width: 990px; margin: 0 auto;
+}
+.root61 .w
+{
+    width: 1210px;
+}
+body
+{
+    font: 12px/150% Arial,Verdana,'宋体'; color: rgb(102, 102, 102); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+a
+{text-decoration: none; 
+
+    color: rgb(102, 102, 102);
+}
+a:hover
+{
+    color: rgb(200, 22, 35);
+}
+.m,
+.mb,
+.mc,
+.mt,
+.p-detail,
+.p-img,
+.p-market,
+.p-name,
+.p-price,
+.sm,
+.smb,
+.smc,
+.smt
+{
+    overflow: hidden;
+}
+#shortcut-2014
+{line-height: 30px; 
+
+    width: 100%; height: 30px; background: rgb(241, 241, 241) none repeat scroll 0 0;
+}
+#shortcut-2014 .w
+{
+    background: rgb(241, 241, 241) none repeat scroll 0 0;
+}#shortcut-2014 li
+{
+    float: left; height: 30px; padding: 0 2px;
+}
+#shortcut-2014 li#ttbar-navs
+{
+    padding: 0 1px 0 2px;
+}
+#shortcut-2014 li#ttbar-navs.hover,
+#shortcut-2014 li#ttbar-navs:hover
+{
+    padding: 0 0 0 1px;
+}
+#shortcut-2014 li.dorpdown
+{
+    z-index: 13;
+}
+#shortcut-2014 li.dorpdown:hover
+{
+    padding: 0 1px;
+}
+#shortcut-2014 li.dorpdown:hover .dt
+{border-width: 0 1px; border-style: solid; border-color: rgb(221, 221, 221); border-image: none; 
+    background: rgb(255, 255, 255) none repeat scroll 0 0; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none;
+}
+#shortcut-2014 li.spacer
+{overflow: hidden; 
+
+    width: 1px; height: 12px; margin-top: 9px; padding: 0; background: rgb(221, 221, 221) none repeat scroll 0 0;
+}
+#shortcut-2014 .dt
+{
+    float: left; padding: 0 8px;
+}
+#shortcut-2014 .dd
+{
+    line-height: 24px;
+}
+#shortcut-2014 .loading
+{
+    display: block; height: 50px; background: transparent url('../images/loading.gif') no-repeat scroll center center;
+}
+#shortcut-2014 .dorpdown-layer
+{
+    top: 30px; border: 1px solid rgb(221, 221, 221); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#shortcut-2014 .ci-right
+{font: 400 15px/15px consolas; 
+
+    top: 12px; right: 8px; overflow: hidden; height: 7px; transition: transform .1s ease-in 0s; color: rgb(106, 106, 106);
+}
+#shortcut-2014 .ci-right s
+{
+    position: relative; top: -7px; text-decoration: none;
+}
+#shortcut-2014 li:hover .ci-right
+{
+    transform: rotate(180deg);
+}
+#shortcut-2014 .dd-spacer
+{
+    position: absolute; top: -7px; overflow: hidden; height: 10px; background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#shortcut-2014 .style-red
+{
+    color: rgb(200, 22, 35);
+}
+#shortcut-2014 #ttbar-mycity
+{
+    padding-left: 0;
+}
+#shortcut-2014 #ttbar-mycity .dt
+{
+    padding: 0 25px 0 10px;
+}
+#shortcut-2014 #ttbar-mycity:hover .dt
+{
+    padding: 0 24px 0 9px;
+}
+#shortcut-2014 #ttbar-mycity .dd
+{
+    width: 301px; padding: 10px 0 10px 10px;
+}
+
+#shortcut-2014 #ttbar-mycity .item
+{
+    float: left; width: 60px; padding: 2px 0;
+}
+#shortcut-2014 #ttbar-mycity .item a
+{
+    float: left; padding: 0 8px;
+}
+#shortcut-2014 #ttbar-mycity .item a:hover
+{
+    background: rgb(244, 244, 244) none repeat scroll 0 0;
+}
+#shortcut-2014 #ttbar-mycity .item a.selected
+{color: rgb(255, 255, 255); 
+    background: rgb(200, 22, 35) none repeat scroll 0 0;
+}
+#shortcut-2014 #ttbar-mycity .dd-spacer
+{
+    left: 0; width: 93px;
+}
+#shortcut-2014 #ttbar-login
+{
+    margin-right: 10px;
+}
+#shortcut-2014 #ttbar-login .link-login
+{
+    font-family: 'verdana,微软雅黑';
+}
+#shortcut-2014 #ttbar-apps .dt
+{padding-right: 25px; 
+    padding-left: 25px;
+}
+#shortcut-2014 #ttbar-apps .dt .ci-left
+{
+    top: 5px; left: 7px; width: 15px; height: 20px; background: transparent url('../images/jd2015img.png') no-repeat scroll 0 0;
+}
+#shortcut-2014 #ttbar-apps .dd
+{
+    width: 250px;
+}
+#shortcut-2014 #ttbar-apps .dd a
+{position: absolute; 
+
+    display: block; overflow: hidden; width: 56px; height: 44px; text-indent: -500px;
+}
+#shortcut-2014 #ttbar-apps .dd .link
+{overflow: hidden; 
+
+    width: 100px; height: 20px;
+}
+#shortcut-2014 #ttbar-apps .dd .link1,
+#shortcut-2014 #ttbar-apps .dd .link2,
+#shortcut-2014 #ttbar-apps .dd .link3
+{top: 6px; 
+    left: 92px; background-position: 0 -44px;
+}
+#shortcut-2014 #ttbar-apps .dd .link3
+{
+    top: 104px; background-position: -1px -66px;
+}
+#shortcut-2014 #ttbar-apps .dd .jdapp-ipad,
+#shortcut-2014 #ttbar-apps .dd .wyapp-ipad
+{
+    width: 45px;
+}
+#shortcut-2014 #ttbar-apps .dd-inner
+{
+    position: relative; overflow: hidden; width: 250px; height: 195px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-ios,
+#shortcut-2014 #ttbar-apps .wyapp-ios
+{
+    top: 46px; left: 92px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-ios:hover,
+#shortcut-2014 #ttbar-apps .wyapp-ios:hover
+{
+    background-position: 3px -1px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-android,
+#shortcut-2014 #ttbar-apps .wyapp-android
+{
+    top: 46px; left: 147px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-android:hover,
+#shortcut-2014 #ttbar-apps .wyapp-android:hover
+{
+    background-position: -52px -1px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-ipad,
+#shortcut-2014 #ttbar-apps .wyapp-ipad
+{top: 46px; left: 202px; 
+
+    width: 45px;
+}
+#shortcut-2014 #ttbar-apps .jdapp-ipad:hover,
+#shortcut-2014 #ttbar-apps .wyapp-ipad:hover
+{
+    background-position: -107px -1px;
+}
+#shortcut-2014 #ttbar-apps .wyapp-android,
+#shortcut-2014 #ttbar-apps .wyapp-ios,
+#shortcut-2014 #ttbar-apps .wyapp-ipad
+{
+    top: 143px;
+}#shortcut-2014 #ttbar-apps .dd-spacer
+{
+    left: 0; width: 98px;
+}
+#shortcut-2014 #ttbar-atte .dt,
+#shortcut-2014 #ttbar-serv .dt
+{
+    width: 49px; padding-right: 25px;
+}
+#shortcut-2014 #ttbar-atte .dd,
+#shortcut-2014 #ttbar-serv .dd
+{
+    width: 82px; padding-bottom: 8px;
+}
+#shortcut-2014 #ttbar-atte .dd-spacer,
+#shortcut-2014 #ttbar-serv .dd-spacer
+{
+    left: 0; width: 82px;
+}
+#shortcut-2014 #ttbar-navs .dt
+{
+    width: 49px; padding-right: 25px;
+}
+#shortcut-2014 #ttbar-navs .dd
+{
+    right: 0; width: 988px; padding: 20px 0 16px;
+}
+#shortcut-2014 #ttbar-navs .dd-spacer
+{
+    right: 0; width: 82px;
+}
+.root61 #shortcut-2014 #ttbar-navs .dd
+{
+    width: 1210px;
+}
+#logo-2014
+{
+    position: relative; z-index: 12; float: left; width: 362px; height: 60px; padding: 20px 0;
+}
+#logo-2014 .logo
+{
+    display: block; width: 270px; height: 60px; text-indent: -20000px; background: transparent url('../images/logo-201305.png') no-repeat scroll 0 0;
+}
+#logo-2014 .extra
+{
+    position: absolute; top: 15px; left: 168px; width: 180px; height: 70px; padding-left: 10px; background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#channel
+{font: 400 20px/70px 'microsoft yahei'; 
+
+    float: left; margin-right: 10px; cursor: default; color: rgb(51, 51, 51);
+}
+#categorys-mini-main
+{position: absolute; 
+
+    display: none; overflow: hidden; width: 152px; margin-top: -1px; padding: 13px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#categorys-mini-main h3
+{
+    font-family: 'Microsoft YaHei'; font-size: 14px; font-weight: 400; line-height: 24px; color: rgb(102, 102, 102);
+}
+#categorys-mini-main a
+{font-size: 12px; padding: 0; 
+
+    color: rgb(102, 102, 102);
+}
+#categorys-mini
+{font-family: simsun; font-size: 12px; font-weight: 400; position: relative; 
+
+    float: left; height: 27px; padding-top: 22px; color: rgb(102, 102, 102);
+}
+#categorys-mini .cw-icon
+{line-height: 25px; position: relative; z-index: 1; width: 63px; height: 25px; padding: 0 5px; 
+
+    color: rgb(204, 204, 204); border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#categorys-mini .cw-icon h2
+{
+    font-family: 'Microsoft YaHei'; font-size: 12px; font-weight: 400; color: rgb(102, 102, 102);
+}
+#categorys-mini .cw-icon i
+{font: 400 15px/15px consolas; 
+
+    top: 9px; right: 5px; height: 7px;
+}
+#categorys-mini .cw-icon s
+{
+    position: relative; top: -7px; text-decoration: none;
+}
+#categorys-mini .ci-right
+{font: 400 15px/15px consolas; position: absolute; 
+    top: 8px; right: 7px; display: block; overflow: hidden; height: 7px; transition: transform .1s ease-in 0s; color: rgb(106, 106, 106);
+}
+#search-2014
+{
+    position: relative; z-index: 11; float: left; width: 462px; margin-top: 25px;
+}
+#search-2014 .form
+{
+    width: 462px; height: 36px;
+}
+#search-2014 .text
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 24px; 
+
+    float: left; width: 370px; height: 24px; margin-bottom: 4px; padding: 4px; color: rgb(102, 102, 102); border-width: 2px 0 2px 2px; border-style: solid; border-color: rgb(182, 29, 29); outline: 0 none;
+}
+#search-2014 .button
+{font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1; 
+
+    float: left; width: 82px; height: 36px; cursor: pointer; color: rgb(255, 255, 255); border: medium none; background: rgb(182, 29, 29) none repeat scroll 0 0;
+}
+#search-2014 .cw-icon i
+{
+    top: 0; left: 0; width: 82px; height: 36px;
+}
+#shelper
+{position: absolute; top: 36px; left: 0; 
+
+    overflow: hidden; width: 379px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+.root61 #search-2014,
+.root61 #search-2014 .form
+{
+    width: auto;
+}
+.root61 #search-2014 .text
+{
+    width: 446px;
+}
+.root61 #shelper
+{
+    width: 455px;
+}
+#ttbar-myjd .dt
+{
+    width: 49px; padding-right: 25px;
+}
+#ttbar-myjd .dorpdown-layer
+{
+    width: 270px;
+}
+#ttbar-myjd .dd-spacer
+{
+    left: 0; width: 82px;
+}
+#nav-2014
+{
+    height: 44px; border-bottom: 2px solid rgb(177, 25, 26);
+}
+#nav-2014 .w
+{
+    position: relative; z-index: 9; height: 44px;
+}
+#nav-2014 .w .w-spacer
+{
+    display: none;
+}
+#nav-2014 .w-spacer
+{
+    position: absolute; z-index: 1; top: -1px; width: 100%; height: 44px; border-top: 1px solid rgb(221, 221, 221); border-bottom: 2px solid rgb(177, 25, 26);
+}
+#categorys-2014
+{position: relative; z-index: 10; 
+
+    float: left; overflow: visible; width: 210px; height: 44px;
+}
+#categorys-2014 .item-sub::after
+{display: block; clear: both; height: 0; 
+
+    content: '.';
+}
+#navitems-2014
+{position: relative; z-index: 2; 
+
+    float: left;
+}
+#navitems-2014 .spacer,
+#navitems-2014 a,
+#navitems-2014 li,
+#navitems-2014 ul
+{
+    float: left;
+}
+#navitems-2014 a
+{font: 400 15px/44px 'microsoft yahei'; 
+
+    height: 44px; padding: 0 20px; text-align: center; text-decoration: none; color: rgb(51, 51, 51);
+}
+#navitems-2014 a:hover
+{
+    color: rgb(200, 22, 35);
+}
+#treasure
+{
+    float: right;
+}
+#settleup-2014
+{z-index: 11; 
+
+    float: right; height: 36px; margin-top: 25px;
+}
+#settleup-2014 .cw-icon
+{line-height: 34px; 
+
+    width: 75px; height: 34px; padding: 0 28px 0 36px; text-align: center; border: 1px solid rgb(223, 223, 223); background: rgb(249, 249, 249) none repeat scroll 0 0;
+}
+#settleup-2014 .ci-left
+{
+    top: 9px; left: 18px; width: 18px; height: 16px; background: transparent url('../images/jd2015img.png') no-repeat scroll 0 -58px;
+}
+#settleup-2014 .ci-right
+{font: 400 13px/13px simsun; 
+
+    top: 11px; right: 10px; overflow: hidden; width: 7px; height: 13px; color: rgb(153, 153, 153);
+}
+#settleup-2014 .ci-count
+{font-size: 12px; line-height: 12px; 
+
+    position: absolute; top: -4px; left: 104px; display: inline-block; min-width: 12px; padding: 1px 2px; text-align: center; color: rgb(255, 255, 255); border-radius: 7px 7px 7px 0; background-color: rgb(200, 22, 35);
+}
+#settleup-2014.hover .cw-icon,
+#settleup-2014.hover .dorpdown-layer,
+#settleup-2014:hover .cw-icon,
+#settleup-2014:hover .dorpdown-layer
+{border: 1px solid rgb(221, 221, 221); 
+    background: rgb(255, 255, 255) none repeat scroll 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+#settleup-2014.hover .dorpdown-layer,
+#settleup-2014:hover .dorpdown-layer
+{right: 0; 
+
+    display: block; width: 308px;
+}
+#settleup-2014.hover .spacer,
+#settleup-2014:hover .spacer
+{
+    position: absolute; top: -7px; right: 0; width: 139px; height: 12px; background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+#settleup-2014 .prompt
+{
+    padding: 10px 15px;
+}
+#settleup-2014 .nogoods
+{line-height: 49px; overflow: hidden; height: 49px; 
+    padding-left: 30px; color: rgb(153, 153, 153);
+}
+#settleup-2014 .nogoods b
+{
+    float: left; width: 56px; height: 49px; background-image: url('../images/settleup-nogoods.png');
+}
+.root61 #settleup-2014
+{
+    margin-right: 65px;
+}
+#footer-2014
+{padding: 20px 0 30px; text-align: center; 
+
+    border-top: 1px solid rgb(229, 229, 229);
+}
+#footer-2014 .links a
+{
+    margin: 0 10px;
+}
+#footer-2014 .copyright
+{
+    margin: 10px 0;
+}
+#footer-2014 .authentication a
+{
+    margin: 0 5px; text-decoration: none;
+}
+#service-2014
+{
+    margin-bottom: 20px;
+}
+#service-2014 dl
+{
+    float: left; width: 222px;
+}
+#service-2014 dl.fore5
+{
+    width: 100px;
+}
+#service-2014 dt
+{font: 400 16px/24px 'microsoft yahei'; 
+
+    padding: 6px 0;
+}
+#service-2014 dd
+{
+    line-height: 20px;
+}
+.root61 #service-2014 dl
+{
+    width: 275px;
+}
+.root61 #service-2014 dl.fore5
+{
+    width: 100px;
+}
+.m,
+.mb,
+.mc,
+.mt,
+.sm,
+.smb,
+.smc,
+.smt
+{
+    overflow: hidden;
+}
+.m,
+.sm
+{
+    margin-bottom: 10px;
+}
+h2,
+h3
+{
+    font-size: 14px;
+}
+#search-2014,
+#settleup-2014
+{
+    margin-top: 32px;
+}
+#shortcut-2014 li.dorpdown
+{
+    z-index: 13;
+}
+#categorys-2014 .dt
+{font: 400 15px/44px 'microsoft yahei'; 
+
+    padding: 0 10px; color: rgb(255, 255, 255); background: rgb(177, 25, 26) none repeat scroll 0 0;
+}
+#hotwords
+{line-height: 20px; 
+
+    float: left; overflow: hidden; width: 462px; height: 20px;
+}
+#hotwords a
+{
+    margin-right: 10px;
+}
+.root61 #hotwords
+{
+    width: 518px;
+}
+#categorys-mini-main a:hover
+{
+    color: rgb(200, 22, 35);
+}
+.r_triangle
+{font-size: 0; line-height: 0; 
+
+    position: absolute; z-index: 2; top: 50%; right: -6px; display: none; width: 0; height: 0; margin-top: -3px; border-width: 6px 0 6px 6px; border-style: solid; border-color: transparent transparent transparent rgb(182, 29, 29);
+}
+/* ::::: http://misc.360buyimg.com/product/cellphone/1.0.2/css/phone.css ::::: */
+
+em,
+i
+{
+    font-style: normal;
+}
+.fl
+{display: inline; 
+    float: left;
+}
+.fr
+{display: inline; 
+    float: right;
+}
+.m
+{
+    margin-bottom: 33px;
+}
+.m .mt
+{
+    height: 50px;
+}
+.mt
+{
+    height: 100%;
+}
+.mt .m-title
+{font-family: 'microsoft yahei'; font-size: 20px; font-weight: 400; line-height: 20px; 
+
+    float: left; margin-bottom: 18px; padding-top: 12px;
+}
+.floor-content-box
+{
+    width: 100%; height: 606px;
+}
+.floor-content-box .c-main-wrap
+{position: relative; float: left; overflow: hidden; 
+
+    width: 100%; height: 100%;
+}
+.floor-content-box .c-main
+{
+    width: 756px; height: 604px; margin-left: 233px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) -moz-use-text-color; border-image: none; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none;
+}
+.floor-content-box .floor-main-goods
+{position: relative; left: 1px; 
+
+    width: 100%;
+}
+.floor-content-box .goodlist li,
+.floor-content-box .goodlist2 li,
+.floor-content-box .goodlist3 li,
+.floor-content-box .goodlist4 li
+{position: absolute; 
+
+    width: 136px; height: 269px; padding: 33px 26px 0; border-right: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221);
+}
+.floor-content-box .goodlist .p-img,
+.floor-content-box .goodlist2 .p-img,
+.floor-content-box .goodlist3 .p-img,
+.floor-content-box .goodlist4 .p-img
+{
+    display: block; width: 130px; height: 130px; margin: 0 3px 10px; padding: 0;
+}
+.floor-content-box .goodlist .promo-words,
+.floor-content-box .goodlist2 .promo-words,
+.floor-content-box .goodlist3 .promo-words,
+.floor-content-box .goodlist4 .promo-words
+{line-height: 28px; overflow: hidden; 
+
+    width: 120px; height: 28px; margin: 0 3px 3px; padding: 0 5px; text-align: center; white-space: nowrap; color: rgb(121, 164, 190); background-color: rgb(240, 240, 240);
+}
+.floor-content-box .goodlist .p-name,
+.floor-content-box .goodlist2 .p-name,
+.floor-content-box .goodlist3 .p-name,
+.floor-content-box .goodlist4 .p-name
+{line-height: 20px; 
+
+    display: block; overflow: hidden; height: 40px;
+}
+.floor-content-box .goodlist .p-price,
+.floor-content-box .goodlist2 .p-price,
+.floor-content-box .goodlist3 .p-price,
+.floor-content-box .goodlist4 .p-price
+{line-height: 40px; 
+
+    height: 40px; color: rgb(228, 57, 60);
+}
+.floor-content-box .goodlist .p-price .number,
+.floor-content-box .goodlist2 .p-price .number,
+.floor-content-box .goodlist3 .p-price .number,
+.floor-content-box .goodlist4 .p-price .number
+{
+    font-size: 24px; margin-left: 3px;
+}
+.floor-content-box .goodlist .p-comment .i-comment,
+.floor-content-box .goodlist2 .p-comment .i-comment,
+.floor-content-box .goodlist3 .p-comment .i-comment,
+.floor-content-box .goodlist4 .p-comment .i-comment
+{
+    display: inline-block; width: 18px; height: 16px; margin-right: 8px; vertical-align: middle; background: transparent url('../images/phone2014.icons.png') no-repeat scroll -50px -50px;
+}
+.floor-content-box .goodlist .p-comment .number,
+.floor-content-box .goodlist2 .p-comment .number,
+.floor-content-box .goodlist3 .p-comment .number,
+.floor-content-box .goodlist4 .p-comment .number
+{
+    display: inline-block; vertical-align: middle;
+}
+.floor-content-box .goodlist .p-infors .i-comment,
+.floor-content-box .goodlist2 .p-infors .i-comment,
+.floor-content-box .goodlist3 .p-infors .i-comment,
+.floor-content-box .goodlist4 .p-infors .i-comment
+{
+    display: inline-block; width: 18px; height: 16px; margin-right: 5px; vertical-align: middle; background: transparent url('../images/phone2014.icons.png') no-repeat scroll -50px -50px;
+}
+.floor-content-box .goodlist .p-infors .i-file,
+.floor-content-box .goodlist2 .p-infors .i-file,
+.floor-content-box .goodlist3 .p-infors .i-file,
+.floor-content-box .goodlist4 .p-infors .i-file
+{
+    display: inline-block; width: 13px; height: 16px; margin-right: 5px; vertical-align: middle; background: transparent url('../images/phone2014.icons.png') no-repeat scroll -150px -200px;
+}
+.floor-content-box .goodlist .p-infors .number,
+.floor-content-box .goodlist .p-infors .sep,
+.floor-content-box .goodlist .p-infors .text,
+.floor-content-box .goodlist2 .p-infors .number,
+.floor-content-box .goodlist2 .p-infors .sep,
+.floor-content-box .goodlist2 .p-infors .text,
+.floor-content-box .goodlist3 .p-infors .number,
+.floor-content-box .goodlist3 .p-infors .sep,
+.floor-content-box .goodlist3 .p-infors .text,
+.floor-content-box .goodlist4 .p-infors .number,
+.floor-content-box .goodlist4 .p-infors .sep,
+.floor-content-box .goodlist4 .p-infors .text
+{
+    display: inline-block; vertical-align: middle;
+}
+.floor-content-box .goodlist .p-infors .sep,
+.floor-content-box .goodlist2 .p-infors .sep,
+.floor-content-box .goodlist3 .p-infors .sep,
+.floor-content-box .goodlist4 .p-infors .sep
+{
+    font-weight: 400; padding: 0 10px; color: rgb(209, 209, 209);
+}
+.floor-content-box .goodlist .p-infors .p-comment,
+.floor-content-box .goodlist .p-infors .p-evaluate,
+.floor-content-box .goodlist2 .p-infors .p-comment,
+.floor-content-box .goodlist2 .p-infors .p-evaluate,
+.floor-content-box .goodlist3 .p-infors .p-comment,
+.floor-content-box .goodlist3 .p-infors .p-evaluate,
+.floor-content-box .goodlist4 .p-infors .p-comment,
+.floor-content-box .goodlist4 .p-infors .p-evaluate
+{
+    display: inline-block; vertical-align: middle;
+}
+.floor-content-box .goodlist .i-options,
+.floor-content-box .goodlist2 .i-options,
+.floor-content-box .goodlist3 .i-options,
+.floor-content-box .goodlist4 .i-options
+{font-family: 'microsoft yahei'; line-height: 32px; position: absolute; top: 130px; left: 27px; 
+
+    display: none; width: 130px; height: 32px; text-align: center; color: rgb(221, 221, 221); border-top: 2px solid rgb(249, 90, 90); background: rgba(0, 0, 0, .7) none repeat scroll 0 0;
+}
+.floor-content-box .goodlist .i-options .follow,
+.floor-content-box .goodlist2 .i-options .follow,
+.floor-content-box .goodlist3 .i-options .follow,
+.floor-content-box .goodlist4 .i-options .follow
+{padding-right: 10px; 
+
+    color: rgb(221, 221, 221); border-right: 1px solid rgb(170, 170, 170);
+}
+.floor-content-box .goodlist .i-options .follow:hover,
+.floor-content-box .goodlist2 .i-options .follow:hover,
+.floor-content-box .goodlist3 .i-options .follow:hover,
+.floor-content-box .goodlist4 .i-options .follow:hover
+{
+    text-decoration: none;
+}
+.floor-content-box .goodlist .i-options .follow i,
+.floor-content-box .goodlist2 .i-options .follow i,
+.floor-content-box .goodlist3 .i-options .follow i,
+.floor-content-box .goodlist4 .i-options .follow i
+{display: inline-block; overflow: hidden; width: 13px; height: 11px; 
+    margin-right: 5px; vertical-align: middle; background: transparent url('../images/phone2014.icons.png') no-repeat scroll -100px -50px;
+}
+.floor-content-box .goodlist .i-options .duibi,
+.floor-content-box .goodlist2 .i-options .duibi,
+.floor-content-box .goodlist3 .i-options .duibi,
+.floor-content-box .goodlist4 .i-options .duibi
+{
+    padding-left: 10px; cursor: pointer;
+}
+.floor-content-box .goodlist .i-options .duibi input,
+.floor-content-box .goodlist2 .i-options .duibi input,
+.floor-content-box .goodlist3 .i-options .duibi input,
+.floor-content-box .goodlist4 .i-options .duibi input
+{
+    vertical-align: middle;
+}
+.floor-content-box .goodlist .fore1
+{
+    position: absolute; top: 0; left: 0; display: block;
+}
+.floor-content-box .goodlist .fore2
+{
+    position: absolute; top: 0; left: 189px; display: block;
+}
+.floor-content-box .goodlist .fore3
+{
+    position: absolute; top: 0; left: 378px; display: block;
+}
+.floor-content-box .goodlist .fore4
+{
+    position: absolute; top: 0; left: 567px; display: block;
+}
+.floor-content-box .goodlist .fore5
+{
+    position: absolute; top: 303px; left: 0; display: block;
+}
+.floor-content-box .goodlist .fore6
+{
+    position: absolute; top: 303px; left: 189px; display: block;
+}
+.floor-content-box .goodlist .fore7
+{
+    position: absolute; top: 303px; left: 378px; display: block;
+}
+.floor-content-box .goodlist .fore8
+{
+    position: absolute; top: 303px; left: 567px; display: block;
+}
+.floor-content-box .goodlist2 .fore1
+{
+    position: absolute; top: 0; left: 378px; display: block;
+}
+.floor-content-box .goodlist2 .fore2
+{
+    position: absolute; top: 0; left: 567px; display: block;
+}
+.floor-content-box .goodlist2 .fore3
+{
+    position: absolute; top: 303px; left: 0; display: block;
+}
+.floor-content-box .goodlist2 .fore4
+{
+    position: absolute; top: 303px; left: 189px; display: block;
+}
+.floor-content-box .goodlist2 .fore5
+{
+    position: absolute; top: 303px; left: 378px; display: block;
+}
+.floor-content-box .goodlist2 .fore6
+{
+    position: absolute; top: 303px; left: 567px; display: block;
+}
+.floor-content-box .c-left
+{position: relative; z-index: 3; display: inline; float: left; 
+
+    width: 233px; height: 100%; margin-left: -100%;
+}
+.floor-content-box .c-right
+{position: relative; 
+
+    display: none; float: left; width: 218px; height: 604px; margin-left: -220px; border: 1px solid rgb(221, 221, 221);
+}
+.root61 .floor-content-box .c-main
+{
+    width: 744px;
+}
+.root61 .floor-content-box .c-right
+{
+    display: inline;
+}
+.root61 .floor-content-box .goodlist li,
+.root61 .floor-content-box .goodlist2 li,
+.root61 .floor-content-box .goodlist3 li,
+.root61 .floor-content-box .goodlist4 li
+{
+    padding: 33px 24px 0 25px;
+}
+.root61 .floor-content-box .goodlist .fore1
+{
+    position: absolute; top: 0; left: 0; display: block;
+}
+.root61 .floor-content-box .goodlist .fore2
+{
+    position: absolute; top: 0; left: 186px; display: block;
+}
+.root61 .floor-content-box .goodlist .fore3
+{
+    position: absolute; top: 0; left: 372px; display: block;
+}
+.root61 .floor-content-box .goodlist .fore4
+{
+    position: absolute; top: 0; left: 558px; display: block;
+}
+.root61 .floor-content-box .goodlist .fore5
+{
+    position: absolute; top: 303px; left: 0; display: block;
+}
+.root61 .floor-content-box .goodlist .fore6
+{
+    position: absolute; top: 303px; left: 186px; display: block;
+}
+.root61 .floor-content-box .goodlist .fore7
+{
+    position: absolute; top: 303px; left: 372px; display: block;
+}
+.root61 .floor-content-box .goodlist .fore8
+{
+    position: absolute; top: 303px; left: 558px; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore1
+{
+    position: absolute; top: 0; left: 372px; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore2
+{
+    position: absolute; top: 0; left: 558px; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore3
+{
+    position: absolute; top: 303px; left: 0; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore4
+{
+    position: absolute; top: 303px; left: 186px; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore5
+{
+    position: absolute; top: 303px; left: 372px; display: block;
+}
+.root61 .floor-content-box .goodlist2 .fore6
+{
+    position: absolute; top: 303px; left: 558px; display: block;
+}
+.floor-tab-trigger
+{
+    width: 757px; height: 36px; margin-right: -1px; margin-bottom: 14px; background: rgb(77, 75, 76) none repeat scroll 0 0;
+}
+.floor-tab-trigger .trig-item
+{position: relative; 
+
+    float: left; width: 151px; height: 16px; padding: 10px 0;
+}
+.floor-tab-trigger .trig-item .text
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 16px; 
+
+    display: inline-block; width: 151px; height: 16px; margin-right: -1px; text-align: center; color: rgb(255, 255, 255); border-right: 1px solid rgb(124, 122, 123);
+}
+.floor-tab-trigger .trig-item .arrow
+{position: absolute; top: 36px; left: 50%; 
+
+    display: none; overflow: hidden; width: 0; height: 0; border-width: 6px; border-style: solid dashed dashed; border-color: rgb(235, 83, 69) transparent transparent;
+}
+.floor-tab-trigger .trig-curr
+{
+    background: rgb(235, 83, 69) none repeat scroll 0 0;
+}
+.floor-tab-trigger .trig-curr .text
+{
+    border-right: medium none;
+}
+.floor-tab-trigger .trig-curr .arrow
+{
+    display: block;
+}
+.floor-tab-cont .cont-item
+{
+    display: none;
+}
+.floor-tab-cont .cont-curr
+{
+    display: block;
+}
+.root61 .floor-tab-trigger
+{
+    width: 745px;
+}
+.root61 .floor-tab-trigger .trig-item,
+.root61 .floor-tab-trigger .trig-item .text
+{
+    width: 149px;
+}
+.floor-ad-wrap
+{
+    position: relative; overflow: hidden; width: 378px; height: 303px;
+}
+.floor-ad-wrap .i-ads
+{
+    position: absolute; top: 0; left: 0;
+}
+.floor-ad-wrap .i-ads li
+{position: relative; float: left; 
+
+    width: 378px; height: 303px;
+}
+.floor-ad-wrap .slide-controls
+{
+    bottom: 20px;
+}
+.floor-ad-wrap .floor-main-ad
+{position: absolute; top: 0; left: 0; overflow: hidden; 
+
+    width: 378px; height: 303px;
+}
+.floor-ad-wrap2 .floor-center-ad
+{position: relative; z-index: 2; left: -1px; 
+
+    width: 706px; margin: 0 auto;
+}
+.floor-left-ad
+{
+    display: block; width: 233px; height: 606px;
+}
+.floor-left-ad img
+{
+    width: 233px; height: 606px;
+}
+.floor-right-ad
+{position: absolute; z-index: 1; top: 0; left: 0; 
+
+    display: block; width: 218px; height: 604px;
+}
+.floor-right-help
+{
+    position: relative; width: 100%;
+}
+.floor-right-help .help-box
+{position: absolute; z-index: 2; top: 0; left: 12px; 
+
+    width: 194px; padding-bottom: 34px;
+}
+.floor-right-help .help-hd
+{
+    height: 88px; margin-bottom: 10px; text-indent: -9999px; background: transparent url('../images/phone2014.help-title.png') no-repeat scroll 0 0;
+}
+.floor-right-help .help-bd
+{overflow: hidden; height: 115px; 
+    padding: 0 25px; transition: height .5s ease 0s;
+}
+.floor-right-help .help-bd dl
+{
+    display: block; overflow: hidden; margin-bottom: 10px;
+}
+.floor-right-help .help-bd dt
+{line-height: 18px; overflow: hidden; 
+
+    width: 100%; margin-bottom: 15px; color: rgb(255, 255, 255);
+}
+.floor-right-help .help-bd dt .ico
+{font-family: simsun; 
+
+    float: left; width: 20px;
+}
+.floor-right-help .help-bd dt .txt
+{font-family: 'microsoft yahei'; font-size: 14px; 
+
+    float: left;
+}
+.floor-right-help .help-bd dd
+{display: none; 
+
+    margin-bottom: 15px; padding-left: 20px;
+}
+.floor-right-help .help-bd dd .desc
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 18px; 
+
+    margin-bottom: 15px; word-break: break-all;
+}
+.floor-right-help .help-bd dd .title
+{
+    margin-bottom: 8px;
+}
+.floor-right-help .arrow
+{position: absolute; z-index: 5; bottom: -4px; left: 82px; 
+
+    width: 30px; height: 30px; cursor: pointer; background: transparent url('../images/phone2014.arrows.png') no-repeat scroll 0 0;
+}
+.floor-right-help .bottom-angle
+{
+    position: absolute; z-index: 4; bottom: -16px; left: 0; width: 194px; height: 16px;
+}
+.floor-right-help .bottom-angle .bg
+{
+    width: 178px; height: 16px; background-color: rgb(127, 169, 241);
+}
+.floor-right-help .bottom-angle .angle
+{
+    position: absolute; top: 0; right: 0; overflow: hidden; width: 0; height: 0; border-width: 8px; border-style: solid dashed dashed solid; border-color: rgb(166, 202, 254) transparent transparent rgb(166, 202, 254);
+}
+.root61 .floor-main-ad
+{
+    width: 370px; text-indent: -4px;
+}
+.root61 .floor-ad-wrap,
+.root61 .floor-ad-wrap .i-ads li
+{
+    width: 370px;
+}
+.pop-compare
+{position: fixed; z-index: 5; bottom: 0; left: 50%; display: none; 
+
+    width: 970px; margin-left: -485px;
+}
+.pop-compare .hide-items
+{
+    position: absolute; z-index: 2; right: 10px; bottom: 108px; padding: 0 5px; color: rgb(0, 90, 160); background-color: rgb(255, 255, 255);
+}
+.pop-compare-tips
+{line-height: 27px; display: none; 
+
+    height: 27px; text-align: center; color: rgb(204, 0, 0); border: 1px solid rgb(219, 154, 154); background-color: rgb(255, 232, 232);
+}
+.pop-inner
+{
+    position: relative; height: 104px; border: 2px solid rgb(122, 189, 84); background-color: rgb(255, 255, 255);
+}
+.pop-inner .diff-operate
+{
+    position: absolute; top: 15px; right: 10px; width: 85px; text-align: center;
+}
+.pop-inner .diff-operate .btn-compare-b
+{font: 700 14px/30px verdana; 
+
+    display: block; width: 59px; height: 30px; margin-bottom: 11px; margin-left: 13px; color: rgb(255, 255, 255); border-radius: 3px; background-color: rgb(231, 70, 73); background-image: linear-gradient(to bottom, rgb(231, 70, 73) 0px, rgb(223, 48, 51) 100%);
+}
+.pop-inner .diff-operate .btn-compare-dis
+{cursor: not-allowed; color: rgb(204, 204, 204); border: 1px solid rgb(221, 221, 221); 
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+.pop-inner .diff-operate .del-items
+{
+    color: rgb(0, 90, 160);
+}
+.classify-nav
+{
+    width: 100%; padding: 40px 0; border-top: 1px solid rgb(204, 204, 204); background-color: rgb(243, 243, 243);
+}
+.classify-nav dl
+{
+    float: left; width: 210px; margin-right: 24px;
+}
+.classify-nav dl dt
+{
+    font-family: 'microsoft yahei'; font-size: 18px; line-height: 1.5; margin-bottom: 25px;
+}
+.classify-nav dl dd a
+{font-family: 'microsoft yahei'; 
+    font-size: 14px; display: block; margin-bottom: 15px; color: rgb(136, 136, 136);
+}
+.classify-nav dl.fore1,
+.classify-nav dl.fore2,
+.classify-nav dl.fore3
+{
+    width: 80px;
+}
+.classify-nav dl.fore4
+{
+    width: 193px;
+}
+.classify-nav dl.fore5,
+.classify-nav dl.fore6
+{
+    width: 100px;
+}
+.classify-nav dl.fore7
+{
+    width: 203px; margin-right: 0;
+}
+.classify-nav dl.fore7 .i-col
+{
+    float: left; width: 90px; margin-right: 10px;
+}
+.follow-weixin .i-title
+{
+    line-height: 37px;
+}
+.follow-weixin .i-title img
+{
+    margin-left: 10px;
+}
+.follow-weixin .i-pop-inner
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.choose-city
+{
+    position: absolute; z-index: 12; top: 0; height: 28px; margin-top: 5px; padding-right: 14px; border-right: 1px solid rgb(204, 41, 44);
+}
+.choose-city .i-icon
+{font-family: 'microsoft yahei'; 
+    font-size: 14px; line-height: 28px; float: left;
+}
+.choose-city .i-icon i
+{
+    float: left; height: 29px; margin-right: 10px;
+}
+.choose-city .city-list
+{position: relative; z-index: 10; 
+
+    float: left; margin: 3px 0 0 15px;
+}
+.choose-city .city-list .curr-city
+{font-family: 'microsoft yahei'; line-height: 22px; 
+
+    height: 22px; padding: 0 10px; cursor: pointer; border: 1px solid rgb(214, 39, 39);
+}
+.choose-city .city-list .curr-city i
+{
+    display: inline-block; overflow: hidden; vertical-align: middle; border-style: solid dashed dashed;
+}
+.choose-city .city-list .citys
+{position: absolute; display: none; 
+
+    min-height: 200px; padding-bottom: 10px; border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(238, 238, 238) rgb(238, 238, 238); border-image: none; background-color: rgb(255, 255, 255); box-shadow: 0 2px 2px rgba(0, 0, 0, .1); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none;
+}
+.choose-city .city-list .citys li
+{
+    float: left; width: 50px; padding: 10px 0 0 15px;
+}
+.root61 .follow-weixin
+{
+    width: 167px;
+}
+.root61 .follow-weixin .i-title img
+{
+    margin-left: 20px;
+}
+.root61 .choose-city
+{
+    right: 200px; padding-right: 50px;
+}
+.root61 .pop-compare
+{
+    margin-left: -364px;
+}
+.root61 .classify-nav dl
+{
+    margin-right: 60px;
+}
+.root61 .classify-nav dl.fore7
+{
+    margin-right: 0;
+}
+#categorys-2014
+{
+    width: 193px;
+}
+#categorys-2014 .dt,
+#search-2014 .button
+{
+    background: rgb(1, 123, 214) none repeat scroll 0 0;
+}
+#search-2014 .text
+{
+    border-color: rgb(1, 123, 214);
+}
+#nav-2014
+{
+    border-bottom-color: rgb(1, 123, 214);
+}
+
+.follow-weixin
+{
+    position: absolute; z-index: 11; top: -1px; right: 0; width: 157px;
+}
+.follow-weixin .i-title
+{font: 12px/28px 'microsoft yahei'; 
+
+    position: relative; z-index: 2; left: 102px; width: 37px; height: 31px; padding: 11px 9px 0; color: rgb(102, 102, 102); background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+.follow-weixin .i-title img
+{
+    position: absolute; top: 5px; right: 9px; padding: 2px; border: 1px solid rgb(102, 102, 102);
+}
+.follow-weixin .i-title span
+{
+    display: none;
+}
+.follow-weixin .i-pop
+{position: absolute; top: 37px; right: -7px; display: none; 
+
+    width: 239px; padding-top: 10px;
+}
+.follow-weixin .i-pop-inner
+{position: relative; 
+
+    width: 210px; height: 123px; padding: 10px; border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255);
+}
+.follow-weixin .i-pop-inner i
+{position: absolute; top: -15px; left: 50%; 
+
+    display: none; overflow: hidden; width: 0; height: 0; border-width: 8px; border-style: dashed dashed solid; border-color: transparent transparent rgb(255, 255, 255);
+}
+.follow-weixin .i-pop-inner i.out-angle
+{top: -17px; 
+
+    border-bottom-color: rgb(238, 97, 47);
+}
+.follow-weixin .qr-code
+{float: left; 
+
+    width: 78px; margin-top: 10px; padding: 0 20px 0 10px; text-align: center; border-right: 1px solid rgb(221, 221, 221);
+}
+.follow-weixin .qr-code img
+{
+    width: 78px; height: 78px;
+}
+.follow-weixin .qr-code p
+{
+    margin-top: 11px;
+}
+.follow-weixin .weibo
+{float: left; overflow: hidden; 
+
+    width: 90px; height: 120px; margin: 10px 0 0 10px; text-align: center;
+}
+.follow-weixin .weibo iframe
+{
+    margin: 10px 0 0 15px;
+}
+
+.root61 .follow-weixin .i-title
+{left: 0; 
+
+    width: 139px;
+}
+.root61 .follow-weixin span
+{
+    display: block;
+}
+.root61 .follow-weixin .i-pop
+{
+    right: 3px;
+}
+.choose-city
+{
+    right: 59px; border-color: rgb(214, 214, 214);
+}
+.choose-city .i-icon i
+{
+    width: 21px; background: transparent url('../images/phone.address.png') no-repeat scroll 0 0;
+}
+.choose-city .city-list .curr-city
+{color: rgb(102, 102, 102); 
+    border-color: rgb(208, 208, 208); background: rgb(249, 249, 249) none repeat scroll 0 0;
+}
+.choose-city .city-list .curr-city i
+{
+    position: relative; width: 9px; height: 5px; margin-top: -2px; margin-left: 5px; border-width: 0; background: transparent url('../images/phone.address.png') no-repeat scroll 0 -37px;
+}
+.choose-city .city-list
+{
+    margin-left: 10px;
+}
+.choose-city .city-list .citys
+{
+    top: 38px; left: -202px; width: 260px; border-color: rgb(204, 204, 204);
+}
+.choose-city .i-icon
+{
+    color: rgb(102, 102, 102);
+}
+.w-slider
+{position: relative; display: none; overflow: hidden; 
+
+    height: 0px; animation: 1s ease-in-out 0s normal none 1 running sliderBanner; background: rgb(0, 146, 188) none repeat scroll 0 0;
+}
+.w-slider .slide-close
+{position: absolute; z-index: 2; top: 10px; right: 10px; 
+
+    width: 26px; height: 26px; cursor: pointer; background: transparent url('../images/phone2014.slider-close.png') no-repeat scroll 0 0;
+}
+.slide-b
+{
+    position: relative; z-index: 1; overflow: hidden; height: 420px;
+}
+.slide-b li
+{
+    width: 990px;
+}
+.root61 .slide-b li
+{
+    float: left; width: 1210px; height: 420px; text-align: center;
+}
+.root61 .slide-b li a img{
+    width:1210px;
+    height:420px;
+}
+.slider-controls a
+{line-height: 2000px; 
+
+    position: absolute; z-index: 10; top: 0; display: none; overflow: hidden; width: 40px; height: 420px; cursor: pointer;
+}
+.slider-controls a:hover
+{
+    background: rgba(255, 255, 255, .4) none repeat scroll 0 0;
+}
+.slider-controls a span
+{
+    display: block; width: 40px; height: 40px; margin-top: 190px; background-image: url('../images/phone2014.arrow-slider.png'); background-repeat: no-repeat;
+}
+.slider-controls #slide-b-prev
+{
+    left: 0;
+}
+.slider-controls #slide-b-next
+{
+    right: 0;
+}
+#slide-b-prev span
+{
+    background-position: 0 0;
+}
+#slide-b-next span
+{
+    background-position: -40px 0;
+}
+.phone-firstScreen
+{
+    position: relative; height: 350px; margin-bottom: 45px; background: rgb(238, 238, 238) none repeat scroll 0 0;
+}
+.phone-firstScreen .cate-slider-item
+{
+    display: none;
+}
+.phone-firstScreen .cate-slider-selected
+{
+    display: block; opacity: 1;
+}
+.m-categorys
+{position: relative; z-index: 3; top: 0; left: 0; float: left; 
+
+    width: 193px;
+}
+.m-categorys-menu
+{overflow: visible; 
+
+    height: 350px;
+}
+.m-categorys-menu .item
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 50px; position: relative; 
+
+    height: 51px; margin-top: -1px; padding-left: 0; cursor: pointer; border-top: medium none; background: rgb(0, 106, 200) none repeat scroll 0 0;
+}
+.m-categorys-menu .item a
+{
+    display: block; height: 50px; margin: 0 10px; border-top: 1px dotted rgb(92, 156, 212);
+}
+.m-categorys-menu .fore0 a
+{
+    border-top: medium none;
+}
+.m-categorys-menu .fore3
+{
+    z-index: 2;
+}
+.m-categorys-menu .fore4
+{
+    margin-top: 0;
+}
+.m-categorys-menu .fore6
+{
+    height: 50px;
+}
+.m-categorys-menu .item-trigger
+{
+    color: rgb(255, 255, 255);
+}
+.m-categorys-menu .item-trigger .menu-arrow
+{font: 700 12px/18px simsun; 
+
+    position: absolute; top: 17px; right: 10px; color: rgb(216, 216, 216);
+}
+.m-categorys-menu .item-trigger:hover
+{
+    text-decoration: none;
+}
+.m-categorys-submenu
+{
+    position: absolute; top: 0; left: 193px; width: 185px; background: rgba(255, 255, 255, .95) none repeat scroll 0 0;
+}
+.m-categorys-submenu .item
+{font-family: 'microsoft yahei'; 
+
+    display: none; height: 332px; padding-top: 16px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(0, 90, 169) rgb(0, 90, 169) rgb(0, 90, 169) -moz-use-text-color; border-image: none; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none;
+}
+.m-categorys-submenu .sub-item
+{
+    padding: 0 0 10px 20px;
+}
+.m-categorys-submenu .sub-item-hd
+{padding-bottom: 5px; 
+    padding-left: 20px;
+}
+.m-categorys-submenu .sub-item-hd .title
+{
+    font-family: 'microsoft yahei';
+}
+.m-categorys-submenu .sub-item-hd i
+{
+    float: left; width: 16px; height: 16px; margin-left: -20px; background: transparent url('../images/phone2014.icons.png') no-repeat scroll 0 1px;
+}
+.m-categorys-submenu .sub-item-hd .ico1
+{
+    background-position: -50px 1px;
+}
+.m-categorys-submenu .sub-item-hd .ico2
+{
+    background-position: -100px 1px;
+}
+.m-categorys-submenu .sub-item-hd .ico3
+{
+    background-position: -150px 1px;
+}
+.m-categorys-submenu .sub-item-hd .ico4
+{
+    background-position: 0 -149px;
+}
+.m-categorys-submenu .sub-item-hd .ico5
+{
+    background-position: -50px -149px;
+}
+.m-categorys-submenu .sub-item-hd .ico6
+{
+    background-position: -100px -149px;
+}
+.m-categorys-submenu .sub-item-hd .ico7
+{
+    background-position: -150px -149px;
+}
+.m-categorys-submenu .sub-item-hd .ico8
+{
+    background-position: 0 -199px;
+}
+.m-categorys-submenu .sub-item-hd .ico9
+{
+    background-position: -50px -199px;
+}
+.m-categorys-submenu .sub-item-hd .ico10
+{
+    background-position: 0 -249px;
+}
+.m-categorys-submenu .sub-item-hd .ico11
+{
+    background-position: -50px -249px;
+}
+.m-categorys-submenu .sub-item-hd .ico12
+{
+    background-position: -100px -249px;
+}
+.m-categorys-submenu .sub-item-hd .ico13
+{
+    background-position: -150px -249px;
+}
+.m-categorys-submenu .sub-item-bd
+{overflow: hidden; 
+
+    width: 153px; margin-left: 12px;
+}
+.m-categorys-submenu .sub-item-bd .linkbox
+{line-height: 16px; 
+
+    display: inline-block; margin: 6px 0 6px -1px; padding: 0 8px; border-left: 1px solid rgb(202, 202, 202);
+}
+.slider-item-ad
+{position: relative; z-index: 3; 
+
+    float: right; width: 262px;
+}
+.slider-item-ad li
+{
+    display: none;
+}
+.slider-item-ad li .i-link
+{position: relative; right: 0; display: block; 
+
+    width: 262px; height: 175px; transition: all .3s ease-in 0s;
+}
+.slider-item-ad li img
+{
+    width: 262px; height: 175px;
+}
+.root61 .slider-item-ad,
+.root61 .slider-item-ad li .i-link,
+.root61 .slider-item-ad li img
+{
+    width: 362px;
+}
+.gc-slider,
+.gc-slider-content
+{width: 100%; 
+    height: 350px;
+}
+.gc-slider
+{
+    position: absolute; top: 0; left: 0;
+}
+.gc-slider-item
+{position: absolute; z-index: 0; top: 0; left: 0; 
+
+    display: none; overflow: hidden; width: 100%; height: 350px; transition: display .2s ease .2s, opacity .2s ease-out .2s; opacity: 0;
+}
+.gc-slider-item .i-wrap
+{
+    width: 990px; height: 100%; margin: 0 auto;
+}
+.gc-slider-item .i-inner
+{
+    position: relative; width: 990px; height: 100%; text-indent: -110px;
+}
+.gc-slider-item .i-inner .i-link
+{
+    position: absolute; z-index: 2; top: 0; left: 0; display: block; overflow: hidden; width: 100%; height: 100%; background: transparent url('../images/blank.gif') repeat scroll 0 0;
+}
+.gc-slider-selected
+{z-index: 1; 
+
+    display: block; opacity: 1;
+}
+.gc-slider-trigger
+{font-size: 0; 
+
+    position: absolute; z-index: 2; bottom: 30px; left: 0; width: 100%; height: 16px; text-align: center;
+}
+.gc-slider-trigger .trigger-item
+{
+    display: inline-block; overflow: hidden; width: 10px; height: 10px; margin: 0 3px; cursor: pointer; border-radius: 50%; background: rgb(51, 51, 51) none repeat scroll 0 0;
+}
+.gc-slider-trigger .trigger-curr
+{
+    background: rgb(218, 50, 77) none repeat scroll 0 0;
+}
+.gc-slider-next,
+.gc-slider-prev
+{font-family: 宋体; font-size: 50px; line-height: 60px; position: absolute; z-index: 10; top: 50%; left: 50%; 
+
+    display: none; width: 30px; height: 60px; margin-top: -30px; text-align: center; color: rgb(187, 187, 187);
+}
+.gc-slider-next:hover,
+.gc-slider-prev:hover
+{
+    text-decoration: none;
+}
+.gc-slider-prev
+{
+    margin-left: -127px;
+}
+.gc-slider-next
+{
+    margin-left: 203px;
+}
+.root61 .gc-slider-item .i-wrap
+{
+    width: 1210px;
+}
+.root61 .gc-slider-item .i-inner
+{
+    width: 1210px; text-indent: 0;
+}
+.root61 .gc-slider-prev
+{
+    margin-left: -237px;
+}
+.root61 .gc-slider-next
+{
+    margin-left: 213px;
+}
+.f-today-pop,
+.f-today-pop .mt
+{
+    overflow: visible;
+}
+.f-today-pop .mc
+{
+    width: 100%;
+}
+.pop-tab-trigger
+{
+    float: right; width: 400px; height: 55px; margin-top: -5px;
+}
+.pop-tab-trigger .item
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 40px; position: relative; 
+
+    float: left; width: 40px; height: 40px; margin-left: 10px; padding-left: 30px; color: rgb(255, 255, 255); background: transparent url('../images/phone2014.tab.png') no-repeat scroll 0 0;
+}
+.pop-tab-trigger .item .arrow
+{position: absolute; bottom: -12px; left: 30px; 
+
+    display: none; overflow: hidden; width: 0; height: 0; border-width: 6px; border-style: solid dashed dashed; border-color: rgb(77, 75, 75) transparent transparent;
+}
+.pop-tab-trigger .item.fore0
+{
+    background-position: 0 -150px;
+}
+.pop-tab-trigger .item.fore1 .arrow
+{
+    border-color: rgb(117, 169, 229) transparent transparent;
+}
+.pop-tab-trigger .item.fore2
+{
+    background-position: -100px 0;
+}
+.pop-tab-trigger .item.fore2 .arrow
+{
+    border-color: rgb(127, 208, 119) transparent transparent;
+}
+.pop-tab-trigger .item.fore3
+{width: 39px; 
+    padding-left: 31px; background-position: -200px 0;
+}
+.pop-tab-trigger .item.fore3 .arrow
+{
+    border-color: rgb(252, 129, 88) transparent transparent;
+}
+.pop-tab-trigger .item.fore4
+{width: 38px; 
+    padding-left: 32px; background-position: -300px 0;
+}
+.pop-tab-trigger .item.fore4 .arrow
+{
+    border-color: rgb(244, 189, 108) transparent transparent;
+}
+.pop-tab-trigger .item.selected .arrow
+{
+    display: block;
+}
+.pop-tab-trigger .item:hover
+{text-decoration: none; 
+
+    color: rgb(255, 255, 255);
+}
+.pop-tab-trigger .item:hover .arrow
+{
+    display: block;
+}
+.pop-tab-content
+{overflow: hidden; 
+
+    width: 100%;
+}
+.pop-tab-content .item
+{display: none; overflow: hidden; 
+
+    height: 360px;
+}
+.pop-tab-content .selected
+{
+    display: block;
+}
+.today-pop-list
+{margin-right: -36px; 
+    margin-left: 1px;
+}
+.today-pop-list li
+{
+    float: left; width: 218px; height: 358px; margin-right: 36px; border: 1px solid rgb(221, 221, 221); background-color: rgb(244, 244, 244);
+}
+.today-pop-list .p-imgbox
+{position: relative; 
+
+    width: 100%; height: 227px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.today-pop-list .p-imgbox .p-img
+{
+    display: block; padding: 10px 0;
+}
+.today-pop-list .p-imgbox img
+{
+    width: 200px; height: 200px;
+    margin-right:0px;
+    transition:all 0.3s ease 0s;
+}
+.today-pop-list .p-tag
+{font-family: 'microsoft yahei'; font-size: 16px; line-height: 60px; position: absolute; top: 21px; left: 21px; 
+
+    width: 60px; height: 60px; transition: all .3s ease 0s; color: rgb(255, 255, 255); background: transparent url('../images/phone2014.tab.png') no-repeat scroll 0 -50px;
+}
+.today-pop-list .p-tag.p-tag2
+{
+    background-position: -100px -50px;
+}
+.today-pop-list .p-tag.p-tag3
+{
+    background-position: -200px -50px;
+}
+.today-pop-list .p-tag.p-tag4
+{
+    background-position: -300px -50px;
+}
+.today-pop-list .p-img:hover
+{
+    text-decoration: none;
+}
+.today-pop-list .p-img:hover .p-tag
+{
+    z-index:12;
+    transform:translate(-10px,-5px);
+}
+.today-pop-list .p-img:hover img{
+    position:absolute;
+    right:9px;
+    z-index:11;
+    transform:scale(1.08,1.1);
+}
+
+.today-pop-list .p-arrow
+{
+    position: absolute; bottom: 0; left: 100px; overflow: hidden; width: 0; height: 0; border-width: 8px; border-style: dashed dashed solid; border-color: transparent transparent rgb(244, 244, 244);
+}
+.today-pop-list .p-name
+{font-family: 'microsoft yahei'; line-height: 20px; 
+
+    display: block; overflow: hidden; height: 40px; margin: 15px 15px 0;
+}
+.today-pop-list .p-price
+{
+    padding: 12px 15px; color: rgb(51, 51, 51);
+}
+.today-pop-list .p-price .number
+{font-size: 24px; 
+
+    margin-left: 3px;
+}
+.today-pop-list .promo-words
+{font-family: 'microsoft yahei'; overflow: hidden; 
+
+    width: 188px; height: 18px; padding: 0 15px; white-space: nowrap; text-overflow: ellipsis; color: rgb(228, 57, 60);
+}
+.today-pop-list .promo-words .i-commit
+{
+    display: inline-block; overflow: hidden; width: 18px; height: 18px; margin-right: 8px; margin-bottom: -6px; background: transparent url('../images/phone2014.icons.png') no-repeat scroll 0 -50px;
+}
+.today-pop-list .fore4
+{
+    display: none;
+}
+.root61 .today-pop-list
+{margin-right: -27.5px; 
+    margin-left: 0;
+}
+.root61 .today-pop-list li
+{
+    margin-right: 27.5px;
+}
+.root61 .today-pop-list .fore4
+{
+    display: block;
+}
+
+.ad-box
+{position: relative; overflow: hidden; 
+
+    width: 990px; height: 120px; padding-top: 12px;
+}
+.ad-box .inner
+{position: relative; height: 120px; 
+    margin-right: -15px;
+}
+.ad-box .item
+{float: left; overflow: hidden; 
+
+    width: 320px; height: 120px; margin-right: 15px; text-indent: -35px;
+}
+.ad-box .item img
+{
+    width: 390px; height: 120px;
+}
+.root61 .ad-box
+{
+    width: 1210px;
+}
+.root61 .ad-box .inner
+{
+    margin-right: -20px;
+}
+.root61 .ad-box .item
+{
+    width: 390px; margin-right: 20px; text-indent: 0;
+}
+.f-brand-shop .brand-shops
+{
+    position: relative; overflow: hidden; width: 100%; height: 290px;
+}
+.brand-shoplist1 li
+{
+    position: absolute; width: 243px; height: 290px;
+}
+.brand-shoplist1 .back
+{
+    width: 243px; height: 290px;
+}
+.brand-shoplist1 .fore0
+{
+    left: 0;
+}
+.brand-shoplist1 .fore1
+{
+    left: 491px;
+}
+.brand-shoplist1 .fore2
+{
+    left: 747px;
+}
+.brand-shoplist2 li
+{
+    position: absolute; width: 220px; height: 140px;
+}
+.brand-shoplist2 .back
+{
+    width: 220px; height: 140px;
+}
+.brand-shoplist2 .fore0
+{top: 0; 
+    left: 257px;
+}
+.brand-shoplist2 .fore1
+{top: 149px; 
+    left: 257px;
+}
+.brand-shoplist2 .fore2
+{top: 0; 
+    left: 990px;
+}
+.brand-shoplist2 .fore3
+{top: 149px; 
+    left: 990px;
+}
+.brand-slider
+{position: relative; overflow: hidden; 
+
+    width: 100%; height: 40px; padding: 10px 0; background: rgb(244, 244, 244) none repeat scroll 0 0;
+}
+.brand-slider .inner
+{position: relative; 
+
+    float: left; overflow: hidden; width: 903px; height: 40px; margin: 0 23px;
+}
+.brand-slider .next-btn,
+.brand-slider .pre-btn
+{font-family: 宋体; font-size: 25px; line-height: 40px; 
+
+    float: left; height: 40px; background: rgb(244, 244, 244) none repeat scroll 0 0;
+}
+.brand-slider .next-btn:hover,
+.brand-slider .pre-btn:hover
+{
+    text-decoration: none;
+}
+.brand-slider .pre-btn
+{
+    margin-left: 10px;
+}
+.brand-slider .next-btn
+{
+    position: relative; z-index: 2; left: -1px; padding-left: 1px;
+}
+.brand-sliderlist
+{
+    position: absolute; width: 1160px; height: 40px;
+}
+.brand-sliderlist li
+{
+    float: left; width: 100px; height: 40px; padding: 0 14px; border-right: 1px dotted rgb(204, 204, 204);
+}
+.root61 .brand-slider .inner
+{width: 1160px; 
+    margin: 0;
+}
+.root61 .brand-shoplist1 .fore0
+{
+    left: 0;
+}
+.root61 .brand-shoplist1 .fore1
+{
+    left: 483px;
+}
+.root61 .brand-shoplist1 .fore2
+{
+    left: 738px;
+}
+.root61 .brand-shoplist2 .fore0,
+.root61 .brand-shoplist2 .fore1
+{
+    left: 253px;
+}
+.ad-box2
+{overflow: hidden; 
+
+    width: 990px; height: 120px; padding-top: 12px;
+}
+.ad-box2 .item img
+{
+    width: 990px; height: 120px;
+}
+.root61 .ad-box2,
+.root61 .ad-box2 .item img
+{
+    width: 1210px;
+}
+.f-hign-cost .floor-content-box
+{
+    height: 640px;
+}
+.f-hign-cost .floor-content-box .c-main,
+.f-hign-cost .floor-content-box .c-right
+{
+    height: 638px;
+}
+.f-hign-cost .floor-content-box .goodlist li
+{height: 286px; 
+    padding-top: 33px;
+}
+.f-hign-cost .floor-content-box .goodlist .fore1
+{
+    position: absolute; top: 0; left: 0; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore2
+{
+    position: absolute; top: 0; left: 189px; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore3
+{
+    position: absolute; top: 0; left: 378px; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore4
+{
+    position: absolute; top: 0; left: 567px; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore5
+{
+    position: absolute; top: 320px; left: 0; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore6
+{
+    position: absolute; top: 320px; left: 189px; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore7
+{
+    position: absolute; top: 320px; left: 378px; display: block;
+}
+.f-hign-cost .floor-content-box .goodlist .fore8
+{
+    position: absolute; top: 320px; left: 567px; display: block;
+}
+.f-hign-cost .floor-left-ad,
+.f-hign-cost .floor-left-ad img
+{
+    height: 640px;
+}
+.hot-follow
+{
+    position: absolute; top: 442px; left: 20px; padding-right: 20px;
+}
+.hot-follow h3
+{font-family: 'microsoft yahei'; 
+    font-size: 16px; padding-bottom: 10px; color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255);
+}
+.hot-follow .p-list a
+{font-family: 'microsoft yahei'; 
+    font-size: 14px; float: left; width: 95px; margin-top: 15px; white-space: nowrap; color: rgb(255, 255, 255);
+}
+.hot-follow .p-list a:hover
+{
+    color: rgb(255, 98, 98);
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore1
+{
+    position: absolute; top: 0; left: 0; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore2
+{
+    position: absolute; top: 0; left: 186px; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore3
+{
+    position: absolute; top: 0; left: 372px; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore4
+{
+    position: absolute; top: 0; left: 558px; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore5
+{
+    position: absolute; top: 320px; left: 0; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore6
+{
+    position: absolute; top: 320px; left: 186px; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore7
+{
+    position: absolute; top: 320px; left: 372px; display: block;
+}
+.root61 .f-hign-cost .floor-content-box .goodlist .fore8
+{
+    position: absolute; top: 320px; left: 558px; display: block;
+}
+.sf-tab
+{
+    position: absolute; top: 248px; right: 0;
+}
+.sf-tab li
+{font-family: 'microsoft yahei'; font-size: 14px; line-height: 33px; position: relative; float: right; 
+
+    width: 151px; height: 33px; margin-bottom: 1px; cursor: pointer; transition: width .3s ease 0s; text-align: center; color: rgb(255, 255, 255);
+}
+.sf-tab li i
+{position: absolute; top: 0; right: -32px; display: none; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 16px; border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(133, 108, 172);
+}
+.sf-tab li.fore1
+{
+    background: rgba(131, 107, 169, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore1 i
+{
+    border-left-color: rgb(133, 108, 172);
+}
+.sf-tab li.fore2
+{
+    background: rgba(235, 104, 106, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore2 i
+{
+    border-left-color: rgb(235, 104, 106);
+}
+.sf-tab li.fore3
+{
+    background: rgba(232, 176, 93, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore3 i
+{
+    border-left-color: rgb(232, 176, 94);
+}
+.sf-tab li.fore4
+{
+    background: rgba(116, 185, 226, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore4 i
+{
+    border-left-color: rgb(115, 185, 226);
+}
+.sf-tab li.fore5
+{
+    background: rgba(114, 210, 205, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore5 i
+{
+    border-left-color: rgb(114, 210, 205);
+}
+.sf-tab li.fore6
+{
+    background: rgba(230, 149, 107, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore6 i
+{
+    border-left-color: rgb(230, 149, 107);
+}
+.sf-tab li.fore7
+{
+    background: rgba(212, 207, 119, .8) none repeat scroll 0 0;
+}
+.sf-tab li.fore7 i
+{
+    border-left-color: rgb(210, 204, 117);
+}
+.sf-tab li.on
+{
+    width: 212px;
+}
+.sf-tab li.on i
+{
+    display: block;
+}
+.sales-rank
+{
+    display: none;
+}
+.sales-rank-hd
+{font-size: 20px; line-height: 36px; 
+
+    height: 36px; margin-bottom: 10px; padding-top: 15px; padding-left: 15px;
+}
+.sales-rank-list
+{overflow: hidden; 
+
+    width: 100%; height: 530px;
+}
+.sales-rank-list li
+{line-height: 20px;
+
+    width: 190px; height: 96px; margin-top: 10px; padding: 0 14px;font-weight: 800;
+}
+.sales-rank-list .p-img
+{float: left; 
+
+    width: 80px; height: 100%; margin-right: 10px; padding: 0;
+}
+.sales-rank-list .p-img img
+{
+    width: 80px; height: 80px;
+}
+.sales-rank-list .p-name
+{line-height: 20px; 
+
+    display: block; overflow: hidden; height: 40px;
+}
+.sales-rank-list .p-name .index
+{line-height: 13px; 
+
+    display: inline-block; overflow: hidden; width: 13px; height: 13px; margin-right: 5px; margin-bottom: -3px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(250, 78, 78);
+}
+.sales-rank-list .p-price
+{
+    margin-top: 20px; color: rgb(51, 51, 51);
+}
+.sales-rank-list .p-price .number
+{font-size: 16px; 
+
+    margin-left: 3px;
+}
+.root61 .sales-rank
+{
+    display: block;
+}
+.help-filter
+{
+    height: 606px; background-color: rgb(235, 235, 235);
+}
+.help-filter .p-head
+{position: relative; height: 61px; padding-top: 20px; 
+
+    background-color: rgb(77, 75, 75);
+}
+.help-filter .p-head h3
+{overflow: hidden; 
+
+    width: 86px; height: 20px; margin: 0 auto; text-indent: -999px; background: transparent url('../images/phone2014.icons.png') no-repeat scroll -100px -100px;
+}
+.help-filter .p-head p
+{font-family: 'microsoft yahei'; padding-top: 10px; 
+
+    text-align: center; color: rgb(153, 153, 153);
+}
+.help-filter .p-head i
+{position: absolute; bottom: -12px; left: 50%; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 6px; border-style: solid dashed dashed; border-color: rgb(77, 75, 75) transparent transparent;
+}
+.help-filter .filter-items
+{overflow: hidden; height: 460px; 
+    padding: 0 10px 0 15px;
+}
+.help-filter .filter-items dt
+{font-family: 'microsoft yahei'; 
+    font-size: 14px; margin-top: 30px;
+    background:tan;
+}
+.help-filter .filter-items dt i
+{font-family: '宋体'; font-size: 12px; margin-right: 3px; 
+
+    color: rgb(102, 102, 102);
+}
+.help-filter .filter-items dd
+{
+    padding-bottom: 30px;
+}
+.help-filter .filter-items dd a
+{font-family: 'microsoft yahei'; 
+    font-size: 14px; line-height: 24px; display: inline-block; overflow: hidden; height: 24px; margin-top: 20px; padding: 0 5px; white-space: nowrap; color: rgb(51, 51, 51);
+}
+.help-filter .filter-items dd a.on {
+  background-color: #f98082;
+  color: #fff;
+}
+.help-filter .filter-items dd a i
+{
+    display: none;
+}
+.help-filter .filter-items dd a:hover
+{
+    text-decoration: none;
+}
+.help-filter .filter-items .p-tags
+{
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.help-filter .filter-btn
+{font-family: 'microsoft yahei'; font-size: 18px; 
+
+    width: 194px; height: 43px; margin-left: 20px; cursor: pointer; text-align: center; color: rgb(255, 255, 255); border: medium none; background-color: rgb(228, 57, 60);
+}
+.help-filter .filter-btn-dis
+{cursor: not-allowed; color: rgb(102, 102, 102); 
+    background-color: rgb(210, 210, 210);
+}
+.tidePhone-filter
+{position: absolute; z-index: 3; top: 0; left: -511px; overflow: hidden; 
+
+    width: 745px; height: 604px; border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255);
+}
+.tidePhone-filter .i-close
+{
+    position: absolute; top: 50%; right: 1px; width: 30px; height: 116px; margin-top: -58px; background: rgb(77, 75, 76) url('../images/close-btn.png') no-repeat scroll 0 0;
+}
+.tidePhone-filter .i-close a
+{
+    display: block; height: 58px; cursor: pointer;
+}
+.f-contract-phone .floor-right-help .help-box
+{
+    display: none; background-color: rgb(127, 170, 241);
+}
+.f-contract-phone .floor-right-help .help-box .help-hd
+{font-family: 'microsoft yahei'; font-size: 16px; font-weight: 400; line-height: 79px; padding-left: 55px; 
+
+    text-indent: 0; color: rgb(255, 255, 255);
+}
+.f-contract-phone .floor-content-box .floor-main-goods
+{
+    height: 604px;
+}
+.f-contract-phone .sf-tab
+{
+    top: 238px;
+}
+.f-jd-phone .floor-content-box
+{
+    height: 656px;
+}
+.f-jd-phone .floor-content-box .c-main
+{
+    height: 654px;
+}
+.f-jd-phone .floor-ad-wrap
+{
+    width: 350px; margin-left: 27px;
+}
+.f-jd-phone .floor-ad-wrap .i-ads li
+{
+    width: 350px;
+}
+.f-jd-phone .floor-ad-wrap .floor-main-ad
+{
+    width: 350px; text-indent: 0;
+}
+.f-jd-phone .floor-ad-wrap .floor-main-ad img
+{
+    width: 350px; height: 303px;
+}
+.f-jd-phone .floor-tab-trigger .fore4
+{
+    width: 153px;
+}
+.f-jd-phone .floor-tab-trigger .fore4 .text
+{
+    border-right: medium none;
+}
+.f-jd-phone .jd-floor-wrap
+{
+    height: 655px; margin-top: 1px;
+}
+.f-jd-phone .floor-left-ad,
+.f-jd-phone .floor-left-ad img
+{
+    height: 655px;
+}
+.f-jd-phone .c-right
+{
+    height: 654px;
+}
+.f-jd-phone .floor-right-help .help-box
+{
+    background-color: rgb(132, 216, 106);
+}
+.f-jd-phone .floor-right-help .help-hd
+{
+    background-position: 0 -99px;
+}
+.f-jd-phone .floor-right-help .bottom-angle .bg
+{
+    background-color: rgb(132, 216, 106);
+}
+.f-jd-phone .floor-right-help .bottom-angle .angle
+{
+    border-color: rgb(169, 240, 146) transparent transparent rgb(169, 240, 146);
+}
+.f-jd-phone .floor-right-ad
+{
+    height: 654px;
+}
+.slide-controls
+{
+    position: absolute; z-index: 2; bottom: 50px; width: 100%; text-align: center;
+}
+.slide-controls li
+{display: inline-block; overflow: hidden; color:#fff;
+
+    width: 20px; height: 20px;line-height: 20px; margin-right: 20px; cursor: pointer; border-radius: 50%; background-color: rgb(51, 51, 51);
+}
+.slide-controls li.ui-switchable-selected
+{
+    background-color: rgb(51, 51, 51);
+}
+.jd-floor-wrap
+{position: relative; overflow: hidden; 
+
+    width: 233px; height: 606px;
+}
+.jd-floor-wrap .jd-floor-main
+{
+    position: absolute;
+}
+.jd-floor-wrap .jd-floor-main li
+{
+    float: left;
+}
+.root61 .f-jd-phone .floor-ad-wrap
+{
+    width: 350px; margin-left: 22px;
+}
+.root61 .f-jd-phone .floor-ad-wrap .floor-main-ad,
+.root61 .f-jd-phone .floor-ad-wrap .i-ads li
+{
+    width: 350px;
+}
+.root61 .f-jd-phone .floor-tab-trigger .trig-item,
+.root61 .f-jd-phone .floor-tab-trigger .trig-item .text
+{
+    width: 149px;
+}
+.timed-panic-buying
+{
+    padding: 15px;
+}
+.timed-panic-buying .top-title
+{font-family: '微软雅黑'; font-size: 18px; 
+    line-height: 26px; color: rgb(51, 51, 51);
+}
+.timed-panic-buying .goods-list
+{
+    overflow: hidden; margin-top: 10px;
+}
+.timed-panic-buying .goods-list li
+{margin-top: -1px; margin-bottom: 20px; 
+    padding-top: 25px; text-align: center; border-top: 1px solid rgb(238, 238, 238);
+}
+.timed-panic-buying .goods-list .p-countdown
+{line-height: 40px; padding: 10px 0 20px; 
+
+    color: rgb(228, 57, 60);
+}
+.timed-panic-buying .goods-list .p-countdown strong
+{
+    font-family: '微软雅黑'; font-size: 16px; padding: 0 4px;
+}
+.timed-panic-buying .goods-list .p-name
+{
+    font-family: '微软雅黑'; font-size: 14px; overflow: hidden; height: 18px; margin-bottom: 6px; white-space: nowrap; text-overflow: ellipsis;
+}
+.timed-panic-buying .goods-list .p-price
+{
+    font-family: '微软雅黑'; font-size: 14px;
+}
+.timed-panic-buying .goods-list .p-price strong
+{
+    font-family: tahoma; font-size: 18px; font-weight: 400; color: rgb(102, 102, 102);
+}
+.f-phone-parts
+{
+    position: relative;
+}
+.f-phone-parts .floor-ad-wrap
+{
+    width: 350px; margin-left: 27px;
+}
+.f-phone-parts .floor-ad-wrap .i-ads li
+{
+    width: 350px;
+}
+.f-phone-parts .floor-ad-wrap .floor-main-ad
+{
+    width: 350px; text-indent: 0;
+}
+.f-phone-parts .floor-ad-wrap .floor-main-ad img
+{
+    width: 350px; height: 303px;
+}
+.f-phone-parts .floor-tab-trigger .trig-item,
+.f-phone-parts .floor-tab-trigger .trig-item .text
+{
+    width: 108px;
+}
+.f-phone-parts .floor-tab-trigger .fore6
+{
+    width: 109px;
+}
+.f-phone-parts .floor-tab-trigger .fore6 .text
+{
+    border-right: medium none;
+}
+.f-phone-parts .c-left
+{
+    background: rgb(235, 235, 235) none repeat scroll 0 0;
+}
+.f-phone-parts .floor-content-box
+{
+    height: 656px;
+}
+.f-phone-parts .floor-content-box .c-main
+{
+    height: 654px;
+}
+.f-phone-parts .parts-filter-title
+{
+    position: absolute; top: 0; width: 100%; height: 80px; background: rgb(203, 204, 203) none repeat scroll 0 0;
+}
+.f-phone-parts .parts-filter-title .i-helper
+{
+    display: inline-block; width: 25px; height: 22px; margin-right: 5px; vertical-align: top; background: transparent url('../images/phone2014.icons.png') no-repeat scroll 0 -300px;
+}
+.f-phone-parts .parts-filter-title h4,
+.f-phone-parts .parts-filter-title p
+{
+    font-family: '微软雅黑'; text-align: center; color: rgb(51, 51, 51);
+}
+.f-phone-parts .parts-filter-title h4
+{font-size: 16px; font-weight: 400; line-height: 22px; 
+
+    height: 22px; margin-top: 20px;
+}
+.f-phone-parts .parts-filter-title p
+{
+    margin-top: 8px;
+}
+.f-phone-parts .parts-filter-title .bottom-arrow
+{position: absolute; bottom: -12px; left: 110px; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 6px; border-style: solid dashed dashed; border-color: rgb(203, 204, 203) transparent transparent;
+}
+.f-phone-parts .phone-parts-filter
+{
+    position: absolute; top: 86px; width: 204px; padding: 20px 14px 15px 15px;
+}
+.f-phone-parts .phone-parts-filter .filter-form th
+{font-family: '微软雅黑'; font-size: 14px; font-weight: 400; padding-right: 5px; 
+
+    color: rgb(51, 51, 51);
+}
+.f-phone-parts .phone-parts-filter .filter-form td,
+.f-phone-parts .phone-parts-filter .filter-form th
+{
+    padding-bottom: 10px;
+}
+.f-phone-parts .phone-parts-filter .filter-form select
+{
+    width: 130px; height: 30px; border: medium none;
+}
+.f-phone-parts .phone-parts-filter .filter-form option
+{
+    color: rgb(51, 51, 51);
+}
+.f-phone-parts .filter-btn
+{font-family: 'microsoft yahei'; font-size: 18px; line-height: 43px; 
+
+    display: block; width: 194px; height: 43px; margin-top: 15px; margin-left: 3px; cursor: pointer; text-align: center; color: rgb(255, 255, 255); border: medium none; background-color: rgb(228, 57, 60);
+}
+.f-phone-parts .filter-btn:hover
+{
+    text-decoration: none; color: rgb(255, 255, 255);
+}
+.f-phone-parts .popular-news
+{
+    position: absolute; top: 345px; margin: 0 19px; padding: 45px 0 20px; border-top: 1px solid rgb(216, 216, 216);
+}
+.f-phone-parts .popular-news .top-title
+{
+    font-family: '微软雅黑'; font-size: 16px; font-weight: 400;
+}
+.f-phone-parts .popular-news .top-title i
+{font-family: '宋体'; font-size: 12px; 
+
+    margin-right: 5px;
+}
+.f-phone-parts .popular-news .pop1
+{
+    margin-top: 20px;
+}
+.f-phone-parts .popular-news .pop1 p
+{
+    line-height: 26px;
+}
+.f-phone-parts .popular-news .pop1 a
+{font-family: '微软雅黑'; font-size: 15px; 
+
+    display: inline-block; color: rgb(51, 51, 51);
+}
+.f-phone-parts .popular-news .pop1 a:hover
+{
+    text-decoration: none; color: rgb(228, 57, 60);
+}
+.f-phone-parts .popular-news .pop2
+{
+    margin-top: 20px;
+}
+.f-phone-parts .c-right
+{
+    height: 654px;
+}
+.root61 .f-phone-parts .floor-ad-wrap
+{
+    width: 350px; margin-left: 22px;
+}
+.root61 .f-phone-parts .floor-ad-wrap .floor-main-ad,
+.root61 .f-phone-parts .floor-ad-wrap .i-ads li
+{
+    width: 350px;
+}
+.root61 .f-phone-parts .floor-tab-trigger .trig-item,
+.root61 .f-phone-parts .floor-tab-trigger .trig-item .text
+{
+    width: 106px;
+}
+.root61 .f-phone-parts .floor-tab-trigger .fore6
+{
+    width: 109px;
+}
+.bottom-module
+{position: relative; 
+
+    width: 100%;
+}
+.bottom-module .newest-buy
+{
+    float: left; overflow: hidden; width: 280px;
+}
+.bottom-module .mt
+{line-height: 34px; height: 34px; 
+    margin-top: 13px; margin-bottom: 26px; border-bottom: 1px solid rgb(51, 51, 51);
+}
+.bottom-module .mt .m-title
+{line-height: 34px; 
+
+    height: 34px; padding-top: 0;
+}
+.bottom-module .newest-buy-list
+{
+    width: 105%;
+}
+.bottom-module .newest-buy-list li
+{
+    float: left; overflow: hidden; width: 280px; height: 130px; margin: 0 41px 15px 0;
+}
+.bottom-module .newest-buy-list li .p-img
+{
+    float: left; margin-right: 23px; padding: 0;
+}
+.bottom-module .newest-buy-list li .p-desc
+{position: relative; float: left; 
+
+    width: 105px; height: 82px; padding: 10px;
+}
+.bottom-module .newest-buy-list li .p-desc a
+{
+    display: block; overflow: hidden; width: 105px; height: 82px; color: rgb(255, 255, 255);
+}
+.bottom-module .newest-buy-list li .p-desc i
+{position: absolute; top: 43px; left: -14px; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 7px; border-style: dashed solid dashed dashed; border-color: transparent rgb(169, 190, 234) transparent transparent;
+}
+.bottom-module .newest-buy-list li .p-name
+{font-family: 'microsoft yahei'; font-weight: 700; 
+
+    float: left; width: 125px; padding-top: 10px;
+}
+.bottom-module .newest-buy-list li.fore1 .p-desc
+{
+    background-color: rgb(169, 190, 234);
+}
+.bottom-module .newest-buy-list li.fore2 .p-desc
+{
+    background-color: rgb(216, 193, 170);
+}
+.bottom-module .newest-buy-list li.fore2 .p-desc i
+{
+    border-right-color: rgb(216, 193, 170);
+}
+.bottom-module .mv-evaluate
+{position: absolute; top: 0; left: 642px; 
+
+    display: none; width: 220px;
+}
+.bottom-module .mv-evaluate .mv-eva-list li
+{position: relative; 
+
+    height: 130px; margin-bottom: 15px;
+}
+.bottom-module .mv-evaluate .mv-eva-list li p
+{font-family: 'microsoft yahei'; line-height: 30px; 
+
+    position: absolute; bottom: 0; left: 0; width: 100%; height: 30px; text-align: center; color: rgb(255, 255, 255); background: rgba(0, 0, 0, .7) none repeat scroll 0 0;
+}
+.bottom-module .hot-info
+{
+    float: right; width: 320px; margin-top: 13px;
+}
+.bottom-module .hot-info-tab
+{margin-bottom: 26px; 
+
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+.bottom-module .hot-info-tab li
+{font-family: 'microsoft yahei'; font-size: 18px; line-height: 34px; position: relative; 
+
+    float: left; height: 34px; padding: 0 10px; cursor: default;
+}
+.bottom-module .hot-info-tab li i
+{position: absolute; bottom: -10px; left: 50%; display: none; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 5px; border-style: solid dashed dashed; border-color: rgb(77, 75, 75) transparent transparent;
+}
+.bottom-module .hot-info-tab li.on
+{
+    color: rgb(255, 255, 255); background-color: rgb(77, 75, 75);
+}
+.bottom-module .hot-info-tab li.on i
+{
+    display: block;
+}
+.bottom-module .hot-info-cont .hot-info-body
+{
+    position: relative; overflow: hidden; height: 115px;
+}
+.bottom-module .hot-info-cont .i-pic
+{
+    margin-bottom: 15px;
+}
+.bottom-module .hot-info-cont .hot-info-list
+{
+    float: left; width: 320px;
+}
+.bottom-module .hot-info-cont .hot-info-list li
+{
+    margin-bottom: 18px;
+}
+.bottom-module .hot-info-cont .hot-info-list li i
+{font-family: simsun; 
+
+    margin-right: 10px; color: rgb(153, 153, 153);
+}
+.bottom-module .hot-info-cont .hot-info-list li em
+{
+    margin-left: 10px;
+}
+.bottom-module .hot-info-cont .hot-info-list li a
+{
+    font-family: 'microsoft yahei';
+}
+.bottom-module .hot-info-cont .page-tab a
+{font-family: simsun; font-size: 14px; line-height: 15px; 
+
+    display: inline-block; width: 14px; height: 15px; text-align: center; border: 1px solid rgb(220, 220, 220); border-radius: 2px; background-color: rgb(246, 246, 246);
+}
+.bottom-module .hot-info-cont .page-tab a:hover
+{
+    text-decoration: none;
+}
+.bottom-module .hot-info-cont .page-tab em
+{font-size: 14px; 
+    font-weight: 700; margin: 0 20px;
+}
+.bottom-module .phone-zone
+{display: inline; 
+    float: left; width: 320px; margin-top: 13px; margin-left: 35px;
+}
+.bottom-module .phone-zone-tab
+{margin-bottom: 26px; 
+
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+.bottom-module .phone-zone-tab li
+{font-family: 'microsoft yahei'; font-size: 18px; line-height: 34px; position: relative; 
+
+    float: left; height: 34px; padding: 0 10px; cursor: default;
+}
+.bottom-module .phone-zone-tab li i
+{position: absolute; bottom: -10px; left: 50%; display: none; overflow: hidden; 
+
+    width: 0; height: 0; border-width: 5px; border-style: solid dashed dashed; border-color: rgb(77, 75, 75) transparent transparent;
+}
+.bottom-module .phone-zone-cont .phone-zone-body
+{
+    position: relative; overflow: hidden; height: 115px;
+}
+.bottom-module .phone-zone-cont .i-pic
+{
+    margin-bottom: 15px;
+}
+.bottom-module .phone-zone-cont .phone-zone-list
+{
+    float: left; width: 320px;
+}
+.bottom-module .phone-zone-cont .phone-zone-list li
+{
+    margin-bottom: 18px;
+}
+.bottom-module .phone-zone-cont .phone-zone-list li i
+{font-family: simsun; 
+
+    margin-right: 10px; color: rgb(153, 153, 153);
+}
+.bottom-module .phone-zone-cont .phone-zone-list li em
+{
+    margin-left: 10px;
+}
+.bottom-module .phone-zone-cont .phone-zone-list li a
+{
+    font-family: 'microsoft yahei';
+}
+.bottom-module .phone-zone-cont .page-tab a
+{font-family: simsun; font-size: 14px; line-height: 15px; 
+
+    display: inline-block; width: 14px; height: 15px; text-align: center; border: 1px solid rgb(220, 220, 220); border-radius: 2px; background-color: rgb(246, 246, 246);
+}
+.bottom-module .phone-zone-cont .page-tab a:hover
+{
+    text-decoration: none;
+}
+.bottom-module .phone-zone-cont .page-tab em
+{font-size: 14px; 
+    font-weight: 700; margin: 0 20px;
+}
+.root61 .bottom-module .newest-buy
+{
+    width: 271px;
+}
+.root61 .bottom-module .newest-buy-list
+{
+    width: 105%;
+}
+.root61 .bottom-module .newest-buy-list li
+{
+    width: 270px; margin: 0 21px 15px 0;
+}
+.root61 .bottom-module .newest-buy-list li .p-img
+{
+    margin-right: 13px;
+}
+.root61 .bottom-module .mv-evaluate
+{
+    display: block;
+}
+.root61 .bottom-module .phone-zone
+{
+    margin-left: 25px;
+}
+.slide-bar
+{position: fixed; z-index: 10; top: 200px; left: 50%; 
+
+    display: none; width: 55px; margin-left: 612px; border: 1px solid rgb(51, 51, 51); background-color: rgb(255, 255, 255); box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.slide-bar li
+{position: relative; overflow: hidden; 
+
+    height: 52px; border-bottom: 1px solid rgb(228, 228, 228);
+}
+.slide-bar li a
+{font-family: 'microsoft yahei'; font-size: 14px; position: absolute; z-index: 1; top: 0; left: 0; 
+
+    display: none; width: 55px; height: 42px; padding-top: 10px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.slide-bar li a:hover
+{
+    text-decoration: none; color: rgb(228, 57, 60);
+}
+.slide-bar li i
+{
+    display: block; overflow: hidden; width: 18px; height: 17px; margin: 18px 0 0 17px; background-image: url('../images/slidebar.ico.bg.png'); background-repeat: no-repeat;
+}
+.slide-bar li.fore1 i
+{
+    background-position: 5px 2px;
+}
+.slide-bar li.fore2 a
+{height: 34px; 
+    padding-top: 18px;
+}
+.slide-bar li.fore2 i
+{
+    background-position: 0 -20px;
+}
+.slide-bar li.fore3 i
+{
+    background-position: 3px -51px;
+}
+.slide-bar li.fore4 i
+{
+    background-position: 5px -83px;
+}
+.slide-bar li.fore5 a
+{
+    height: 34px;
+}
+.slide-bar li.fore5 i
+{
+    background-position: 5px -131px;
+}
+.slide-bar li.fore6 i
+{
+    background-position: 5px -105px;
+}
+.slide-bar li.fore7 i
+{
+    background-position: 5px -161px;
+}
+.slide-bar .back-top
+{position: relative; 
+
+    display: block; height: 44px; text-align: center; background-color: rgb(77, 75, 76);
+}
+.slide-bar .back-top i
+{position: absolute; top: 6px; left: 18px; overflow: hidden; 
+
+    width: 0; height: 0; cursor: pointer; border-width: 10px; border-style: dashed dashed solid; border-color: transparent transparent rgb(130, 130, 130);
+}
+.m-categorys-submenu .sub-item-hd
+{
+    padding-bottom: 5px;
+}
+.gc-slider-trigger
+{
+    z-index: 2;
+}
