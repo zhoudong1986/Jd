@@ -1,0 +1,807 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+input{
+	border:none;
+}
+img{
+	border:none;
+}
+li{
+	list-style: none;
+}
+body{
+	position: relative;
+}
+/*楼层开始*/
+#floor_box{
+	/*overflow: hidden;*/
+	width:33px;
+	height:152px;
+	position: fixed;
+	left:183px;
+	top:200px;
+	display:none;
+	z-index: 33;
+}
+#floor_box ul.floor_ul span{
+	height: 5px;
+	line-height: 5px;
+	display:block;
+	text-align: center;
+}
+#floor_box ul.floor_ul li a,span{
+	color:#666;
+	font-size: 12px;
+}
+#floor_box ul.floor_ul li {
+	color:#c81623;
+	text-align: center;
+}
+/***楼层结束***/
+/*顶部广告条开始*/
+#top_ads{
+	width:100%;
+	height:0px;
+	background:#F7DEFD;
+}
+#top_ads div.top_pic{
+	position: relative;
+	width:990px;
+	height:220px;
+	margin:0 auto;
+}
+#top_ads div.top_pic a.ads{
+	height:220px;
+	width:990px;
+	display:block;
+}
+#top_ads div.top_die{
+	
+	width:15px;
+	height:16px;
+	background:url('../images/cosmetic_bg02.png') no-repeat -37px 0px;
+	position:absolute;
+	left:967px;
+	top:5px;
+	cursor:pointer;
+}
+/*顶部广告条结束*/
+/*logo头部开始*/
+#logo_box{
+	width:990px;
+	height:100px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	position:relative;
+}
+#logo_box a.logo{
+	width:160px;
+	height:60px;
+	background:url("../images/logo.png") no-repeat;
+	display:block;
+	position:absolute;
+	top:20px;
+}
+#logo_box .special{
+	color:#333;
+	width:80px;
+	height:20px;
+	font-family:微软雅黑;
+	font-size: 20px;
+	position:absolute;
+	left:178px;
+	top:41px;
+}
+#logo_box .all_class{
+	position: relative;
+	/*transition:all 2s ease 0s;*/
+	/*transition-duration: 5s;*/
+}
+#logo_box .all_class .classify{
+	width:75px;
+	height:25px;
+	border:1px solid #ccc;
+	/*border-bottom:none;*/
+	display:block;
+	color:#666;
+	position:absolute;
+	left:269px;
+	top:38px;
+	line-height:25px;
+	font-size:12px;
+	font-family: 微软雅黑;
+	text-align: center;
+	z-index:4;
+	background:white;
+}
+#logo_box .all_class a.classify span:hover{
+	color:#C81623;
+}
+#logo_box .all_class .classify i.rectangule{
+    height: 7px;
+    font: 400 15px/15px consolas;
+    overflow:hidden;
+    display:block;
+    position: absolute;
+  	top: 9px;
+  	right:0px;
+  	transition:all 0.3s ease 0s;
+}
+#logo_box .all_class div.all_kinds{
+	width:178px;
+	border:1px solid #ccc;
+	position: absolute;
+	background:white;
+	left:269px;
+	top:63px;
+	z-index:3;
+	padding:15px 0 15px 0;
+	display:none;
+}
+#logo_box .all_class div.all_kinds h4{
+	color: #666;
+	font-weight: 400;
+	font-size: 14px;
+	padding-left:13px;
+}
+#logo_box .all_class div.all_kinds h4 a{
+	font-family: "Microsoft YaHei";
+    color: #666;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#logo_box .all_class div.all_kinds h4 a:hover{
+	color:#C81623;
+}
+#logo_box .seacher_area{
+	position:absolute;
+	left:365px;
+	top:32px;
+}
+#logo_box .seacher_area .search{
+	height:32px;
+	width:378px;
+	border:2px solid #B80E5E;
+	float:left;
+	font-size:14px;
+	line-height:32px;
+	color:#333;
+	font-family: "microsoft yahei";
+	padding-left:5px;
+}
+#logo_box .seacher_area .sub{
+	height:32px;
+	width:80px;
+	border:2px solid #B80E5E;
+	background-color:#B80E5E;
+	color:white;
+	text-align:center;
+	line-height:36px;
+	font-size:16px;
+	float:left;
+}
+#logo_box .host{
+	height:12px;
+	width:430px;
+	position:absolute;
+	left:365px;
+	top:76px;
+}
+#logo_box .host .host_search{
+	font-size: 12px;
+	color:#666;
+	float:left;
+}
+#logo_box .host a{
+	color:#666;
+	font-size: 12px;
+	float:left;
+	padding-right:11px;
+	font-family: Arial;
+}
+#logo_box .host a:hover{
+	color:#C81623;
+}
+	/*购物车*/
+#logo_box .car_box{
+	position: relative;
+}
+#logo_box .car{
+	width:140px;
+	height:36px;
+	border:1px solid #DFDFDF;
+	position:absolute;
+	left:847px;
+	top:32px;
+	z-index: 2;
+	background:#fff;
+	/*position: relative;*/
+}
+#logo_box .car i{
+	display: block;
+	position: absolute;
+	overflow: hidden;
+}
+#logo_box div.car i.car_left{
+	left: 18px;
+	width: 18px;
+	height: 16px;
+	background: transparent url("../images/jd2015img.png") no-repeat 0px -58px;
+	top: 9px;
+}
+#logo_box div.car i.car_count{
+	width:14px;
+	height:14px;
+	top: -4px;
+	left: 104px;
+	padding: 1px 2px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFF;
+	background-color: #C81623;
+	border-radius: 7px 7px 7px 0px;
+	text-align: center;
+	font-style: normal;
+}
+#logo_box div.car a{
+	color:#666;
+	font-size:12px;
+	position: absolute;
+	left:43px;
+	top:11px;
+}
+#logo_box div.car a:hover{
+	color:#C81623;
+}
+#logo_box div.car i.car_symbol{
+	color:#999;
+	position: absolute;
+	left:123px;
+	top:12px;
+	font: 400 13px/13px "simsun";
+}
+#logo_box div.buy_good{
+	width:308px;
+	height:69px;
+	/*height:49px;*/
+	overflow:hidden;
+	border:1px solid #ddd;
+	position: absolute;
+	background-color:#fff;
+	left:679px;
+	top:68px;
+	color:#999;
+	font-size:12px;
+	display:none;
+	/*background:red;*/
+}
+#logo_box div.buy_good div.car_buy{
+	padding-left:30px;
+	line-height: 49px;
+	height:49px;
+	padding-top:6px;
+}
+#logo_box div.car_buy p{
+	display:inline-block;
+	width:308px;
+	height:49px;
+	padding-left:55px;
+	background:url("../images/settleup-nogoods.png") no-repeat 0px 0px;
+	font-style: normal;
+}
+/*logo头部结束*/
+
+/*导航条开始*/
+#nav{
+	/*210,46*/
+	width:100%;
+	height:46px;
+	border-bottom:2px solid #B80E5E;
+}
+#nav #nav_box{
+	width:990px;
+	height:46px;
+	margin:0 auto;
+} 
+#nav #nav_box ul li{
+	float:left;
+}
+#nav #nav_box #nav_lead li.sell{
+	color:white;
+	background-color:#B80E5E;
+	/*display:block;*/
+	width:210px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	/*color:#333;*/
+	font-size:15px;
+	font-family: 微软雅黑
+}
+#nav #nav_box #nav_lead a{
+	display:block;
+	width:100px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	color:#333;
+	font-size:15px;
+	font-family: 微软雅黑
+}
+#nav #nav_box #nav_lead a:hover{
+	color:#C81623;
+}
+
+/*导航条结束*/
+
+/*轮播图开始*/
+#shuffling{
+	width:100%;
+	background:#eefdf8;
+	
+}
+#shuffling .imgs{
+	margin:0 auto;
+	width:990px;
+	height:420px;
+	overflow:hidden;
+	position: relative;
+}
+#shuffling .next_btn,.pre_btn{
+	width:30px;
+	height:60px;
+	/*background:#747289;*/
+	background-color:#b6bebe;
+	text-align:center;
+	line-height: 60px;
+	font: 700 24px/60px simsun;
+	color:#fff;
+	position: absolute;
+	display:none;
+	opacity: 0.5;
+	cursor: pointer;
+}
+#shuffling .pre_btn{
+	top:198px;
+	left:0px;
+}
+#shuffling .next_btn{
+	top:198px;
+	left:960px;
+}
+#shuffling .imgs a.imgsA{
+	display:block;
+}
+#shuffling .recommend_pi_num{
+	width:140px;
+	height:20px;
+
+}
+#shuffling .shuffling_num{
+	position: absolute;
+	left:425px;
+	top:390px;
+}
+#shuffling .shuffling_num li{
+	width:20px;
+	height:20px;
+	background-color:#3D3D3D;
+	float:left;
+	border-radius: 10px;
+	margin-right: 3px;
+	color:white;
+	text-align: center;
+}
+/*轮播图结束*/
+
+/*大牌精选开始*/
+#safe_img{
+	width:100%;
+	background:#f7f7f7;
+}
+#safe_img img{
+	width:990px;
+	margin:0 auto;
+	display: block
+}
+/*大牌精选结束*/
+/*********今日推荐开始*************/
+#tody_recommend{
+	width:990px;
+	margin:0 auto;
+}
+#tody_recommend .recommend{
+	width:990px;
+	height:72px;
+	/*border:1px solid red;*/
+	background:url("../images/cosmetic_title.jpg") no-repeat 0px 0px ;
+	position: relative;
+}
+#tody_recommend .recommend .recommend_word{
+	position: absolute;
+	left:440px;
+	top:7px;
+	font-size:28px;
+	font-family: 微软雅黑;
+	color:#333;
+}
+#tody_recommend .recommend .recommend_look{
+	position: absolute;
+	left:420px;
+	top:47px;
+	color:white;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+#tody_recommend .recommend_pic{
+	width:988px;
+	height:298px;
+	margin-top:30px;
+	border:1px solid #ddd;
+	position: relative;
+}
+#tody_recommend .recommend_pic .border_img{
+	border:1px solid #362c39;
+	position: absolute;
+	width:988px;
+	height:298px;
+	display:none;
+}
+#tody_recommend .recommend_sell{
+	width:340px;
+	height:260px;
+	background:white;
+	position: absolute;
+	left:627px;
+	top:19px;
+	border-top:2px solid #362c39;
+}
+#tody_recommend .recommend_sell a.pic_logo{
+	position:relative;
+	left:107px;
+	top:19px;
+	display:block;
+	/*float: left;*/
+}
+#tody_recommend .recommend_sell a.description{
+	color:#333;
+	font-size:20px;
+	position: relative;
+	/*left:41px;*/
+	top:33px;
+	display:block;
+	font-weight: 800;
+	width:340px;
+	text-align: center;
+}
+#tody_recommend .recommend_sell p.discount{
+	font-size:14px;
+	color:#666;
+	position: relative;
+	/*left:50px;*/
+	top:43px;
+	text-align: center;
+	width:340px;
+}
+#tody_recommend .recommend_pic div.price{
+	color:#b80e5e;
+	position: relative;
+	top:58px;
+	text-align: center;
+	font-size: 32px;
+	font-family: 微软雅黑;
+	border-top:1px dotted #ccc;
+	width:277px;
+	margin:0 auto;
+
+}
+#tody_recommend .recommend_pic div.price span{
+	font-size: 20px;
+}
+#tody_recommend .recommend_sell div.sell{
+	background-color:#b80e5e;
+	width:154px;
+	height:37px;
+	color:white;
+	text-align: center;
+	line-height: 37px;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	font-weight: 800;
+	margin:0 auto;
+	position: relative;
+	top:71px;
+	border-radius:2px;
+}
+
+/*****************今日推荐结束*************/
+
+/**********限时抢购开始*********/
+#limit_time{
+	width:990px;
+	margin:0 auto;
+	margin-top:57px;
+}
+#limit_time div.limit{
+	width:990px;
+	height:72px;
+	background:url("../images/cosmetic_title.jpg") no-repeat 0px -74px ;
+	position: relative;
+}
+#limit_time .limit p.limit_word{
+	position: absolute;
+	left:440px;
+	top:7px;
+	font-size:28px;
+	font-family: 微软雅黑;
+	color:#333;
+}
+#limit_time .limit p.limit_look{
+	position: absolute;
+	left:420px;
+	top:45px;
+	color:white;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+#limit_time div.ready_sell{
+	width:988px;
+	height:298px;
+	margin-top:30px;
+	position: relative;
+	border:1px solid #ddd;
+}
+#limit_time div.ready_sell div.ready_border{
+	width:988px;
+	height:298px;
+	position: absolute;
+	border:1px solid #362c39;
+	display:none;
+	/*background:red;*/
+}
+#limit_time div.ready_sell div.ready{
+	width:453px;
+	height:246px;
+	background:white;
+	position:absolute;
+	top:39px;
+	left:514px;
+}
+#limit_time div.ready_sell div.ready_time{
+	width:267px;
+	height:30px;
+	line-height: 30px;
+	background:#362c39;
+	position: absolute;
+	left:607px;
+	top:23px;
+	border-radius:30px;
+	color:white;
+	font:16px/30px 微软雅黑;
+	text-align: center;
+}
+#limit_time div.ready_sell div.ready_time img{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+#limit_time div.ready_sell div.ready p.simple_des a{
+	color:#333;
+	display:block;
+	height:62px;
+	line-height:62px;
+	font:22px/62px 微软雅黑;
+	text-indent:1em;
+	border-bottom: 1px dotted #ccc;
+}
+#limit_time div.ready_sell div.ready p.complex_des{
+	color:#666;
+	font:14px/24px simsun;
+	/*display:block;*/
+	width:417px;
+	margin:0 auto;
+	padding-top:15px;
+
+}
+#limit_time div.ready_sell p.p_buy{
+	padding-left:17px;
+	color:#b80e5e;
+	position: absolute;
+	left:5px;
+	top:195px;
+}
+#limit_time div.ready_sell p.p_buy span.dol{
+	font:20px 微软雅黑;
+	padding-right:5px;
+}
+#limit_time div.ready_sell p.p_buy span.price_purchase{
+	font:27px/37px 微软雅黑;
+	padding-right:22px;
+}
+#limit_time div.ready_sell p.p_buy span.refresh{
+	color:#999;
+	font-size:12px;
+}
+#limit_time div.ready_sell div.ready{
+	display:block;
+}
+#limit_time div.ready_sell div.ready a div.now_sell{
+	width:155px;
+	height:37px;
+	color:white;
+	background-color:#b80e5e;
+	font: 800 20px/37px "Microsoft yahei";
+	text-align:center;
+	position: absolute;
+	left:280px;
+	top:187px;
+	border-radius:2px;
+}
+#limit_time div.ready_sell p.p_buy span.person_qty{
+	color:#333;
+	font-size:20px;
+}
+#limit_time div.ready_sell p.p_buy span.now_price{
+	font:27px/37px 微软雅黑;
+	padding-right:8px;
+}
+#limit_time div.ready_sell p.p_buy span.yuan{
+	font:20px 微软雅黑;
+	/*padding-right:5px;*/
+}
+#limit_time div.ready_sell p.p_buy span.person{
+	color:#999;
+	font-size:12px;
+}
+/***********抢购结束*************/
+
+/***********品牌特买开始**************/
+#brand_box{
+	width:990px;
+	margin:0 auto;
+}
+#brand_box div.brand{
+	width:990px;
+	height:80px;
+	margin-top:15px;
+	/*border:1px solid red;*/
+}
+#brand_box div.brand div.brand_words{
+	font: 28px/40px "Microsoft yahei";
+	color: #333;
+	width:120px;
+	float:left;
+	height:80px;
+	width:115px;
+	line-height: 105px;	
+}
+#brand_box div.brand div.brand_bg{
+	width:870px;
+	height:80px;
+	background:url('../images/eeee.jpg') repeat-x 0px 0px;
+	float:left;
+}
+
+#brand_box .brand_pic ul.ul_img{
+	overflow:hidden;
+	margin: 10px -12px 0px 0px;
+}
+#brand_box .brand_pic ul.ul_img li{	
+	margin:0 11px 11px 0;
+	width:323px;
+	height:130px;
+	float:left;
+}
+#brand_box .brand_pic ul.ul_img a.brand_img{
+	width:323px;
+	height:130px;
+	display:block;
+}
+/***********品牌特买结束*************/
+
+/**************人品爆款开始**********/
+#popularity_box{
+	width:990px;
+	/*height:100px;*/
+	margin:25px auto 0;
+}
+#popularity_box div.popularity_bg{
+	width:990px;
+	height:75px;
+	/*border:1px solid red;*/
+	background:url('../images/cosmetic_title.jpg') no-repeat 0px -146px;
+}
+#popularity_box div.popularity_bg h3{
+	color:#333;
+	font: 28px/40px "Microsoft yahei";
+	text-align:center;
+}
+#popularity_box div.popularity_bg h4{
+	color:#fff;
+	font: 18px/30px "Microsoft yahei";
+	text-align:center;
+	padding-top:4px;
+}
+#popularity_box div.all_pic{
+	margin:30px -21px 0 0;
+	overflow: hidden;
+}
+#popularity_box div.popularity_pic{
+	width:314px;
+	height:392px;
+	border:1px solid #ddd;
+	position: relative;
+	float:left;
+	margin:0 21px 21px 0;
+}
+#popularity_box div.popularity_pic div.popularity_bor{
+	width:314px;
+	height:392px;
+	border:1px solid #362c39;
+	position: absolute;
+	display:none;
+	/*z-index: 3*/
+}
+#popularity_box div.popularity_pic a.pop_a{
+	display:block;
+}
+#popularity_box div.popularity_pic img{
+	width:260px;
+	height:260px;
+	display:block;
+	position: absolute;
+	top:27px;
+	left:27px;
+}
+#popularity_box div.popularity_pic div.pop_line{
+	width:314px;
+	height:21px;
+	background:url('../images/cosmetic_bg02.png') no-repeat 0px -32px;
+	position: absolute;
+	top:282px;
+	z-index: -1;
+}
+#popularity_box div.popularity_pic div.pop_des a{
+	overflow:hidden;
+	height:36px;
+	width:294px;
+	font: 12px/150% Arial,Verdana,"宋体";
+	color:#333;
+	position: absolute;
+	top:298px;
+	padding-left: 10px;
+}
+#popularity_box div.popularity_pic div.pop_price{
+	font: 21px "Microsoft yahei";
+	color:#B80E5E;
+	position: absolute;
+	top:350px;
+	padding-left:10px;
+}
+#popularity_box div.popularity_pic div.pop_price span.pop_ref{
+	color:#666;
+	font: 12px/37px simsun;
+}
+#popularity_box div.popularity_pic div.pop_btn{
+	position: absolute;
+	top:350px;
+	left:184px;
+}
+#popularity_box div.popularity_pic div.pop_btn a.pop_rob{
+	width:120px;
+	height:37px;
+	background-color:#B80E5E;
+	color:#fff;
+	font: 700 20px/37px "Microsoft yahei";
+	text-align:center;
+	display: block;
+	border-radius: 2px;
+	line-height: 37px;
+}
+/*************人品爆款结束***************/
