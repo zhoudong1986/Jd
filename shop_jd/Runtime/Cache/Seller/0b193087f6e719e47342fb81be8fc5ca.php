@@ -24,14 +24,16 @@ $(function(){
 				
 				if(data=='0'){
 					$('div.warning').text('此账号已无法登录').fadeIn('slow');
-					<?php echo U('Login/login');?>;
+					// <?php echo U('Login/login');?>;
+					
 				}else if(data=='1'){
-					// alert(111);
+					
 					$('div.warning').text('登录成功').fadeIn('slow');
 					
 					
 				}else if(data=='2'){
 					$('div.warning').text('账号与密码不一致').fadeIn('slow');
+					// <?php echo U('Login/login');?>;
 				}
 
 			},

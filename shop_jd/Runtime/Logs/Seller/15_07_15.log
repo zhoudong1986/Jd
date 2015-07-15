@@ -570,3 +570,91 @@ SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0156s ]
 SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
 NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
 
+[ 2015-07-15T16:33:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T16:33:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:40:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-07-15T16:40:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:40:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:40:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:40:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-07-15T16:40:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:42:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T16:42:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:42:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T16:44:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
