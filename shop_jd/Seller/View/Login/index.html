@@ -23,13 +23,15 @@ $(function(){
 			success:function(data){
 				
 				if(data=='0'){
-					
+					$('div.warning').text('此账号已无法登录').fadeIn('slow');
+					// <{:U('Login/login')}>;
 				}else if(data=='1'){
+					// alert(111);
+					$('div.warning').text('登录成功').fadeIn('slow');
 					
-					$('input[name=sname]').next().addClass('glyphicon glyphicon-ok-sign').css('backgroundColor','');
-					// $('#right').css('color','red');
+					
 				}else if(data=='2'){
-					// alert(222);
+					$('div.warning').text('账号与密码不一致').fadeIn('slow');
 				}
 
 			},
@@ -61,8 +63,14 @@ $(function(){
 		<label class="lbl-3"> </label>
 	</div>
 	<div class="clear"> </div>
-	<div class="warning1">此账号已无法登录</div>
-	<div class="warning2">账号与密码不一致</div>
+	<!-- <div class="warning1">
+		<div class="alert alert-warning alert-dismissible" role="alert">
+ 		 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  		<strong>Warning!</strong>
+	</div>
+	</div> -->
+	<div class="warning">此账号已无法登录</div>
+	<!-- <div class="warning2">账号与密码不一致</div> -->
 	<div class="avtar"><img src="__SELLERIMAGE__/avtar.png" /></div>
 	<form method="post" onsubmit="return false">
 		<input type="text" class="text" name="sname" value="Username" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Username';}" ><span id="right"></span>
