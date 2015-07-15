@@ -19,17 +19,22 @@ $(function(){
 		$.ajax({
 			url:'<?php echo U('Login/login');?>',
 			type:'post',
-			data:{'uname':$("input[name=sname]").val(),'password':$('input[name=password]').val()},
+			data:{'sname':$("input[name=sname]").val(),'password':$('input[name=password]').val()},
 			success:function(data){
-				alert(data)
+				
 				if(data=='0'){
-
+					
 				}else if(data=='1'){
-					alert(data);
-					// $('input[name=sname]').next().addClass('glyphicon glyphicon-ok-sign has-success');
-					$('#right').css('color','red');
+					
+					$('input[name=sname]').next().addClass('glyphicon glyphicon-ok-sign').css('backgroundColor','');
+					// $('#right').css('color','red');
+				}else if(data=='2'){
+					// alert(222);
 				}
 
+			},
+			error:function(){
+				alert('请求失败');
 			}
 		})
 	})
@@ -58,8 +63,8 @@ $(function(){
 	<div class="clear"> </div>
 	<div class="avtar"><img src="/Jd/shop_jd/Seller/Public/images/avtar.png" /></div>
 	<form method="post" onsubmit="return false">
-		<input type="text" class="text" name="sname" value="Username" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Username';}" ><span id="right">1111</span>
-		<div class="key"><input type="password" name="password" value="Password" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Password';}"><span>222</span></div>
+		<input type="text" class="text" name="sname" value="Username" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Username';}" ><span id="right"></span>
+		<div class="key"><input type="password" name="password" value="Password" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Password';}"></div>
 		
 		<div class="signin"><input type="submit" name="sub" value="Login" ></div>
 
