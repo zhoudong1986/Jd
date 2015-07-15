@@ -8,5 +8,5 @@ define('APP_DEBUG',true);
 
 define('APP_NAME','shop_jd');
 
-include './ThinkPHP/ThinkPHP.php';
+include './ThinkPHP3.2.3/ThinkPHP.php';
 
