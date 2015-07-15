@@ -61,7 +61,7 @@
         var $admin = $('#admin').val();
         var $pwd = $('#pwd').val();
         var $code = $('#code').val();
-        var $loginHandle = '<{:U("Login/loginHandle","")}>';
+        var $loginHandle = '<{:U("Login/loginHandle")}>';
         var $flag = true;
         if($admin == ''){
           $flag = false;
@@ -80,7 +80,6 @@
             $loginHandle,
             {'admin':$admin,'pwd':$pwd,'code':$code},
             function($msg){
-              alert($msg);
               if($msg == 'code'){
                 alert('验证码错误');
                 return false;

@@ -16,7 +16,6 @@ class LoginController extends Controller {
             'status' => 1
             );
         $adminResult = $admin->where($where)->select();
-        $this->ajaxReturn($adminResult['admin_name']);
         if(!$verifyCheck){
             $this->ajaxReturn('code');
             return false;
