@@ -29,7 +29,8 @@ $(function(){
 				}else if(data=='1'){
 					
 					$('div.warning').text('登录成功').fadeIn('slow');
-					window.location.href=
+					// delay('2000');
+					(window.location.href="../Index/index.html").delay('2000');
 					
 				}else if(data=='2'){
 					$('div.warning').text('账号与密码不一致').fadeIn('slow');

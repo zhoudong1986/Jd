@@ -7,5 +7,6 @@ return array(
 		'__SELLERCSS__' => __ROOT__.'/'.APP_NAME.'/Seller/Public/css',
 		'__SELLERJS__' => __ROOT__.'/'.APP_NAME.'/Seller/Public/js',
 		'__SELLERIMAGE__' => __ROOT__.'/'.APP_NAME.'/Seller/Public/images',
+		'__SELLERFONT__' => __ROOT__.'/'.APP_NAME.'Seller/Public/fonts',
 		),	
 );

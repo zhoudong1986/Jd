@@ -658,3 +658,3277 @@ SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
 SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
 NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
 
+[ 2015-07-15T16:54:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:54:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:54:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-15T16:54:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-15T16:55:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:02:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:03:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:05:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:07:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:07:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-15T17:08:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:08:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:11:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:20:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:22:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:23:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:24:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:26:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:27:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T17:29:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:45:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:55:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:57:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:58:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T18:59:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:00:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:13+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:02:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:11:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:30:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:32:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/typography.html
+ERR: 非法操作:typography
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:42:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:57+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T19:48:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:02:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:06:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:09:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:16:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
