@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,24 +7,24 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <meta name="keywords" content="Flat Dark Web Login Form Responsive Templates, Iphone Widget Template, Smartphone login forms,Login form, Widget Template, Responsive Templates, a Ipad 404 Templates, Flat Responsive Templates" />
 
-<link href="__SELLERCSS__/style.css" rel='stylesheet' type='text/css' />
-<link href="__SELLERCSS__/bootstrap.min.css" rel="stylesheet">
+<link href="/Jd/shop_jd/Seller/Public/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/Jd/shop_jd/Seller/Public/css/bootstrap.min.css" rel="stylesheet">
 
-<script type="text/javascript" src="__SELLERJS__/jquery.min.js"></script>
-<script type="text/javascript" src="__SELLERJS__/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/Jd/shop_jd/Seller/Public/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Jd/shop_jd/Seller/Public/js/jquery-1.10.2.min.js"></script>
 <script>
 $(function(){
 	$('.signin').bind('click',function(){
 		
 		$.ajax({
-			url:'<{:U('Login/login')}>',
+			url:'<?php echo U('Login/login');?>',
 			type:'post',
 			data:{'sname':$("input[name=sname]").val(),'password':$('input[name=password]').val()},
 			success:function(data){
 				
 				if(data=='0'){
 					$('div.warning').text('此账号已无法登录').fadeIn('slow');
-					// <{:U('Login/login')}>;
+					<?php echo U('Login/login');?>;
 				}else if(data=='1'){
 					// alert(111);
 					$('div.warning').text('登录成功').fadeIn('slow');
@@ -71,7 +71,7 @@ $(function(){
 	</div> -->
 	<div class="warning">此账号已无法登录</div>
 	<!-- <div class="warning2">账号与密码不一致</div> -->
-	<div class="avtar"><img src="__SELLERIMAGE__/avtar.png" /></div>
+	<div class="avtar"><img src="/Jd/shop_jd/Seller/Public/images/avtar.png" /></div>
 	<form method="post" onsubmit="return false">
 		<input type="text" class="text" name="sname" value="Username" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Username';}" ><span id="right"></span>
 		<div class="key"><input type="password" name="password" value="Password" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Password';}"></div>
@@ -87,6 +87,6 @@ $(function(){
 <!-- <div class="copy-rights">
 	<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.mycodes.net/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
 </div> -->
-<script src="__SELLERJS__/bootstrap.min.js"></script>
+<script src="/Jd/shop_jd/Seller/Public/js/bootstrap.min.js"></script>
 </body>
-</html> 
+</html>

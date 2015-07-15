@@ -20,8 +20,8 @@ class LoginController extends Controller {
   		 // 判断用户是否能正常登录
   		if($sellerResult && $sellerResult['status']==0){
   			$this->ajaxReturn(0);
-  			
-  		}else if($sellerResult){
+
+  		}else if($sellerResult && $sellerResult['status']==1){
   			// 把用户信息写到Session
   			session('id',$sellerResult['id']);
   			session('sname',$sellerResult['sname']);
