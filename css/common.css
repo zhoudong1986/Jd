@@ -3,7 +3,7 @@
  * yoyo 77315016@qq.com
 */
 *{margin: 0px;padding: 0px;}
-body{
+body,a{
   font:12px/150% Arial,Verdana,SimSun;
   color:#666;
 }

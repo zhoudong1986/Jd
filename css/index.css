@@ -19,7 +19,35 @@
   display: block;
   background: url("../images/5507956eN735de046.png") no-repeat 0 0;
 }
-
+.style-red{
+  color: #C81623;
+}
+.slider-nav{
+  position: absolute;
+  height: 9px;
+  bottom: 10px;
+}
+.slider-nav li{
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin: 0px 2px;
+  background: #3E3E3E none repeat scroll 0% 0%;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider-prev {
+  left: 0px;
+}
+.slider-next {
+  right: 0px;
+}
+.hide{
+  display: none;
+}
 /*logo 搜索框以及导航*/
 #box{
   width: 100%;
@@ -398,6 +426,7 @@
   border: 1px solid #b61d1d;
   overflow: hidden;
   display: none;
+  z-index: 10;
 }
 #ddBox div.class div.dorpdown-layer div.item-sub{
   zoom: 1;
@@ -528,6 +557,9 @@
   float: left;
   overflow: hidden;
 }
+#ddBox div.turnBox div.imgsBox a.imgsA{
+  display: inline-block;
+}
 #ddBox div.turnBox ul.indexBox{
   width: 160px;
   position: absolute;
@@ -552,6 +584,8 @@
   position: absolute;
   top: 190px;
   left: 0px;
+  display: none;
+  cursor: pointer;
 }
 #ddBox div.turnBox div.peak div{
   font-size: 25px;
@@ -800,7 +834,7 @@
 }
 #ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl dd.msg-wrap{
   float: left;
-  display: inline;
+  display: none;
   height: 23px;
   overflow: hidden;
 }
@@ -832,8 +866,11 @@ dd.msg-wrap span{
 }
 #ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom dd span.msg-price{
   color: #c81623;
+  display: none;
 }
-
+#ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe dl.form-bottom dd span.hover{
+  display: block;
+}
 #ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap{
   height: 26px;
   margin-top: 10px;
@@ -862,4 +899,1177 @@ dd.msg-wrap span{
 }
 #ddBox div.rightBox div.lifeserv div.mc-inner div.content-iframe div.btn-wrap p.link-ad a{
   color: #005ea7;
+}
+
+
+
+
+/*第一个广告条*/
+div.banner_one{
+  width: 1210px;
+  height: 140px;
+  margin: 0px auto;
+
+}
+
+/*京东特色购物*/
+#jdtBox{
+  width: 1210px;
+  height: 439px;
+  margin:15px auto;
+}
+#jdtBox .hs-item{
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  color: #666;
+  height: 200px;
+  width: 201px;
+  text-align: center;
+  position: relative;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  font-family: "microsoft yahei";
+}
+
+#jdtBox .sub-tit{
+  position: absolute;
+  top: 47px;
+  left: 0px;
+  height: 18px;
+  overflow: hidden;
+  width: 100%;
+  color:#DD4957;
+}
+#jdtBox .hs-content-center{
+  display: inline-block;
+  width: 404px;
+  overflow: hidden;
+  float: left;
+}
+#jdtBox .hs-item-main{
+  width: 403px;
+}
+#jdtBox .hs-item-main div{
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  left: 20px;
+  top: 60px;
+  width: 160px;
+}
+#jdtBox .hs-item-main .hs-m-subtit{
+  font-size: 16px;
+  line-height: 16px;
+  color: #333;
+  padding-bottom: 10px;
+  height: 16px;
+  overflow: hidden;
+}
+#jdtBox .hs-item-main .hs-m-button{
+  display: inline-block;
+  background: #E7004D none repeat scroll 0% 0%;
+  color: #FFF;
+  width: 137px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  font-size: 16px;
+}
+#jdtBox .under{
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+#jdtBox .hs-brands{
+  float: left;
+  width: 201px;
+  overflow: hidden;
+  margin-bottom: -1px;
+  height: 200px;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  background: #F7F7F7 none repeat scroll 0% 0%;
+  display: inline;
+}
+
+#jdtBox .hs-brands .hs-brands-con{
+  overflow: hidden;
+  height: 199px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+}
+#jdtBox .hs-brands .hs-brands-con a.item {
+  float: left;
+  display: inline;
+  width: 100px;
+  border-right: 1px dashed #E0E0E0;
+  height: 39px;
+  border-bottom: 1px dashed #E0E0E0;
+  text-align: center;
+  color: #666;
+}
+#jdtBox .hs-brands .hs-brands-con .even{
+  border-right: medium none;
+}
+#jdtBox .hs-content-right{
+  float: right;
+  display: inline-block;
+  overflow: hidden;
+  width: 604px;
+}
+#jdtBox .tit-l{
+  color: #FFF;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: middle;
+  height: 16px;
+  width: 30px;
+  overflow: hidden;
+  font-weight: 400;
+  background: #DD4957 none repeat scroll 0% 0%;
+}
+#jdtBox .hs-content-right .hs-item-red{
+    width: 200px;
+}
+#jdtBox .hs-item2{
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  color: #666;
+  height: 200px;
+  width: 201px;
+  text-align: center;
+  position: relative;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  font-family: "microsoft yahei";
+}
+#jdtBox .hs-item-more-m{
+  width: 195px;
+  height: 111px;
+  margin-top: 77px;
+  border-width: medium medium medium 1px;
+  border-style: none none none dashed;
+  border-color: #E0E0E0;
+}
+#jdtBox .static-item-more ul{
+  margin-left: 15px;
+}
+#jdtBox .static-item-more  ul li{
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 0px none;
+  text-align: left;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: normal;
+  word-break: break-all;
+}
+#jdtBox .static-item-more  ul li .tkw{
+  color: #C81623;
+  display: inline;
+}
+#jdtBox .static-item-more  ul li a{
+  color: #666;
+}
+#jdtBox .static-item-more  ul li a.hover{
+  color: red;
+}
+#jdtBox .hs-item-2row{
+  width: 400px;
+  position: relative;
+}
+#jdtBox .hs-item-main .hs-m-tit{
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 10px;
+  overflow: hidden;
+  height: 20px;
+}
+#jdtBox .tit{
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  color: #666;
+}
+#jdtBox .tit span{
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+}
+#jdtBox .tit span.zw{
+  width: 28px;
+  height: 16px;
+  background: url("../images/bg.png") no-repeat scroll 0% 0%;
+}
+#jdtBox .tit span.zwl{
+  background-position: 0px center;
+
+}
+#jdtBox .tit span.zwr{
+  background-position: -30px center;
+}
+#jdtBox h2{
+  line-height: 36px;
+  font-size: 20px;
+  font-family: "microsoft yahei";
+  font-weight: normal;
+}
+#jdtBox div.hs-content{
+  border-left: 1px solid #EDEDED;
+  border-top: 1px solid #EDEDED;
+  height: 402px;
+  width: 1210px;
+  overflow: hidden;
+  position: relative;
+}
+#jdtBox div.hs-content div.hs-content-left{
+  float: left;
+  display: inline-block;
+  width: 202px;
+  overflow: hidden;
+}
+
+/*定位框*/
+#wBox{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 15px;
+}
+/*猜你喜欢*/
+div.rec{
+  width: 1210px;
+  height: 184px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div.rec div.inner{
+  height: 164px;
+  margin: 10px 0px 20px;
+}
+div.rec div.inner div.mt{
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 210px;
+  height: 151px;
+  background: transparent url("../images/homebg.png") no-repeat scroll -213px -136px;
+  text-indent: -10000px;
+}
+div.rec div.inner div.mt div.jd-clock-wrap{
+  position: relative;
+  width: 210px;
+  height: 151px;
+  background: transparent url("../images/homebg.png") no-repeat scroll 0px -136px;
+}
+div.rec div.inner div.mt div.jd-clock-wrap div.jd-clock{
+  position: relative;
+  width: 210px;
+  height: 151px;
+  background: transparent url("../images/homebg.png") no-repeat scroll 0px -136px;
+}
+div.rec div.inner div.rightBox{
+  width: 1000px;
+  float: left;
+  height: 164px;
+  overflow: hidden;
+  position: relative;
+}
+div.rec div.inner div.rightBox ul.slider-main{
+  width: 6000px;
+  left:  0px;
+  position: absolute;
+}
+div.rec div.inner div.rightBox ul.slider-main li{
+  width: 1000px;
+  height: 164px;
+  float: left;
+}
+div.rec div.inner div.rightBox ul.slider-main li div.fore1,ul.slider-main li div.fore2,ul.slider-main li div.fore3,ul.slider-main li div.fore4{
+  width: 249px;
+  margin-right: 1px;
+  float: left;
+  overflow: hidden;
+}
+div.guessBox{
+  width: 1210px;
+  height: 289px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div.guessBox div.guessYous{
+  height: 269px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+div.guessBox div.guessYous div.mt{
+  height: 36px;
+  overflow: hidden;
+}
+div.guessBox div.guessYous div.mt h2{
+  font-family: "microsoft yahei";
+  font-weight: normal;
+  float: left;
+  display: inline;
+  line-height: 30px;
+  font-size: 20px;
+  padding-right: 228px;
+  background: url("../images/homebg.png") repeat scroll 85px -91px;
+}
+div.guessBox div.guessYous div.mt a.extra{
+  height: 18px;
+  padding-right: 25px;
+  margin-top: 8px;
+  float: right;
+  display: inline;
+  background:url("../images/homebg.png") no-repeat scroll -310px -5px;
+  color: #666;
+  text-decoration: none;
+}
+div.guessBox div.guessYous div.mc{
+  height: 232px;
+  border-width: 0px 1px 1px;
+  border-style: none solid solid;
+  border-color: #EDEDED #EDEDED;
+  border-image: none;
+}
+div.guessBox div.guessYous div.mc div.spacer{
+  position: relative;
+  height: 1px;
+  line-height: 0;
+  font-size: 0px;
+  background-color: #D1D1D1;
+}
+div.guessBox div.guessYous div.mc div.spacer i{
+  width: 365px;
+  height: 5px;
+  overflow: hidden;
+  position: absolute;
+  right: -1px;
+  top: -2px;
+  background: #B72323 url("../images/homebg.png") no-repeat scroll 0px -124px;
+}
+div.guessBox div.guessYous div.mc ul{
+  height: 210px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+div.guessBox div.guessYous div.mc ul li{
+  float: left;
+  width: 197px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+div.guessBox div.guessYous div.p-img{
+  text-align: center;
+  margin-bottom: 10px;
+}
+div.guessBox div.guessYous li.fore1 div.p-info{
+  border-left: medium none;
+  padding: 0px 36px;
+}
+div.guessBox div.guessYous div.p-info{
+  border-left: 1px solid #E6E6E6;
+  padding: 0px 36px;
+}
+div.guessBox div.guessYous div.p-info div.p-name{
+  height: 36px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+div.guessBox div.guessYous div.p-info div.p-name a{
+  color: #666;
+}
+div.guessBox div.guessYous div.p-info div.p-name a:hover{
+  color: red;
+}
+div.guessBox div.guessYous div.p-info div.p-price{
+  color: #B51D1A;
+  font-size: 18px;
+  overflow: hidden;
+}
+div.guessBox div.guessYous div.p-info div.p-price i{
+  font-style: normal;
+  font-size: 14px;
+}
+
+/*1F服装鞋包*/
+#clothBox{
+  width: 1210px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+#clothBox img {
+  vertical-align: top;
+}
+#clothBox .mt{
+  border-bottom: 1px solid #C81623;
+  height: 36px;
+  overflow: visible;
+  position: relative;
+}
+#clothBox .mt h2{
+  float: left;
+  display: inline;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "microsoft yahei";
+  font-weight: normal;
+  position: relative;
+  padding-left: 40px;
+  color: #333;
+}
+#clothBox .mt h2 i{
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 21px;
+  height: 25px;
+  padding-right: 10px;
+  background: transparent url("../images/sprite_floor.png") no-repeat scroll 0px 0px;
+  font-size: 13px;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+  font-style: normal;
+}
+#clothBox .tab{
+  margin-top: 1px;
+  float: right;
+  display: inline;
+  border-width: 1px 1px 0px;
+  border-style: solid solid none;
+  border-color: #EDEDED #EDEDED;
+  border-image: none;
+  height: 34px;
+  line-height: 34px;
+  z-index: 1;
+}
+
+#clothBox .tab-item{
+  float: left;
+  display: inline;
+  height: 34px;
+  position: relative;
+  z-index: 2;
+}
+#clothBox .tab-item a{
+  float: left;
+  height: 34px;
+  padding: 0px 16px;
+  text-decoration: none;
+  line-height: 34px;
+  overflow: hidden;
+  background: #FFF none repeat scroll 0% 0%;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  white-space: nowrap;
+}
+#clothBox .tab-selected a{
+  position: absolute;
+  white-space: nowrap;
+  border-left: 1px solid #C81623;
+  border-right: 1px solid #C81623;
+  border-top: 3px solid #C81623;
+  top: -1px;
+  left: -1px;
+  height: 33px;
+  line-height: 30px;
+  color: #C81623;
+  text-indent: 1px;
+}
+#clothBox .tab-selected span{
+  display: none;
+}
+#clothBox .tab-item span{
+  position: absolute;
+  width: 1px;
+  background: #CCC none repeat scroll 0% 0%;
+  overflow: hidden;
+  height: 14px;
+  top: 10px;
+  right: 0px;
+}
+#clothBox .mc{
+  overflow: hidden;
+}
+#clothBox .side{
+  float: left;
+  width: 330px;
+  overflow: hidden;
+  font-family: "microsoft yahei";
+}
+#clothBox .mc .side-inner{
+  position: relative;
+  width: 330px;
+  background: #E5EBEB none repeat scroll 0% 0%;
+  overflow: hidden;
+}
+#clothBox .mc .banner{
+  position: relative;
+  height: 474px;
+}
+#clothBox .mc .banner a{
+  display: block;
+  height: 475px;
+  text-decoration: none;
+}
+#clothBox .mc img{
+  vertical-align: top;
+}
+#clothBox .mc .themes{
+  padding-left: 25px;
+  margin-top: -221px;
+  overflow: hidden;
+  height: 92px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+}
+#clothBox .mc .themes li{
+  width: 100px;
+  float: left;
+  height: 26px;
+  padding: 10px 0px;
+}
+#clothBox .mc .themes li a{
+  float: left;
+}
+#clothBox .mc .themes i.icon {
+  width: 26px;
+  margin-right: 5px;
+  float: left;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+  font-style: normal;
+  background: url("../images/clothesicon.png") no-repeat scroll 0px 0px;
+}
+#clothBox .mc .themes span{
+  font-size: 14px;
+  margin-right: 5px;
+  float: left;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+  font-family: "microsoft yahei";
+}
+#clothBox .mc .words{
+  height: 128px;
+  border-bottom: 1px solid #EDEDED;
+  position: relative;
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0% 0%;
+  font-family: 宋体;
+}
+#clothBox .mc .words li{
+  height: 96px;
+  float: left;
+  width: 135px;
+  padding: 7px 0px 0px 25px;
+  padding-top: 16px;
+  overflow: hidden;
+}
+#clothBox .mc .words li a{
+  color: #999;
+  float: left;
+  margin-right: 10px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+#clothBox .main{
+  height: 633px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+#clothBox .main-body{
+  float: left;
+  width: 660px;
+}
+#clothBox .main-body li.fore1{
+  width: 440px;
+
+}
+
+#clothBox .main-inner li{
+  width: 220px;
+  overflow: hidden;
+  font-size: 0px;
+}
+#clothBox .main-inner a{
+  display: block;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  overflow: hidden;
+}
+#clothBox .main-body li{
+  float: left;
+  height: 158px;
+}
+#clothBox .main-body li.fore1 {
+  width: 440px;
+}
+#clothBox .main-body li.fore2 {
+  width: 440px;
+  height: 159px;
+  padding-top: 316px;
+}
+#clothBox .main-extra {
+  display: block;
+  float: left;
+  width: 220px;
+}
+#clothBox .main-extra li{
+  height: 158px;
+}
+#clothBox .main-extra li.fore3{
+  height: 317px;
+}
+
+#clothBox .slider {
+  top: 158px;
+  height: 315px;
+  position: absolute;
+  left: 0px;
+  width: 439px;
+  overflow: hidden;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+#clothBox .slider .slider-nav{
+  width: 100%;
+  height: 0px;
+  line-height: 0;
+  text-align: center;
+  bottom: 19px;
+  cursor: default;
+}
+#clothBox .slider .slider-nav ul{
+  height: 0px;
+  line-height: 0;
+}
+#clothBox .slider .slider-nav li{
+  display: inline-block;
+}
+#clothBox .slider .slider-item {
+  border: medium none;
+}
+#clothBox .slider .slider-nav .slider-selected {
+  background: #B61B1F none repeat scroll 0% 0%;
+  color: #FFF;
+}
+
+#clothBox .slider .slider-page a {
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  z-index: 1;
+  display: block;
+  width: 28px;
+  height: 62px;
+  line-height: 62px;
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "simsun";
+  border: medium none;
+}
+#clothBox .main-body li {
+  float: left;
+  height: 158px;
+}
+#clothBox .main-body li.fore1 {
+  width: 440px;
+}
+#clothBox .main-body li.fore2 {
+  width: 440px;
+  height: 159px;
+  padding-top: 316px;
+}
+#clothBox .main-body li.fore3 {
+  margin-top: -158px;
+}
+#clothBox .main-body li.fore4,#clothBox .main-body li.fore5,#clothBox .main-body li.fore6{
+  float: right;
+}
+#clothBox .main-body li.fore6 {
+  height: 159px;
+}
+#clothBox .p-list{
+  width: 880px;
+  height: 474px;
+  overflow: hidden;
+}
+#clothBox .p-list li{
+  width: 185px;
+  float: left;
+  height: 230px;
+  padding: 6px 17px 0px;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  overflow: hidden;
+}
+#clothBox .p-list .p-img{
+  height: 140px;
+  margin-bottom: 4px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#clothBox .p-list .p-name{
+  height: 3em;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+#clothBox .p-list .p-price{
+  font-size: 15px;
+  font-family: Verdana;
+  color: #E4393C;
+}
+#clothBox .img-list{
+  width: 880px;
+  height: 159px;
+  overflow: hidden;
+}
+#clothBox .img-list li{
+  float: left;
+  width: 219px;
+  height: 158px;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+}
+#clothBox .side-extra{
+  width: 328px;
+  height: 158px;
+  border-width: 0px 1px 1px;
+  border-style: none solid solid;
+  border-color: #EDEDED #EDEDED #F7F5EE;
+  font-family: "microsoft yahei";
+  border-image: none;
+  overflow: hidden;
+}
+/*品牌条开始*/
+.brands {
+  width: 1210px;
+  background: #F7F7F7 none repeat scroll 0% 0%;
+  padding: 13px 0px 13px 11px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.brands ul {
+  height: 40px;
+  overflow: hidden;
+}
+.brands li {
+  float: left;
+  width: 120px;
+  height: 40px;
+  border-left: 1px dotted #CCC;
+  text-align: center;
+}
+.brands li.fore1 {
+  border-left: medium none;
+}
+.brands img {
+  vertical-align: top;
+}
+/*品牌条结束*/
+
+/*广告条2*/
+.floor-banner-2{
+  width: 1210px;
+  height: 140px;
+  margin: 0 auto;
+}
+.floor-banner-2 .floor-banner {
+  height: 110px;
+  margin-bottom: 30px;
+  overflow: visible;
+  background:url("../images/54e01dddNaacf4c85.jpg") repeat scroll center top;
+}
+.floor-banner-2 .floor-banner-main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+/*广告条2结束*/
+
+/*电器*/
+#electronics{
+  width: 1210px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#electronics img {
+  vertical-align: top;
+}
+#electronics .mt{
+  border-bottom: 1px solid #C81623;
+  overflow: visible;
+  position: relative;
+  height: 36px;
+}
+#electronics .mt h2{
+  position: relative;
+  padding-left: 40px;
+  color: #333;
+  float: left;
+  display: inline;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "microsoft yahei";
+  font-weight: normal;
+}
+#electronics .mt h2 i{
+  background: url("../images/sprite_floor.png") no-repeat scroll 0px 0px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 21px;
+  height: 25px;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+#electronics .mt .tab{
+  margin-top: 1px;
+  float: right;
+  display: inline;
+  border-width: 1px 1px 0px;
+  border-style: solid solid none;
+  border-color: #EDEDED #EDEDED;
+  border-image: none;
+  height: 34px;
+  line-height: 34px;
+  z-index: 1;
+}
+#electronics .mc{
+  overflow: hidden;
+}
+#electronics .side{
+  float: left;
+  width: 330px;
+  overflow: hidden;
+  font-family: "microsoft yahei";
+}
+#electronics .mc .side-inner {
+  position: relative;
+  width: 330px;
+  background: #E5EBEB none repeat scroll 0% 0%;
+  overflow: hidden;
+}
+#electronics .mc .banner {
+  position: relative;
+  height: 474px;
+}
+#electronics .mc .banner .banner a {
+  display: block;
+  height: 475px;
+}
+
+#electronics .tab-item {
+  float: left;
+  display: inline;
+  height: 34px;
+  position: relative;
+  z-index: 2;
+}
+#electronics .tab-item a{
+  float: left;
+  height: 34px;
+  padding: 0px 16px;
+  text-decoration: none;
+  line-height: 34px;
+  overflow: hidden;
+  background: #FFF none repeat scroll 0% 0%;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  white-space: nowrap;
+}
+#electronics .tab-selected a {
+  position: absolute;
+  white-space: nowrap;
+  border-left: 1px solid #C81623;
+  border-right: 1px solid #C81623;
+  border-top: 3px solid #C81623;
+  top: -1px;
+  left: -1px;
+  height: 33px;
+  line-height: 30px;
+  color: #C81623;
+  text-indent: 1px;
+}
+#electronics .tab-item span {
+  position: absolute;
+  width: 1px;
+  background: #CCC none repeat scroll 0% 0%;
+  overflow: hidden;
+  height: 14px;
+  top: 10px;
+  right: 0px;
+}
+#electronics .tab-selected span{
+  display: none;
+}
+#electronics .themes {
+  height: 46px;
+  position: relative;
+  padding-left: 10px;
+  margin-top: -237px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+}
+#electronics .themes li {
+  width: 145px;
+  padding: 10px 0px 10px 15px;
+  float: left;
+  height: 26px;
+}
+#electronics .themes a{
+  float: left;
+  font: 12px/150% Arial,Verdana,SimSun;
+}
+#electronics .themes a:hover{
+  color: red;
+}
+#electronics .themes .icon {
+  width: 26px;
+  margin-right: 5px;
+}
+#electronics .themes span {
+  font-size: 14px;
+  margin-right: 5px;
+  float: left;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+  font-family: "microsoft yahei";
+}
+#electronics .themes i{
+  float: left;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+}
+#electronics .themes .fore1 .icon {
+  background: transparent url("../images/electronicsicon.png") no-repeat scroll 0px 0px;
+  font-family: normal;
+}
+#electronics .themes .fore2 .icon {
+  background: transparent url("../images/electronicsicon.png") no-repeat scroll 0px -26px;
+  font-family: normal;
+}
+#electronics .assists {
+  position: relative;
+  height: 48px;
+  padding: 21px 0px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0% 0%;
+}
+#electronics .assists i{
+  font-style: normal;
+}
+#electronics .assists li{
+  float: left;
+  width: 135px;
+  height: 24px;
+  padding-left: 25px;
+  overflow: hidden;
+}
+#electronics .assists li a{
+  white-space: nowrap;
+  font-family: "microsoft yahei";
+  font-size: 14px;
+  line-height: 24px;
+}
+#electronics .assists li a:hover{
+  color: red;
+}
+#electronics .words {
+  position: relative;
+  height: 122px;
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0% 0%;
+  font-family: 宋体;
+}
+#electronics .words li {
+  height: 96px;
+  float: left;
+  width: 135px;
+  padding: 7px 0px 0px 25px;
+  overflow: hidden;
+}
+#electronics .words a {
+  float: left;
+  margin-right: 10px;
+  line-height: 24px;
+  white-space: nowrap;
+  color: #999;
+}
+#electronics .words a:hover{
+  color: red;
+}
+#electronics .main {
+  width: 880px;
+  position: relative;
+  float: left;
+  height: 474px;
+  overflow: hidden;
+}
+#electronics .main-body{
+  float: left;
+  width: 660px;
+}
+#electronics .main-body li.fore1, #electronics .main-body li.fore2 {
+  padding-left: 440px;
+}
+#electronics .main-body li.fore1 {
+  height: 118px;
+}
+#electronics .main-body li.fore2 {
+  height: 119px;
+}
+#electronics .main-body li {
+  float: left;
+  height: 237px;
+  width: 220px;
+  overflow: hidden;
+  font-size: 0px;
+}
+#electronics .main-inner a {
+  display: block;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  overflow: hidden;
+}
+#electronics .main-inner li {
+  width: 220px;
+  overflow: hidden;
+  font-size: 0px;
+}
+#electronics .main-extra {
+  display: block;
+  float: left;
+  width: 220px;
+}
+#electronics .main-extra li.fore1 {
+  height: 118px;
+}
+#electronics .main-extra li.fore2 {
+  height: 119px;
+}
+#electronics .main-extra li.fore3 {
+  height: 237px;
+}
+#electronics .slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 439px;
+  height: 236px;
+  overflow: hidden;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+#electronics .slider .slider-nav {
+  width: 100%;
+  height: 0px;
+  line-height: 0;
+  text-align: center;
+  bottom: 19px;
+  cursor: default;
+  position: absolute;
+}
+#electronics .slider .slider-nav ul {
+  height: 0px;
+  line-height: 0;
+}
+#electronics .slider .slider-nav li {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin: 0px 2px;
+  background: #3E3E3E none repeat scroll 0% 0%;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#electronics .slider-nav li.slider-selected {
+  background: #B61B1F none repeat scroll 0% 0%;
+  color: #FFF;
+}
+#electronics .slider .slider-item {
+  border: medium none;
+}
+#electronics .p-list {
+  width: 880px;
+  height: 474px;
+  overflow: hidden;
+}
+#electronics .p-list li {
+  float: left;
+  width: 185px;
+  height: 230px;
+  padding: 6px 17px 0px;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  overflow: hidden;
+}
+#electronics .p-list .p-img {
+  height: 140px;
+  margin-bottom: 4px;
+  text-align: center;
+  padding-top: 15px;
+}
+#electronics .p-list .p-name {
+  height: 3em;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+#electronics .p-list .p-price {
+  font-size: 15px;
+  font-family: Verdana;
+  color: #E4393C;
+}
+
+/*脚本*/
+div.w{
+  width: 1210px;
+  margin: 0 auto;
+}
+#footer-2014{
+  border-top: 1px solid #E5E5E5;
+  padding: 20px 0px 30px;
+  text-align: center;
+}
+#footer-2014 .links a {
+  margin: 0px 10px;
+}
+#footer-2014 .copyright {
+  margin: 10px 0px;
+}
+#footer-2014 .authentication a {
+  margin: 0px 5px;
+  text-decoration: none;
 }
