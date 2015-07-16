@@ -3932,3 +3932,18 @@ ERR: 非法操作:assets
 [ 2015-07-15T20:17:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
 ERR: 非法操作:assets
 
+[ 2015-07-15T20:56:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/inbox.html
+ERR: 非法操作:inbox
+
+[ 2015-07-15T21:17:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/tables.html
+ERR: 非法操作:tables
+
+[ 2015-07-15T21:48:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-15T21:49:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/profile.html
+ERR: 非法操作:profile
+
+[ 2015-07-15T23:12:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/calendar.html
+ERR: 非法操作:calendar
+
