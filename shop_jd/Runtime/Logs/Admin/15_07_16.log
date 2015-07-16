@@ -155,3 +155,17 @@ INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
 SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
 
+[ 2015-07-16T13:52:21+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T13:52:30+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
