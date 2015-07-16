@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
   <!-- 新 Bootstrap 核心 CSS 文件 -->
-  <link rel="stylesheet" href="__ADMINPUBLIC__/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Jd/shop_jd/Admin/Public/css/bootstrap.min.css">
 
   <body>
     <form class="form-horizontal">
@@ -40,7 +40,7 @@
         <a for="code" class="control-label col-sm-2 text-danger hide"  style="text-align:left">请输入验证码</a>
       </div>
       <div class="form-group" id="cod">
-        <img src="__CONTROLLER__/showVerify" class="col-sm-2 col-sm-offset-5" onclick="this.src = this.src + '?' + Math.random();" alt="">
+        <img src="/Jd/index.php/Admin/Login/showVerify" class="col-sm-2 col-sm-offset-5" onclick="this.src = this.src + '?' + Math.random();" alt="">
         
       </div>
       <div class="form-group">
@@ -48,10 +48,10 @@
       </div>
     </form>
 
-  <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+  <script src="/Jd/shop_jd/Admin/Public/js/jquery-1.10.2.min.js"></script>
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-  <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+  <script src="/Jd/shop_jd/Admin/Public/js/bootstrap.min.js"></script>
   <script>
     $(function(){
 		$('input').focus(function(){
@@ -67,7 +67,7 @@
 	        var $admin = $('#admin').val();
 	        var $pwd = $('#pwd').val();
 	        var $code = $('#code').val();
-	        var $loginHandle = '<{:U("Login/loginHandle")}>';
+	        var $loginHandle = '<?php echo U("Login/loginHandle");?>';
 	        var $flag = true;
 	        if($admin == ''){
 	          $flag = false;
@@ -96,7 +96,7 @@
 					alert('用户名或者密码错误');
 					return false;
 					}else if($msg == '3'){
-					window.location.href = '<{:U("Index/index")}>';
+					window.location.href = '<?php echo U("Index/index");?>';
 					}
 	            }
 				);

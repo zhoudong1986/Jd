@@ -5,32 +5,33 @@ class LoginController extends Controller {
     public function index(){
 		$this->display();
     }
-    public function loginHandle($i = ''){
-        $code = I('code');
+    public function loginHandle($code,$i = ''){
     	$verify = new \Think\Verify();
         $verifyCheck = $verify->check($code,$i);
         $admin = M('admin');
         $where = array(
             'admin_name' => I('admin'),
             'password' => I('pwd','','md5'),
-            'status' => 1
+            'status' => '1'
             );
-        $adminResult = $admin->where($where)->select();
+        $adminResult = $admin->where($where)->find();
         if(!$verifyCheck){
-            $this->ajaxReturn('code');
-            return false;
+            $this->ajaxReturn('1');
+            
         }
         if(!$adminResult){
-            $this->ajaxReturn('admin');
-            return false;
+            $this->ajaxReturn('2');
+         
         }else{
-            session('id',$adminResult['admin_id']);
+            session('admin_id',$adminResult['admin_id']);
             session('admin_name',$adminResult['admin_name']);
+            session('role',$adminResult['role']);
             session('loginTime',time());
             session('loginIp',get_client_ip());
-            session('islogin',1);
-            $this->success('登录成功,正在跳转...',U('Index/index'),1);
+            session('isLogin','1');
+            $this->ajaxReturn('3');
         }
+
     }
     public function showVerify(){
         $config = array(

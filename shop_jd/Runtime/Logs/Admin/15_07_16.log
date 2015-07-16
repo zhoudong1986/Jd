@@ -1,0 +1,157 @@
+[ 2015-07-16T08:57:05+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-16T08:57:16+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+
+[ 2015-07-16T08:57:35+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-16T08:57:46+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+
+[ 2015-07-16T08:59:28+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+
+[ 2015-07-16T09:00:01+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined index: id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 31 行.
+
+[ 2015-07-16T09:00:21+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:00:36+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 31 行.
+
+[ 2015-07-16T09:01:06+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle
+ERR: 参数错误或者未定义:code
+
+[ 2015-07-16T09:03:45+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 31 行.
+
+[ 2015-07-16T09:05:17+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: admin_id D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined index: admin_name D:\MyPHP\www\Jd\shop_jd\Admin\Controller\LoginController.class.php 第 31 行.
+
+[ 2015-07-16T09:08:30+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2015-07-16T09:10:01+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:10:06+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2015-07-16T09:10:16+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2015-07-16T09:11:04+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:11:36+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:13:00+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:13:22+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-16T09:15:42+08:00 ] ::1 /Jd/index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
