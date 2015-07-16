@@ -13,6 +13,23 @@ function doTurn($plg){
   $('.imgsBox').children('a.imgsA').eq($sum).show().siblings('a.imgsA').hide();
   if(!$plg){$sum++;}
 }
+//活动门插件
+function _slider($arr,$e){
+  $.each($arr,function(i,n){
+    $(n).bind('mouseover',function(){
+      var $index = $(this).index();
+      var leng = $(this).children('a').text();
+      if(leng.length==2){
+        $(this).addClass($e).css({width:'58px'}).siblings('li').removeClass($e).removeAttr('style');
+      }else{
+        $(this).addClass($e).css({width:'82px'}).siblings('li').removeClass($e).removeAttr('style');
+      }
+      $(this).parents('.mt').next('.mc').children('div.main').eq($index).removeClass('hide').addClass('main-selected').show();
+      $(this).parents('.mt').next('.mc').children('div.main').eq($index).siblings('div.main').addClass('hide').removeClass('main-selected').hide();
+    });
+
+  });
+}
 
 $(function(){
 
@@ -74,6 +91,14 @@ $(function(){
     $('.msg-price').eq($index).addClass('hover').siblings('span').removeClass('hover');
   })
 
+  //猜你喜欢滑动条事件
+  $('.guessBox').on('mouseover',function(){
+    $('.spacer').children('i').stop();
+    $('.spacer').children('i').css({right:'910px'}).animate({right:'-1px'},500);
+  });
+
+  //活动门
+  _slider(['#clothBox .mt ul.tab li','#electronics .mt ul.tab li'],'tab-selected');
 
 
 });
