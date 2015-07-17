@@ -1237,6 +1237,9 @@ div.guessBox div.guessYous div.mt a.extra{
   color: #666;
   text-decoration: none;
 }
+div.guessBox div.guessYous div.mt a.extra:hover{
+  color: red;
+}
 div.guessBox div.guessYous div.mc{
   height: 232px;
   border-width: 0px 1px 1px;

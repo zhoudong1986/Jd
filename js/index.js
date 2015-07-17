@@ -32,7 +32,6 @@ function _slider($arr,$e){
 }
 
 $(function(){
-
   $('#banner').children('i').hover(function(){
     $(this).css({backgroundPosition:'0 -19px'});
   },function(){
@@ -40,8 +39,6 @@ $(function(){
   }).click(function(){
     $(this).parent('#banner').fadeOut(300);
   });
-
-
   $('.content').hover(function(){
     $(this).css({backgroundColor:'#fff'}).children('.line,.under').show();
   },function(){
@@ -92,13 +89,20 @@ $(function(){
   })
 
   //猜你喜欢滑动条事件
-  $('.guessBox').on('mouseover',function(){
+  $('.guessYous').find('.mc').bind('mouseenter',function(){
     $('.spacer').children('i').stop();
     $('.spacer').children('i').css({right:'910px'}).animate({right:'-1px'},500);
   });
 
+  //猜你喜欢 换一批
+  $('.guessYous').children('.mt').find('a.extra').hover(function(){
+    $(this).css({'backgroundPosition':'-310px -29px'});
+  },function(){
+    $(this).removeAttr('style');
+  })
   //活动门
   _slider(['#clothBox .mt ul.tab li','#electronics .mt ul.tab li'],'tab-selected');
+
 
 
 });
