@@ -150,6 +150,7 @@ a{text-decoration: none;}
 #headBox .head ul.rightBox li.myJd{
   position: relative;
   z-index: 1;
+  top:5px;
 }
 #headBox .head ul.rightBox li.myJd a.jd{
   color: #666;
@@ -161,7 +162,7 @@ a{text-decoration: none;}
 #headBox .head ul.rightBox li.myJd i.ci-right{
   position: absolute;
   left: 62px;
-  top:12px;
+  top:7px;
   height: 7px;
   overflow: hidden;
   font: 400 17px/15px consolas;
@@ -312,6 +313,7 @@ a{text-decoration: none;}
 #headBox .head ul.rightBox li.memBox{
   position: relative;
   z-index: 1;
+  top:5px;
 }
 #headBox .head ul.rightBox li.memBox a.member{
   color: #666;
@@ -325,6 +327,7 @@ a{text-decoration: none;}
 
 #headBox .head ul.rightBox li.comBox{
   position: relative;
+  top:5px;
 }
 #headBox .head ul.rightBox li.comBox a.company{
   color: #666;
@@ -535,7 +538,7 @@ a{text-decoration: none;}
 
 #headBox .head ul.rightBox li.navBox{
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 #headBox .head ul.rightBox li.navBox p.navigation{
   padding: 0 27px 0 8px;
@@ -591,6 +594,7 @@ a{text-decoration: none;}
   left: -1124px;
   display: none;
   padding-bottom: 10px;
+  z-index: 5;
 }
 #headBox .head ul.rightBox li.navBox div.contents h3{
   width: 70px;
@@ -950,6 +954,7 @@ a{text-decoration: none;}
   /*京东底部*/
 #footBox{
   width:100%;
+  overflow: hidden;
 }
 #footBox div.items{
   width: 100%;

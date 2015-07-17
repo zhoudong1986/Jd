@@ -7,7 +7,7 @@
 /*头部区的广告条*/
 #banner{
   width: 1210px;
-  margin: 0 auto;
+  margin: 10px auto;
   position: relative;
 }
 #banner i{
@@ -2050,13 +2050,37 @@ div.guessBox div.guessYous div.p-info div.p-price i{
   margin-bottom: 3px;
   overflow: hidden;
 }
-#electronics .p-list .p-price {
+#electronics  .p-list .p-price {
   font-size: 15px;
   font-family: Verdana;
   color: #E4393C;
 }
+#electronics .slider-page a {
+  border: medium none;
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  z-index: 1;
+  display: block;
+  width: 28px;
+  height: 62px;
+  line-height: 62px;
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "simsun";
+}
+#electronics .slider-prev {
+  left: 0px;
+}
+#electronics .slider-next {
+  right: 0px;
+}
 
-/*脚本*/
+
+/*页脚*/
 div.w{
   width: 1210px;
   margin: 0 auto;
