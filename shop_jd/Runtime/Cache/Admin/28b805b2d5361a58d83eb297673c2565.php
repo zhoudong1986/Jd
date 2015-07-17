@@ -1,0 +1,109 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- 设计IE浏览器的解析 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<!-- 视窗 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="/Jd/shop_jd/Admin/Public/css/bootstrap.min.css">
+
+  <body>
+    <form class="form-horizontal">
+      <div style="width=100px;height:150px"></div>
+      <div class="form-group">
+        <h3 class="col-sm-2 col-sm-offset-5 text-primary">Login(登录)</h3>
+      </div>
+      <div style="width=100px;height:30px"></div>
+      <div class="form-group" id="adm">
+        <label for="admin" class="control-label text-warning col-sm-2 col-sm-offset-3">Admin:</label>
+        <div class="col-sm-2">
+          <input type="text" name="admin" class="form-control" id="admin" placeholder="Admin">
+        </div>
+        <a for="admin" class="control-label col-sm-2 text-danger hide" style="text-align:left">请输入用户名</a>
+      </div>
+      <div class="form-group" id="pass">
+        <label for="pwd" class="control-label text-warning col-sm-2 col-sm-offset-3">Password:</label>
+        <div class="col-sm-2">
+          <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Password">
+        </div>
+        <a for="pwd" class="control-label col-sm-2 text-danger hide"  style="text-align:left">请输入密码</a>
+      </div>
+      <div class="form-group" id="yz">
+        <label for="code" class="control-label text-success col-sm-2 col-sm-offset-3">验证码:</label>
+        <div class="col-sm-1">
+          <input type="text" name="code" id="code" class="form-control">
+        </div>
+        <a for="code" class="control-label col-sm-2 text-danger hide"  style="text-align:left">请输入验证码</a>
+      </div>
+      <div class="form-group" id="cod">
+        <img src="/Jd/index.php/Admin/Login/showVerify" class="col-sm-2 col-sm-offset-5" onclick="this.src = this.src + '?' + Math.random();" alt="">
+        
+      </div>
+      <div class="form-group">
+        <p class="btn btn-success col-sm-1 col-sm-offset-5 btn-lg">登录</p>
+      </div>
+    </form>
+
+  <script src="/Jd/shop_jd/Admin/Public/js/jquery-1.10.2.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="/Jd/shop_jd/Admin/Public/js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+		$('input').focus(function(){
+		$('a').addClass('hide');
+		});
+		document.onkeydown = function(event){
+			var e = event || window.event;
+			if(e.keyCode == '13'){
+				$('.btn').trigger("click");
+			}
+		}
+		$('.btn').click(function(){
+	        var $admin = $('#admin').val();
+	        var $pwd = $('#pwd').val();
+	        var $code = $('#code').val();
+	        var $loginHandle = '<?php echo U("Login/loginHandle");?>';
+	        var $flag = true;
+	        if($admin == ''){
+	          $flag = false;
+	          $('#adm a').removeClass('hide');
+	        }
+	        if($pwd == ''){
+	          $flag = false;
+	          $('#pass a').removeClass('hide');
+	        }
+	        if($code == ''){
+	          $flag = false;
+	          $('#yz a').removeClass('hide');
+	        }
+	        if($flag){
+	          $('#myf').submit();
+	          $.post(
+	            $loginHandle,
+	            {'admin':$admin,'pwd':$pwd,'code':$code},
+	            function($msg){
+					if($msg == '1'){
+					$('img').trigger("click");
+					alert('验证码错误');
+					return false;
+					}else if($msg == '2'){
+					$('img').trigger("click");
+					alert('用户名或者密码错误');
+					return false;
+					}else if($msg == '3'){
+					window.location.href = '<?php echo U("Index/index");?>';
+					}
+	            }
+				);
+        	}
+    	});
+
+    })
+  </script>
+</body>
+</html>

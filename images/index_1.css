@@ -1,0 +1,24 @@
+/* ::::: http://img.t.sinajs.cn/t4/appstyle/widget/css/followButton/followButton.css?ver=8839c77528e9e3c4 ::::: */
+
+body, button, input, select, textarea { font: 12px/1.125 Arial,Helvetica,sans-serif; }
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul { margin: 0px; padding: 0px; }
+q::after, q::before { content: ""; }
+address, caption, cite, code, dfn, em, i, th, var { font-style: normal; font-weight: 400; }
+a, u { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.clearfix::after { display: table; clear: both; content: ""; }
+body { color: rgb(100, 100, 100); }
+.WB_linkA, .WB_linkA a, body a { color: rgb(21, 130, 189); }
+.WB_followButton { display: inline-block; height: 22px; text-decoration: none; cursor: pointer; overflow: hidden; }
+.WB_followButton:hover { text-decoration: none; }
+.WB_FB_show .WB_FB_plus .plus_arr, .WB_followButton, .WB_followButton .FB_typeA, .WB_followButton .FB_typeB, .WB_followButton .WB_Aloading, .WB_followButton .WB_Bloading, .WB_followButton .WB_icon { display: inline-block; background: transparent url('bg_flbtn.png') repeat scroll 0% 0%; overflow: hidden; }
+.WB_followButton .FB_typeA, .WB_followButton .FB_typeB { width: 62px; height: 22px; text-decoration: none; }
+.WB_followButton .WB_icon { float: left; margin: 3px 0px 0px 3px; height: 14px; width: 16px; background-position: -190px 0px; overflow: hidden; }
+.WB_followButton .WB_icon_text { float: left; margin: 3px 0px 0px 3px; padding-top: 1px; overflow: hidden; white-space: nowrap; }
+.WB_followButton .FB_typeB { background-position: -63px 0px; color: rgb(255, 255, 255); }
+.WB_followButton:hover .FB_typeB { background-position: -63px -23px; }
+.WB_followButton .FB_typeB .WB_icon { margin-right: 1px; }
+.WB_FB_show::after { display: table; content: ""; }
+.WB_FB_show::after { clear: both; }
+.WB_FB_show .WB_uList::after { display: table; content: ""; }
+.WB_FB_show .WB_uList::after { clear: both; }

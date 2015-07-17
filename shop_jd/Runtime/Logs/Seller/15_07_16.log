@@ -1,0 +1,1511 @@
+[ 2015-07-16T08:59:53+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.1092s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T09:16:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/typography.html
+ERR: 非法操作:typography
+
+[ 2015-07-16T09:16:26+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/elements.html
+ERR: 非法操作:elements
+
+[ 2015-07-16T09:16:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/typography.html
+ERR: 非法操作:typography
+
+[ 2015-07-16T09:17:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T09:17:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T09:18:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.ui.touch-punch.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.slimscroll.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.easy-pie-chart.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery.sparkline.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.pie.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/flot/jquery.flot.resize.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:22:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:33:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/typography.html
+ERR: 非法操作:typography
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:35:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:36:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:37:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:38:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:39:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:40:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:41:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:42:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-skins.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-extra.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/css/prettify.css
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:57:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/prettify.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace-elements.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T09:58:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/assets/js/ace.min.js
+ERR: 非法操作:assets
+
+[ 2015-07-16T10:12:50+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/elements.html
+ERR: 非法操作:elements
+
+[ 2015-07-16T11:05:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%7B:U('copy')%7D
+ERR: 非法操作:{:U('copy')}
+
+[ 2015-07-16T13:50:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.1880s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'Username' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0320s ]
+
+[ 2015-07-16T13:51:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'dd' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T13:51:36+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'dd' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T13:51:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'dd' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T13:51:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'dd' AND `password` = '1aabac6d068eef6a7bad3fdf50a05cc8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T13:51:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T13:54:42+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T13:56:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:04:18+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:23:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:26:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:28:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/U(%22Login/index%22)
+ERR: 非法操作:U("Login
+
+[ 2015-07-16T14:31:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/U(%22Login/index%22)
+ERR: 非法操作:U("Login
+
+[ 2015-07-16T14:32:48+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:34:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T14:40:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/U(%22Login/index%22)
+ERR: 非法操作:U("Login
+
+[ 2015-07-16T14:40:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T15:46:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/U(%22Login/index%22)
+ERR: 非法操作:U("Login
+
+[ 2015-07-16T15:47:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T16:20:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T16:21:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:05:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:05:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:06:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:08:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:08:49+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:10:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:12:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:12:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:12:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:13:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:13:13+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:15:01+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:15:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Logout/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:21:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:21:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:27:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:27:17+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T17:27:38+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:27:43+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:27:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T17:27:50+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T17:28:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:28:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T17:30:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T17:30:51+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T18:56:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'de' AND `password` = 'dc647eb65e6711e155375218212b3964' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T18:56:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T19:47:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T19:49:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T20:00:40+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T20:01:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T20:33:20+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-16T20:33:27+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' AND `password` = 'a64c9e98476ec57c83b6edcdc6f76f74' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 26 行.
+
+[ 2015-07-16T21:33:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:50:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:51:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:56:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:56:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:56:35+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:58:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:58:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:58:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:58:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:58:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:59:00+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:59:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T21:59:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:00:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:00:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:02:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:02:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:03:59+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:04:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:05:51+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:05:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:05:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:07:05+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:07:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:09:22+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:09:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:10:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:10:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:11:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:11:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:14:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:15:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:16:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U(%22Login/update%22)%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:16:16+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:18:39+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:20:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:20:13+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:21:14+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:22:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Index/%3C%7B:U('Login/update')%7D%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2015-07-16T22:29:54+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T22:31:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T22:33:06+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T22:33:58+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:34:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T22:36:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:36:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:38:24+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:39:04+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T22:41:33+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T22:42:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:42:51+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:44:15+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:44:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:44:34+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:45:56+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:46:25+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:47:03+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-16T22:49:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_sellers` WHERE `sname` = 'demi' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-16T22:57:13+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T22:59:02+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T22:59:11+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T22:59:19+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T22:59:45+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T23:07:55+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T23:09:13+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T23:09:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Pwd - assumed 'Pwd' C:\wamp\Apache24\www\Jd\shop_jd\Seller\Controller\LoginController.class.php 第 58 行.
+
+[ 2015-07-16T23:10:07+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:08+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:09+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:10:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:11:10+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0100s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:11:12+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:12:47+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:23+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:28+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:29+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:30+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:31+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:13:32+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'demi' in 'where clause'
+
+[ 2015-07-16T23:15:44+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-16T23:17:46+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '4124bc0a9335c27f086f24ba207a4912' in 'where clause'
+
+[ 2015-07-16T23:21:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-16T23:21:52+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '5f02f0889301fd7be1ac972c11bf3e7d' in 'where clause'
+
+[ 2015-07-16T23:22:21+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '5f02f0889301fd7be1ac972c11bf3e7d' in 'where clause'
+
+[ 2015-07-16T23:22:41+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '5f02f0889301fd7be1ac972c11bf3e7d' in 'where clause'
+
+[ 2015-07-16T23:23:37+08:00 ] 127.0.0.1 /Jd/index.php/Seller/Login/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_sellers` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1aabac6d068eef6a7bad3fdf50a05cc8' in 'where clause'
+
