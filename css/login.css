@@ -1,0 +1,115 @@
+/* ::::: https://miscssl.360buyimg.com/lib/skin/2013/base.css ::::: */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { margin: 0px; padding: 0px; }
+ol, ul { list-style: outside none none; }
+:focus { outline: 0px none; }
+a img { border: 0px none; }
+img { vertical-align: middle; }
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner { border: 0px none; padding: 0px; }
+.ar { text-align: right; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.m, .mt, .mc, .mb, .sm, .smt, .smc, .smb { overflow: hidden; }
+.mt, .smt { cursor: default; }
+.form label, .form input, .form select, .form textarea, .form button, .form .label { float: left; font-size: 12px; }
+.hide { display: none; }
+.btn-img, .button { display: inline-block; margin: 0px; padding: 0px; border: 0px none; text-align: center; cursor: pointer; }
+body { font: 12px/150% Arial,Verdana,"宋体"; color: rgb(102, 102, 102); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+h1 { font: 20px "microsoft yahei","宋体"; }
+h2, h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 12px; }
+a { color: rgb(102, 102, 102); text-decoration: none; }
+a:hover { color: rgb(228, 57, 60); text-decoration: underline; }
+.w { width: 990px; margin: 0px auto; }
+#footer-2013 { padding-bottom: 30px; text-align: center; }
+#footer-2013 .links a, #footer-2013 .links span { margin: 0px 10px; }
+#footer-2013 .copyright { margin: 10px 0px; }
+/* ::::: https://miscssl.360buyimg.com/user/passport-2015/??/widget/common/common.css,/widget/login-form/login-form.css,/widget/login-banner/login-banner.css,/widget/safe-step/safe-step.css ::::: */
+
+.ml5 { margin-left: 5px; }
+.ml10 { margin-left: 10px; }
+.ar { text-align: right; }
+#logo { position: relative; width: 300px; margin: 10px 0px 0px; height: 60px; }
+#logo b { display: block; width: 110px; height: 40px; position: absolute; right: 0px; top: 10px; background: transparent url('../images/l-icon.png') no-repeat scroll 0% 0%; }
+.tip-box .links ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.form input[type="password"] { font-family: Tahoma,Helvetica,Arial; }
+.q-link { position: relative; top: -10px; color: rgb(153, 153, 153); }
+.q-link b { display: inline-block; width: 18px; height: 14px; margin: 0px 5px; background: transparent url('../images/q-icon.png') no-repeat scroll 0% 0%; overflow: hidden; vertical-align: middle; }
+.form .item { position: relative; margin-bottom: 20px; z-index: 1; }
+.form .item .login-label { position: absolute; z-index: 3; top: 0px; left: 0px; width: 38px; height: 38px; border-right: 1px solid rgb(189, 189, 189); background: transparent url('../images/pwd-icons-new.png') no-repeat scroll 0% 0%; }
+.form .item .name-label { background-position: 0px 0px; }
+.form .item .pwd-label { background-position: -48px 0px; }
+.form .item-fore1, .form .item-fore2 { border: 1px solid rgb(189, 189, 189); height: 38px; width: 304px; }
+.form .item-fore1 .clear-btn, .form .item-fore2 .clear-btn { position: absolute; z-index: 20; right: 6px; top: 12px; width: 14px; height: 14px; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -25px -143px; cursor: pointer; display: none; }
+.form .item-fore1 .clear-btn:hover, .form .item-fore2 .clear-btn:hover { background-position: -50px -143px; }
+.form .item-fore1 .capslock, .form .item-fore2 .capslock { position: absolute; z-index: 4; display: none; width: 106px; top: 28px; left: 50px; padding-left: 26px; height: 26px; line-height: 28px; overflow: hidden; background: transparent url('../images/capslock.png') no-repeat scroll 0% 0%; }
+.form .item-fore1 .capslock b, .form .item-fore2 .capslock b { display: block; position: absolute; top: 7px; left: 10px; width: 10px; height: 14px; overflow: hidden; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -104px -133px; }
+.form .item-fore1 #sloginpwd, .form .item-fore2 #sloginpwd { position: absolute; display: block; z-index: 3; top: 2px; left: 49px; width: 254px; height: 34px; line-height: 34px; overflow: hidden; }
+.form .item-fore1 .text_pge, .form .item-fore2 .text_pge { width: 254px; height: 34px; line-height: 34px; font-size: 14px; font-family: "宋体"; overflow: hidden; border: 1px solid rgb(255, 255, 255); }
+.form .itxt { line-height: 18px; height: 18px; border: 0px none; padding: 10px 0px 10px 50px; width: 254px; float: none; overflow: hidden; font-size: 14px; font-family: "宋体"; }
+.form .itxt02 { padding: 10px 5px; width: 78px; text-align: center; }
+.form .verify-code { cursor: pointer; width: 100px; height: 33px; vertical-align: middle; }
+.form #o-authcode.item { border: 0px none; }
+.form #o-authcode.item .itxt { border: 1px solid rgb(189, 189, 189); font-size: 14px; padding: 7px 5px; vertical-align: middle; }
+.form input:-moz-placeholder { color: rgb(153, 153, 153); font-size: 14px; }
+.form label { float: none; }
+.form .jdcheckbox, .form .jdradio { float: none; vertical-align: middle; margin: 0px 3px 0px 0px; padding: 0px; }
+.form .item-fore1 { z-index: 6; }
+.form .item-fore2 { height: 38px; }
+.form .item-fore3 { z-index: 5; margin-bottom: 15px; }
+.form .updata { z-index: 10; position: absolute; top: 20px; left: 30px; width: 188px; padding: 5px; line-height: 108px; height: 40px; overflow: hidden; background: transparent url('../images/login-update.png') no-repeat scroll 0% 0%; }
+.form .updata .up-one { position: absolute; right: 16px; top: 16px; width: 10px; height: 10px; }
+.form .updata .up-two { position: absolute; left: 92px; top: 13px; width: 72px; height: 20px; }
+.login-form { position: relative; z-index: 4; width: 306px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 20px; overflow: visible; }
+.login-form .msg-wrap { min-height: 31px; height: auto ! important; margin: 2px 0px 5px; }
+.login-form .msg-error { position: relative; background: rgb(255, 235, 235) none repeat scroll 0% 0%; color: rgb(228, 57, 60); border: 1px solid rgb(228, 57, 60); padding: 3px 10px 3px 40px; line-height: 18px; min-height: 18px; }
+.login-form .msg-error b { position: absolute; top: 50%; left: 10px; display: block; margin-top: -8px; width: 16px; height: 16px; overflow: hidden; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -104px -49px; }
+.login-form .msg-warn { position: relative; background: rgb(255, 246, 210) none repeat scroll 0% 0%; color: rgb(102, 102, 102); border: 1px solid rgb(255, 229, 125); padding: 3px 10px 3px 40px; line-height: 18px; height: 18px; }
+.login-form .msg-warn b { position: absolute; top: 50%; left: 10px; display: block; margin-top: -8px; width: 16px; height: 17px; overflow: hidden; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -104px -22px; }
+.login-form .login-box .mt { display: block; width: 306px; overflow: visible; height: 27px; }
+.login-form .login-box .mt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.login-form .login-box .mt h1 { position: relative; height: 27px; line-height: 27px; top: -5px; float: left; color: rgb(102, 102, 102); font-family: "微软雅黑"; font-size: 20px; }
+.login-form .login-box .mt .extra-r { float: right; }
+.login-form .login-box .mt .regist-link { color: rgb(182, 29, 29); font-size: 14px; }
+.login-form .login-box .mt .regist-link a { color: rgb(182, 29, 29); }
+.login-form .login-box .mt .regist-link b { display: inline-block; width: 16px; height: 16px; overflow: hidden; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -104px -75px; vertical-align: middle; margin-right: 5px; }
+.login-form .login-box .mc { overflow: visible; }
+.login-form .login-box .safe { position: relative; color: rgb(102, 102, 102); }
+.login-form .login-box .safe span { margin-right: 15px; }
+.login-form .login-box .safe .forget-pw-safe { position: absolute; right: 0px; top: 0px; margin: 0px; }
+.login-form .login-box .coagent { line-height: 22px; height: auto; }
+.login-form .login-box .coagent h5 { font-weight: 400; color: rgb(153, 153, 153); }
+.login-form .login-box .coagent ul { display: block; }
+.login-form .login-box .coagent ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.login-form .login-box .coagent li { float: left; }
+.login-form .login-box .coagent li .line { color: rgb(204, 204, 204); padding: 0px 10px; }
+.login-form .login-box .login-btn { border: 1px solid rgb(203, 42, 45); margin: 0px auto; height: 33px; position: relative; }
+.login-form .login-box .login-btn .btn-img { border: 1px solid rgb(232, 83, 86); display: block; width: 302px; background: rgb(228, 57, 60) none repeat scroll 0% 0%; height: 31px; line-height: 31px; color: rgb(255, 255, 255); font-size: 20px; font-family: "微软雅黑"; }
+.login-form .login-box .login-btn .btn-img:hover { text-decoration: none; }
+.login-form .btn-2login, .login-form .btn-2qrcode { display: block; width: 60px; height: 60px; line-height: 99em; position: absolute; right: 0px; bottom: 0px; overflow: hidden; background: transparent url('login-qricon-01.png') no-repeat scroll 0% 0%; transition: background-position 0.2s cubic-bezier(0.25, 0.5, 0.5, 0.9) 0s; }
+.login-form .btn-2qrcode { background-position: -60px 0px; }
+.login-form .qrcode-login { display: none; text-align: center; }
+.login-form .qrcode-login .qrcode-desc { margin-top: 53px; }
+.login-form .qrcode-login .qrcode-desc h2 { font-size: 16px; color: rgb(153, 153, 153); font-family: "微软雅黑"; font-weight: 400; }
+.login-form .qrcode-login .qrcode-img { border: 1px solid rgb(244, 244, 244); padding: 10px; width: 155px; margin: 20px auto 15px; }
+.login-form .qrcode-login .qrcode-img .qrcode-error02 { padding: 30px 0px; }
+.login-form .qrcode-login .qrcode-img .qrcode-error02 .error-icon { display: inline-block; margin-bottom: 25px; width: 50px; height: 50px; background: transparent url('../images/qr-error-icon.png') no-repeat scroll 0% 0%; }
+.login-form .qrcode-login .qrcode-img img { width: 147px; height: 147px; }
+.login-form .qrcode-login .qrcode-error { display: none; position: relative; background: rgb(255, 235, 235) none repeat scroll 0% 0%; color: rgb(228, 57, 60); border: 1px solid rgb(228, 57, 60); padding: 3px 10px 3px 100px; text-align: left; }
+.login-form .qrcode-login .qrcode-error b { position: absolute; top: 50%; left: 70px; display: block; margin-top: -8px; width: 16px; height: 16px; overflow: hidden; background: transparent url('../images/pwd-icons-new.png') no-repeat scroll -104px -49px; }
+.login-form .qrcode-login .qrcode-panel { width: 150px; margin: 0px auto 50px; text-align: center; }
+.login-form .qrcode-login .qrcode-panel ul { display: block; }
+.login-form .qrcode-login .qrcode-panel ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.login-form .qrcode-login .qrcode-panel li { float: left; padding: 0px 0px 0px 10px; margin: 0px 10px 0px 0px; border-left: 1px solid rgb(204, 204, 204); }
+.login-form .qrcode-login .qrcode-panel li.fore1 { border: 0px none; }
+.login-form .qrcode-login .qrcode-panel a { color: rgb(153, 153, 153); }
+.login-form .qrcode-login .qrcode-panel a:hover { color: rgb(228, 57, 60); }
+.login-form .qrcode-login .qrcode-panel .qrcode-tips { position: relative; background: rgb(246, 220, 223) none repeat scroll 0% 0%; color: rgb(153, 153, 153); margin-top: 10px; }
+.login-form .qrcode-login .qrcode-panel .qrcode-tips .triangle-border { position: absolute; right: 30px; overflow: hidden; width: 0px; height: 0px; border-width: 5px; border-style: dashed dashed solid; }
+.login-form .qrcode-login .qrcode-panel .qrcode-tips .tb-border { top: -10px; border-color: transparent transparent rgb(246, 220, 223); }
+.login-wrap { position: relative; height: 475px; margin: 10px 0px 20px; z-index: 5; }
+.login-wrap .login-banner { position: absolute; left: 0px; top: 0px; width: 100%; height: 475px; background: rgb(233, 56, 84) none repeat scroll 0% 0%; }
+.login-wrap .i-inner { position: relative; z-index: 3; height: 475px; }
+.login-wrap .login-form { float: right; top: 40px; }
+.stepflex::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+/* ::::: https://miscssl.360buyimg.com/jdf/1.0.0/ui/tips/1.1.0/tips.css ::::: */
+
