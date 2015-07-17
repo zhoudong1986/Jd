@@ -104,5 +104,4 @@ $(function(){
   _slider(['#clothBox .mt ul.tab li','#electronics .mt ul.tab li'],'tab-selected');
 
 
-
 });
