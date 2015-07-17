@@ -1,0 +1,153 @@
+/* ::::: https://reg.jd.com/misc2014/skin/df/regist.personal.css?t=0813 ::::: */
+
+#regist .mt, #regist .mt h2, #regist .mt span { height: 32px; line-height: 32px; }
+#regist .mt { padding-right: 10px; position: relative; overflow: visible; margin-bottom: -1px; border-bottom: 1px solid rgb(221, 221, 221); }
+#regist .mt span { float: right; text-align: right; }
+#regist .mt .extra { position: absolute; right: 20px; top: 5px; }
+#regist .mc { padding: 30px 0px 20px; border-style: solid; border-color: rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px 1px; }
+#regist .tab { height: 33px; padding-left: 277px; }
+#regist .tab li { margin-right: 5px; margin-top: 3px; font-size: 14px; width: 100px; height: 28px; text-align: center; line-height: 28px; color: rgb(247, 145, 0); }
+#regist .tab .curr { position: relative; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(228, 57, 60); height: 32px; line-height: 32px; font-weight: bold; margin-top: 0px; box-shadow: 2px 0px 2px rgb(221, 221, 221); border-bottom: medium none; }
+#regist .tab li { background: rgb(247, 247, 247) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); }
+#regist .tab li.fore { width: 224px; }
+#regist .tab li a { display: block; width: 100px; height: 34px; }
+#regist .tab .fore a { width: 224px; }
+#regist .tab li a:hover, #regist .tab li a:active { color: rgb(51, 51, 51); text-decoration: none; }
+#regist .item { padding-top: 9px; height: 60px; line-height: 34px; position: relative; z-index: 1; }
+#regist #select-regName { z-index: 5; }
+#regist .label, .thickbox-form .label { width: 190px; text-align: right; font-size: 14px; color: rgb(153, 153, 153); padding-right: 10px; }
+#regist .label b, .thickbox-form .label b { font-family: "????"; margin-right: 5px; font-weight: normal; }
+#regist .text, .thickbox-form .text { width: 238px; height: 16px; padding: 10px 25px 10px 5px; border: 1px solid rgb(204, 204, 204); float: none; font-size: 14px; font-family: arial,"宋体"; color: rgb(153, 153, 153); overflow: hidden; }
+#regist .text-1, .thickbox-form .text-1 { width: 100px; float: left; }
+#regist .blank, .thickbox-form .blank { width: 16px; height: 16px; position: absolute; left: 243px; top: 7px; padding: 3px; float: none; }
+#regist .img img, .thickbox-form .img img { height: 26px; margin: 0px 5px; }
+#regist .btn-regist { width: 270px; height: 36px; color: rgb(255, 255, 255); font-family: "microsoft yahei"; font-size: 16px; text-indent: -9999px; font-weight: 800; overflow: hidden; background: transparent url('../images/regist-btn.jpg') no-repeat scroll 0% 0%; }
+.btn, .btn-15 { margin-top: 5px; }
+.btn, .btn-comm { margin-left: 10px; border: 1px solid rgb(221, 221, 221); padding: 0px; width: 106px; height: 36px; background: rgb(244, 244, 244) none repeat scroll 0% 0%; margin-top: 0px; text-align: center; line-height: 36px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block; }
+.btn:hover, .btn-comm:hover { color: rgb(51, 51, 51); }
+.btn span { color: rgb(51, 51, 51); }
+#regist .focus, #regist .error, #regist .cue { color: rgb(228, 57, 60); line-height: 36px; height: 36px; position: absolute; top: 0px; right: -275px; width: 260px; padding: 0px 5px; background: rgb(255, 235, 235) none repeat scroll 0% 0%; border: 1px solid rgb(255, 189, 190); }
+#regist .null, #regist .error, .thickbox-form .null, .thickbox-form .error { color: rgb(255, 0, 0); }
+#regist .checkbox { margin-top: 8px; }
+@media not all {
+	#regist .checkbox { margin-top: 10px; }
+}
+#pwdstrength { color: rgb(153, 153, 153); line-height: 22px; padding-right: 10px; clear: both; float: none; position: absolute; top: 41px; right: -9px; }
+#pwdstrength b { float: left; width: 104px; height: 13px; overflow: hidden; margin-top: 5px; }
+.form { float: left; width: 750px; }
+.phone { float: left; margin-top: 9px; width: 220px; height: 182px; }
+#regist .item .item-ifo, .thickbox-form .item .item-ifo { position: relative; width: 270px; }
+#regist #mobileCodeDiv .item-ifo, .thickbox-form.thickbox-form #mobileCodeDiv .item-ifo { width: 255px; }
+#regist #authcodeDiv .item-ifo, .thickbox-form #authcodeDiv .item-ifo { width: 380px; }
+#regist .item-ifo i, .thickbox-form .item-ifo i { position: absolute; right: 8px; }
+#regist .item-ifo .i-name, .thickbox-form .item-ifo .i-name { background: transparent url('one4.jpg') no-repeat scroll 0px 0px; height: 16px; top: 9px; width: 16px; }
+#regist .item-ifo .i-pass, .thickbox-form .item-ifo .i-pass { background: transparent url('one5.jpg') no-repeat scroll 0px 0px; height: 19px; top: 10px; width: 14px; }
+#regist .item-ifo .i-phone, .thickbox-form .item-ifo .i-phone { background: transparent url('one6.jpg') no-repeat scroll 0px 0px; height: 21px; top: 8px; width: 14px; left: 250px; }
+#regist a.blue:link, #regist a.blue:visited { color: rgb(0, 90, 160); }
+#regist #regName_error, .thickbox-form #regName_error { margin-top: 0px; float: none; cursor: pointer; }
+.intelligent-error { background: rgb(255, 235, 235) none repeat scroll 0px 0px; border: 1px solid rgb(255, 189, 190); left: 0px; position: absolute; top: 38px; width: 268px; z-index: 20; }
+.intelligent-error h5 { padding: 0px 3px; font-weight: normal; color: rgb(153, 153, 153); margin-top: 1px; }
+#intelligent-regName { width: 268px; }
+#regist #authcode.text { color: rgb(51, 51, 51); float: left; }
+#regist .item-new { padding-top: 0px; height: 49px; }
+#hnschool, #schoolid, #hnseli { display: none; }
+.o-intelligent-regName { z-index: 3; }
+#sendMobileCode { float: left; margin-right: 0px; }
+#regist { margin-bottom: 10px; }
+.form { position: relative; }
+#capslock { display: none; position: absolute; top: 44px; left: 200px; z-index: 6; width: 248px; background-color: rgb(255, 253, 238); height: 30px; line-height: 30px; border: 1px solid rgb(237, 210, 136); color: rgb(255, 102, 0); padding: 0px 10px; }
+#capslock i { background: transparent url('tip-cue.png') no-repeat scroll center center; display: inline-block; height: 30px; width: 20px; margin-right: 10px; vertical-align: middle; }
+#capslock s { position: absolute; background: transparent url('tip-arrow.png') no-repeat scroll center center; height: 12px; width: 18px; bottom: -10px; left: 38px; }
+.ftx03, .ftx-03 { color: rgb(153, 153, 153); }
+.ftx04, .ftx-04 { color: rgb(255, 138, 21); }
+.ftx05, .ftx-05, a.ftx-05:link, a.ftx-05:visited { color: rgb(0, 94, 167); }
+.ml5 { margin-left: 5px; }
+/* ::::: https://reg.jd.com/misc2014/skin/df/passport.base.css ::::: */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { margin: 0px; padding: 0px; }
+ol, ul { list-style: outside none none; }
+:focus { outline: 0px none; }
+a img { border: 0px none; }
+img { vertical-align: middle; }
+h5 { font-size: 12px; }
+.ftx04, .flk04 a:link, .flk04 a:visited, a.flk04:link, a.flk04:visited { color: rgb(255, 0, 0); }
+.ftx13, .flk13 a:link, .flk13 a:visited, a.flk13:link, a.flk13:visited { color: rgb(0, 90, 160); }
+.ftx23, .flk23 a:link, .flk23 a:visited, a.flk23:link, a.flk23:visited { color: rgb(153, 153, 153); }
+body { margin: 0px auto; }
+.w { width: 990px; padding: 0px; margin: 0px auto; }
+body .fl { float: left; }
+body .fr { float: right; }
+.clr { display: block; overflow: hidden; clear: both; height: 0px; line-height: 0; font-size: 0px; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.hide { display: none; }
+.invisible { visibility: hidden; }
+.form label, .form input, .form select, .form textarea, .form button, .form .label { float: left; font-size: 12px; }
+.form .item { overflow: hidden; }
+.btn-img { cursor: pointer; overflow: hidden; margin: 0px; padding: 0px; border: 0px none; text-align: center; }
+.m, .mt, .mc, .mb { overflow: hidden; }
+.mt .extra { float: right; }
+.lh { overflow: hidden; }
+.lh li, .lh dl, .lh .item { float: left; }
+.ld { position: relative; }
+.ld s, .ld b, .ld .block { position: absolute; overflow: hidden; }
+.tab { overflow: hidden; }
+.tab li, .tab-item { float: left; text-align: center; }
+body { font-family: Arial,"宋体",Lucida,Verdana,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); line-height: 150%; }
+a:link, a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+a:hover, a:active { color: rgb(255, 0, 0); text-decoration: underline; }
+#loginbar a { margin-left: 5px; }
+#logo { padding: 10px 0px; position: relative; }
+#logo b { position: absolute; background: transparent url('../images/regist-word.png') no-repeat scroll 0% 0%; top: 18px; left: 180px; width: 111px; height: 46px; }
+#intelligent-regName { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 1px solid rgb(187, 187, 187); left: 0px; position: absolute; top: 38px; width: 268px; z-index: 100; }
+.o-intelligent-regName {  }
+#select-regName { overflow: visible; }
+#regist .btn-regist { display: inline-block; border: 0px none; font-size: 14px; font-weight: bold; text-align: center; color: rgb(255, 255, 255); }
+#footer-2013 { padding-bottom: 30px; text-align: center; }
+#footer-2013 .links a, #footer-2013 .links span { margin: 0px 10px; }
+#footer-2013 .copyright { margin: 10px 0px; }
+#shortcut-2013 .fl b, #shortcut-2013 .fr b { background-image: url('../images/20130330a.png'); background-repeat: no-repeat; }
+#shortcut-2013, #shortcut-2013 .w { height: 30px; background: rgb(250, 250, 250) none repeat scroll 0% 0%; }
+#shortcut-2013 { width: 100%; border-bottom: 1px solid rgb(238, 238, 238); line-height: 30px; }
+#shortcut-2013 li { height: 30px; padding: 0px 11px 0px 12px; }
+#shortcut-2013 li s { top: 9px; left: 0px; width: 0px; height: 12px; border-left: 1px solid rgb(221, 221, 221); overflow: hidden; }
+#shortcut-2013 b { transition: transform 0.2s ease-in 0s; }
+#shortcut-2013 .fl { overflow: visible; }
+#shortcut-2013 .fl .fore1 { padding-left: 16px; z-index: 1; }
+#shortcut-2013 .fl b { top: 8px; left: 0px; width: 13px; height: 13px; background-position: -90px -23px; cursor: pointer; }
+#shortcut-2013 .fl li:hover b { transform: rotate(720deg); }
+#shortcut-2013 .fr { height: 30px; overflow: visible; }
+#shortcut-2013 .fr b { top: 13px; right: 8px; width: 7px; height: 4px; background-position: -95px -55px; }
+#shortcut-2013 .menu { width: 60px; z-index: 10; position: relative}
+#shortcut-2013 .dd { display: none; background: #fff;width: 73px;text-indent:7px;position: absolute;top:30px;left: 6px;}
+#site-nav .dd { left: -164px; width: 242px; }
+#site-nav .dd dl { width: 70px; }
+#site-nav .dd .fore2 { width: 80px; }
+#site-nav .dd .fore3 { width: 90px; }
+#site-nav .dd dt { padding: 4px 0px 4px 9px; line-height: 20px; font-weight: bold; }
+#site-nav .dd dd { padding-left: 9px; line-height: 22px; }
+body, #regist .mt { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+#regist { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#toppanel { position: relative; z-index: 1000; }
+#sidepanel { position: fixed; bottom: 0px; right: 0px; z-index: 1000; }
+#sidepanel a, #sidepanel b { background-image: url('../images/20130330a_2.png'); background-repeat: no-repeat; }
+#sidepanel a { display: block; position: relative; width: 17px; height: 66px; padding: 28px 4px 0px; margin: 5px 0px; text-align: center; line-height: 14px; text-decoration: none; }
+#sidepanel b { position: absolute; top: 9px; left: 4px; width: 17px; height: 16px; overflow: hidden; }
+#sidepanel a:link, #sidepanel a:visited { background-position: -85px -149px; }
+#sidepanel a:hover, #sidepanel a:active { background-position: -50px -149px; }
+#sidepanel .gotop:link b, #sidepanel .gotop:visited b { background-position: -21px -219px; }
+#sidepanel .gotop:hover b, #sidepanel .gotop:active b { background-position: -21px -200px; }
+#sidepanel .research:link b, #sidepanel .research:visited b { background-position: 0px -219px; }
+#sidepanel .research:hover b, #sidepanel .research:active b { background-position: 0px -200px; }
+
+#shortcut-2013 .outline{
+  position: absolute;
+  border: 1px solid #DDD;
+  background: #FFF none repeat scroll 0% 0%;
+  box-shadow: 0px 0px 10px #DDD;
+  z-index: -1;
+  left: 5px;
+  top: 3px;
+  width: 73px;
+  height: 28px;
+  display: none;
+}

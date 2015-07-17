@@ -92,4 +92,20 @@ $(function(){
   },function(){
     $(this).children('.navigation').css({backgroundColor:'#f7f7f7'}).end().children('div.line,div.up,div.contents').hide();
   })
+
+  //2013京东头部
+  $('.fore4').hover(function(){
+    $(this).find('.dd').show();
+    $(this).find('.outline').show();
+  },function(){
+    $(this).find('.dd').hide();
+    $(this).find('.outline').hide();
+  });
+  $('.fore5').hover(function(){
+    $(this).find('.dd').show();
+    $(this).find('.outline').show();
+  },function(){
+    $(this).find('.dd').hide();
+    $(this).find('.outline').hide();
+  });
 });
