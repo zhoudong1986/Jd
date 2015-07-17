@@ -33,4 +33,50 @@ class LoginController extends Controller {
   		}
 
     }
+    public function logout(){
+      $data=I('sure');
+      // dump($data);
+      $sess=session('isLogin',null);
+      session('id',null);
+      session('sname',null);
+      session('loginIp',null);
+      if($data=='1' && empty($sess)){
+        $this->ajaxReturn(2);
+      }else{
+        $this->ajaxReturn(3);
+      }
+
+      }
+
+  //    修改密码
+    public function update() {
+//      接收ajax传过来的值
+      $sname=session('sname');
+      $oldPwd=I('oldPwd','','md5');
+      $newPwd=I('newPwd','','md5');
+      $surePwd=I('surePwd','','md5');
+      if($newPwd != $surePwd){
+        $this ->ajaxReturn(0);
+        return false;
+      }else{
+        // 实例化数据库
+        $seller=D('sellers');
+        //把修改值放到数组中
+        $data1=array('password'=>$newPwd);
+
+//      修改数据库密码
+        $sellerResult=$seller ->where('password='.$oldPwd) ->save($data1);
+//      判断是否修改成功
+        if($sellerResult){
+          $this->ajaxReturn(1);
+        }else{
+          $this->ajaxReturn(2);
+        }
+      }
+
+
+
+      
+
+    }
 }

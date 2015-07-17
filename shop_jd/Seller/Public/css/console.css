@@ -1,0 +1,39 @@
+/*修改密码开始*/
+#updatePwd{
+  width:400px;
+  height:400px;
+  position: absolute;
+  left:500px;
+  top:0px;
+  border:1px solid #79797d;
+  z-index:20;
+  border-radius: 10px;
+  background: #fff;
+  display:none;
+  z-index: 11;
+}
+ div.update{
+  font-size:30px;
+  height:55px;
+  line-height: 50px;
+  text-align: center;
+  background:#438EB9;
+   border-radius: 10px 10px 0 0;
+   color:#fff;
+}
+ #updatePwd div.borderIn{
+   position: absolute;
+   width:350px;
+   left:25px;
+   top:95px;
+ }
+#updatePwd div.borderIn button{
+  border-radius: 5px;
+}
+#updatePwd div.borderIn button.btnone{
+  margin:5px 90px 5px 55px;
+}
+#pwdOne{
+  color:red;
+}
+/*修改密码结束*/

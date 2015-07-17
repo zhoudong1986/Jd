@@ -17,7 +17,7 @@ $(function(){
 	$('.signin').bind('click',function(){
 		
 		$.ajax({
-			url:'<{:U('Login/login')}>',
+			url:'<{:U("Login/login")}>',
 			type:'post',
 			data:{'sname':$("input[name=sname]").val(),'password':$('input[name=password]').val()},
 			success:function(data){
@@ -33,7 +33,7 @@ $(function(){
 					(window.location.href="../Index/index.html").delay('2000');
 					
 				}else if(data=='2'){
-					$('div.warning').text('账号与密码不一致').fadeIn('slow');
+					$('div.warning').text('账号与密码不对').fadeIn('slow');
 					// <{:U('Login/login')}>;
 				}
 
