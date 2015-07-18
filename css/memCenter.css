@@ -48,7 +48,7 @@ a:hover { color: rgb(200, 22, 35); }
 #shortcut-2014 #ttbar-mycity .dd-spacer { left: 0px; width: 93px; }
 #shortcut-2014 #ttbar-login { margin-right: 10px; }
 #shortcut-2014 #ttbar-apps .dt { padding-left: 25px; padding-right: 25px; }
-#shortcut-2014 #ttbar-apps .dt .ci-left { top: 5px; left: 7px; width: 15px; height: 20px; background: transparent url('jd2015img.png') no-repeat scroll 0px 0px; }
+#shortcut-2014 #ttbar-apps .dt .ci-left { top: 5px; left: 7px; width: 15px; height: 20px; background: transparent url('../imags/jd2015img.png') no-repeat scroll 0px 0px; }
 #shortcut-2014 #ttbar-apps .dd { width: 250px; }
 #shortcut-2014 #ttbar-apps .dd a { display: block; position: absolute; width: 56px; height: 44px; overflow: hidden; text-indent: -500px; }
 #shortcut-2014 #ttbar-apps .dd .link { width: 100px; height: 20px; overflow: hidden; }
@@ -99,14 +99,14 @@ a:hover { color: rgb(200, 22, 35); }
 #categorys-2014 .item-sub::after { content: "."; display: block; height: 0px; clear: both; }
 #settleup-2014 { float: right; z-index: 11; height: 36px; margin-top: 25px; }
 #settleup-2014 .cw-icon { width: 75px; height: 34px; border: 1px solid rgb(223, 223, 223); padding: 0px 28px 0px 36px; background: rgb(249, 249, 249) none repeat scroll 0% 0%; text-align: center; line-height: 34px; }
-#settleup-2014 .ci-left { top: 9px; left: 18px; width: 18px; height: 16px; background: transparent url('jd2015img.png') no-repeat scroll 0px -58px; }
+#settleup-2014 .ci-left { top: 9px; left: 18px; width: 18px; height: 16px; background: transparent url('../images/jd2015img.png') no-repeat scroll 0px -58px; }
 #settleup-2014 .ci-right { top: 11px; right: 10px; width: 7px; height: 13px; overflow: hidden; font: 400 13px/13px simsun; color: rgb(153, 153, 153); }
 #settleup-2014 .ci-count { position: absolute; top: -4px; left: 104px; display: inline-block; padding: 1px 2px; font-size: 12px; line-height: 12px; color: rgb(255, 255, 255); background-color: rgb(200, 22, 35); border-radius: 7px 7px 7px 0px; min-width: 12px; text-align: center; }
 #settleup-2014.hover .cw-icon, #settleup-2014.hover .dorpdown-layer, #settleup-2014:hover .cw-icon, #settleup-2014:hover .dorpdown-layer { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
 #settleup-2014.hover .dorpdown-layer, #settleup-2014:hover .dorpdown-layer { display: block; right: 0px; width: 308px; }
 #settleup-2014.hover .spacer, #settleup-2014:hover .spacer { position: absolute; right: 0px; top: -7px; width: 139px; height: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
 #settleup-content { position: relative; z-index: 2; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
-#settleup-content .loading { display: block; height: 50px; background: transparent url('loading.gif') no-repeat scroll center center; }
+#settleup-content .loading { display: block; height: 50px; background: transparent url('../images/loading.gif') no-repeat scroll center center; }
 #footer-2014 { border-top: 1px solid rgb(229, 229, 229); padding: 20px 0px 30px; text-align: center; }
 #footer-2014 .links a { margin: 0px 10px; }
 #footer-2014 .copyright { margin: 10px 0px; }
@@ -149,7 +149,7 @@ li { list-style: outside none none; }
 #nav .w { background-color: rgb(228, 80, 80); }
 #nav .logo { float: left; width: 265px; }
 #nav .logo a { text-decoration: none; color: rgb(255, 255, 255); }
-#nav .logo .fore1 { float: left; margin-right: 10px; width: 158px; height: 80px; background: transparent url('logo.png') no-repeat scroll 0% 0%; }
+#nav .logo .fore1 { float: left; margin-right: 10px; width: 158px; height: 80px; background: transparent url('../images/logo.png') no-repeat scroll 0% 0%; }
 #nav .logo .fore2 { float: left; font-size: 20px; font-family: "微软雅黑"; margin: 20px 0px 0px 6px; height: 22px; }
 #nav .logo .fore3 { float: left; margin: 5px 0px 0px; color: rgb(255, 178, 178); border: 1px solid rgb(255, 178, 178); height: 18px; line-height: 18px; padding: 0px 10px; border-radius: 10px; }
 #nav .logo .fore3:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-color: rgb(255, 255, 255); color: rgb(228, 57, 60); }
@@ -163,12 +163,12 @@ li { list-style: outside none none; }
 #nav .navitems .dl { position: relative; }
 #nav .navitems .dl .dt { white-space: nowrap; height: 18px; line-height: 18px; padding: 9px 16px; width: 74px; }
 #nav .navitems .dl .dt span { color: rgb(255, 255, 255); }
-#nav .navitems .dl .dt b { display: inline-block; vertical-align: middle; width: 9px; height: 6px; overflow: hidden; margin-left: 5px; background: transparent url('icon.png') no-repeat scroll 0px -120px; transition: transform 0.2s ease-in 0s; }
+#nav .navitems .dl .dt b { display: inline-block; vertical-align: middle; width: 9px; height: 6px; overflow: hidden; margin-left: 5px; background: transparent url('../images/icon.png') no-repeat scroll 0px -120px; transition: transform 0.2s ease-in 0s; }
 #nav .navitems .dl .dd { position: absolute; top: 34px; left: 0px; display: none; background-color: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(221, 221, 221) rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 12px; }
 #nav .navitems .dl .dd a { display: block; text-decoration: none; width: 88px; padding: 0px 0px 0px 16px; line-height: 30px; }
 #nav .navitems .dl .dd a:hover { background: rgb(245, 245, 245) none repeat scroll 0% 0%; color: rgb(228, 57, 60); }
 #nav .navitems .myjd-info { position: relative; }
-#nav .navitems .myjd-info i { display: block; position: absolute; top: -10px; left: 68px; width: 26px; height: 26px; line-height: 26px; font-family: verdana; color: rgb(51, 51, 51); text-align: center; font-weight: 700; overflow: hidden; background: transparent url('msg-count.png') no-repeat scroll 0% 0%; transition: transform 0.2s ease-in 0s; }
+#nav .navitems .myjd-info i { display: block; position: absolute; top: -10px; left: 68px; width: 26px; height: 26px; line-height: 26px; font-family: verdana; color: rgb(51, 51, 51); text-align: center; font-weight: 700; overflow: hidden; background: transparent url('../images/msg-count.png') no-repeat scroll 0% 0%; transition: transform 0.2s ease-in 0s; }
 #nav .nav-r { float: right; width: 340px; margin-right: 5px; }
 #nav .nav-r #search-2014 { width: 186px; }
 #nav .nav-r #search-2014 .button { width: 56px; font-size: 12px; height: 32px; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247); }
@@ -192,7 +192,7 @@ li { list-style: outside none none; }
 #menu-ads { width: 90px; margin-left: 10px; overflow: hidden; }
 #menu-ads a { display: inline-block; margin-bottom: 10px; }
 .rank { margin-right: 10px; display: inline-block; height: 17px; line-height: 17px; }
-.rank s { background: transparent url('rank2014.gif') repeat scroll 0% 0%; display: inline-block; height: 17px; margin-right: 5px; text-decoration: none; width: 17px; vertical-align: middle; }
+.rank s { background: transparent url('../images/rank2014.gif') repeat scroll 0% 0%; display: inline-block; height: 17px; margin-right: 5px; text-decoration: none; width: 17px; vertical-align: middle; }
 .rank a { display: inline-block; vertical-align: middle; }
 .rank.r2 s { background-position: 0px -17px; }
 #da-main .da-list { margin-bottom: 10px; }
@@ -202,7 +202,7 @@ li { list-style: outside none none; }
 table { border-collapse: collapse; }
 .remind-box .smt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 .tip-box .links ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
-img.err-poster, img.err-product { background: transparent url('error-jd.gif') no-repeat scroll 50% 50%; }
+img.err-poster, img.err-product { background: transparent url('../images/error-jd.gif') no-repeat scroll 50% 50%; }
 @media screen and (min-width: 1044px) and (max-width: 1279px) {
 	#header-2013 { position: relative; }
 }
@@ -232,13 +232,13 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 	.lyt-c-2 .lyt-c-5 { margin-right: 0px; width: 300px; }
 	.lyt-c-6 { float: left; clear: none; width: 770px; }
 }
-.user-info { background: rgb(255, 255, 255) url('userinfo-bg.png') repeat-y scroll right top; padding: 15px 20px 15px 319px; margin-bottom: 10px; height: 150px; overflow: hidden; border-radius: 86px 0px 0px 86px; }
+.user-info { background: rgb(255, 255, 255) url('../images/userinfo-bg.png') repeat-y scroll right top; padding: 15px 20px 15px 319px; margin-bottom: 10px; height: 150px; overflow: hidden; border-radius: 86px 0px 0px 86px; }
 .user-info a { color: rgb(0, 94, 167); }
 .user-info a:hover { color: rgb(228, 57, 60); }
 .user-info .info-lcol { float: left; position: relative; width: 319px; left: -319px; padding: 22px 0px; }
 .user-info .info-rcol { float: left; width: 99.19%; margin-left: -319px; padding-top: 5px; }
 .user-info .u-pic { position: relative; float: left; width: 104px; height: 104px; margin: 0px 10px 0px 16px; z-index: 2; overflow: hidden; text-align: center; }
-.user-info .u-pic .mask { background: transparent url('myjd-bg.png') repeat scroll 0px 0px; width: 104px; height: 104px; position: absolute; left: 0px; top: 0px; z-index: 2; }
+.user-info .u-pic .mask { background: transparent url('../images/myjd-bg.png') repeat scroll 0px 0px; width: 104px; height: 104px; position: absolute; left: 0px; top: 0px; z-index: 2; }
 .user-info .info-m { float: left; width: 188px; position: relative; margin: 15px 0px 0px; }
 .user-info .info-m .u-name { font-size: 18px; font-family: "microsoft yahei"; color: rgb(51, 51, 51); line-height: 28px; margin-bottom: 5px; }
 .user-info .info-m .u-name a { color: rgb(0, 0, 0); }
@@ -251,9 +251,9 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .user-info .info-m .u-safe .rank-text.ftx-05, .user-info .info-m .u-safe .rank-text.ftx-06 { color: rgb(102, 153, 51); }
 .user-info .info-m .info-line { position: absolute; height: 180px; right: 0px; top: -52px; border-left: 1px dotted rgb(221, 221, 221); z-index: 1; }
 .user-info .info-m .info-line .top-icon, .user-info .info-m .info-line .bottom-icon { display: block; position: absolute; overflow: hidden; width: 18px; height: 8px; left: -9px; }
-.user-info .info-m .info-line .top-icon { top: 0px; background: transparent url('info-top.png') no-repeat scroll 0% 0%; }
-.user-info .info-m .info-line .bottom-icon { bottom: 0px; background: transparent url('info-bottom.png') no-repeat scroll 0% 0%; }
-.user-info .info-m .info-line .left-icon { position: absolute; overflow: hidden; width: 88px; height: 180px; left: -318px; background: transparent url('info-left.png') no-repeat scroll 0px 0px; }
+.user-info .info-m .info-line .top-icon { top: 0px; background: transparent url('../images/info-top.png') no-repeat scroll 0% 0%; }
+.user-info .info-m .info-line .bottom-icon { bottom: 0px; background: transparent url('../images/info-bottom.png') no-repeat scroll 0% 0%; }
+.user-info .info-m .info-line .left-icon { position: absolute; overflow: hidden; width: 88px; height: 180px; left: -318px; background: transparent url('../images/info-left.png') no-repeat scroll 0px 0px; }
 .user-info .user-counts { float: left; width: 28.57%; margin-top: 6px; }
 .user-info .user-counts ul { display: block; margin-left: 15px; }
 .user-info .user-counts ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
@@ -261,7 +261,7 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .user-info .user-counts a { color: rgb(102, 102, 102); }
 .user-info .user-counts a:hover { color: rgb(201, 21, 35); text-decoration: none; }
 .user-info .user-counts em { font-family: verdana; color: rgb(201, 21, 35); font-weight: bold; margin-left: 5px; }
-.user-info .user-counts .count-icon { display: block; width: 40px; height: 40px; overflow: hidden; transition: transform 0.2s ease-in 0s; background: transparent url('ucount-icon.png') no-repeat scroll 0% 0%; }
+.user-info .user-counts .count-icon { display: block; width: 40px; height: 40px; overflow: hidden; transition: transform 0.2s ease-in 0s; background: transparent url('../images/ucount-icon.png') no-repeat scroll 0% 0%; }
 .user-info .user-counts .count-icon01 { background-position: 0px 0px; }
 .user-info .user-counts .count-icon02 { background-position: 0px -50px; }
 .user-info .user-counts .count-icon03 { background-position: 0px -100px; }
@@ -307,7 +307,7 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 }
 .tb-order { border-collapse: collapse; border-spacing: 0px; text-align: center; }
 .nocont-box { color: rgb(153, 153, 153); text-align: center; }
-.nocont-box b { display: inline-block; vertical-align: middle; background: transparent url('nocont-icons.png') no-repeat scroll 0% 0%; overflow: hidden; margin-right: 20px; }
+.nocont-box b { display: inline-block; vertical-align: middle; background: transparent url('../images/nocont-icons.png') no-repeat scroll 0% 0%; overflow: hidden; margin-right: 20px; }
 .nocont-box b.icon-order { width: 70px; height: 70px; background-position: 0px 0px; }
 .nocont-order { margin: 60px 0px 90px; }
 @media screen and (min-width: 1040px) and (max-width: 1279px) {
@@ -323,7 +323,7 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .economical .gate-list li .gate-item a { display: block; position: relative; width: 100%; text-decoration: none; }
 .economical .gate-list li span.fore1 { position: relative; z-index: 2; color: rgb(255, 255, 255); font-size: 14px; font-family: "微软雅黑"; float: left; padding-left: 20px; transition: all 0.5s ease-in-out 0s, opacity 1s ease 0s; }
 .economical .gate-list li span.fore2 { position: absolute; z-index: 1; right: 0px; top: 0px; width: 42px; height: 42px; text-align: center; background-color: rgb(255, 120, 103); border-radius: 42px; text-decoration: none; color: rgb(255, 255, 255); transition: all 0.5s ease-in-out 0s, opacity 1s ease 0s; }
-.economical .gate-list li span.fore2 b { position: absolute; right: 18px; top: 18px; display: block; width: 3px; height: 5px; line-height: 100px; overflow: hidden; background: transparent url('e-icon.png') no-repeat scroll 0% 0%; }
+.economical .gate-list li span.fore2 b { position: absolute; right: 18px; top: 18px; display: block; width: 3px; height: 5px; line-height: 100px; overflow: hidden; background: transparent url('../images/e-icon.png') no-repeat scroll 0% 0%; }
 .economical .gate-list li a:hover span.fore1 { padding-left: 30px; }
 .economical .gate-list li a:hover span.fore2 { width: 100%; }
 .economical .eco-item { float: right; width: 83.3%; overflow: hidden; }
@@ -354,7 +354,7 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .f-tab ul li a { border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: rgb(233, 234, 236) rgb(233, 234, 236) rgb(233, 234, 236) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; display: block; height: 23px; line-height: 23px; width: 63px; text-align: center; text-decoration: none; background-color: rgb(248, 248, 248); }
 .f-tab ul li.curr a { color: rgb(228, 57, 60); font-weight: 700; background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); }
 .f-tab-con { overflow: hidden; }
-#history { position: relative; background: rgb(255, 255, 255) url('history-bg.png') no-repeat scroll center bottom; }
+#history { position: relative; background: rgb(255, 255, 255) url('../images/history-bg.png') no-repeat scroll center bottom; }
 #history .mc { position: relative; overflow: hidden; }
 .history-con { position: relative; padding: 0px 20px; height: 110px; }
 .history-con .slider-show { overflow: hidden; position: relative; line-height: 0; margin: 0px 42px; height: 110px; }
@@ -366,16 +366,16 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .history-con .ctrl { position: absolute; width: 19px; height: 100%; cursor: pointer; overflow: hidden; }
 .history-con .ctrl b { position: absolute; width: 19px; height: 31px; top: 50%; margin-top: -15px; overflow: hidden; z-index: 1; }
 .history-con .ctrl.prev { left: 0px; }
-.history-con .ctrl.prev b { background: transparent url('arrow.jpg') no-repeat scroll 0px 0px; }
+.history-con .ctrl.prev b { background: transparent url('../images/arrow.jpg') no-repeat scroll 0px 0px; }
 .history-con .ctrl.prev:hover { left: 0px; }
-.history-con .ctrl.prev:hover b { background: transparent url('arrow.jpg') no-repeat scroll 0px -31px; }
+.history-con .ctrl.prev:hover b { background: transparent url('../images/arrow.jpg') no-repeat scroll 0px -31px; }
 .history-con .ctrl.next { right: 0px; }
-.history-con .ctrl.next b { background: transparent url('arrow.jpg') no-repeat scroll -20px 0px; }
+.history-con .ctrl.next b { background: transparent url('../images/arrow.jpg') no-repeat scroll -20px 0px; }
 .history-con .ctrl.next:hover { right: 0px; }
-.history-con .ctrl.next:hover b { background: transparent url('arrow.jpg') no-repeat scroll -20px -31px; }
+.history-con .ctrl.next:hover b { background: transparent url('../images/arrow.jpg') no-repeat scroll -20px -31px; }
 .history-progress { visibility: hidden; position: relative; height: 2px; background: rgb(232, 232, 232) none repeat scroll 0% 0%; width: 100%; margin-top: 56px; }
 .history-progress .progress-cont { position: absolute; height: 2px; background: rgb(56, 56, 56) none repeat scroll 0% 0%; }
-.history-progress .progress-cont b { position: absolute; right: 0px; bottom: 0px; display: block; width: 28px; height: 33px; overflow: hidden; background: transparent url('progress-node.png') no-repeat scroll 0% 0%; cursor: pointer; }
+.history-progress .progress-cont b { position: absolute; right: 0px; bottom: 0px; display: block; width: 28px; height: 33px; overflow: hidden; background: transparent url('../images/progress-node.png') no-repeat scroll 0% 0%; cursor: pointer; }
 @media screen and (min-width: 1280px) {
 	.history-con .slider-show { margin: 0px 12px; }
 	.history-con ul li { margin-right: 18px; }
@@ -395,13 +395,13 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 .follow .ctrl { position: absolute; display: block; float: left; width: 19px; height: 159px; cursor: pointer; overflow: hidden; }
 .follow .ctrl b { position: absolute; display: block; width: 19px; height: 31px; top: 50%; margin-top: -15px; overflow: hidden; z-index: 1; }
 .follow .ctrl.prev { left: 0px; }
-.follow .ctrl.prev b { background: transparent url('arrow.jpg') no-repeat scroll 0px 0px; }
+.follow .ctrl.prev b { background: transparent url('../images/arrow.jpg') no-repeat scroll 0px 0px; }
 .follow .ctrl.prev:hover { left: 0px; }
-.follow .ctrl.prev:hover b { background: transparent url('arrow.jpg') no-repeat scroll 0px -31px; }
+.follow .ctrl.prev:hover b { background: transparent url('../images/arrow.jpg') no-repeat scroll 0px -31px; }
 .follow .ctrl.next { right: 0px; }
-.follow .ctrl.next b { background: transparent url('arrow.jpg') no-repeat scroll -20px 0px; }
+.follow .ctrl.next b { background: transparent url('../images/arrow.jpg') no-repeat scroll -20px 0px; }
 .follow .ctrl.next:hover { right: 0px; }
-.follow .ctrl.next:hover b { background: transparent url('arrow.jpg') no-repeat scroll -20px -31px; }
+.follow .ctrl.next:hover b { background: transparent url('../images/arrow.jpg') no-repeat scroll -20px -31px; }
 .nocont-fol { padding: 20px 10px; margin: 0px -10px; border-bottom: 1px dashed rgb(221, 221, 221); }
 @media screen and (min-width: 1280px) {
 	.follow .slider-show { margin: 0px 5px; }
@@ -441,8 +441,8 @@ img.err-poster, img.err-product { background: transparent url('error-jd.gif') no
 }
 .backpanel-inner { position: fixed; z-index: 1000; left: 50%; bottom: 0px; margin-left: 495px; }
 .backpanel-inner .bp-item { width: 25px; }
-.backpanel-inner .bp-item a { display: block; position: relative; width: 17px; height: 66px; padding: 28px 4px 0px; margin: 5px 0px; text-align: center; line-height: 14px; text-decoration: none; background: transparent url('backpanel-icon.png') no-repeat scroll -105px 0px; }
-.backpanel-inner .bp-item a b { position: absolute; top: 9px; left: 4px; width: 17px; height: 16px; overflow: hidden; background-image: url('backpanel-icon.png'); }
+.backpanel-inner .bp-item a { display: block; position: relative; width: 17px; height: 66px; padding: 28px 4px 0px; margin: 5px 0px; text-align: center; line-height: 14px; text-decoration: none; background: transparent url('../images/backpanel-icon.png') no-repeat scroll -105px 0px; }
+.backpanel-inner .bp-item a b { position: absolute; top: 9px; left: 4px; width: 17px; height: 16px; overflow: hidden; background-image: url('../images/backpanel-icon.png'); }
 .backpanel-inner .bp-item a:hover { line-height: 14px; color: rgb(204, 0, 0); background-position: -70px 0px; text-decoration: none; }
 .backpanel-inner .bp-item .research b { background-position: -16px -115px; }
 .backpanel-inner .bp-item .research:hover b { background-position: -16px -96px; }
