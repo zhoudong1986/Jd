@@ -9,8 +9,9 @@
   <meta name="description" content="代码家园-www.daimajiayuan.com提供Bootstrap模版,后台管理系统模版,后台管理界面,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="">
+  <base target="adminFrame" />
   <!-- Stylesheets -->
-  <link href="__ADMINPUBLIC__/css/bootstrap.css" rel="stylesheet">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font awesome icon -->
   <link rel="stylesheet" href="__ADMINPUBLIC__/css/font-awesome.css">
   <!-- jQuery UI -->
@@ -581,13 +582,13 @@
         </a>
         <ul>
           <li>
-            <a href="widgets1.html">前台买家</a>
+            <a href="">前台买家</a>
           </li>
           <li>
-            <a href="widgets2.html">前台卖家</a>
+            <a href="">前台卖家</a>
           </li>
           <li>
-            <a href="widgets3.html">后台管理员</a>
+            <a href="<{:U('Member/admin')}>" >后台管理员</a>
           </li>
         </ul>
       </li>
@@ -601,22 +602,22 @@
         </a>
         <ul>
           <li>
-            <a href="post.html">表单Post</a>
+            <a href="">表单Post</a>
           </li>
           <li>
-            <a href="login.html">登录页</a>
+            <a href="">登录页</a>
           </li>
           <li>
-            <a href="register.html">注册页面</a>
+            <a href="" >注册页面</a>
           </li>
           <li>
-            <a href="support.html">帮助页</a>
+            <a href="" >帮助页</a>
           </li>
           <li>
-            <a href="invoice.html">购物清单</a>
+            <a href="">购物清单</a>
           </li>
           <li>
-            <a href="profile.html">个人资料</a>
+            <a href="" >个人资料</a>
           </li>
           <li>
             <a href="gallery.html">相册页面</a>
@@ -689,132 +690,9 @@
 
   <!-- Main bar -->
   <div class="mainbar">
-
     <!-- Page heading -->
-    <div class="page-head">
-      <h2 class="pull-left">
-        <i class="icon-home"></i>
-        首页
-      </h2>
-
-      <!-- Breadcrumb -->
-      <div class="bread-crumb pull-right">
-        <a href="index.html">
-          <i class="icon-home"></i>
-          首页
-        </a>
-        <!-- Divider -->
-        <span class="divider">/</span>
-        <a href="#" class="bread-current">控制台</a>
-      </div>
-
-      <div class="clearfix"></div>
-
-    </div>
-    <!-- Page heading ends -->
-
-    <!-- 会员表格开始 -->
-    <div style="height:10px"></div>
-    <ol class="breadcrumb">
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Library</a>
-      </li>
-      <li class="active">Data</li>
-    </ol>
-    <div class="panel panel-info">
-      <div class="panel-heading container">
-        <form class="form-inline">
-          <div class="form-group">
-            <label style="font-size:16px">
-              <span class="glyphicon glyphicon-user"></span>
-              &nbsp;&nbsp;管理员列表
-            </label>
-          </div>
-          <div class="form-group">
-            <input type="text" id="search" class="form-control" name="search">
-            <button class="btn btn-primary">搜索</button>
-          </div>
-        </form>
-      </div>
-      <table class="table  table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="panel-footer panel-default" style="text-align:right">
-        <nav>
-          <ul class="pagination pagination-md">
-            <li>
-              <a href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">1</a>
-            </li>
-            <li>
-              <a href="#">2</a>
-            </li>
-            <li>
-              <a href="#">3</a>
-            </li>
-            <li>
-              <a href="#">4</a>
-            </li>
-            <li>
-              <a href="#">5</a>
-            </li>
-            <li>
-              <a href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <!-- 会员表格结束 -->
+    
+    <iframe id="fram" src="<{:U('copyIndex')}>" width="1190" height="800" frameborder="no" name="adminFrame" border="0"  scrolling="no"></iframe>
     <!-- Matter -->
 
     <!-- Matter ends --> </div>
@@ -839,7 +717,7 @@
     </div>
   </div>
 </footer>
-
+<img src="" id="myImg" />
 <!-- Footer ends -->
 
 <!-- Scroll to top -->
@@ -1083,7 +961,13 @@ document.onkeydown = function(event){
 function logout(){
   location.href = '<{:U("Logout/logout")}>';
 }
-
+/*$('#nav>li>ul a').click(function(){
+  var $ifm = document.getElementsByTagName("iframe")[0];
+  var $con = $ifm.contentWindow;
+  var $height = $con.document.body.clientHeight;
+  $('#fram').attr('height',$height);
+  alert($('#fram').attr('height'));
+});*/
 /* Curve chart ends */
 </script>
 
