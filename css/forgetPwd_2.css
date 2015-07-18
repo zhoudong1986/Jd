@@ -1,0 +1,226 @@
+/* ::::: http://misc.360buyimg.com/jdf/1.0.0/unit/??ui-base/1.0.0/ui-base.css,shortcut/2.0.0/shortcut.css,global-header/1.0.0/global-header.css,myjd/2.0.0/myjd.css,nav/2.0.0/nav.css,shoppingcart/2.0.0/shoppingcart.css,global-footer/1.0.0/global-footer.css,service/1.0.0/service.css,basePatch/1.0.0/basePatch.css ::::: */
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var { margin: 0px; padding: 0px; }
+button, html input[type="button"], input[type="submit"] { cursor: pointer; }
+button[disabled], html input[disabled] { cursor: default; }
+ol, ul { list-style: outside none none; }
+img { border: 0px none; vertical-align: middle; }
+em, i, u { font-style: normal; }
+.fl { float: left; }
+.fr { float: right; }
+.hide { display: none; }
+.clear, .clr { display: block; overflow: hidden; clear: both; height: 0px; line-height: 0; font-size: 0px; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.dorpdown { position: relative; }
+.dorpdown-layer { display: none; position: absolute; }
+.dorpdown:hover .dorpdown-layer, .hover .dorpdown-layer { display: block; }
+.cw-icon { position: relative; cursor: default; }
+.cw-icon .i, .cw-icon i { display: block; position: absolute; overflow: hidden; }
+.w { width: 990px; margin: 0px auto; }
+body { font: 12px/150% Arial,Verdana,"宋体"; color: rgb(102, 102, 102); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+a { color: rgb(102, 102, 102); text-decoration: none; }
+a:hover { color: rgb(200, 22, 35); }
+.m, .mb, .mc, .mt, .p-detail, .p-img, .p-market, .p-name, .p-price, .sm, .smb, .smc, .smt { overflow: hidden; }
+#shortcut-2014 { width: 100%; height: 30px; line-height: 30px; background: rgb(241, 241, 241) none repeat scroll 0% 0%; }
+#shortcut-2014 .w { background: rgb(241, 241, 241) none repeat scroll 0% 0%; }
+#shortcut-2014 li { float: left; height: 30px; padding: 0px 2px; }
+#shortcut-2014 li#ttbar-navs { padding: 0px 1px 0px 2px; }
+#shortcut-2014 li#ttbar-navs.hover, #shortcut-2014 li#ttbar-navs:hover { padding: 0px 0px 0px 1px; }
+#shortcut-2014 li.dorpdown { z-index: 13; }
+#shortcut-2014 li.dorpdown:hover { padding: 0px 1px; }
+#shortcut-2014 li.dorpdown:hover .dt { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-style: solid; border-color: rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px; }
+#shortcut-2014 li.spacer { width: 1px; height: 12px; margin-top: 9px; padding: 0px; background: rgb(221, 221, 221) none repeat scroll 0% 0%; overflow: hidden; }
+#shortcut-2014 .dt { float: left; padding: 0px 8px; }
+#shortcut-2014 .dd { line-height: 24px; }
+#shortcut-2014 .loading { display: block; height: 50px; background: transparent url('loading.gif') no-repeat scroll center center; }
+#shortcut-2014 .dorpdown-layer { top: 30px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); }
+#shortcut-2014 .ci-right { top: 12px; right: 8px; height: 7px; overflow: hidden; font: 400 15px/15px consolas; color: rgb(106, 106, 106); transition: transform 0.1s ease-in 0s; }
+#shortcut-2014 .ci-right s { position: relative; top: -7px; text-decoration: none; }
+#shortcut-2014 li:hover .ci-right { transform: rotate(180deg); }
+#shortcut-2014 .dd-spacer { position: absolute; top: -7px; height: 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow: hidden; }
+#shortcut-2014 .style-red { color: rgb(200, 22, 35); }
+#shortcut-2014 #ttbar-mycity { padding-left: 0px; }
+#shortcut-2014 #ttbar-mycity .dt { padding: 0px 25px 0px 10px; }
+#shortcut-2014 #ttbar-mycity:hover .dt { padding: 0px 24px 0px 9px; }
+#shortcut-2014 #ttbar-mycity .dd { width: 301px; padding: 10px 0px 10px 10px; }
+#shortcut-2014 #ttbar-mycity .dorpdown-layer {  }
+#shortcut-2014 #ttbar-mycity .item { float: left; width: 60px; padding: 2px 0px; }
+#shortcut-2014 #ttbar-mycity .item a { float: left; padding: 0px 8px; }
+#shortcut-2014 #ttbar-mycity .item a:hover { background: rgb(244, 244, 244) none repeat scroll 0% 0%; }
+#shortcut-2014 #ttbar-mycity .item a.selected { background: rgb(200, 22, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+#shortcut-2014 #ttbar-mycity .dd-spacer { left: 0px; width: 93px; }
+#shortcut-2014 #ttbar-login { margin-right: 10px; }
+#shortcut-2014 #ttbar-login .link-login { font-family: "verdana,瀹嬩綋"; }
+#shortcut-2014 #ttbar-apps .dt { padding-left: 25px; padding-right: 25px; }
+#shortcut-2014 #ttbar-apps .dt .ci-left { top: 5px; left: 7px; width: 15px; height: 20px; background: transparent url('jd2015img.png') no-repeat scroll 0px 0px; }
+#shortcut-2014 #ttbar-apps .dd { width: 250px; }
+#shortcut-2014 #ttbar-apps .dd a { display: block; position: absolute; width: 56px; height: 44px; overflow: hidden; text-indent: -500px; }
+#shortcut-2014 #ttbar-apps .dd .link { width: 100px; height: 20px; overflow: hidden; }
+#shortcut-2014 #ttbar-apps .dd .link1, #shortcut-2014 #ttbar-apps .dd .link2, #shortcut-2014 #ttbar-apps .dd .link3 { left: 92px; top: 6px; background-position: 0px -44px; }
+#shortcut-2014 #ttbar-apps .dd .link3 { top: 104px; background-position: -1px -66px; }
+#shortcut-2014 #ttbar-apps .dd .jdapp-ipad, #shortcut-2014 #ttbar-apps .dd .wyapp-ipad { width: 45px; }
+#shortcut-2014 #ttbar-apps .dd-inner { position: relative; width: 250px; height: 195px; overflow: hidden; }
+#shortcut-2014 #ttbar-apps .jdapp-ios, #shortcut-2014 #ttbar-apps .wyapp-ios { top: 46px; left: 92px; }
+#shortcut-2014 #ttbar-apps .jdapp-ios:hover, #shortcut-2014 #ttbar-apps .wyapp-ios:hover { background-position: 3px -1px; }
+#shortcut-2014 #ttbar-apps .jdapp-android, #shortcut-2014 #ttbar-apps .wyapp-android { top: 46px; left: 147px; }
+#shortcut-2014 #ttbar-apps .jdapp-android:hover, #shortcut-2014 #ttbar-apps .wyapp-android:hover { background-position: -52px -1px; }
+#shortcut-2014 #ttbar-apps .jdapp-ipad, #shortcut-2014 #ttbar-apps .wyapp-ipad { width: 45px; top: 46px; left: 202px; }
+#shortcut-2014 #ttbar-apps .jdapp-ipad:hover, #shortcut-2014 #ttbar-apps .wyapp-ipad:hover { background-position: -107px -1px; }
+#shortcut-2014 #ttbar-apps .wyapp-android, #shortcut-2014 #ttbar-apps .wyapp-ios, #shortcut-2014 #ttbar-apps .wyapp-ipad { top: 143px; }
+#shortcut-2014 #ttbar-apps .dd-spacer { left: 0px; width: 98px; }
+#shortcut-2014 #ttbar-atte .dt, #shortcut-2014 #ttbar-serv .dt { width: 49px; padding-right: 25px; }
+#shortcut-2014 #ttbar-atte .dd, #shortcut-2014 #ttbar-serv .dd { width: 82px; padding-bottom: 8px; }
+#shortcut-2014 #ttbar-atte .item, #shortcut-2014 #ttbar-serv .item { padding-left: 15px; }
+#shortcut-2014 #ttbar-atte .dd-spacer, #shortcut-2014 #ttbar-serv .dd-spacer { left: 0px; width: 82px; }
+#shortcut-2014 #ttbar-navs .dt { width: 49px; padding-right: 25px; }
+#shortcut-2014 #ttbar-navs .dd { right: 0px; width: 988px; padding: 20px 0px 16px; }
+#shortcut-2014 #ttbar-navs dl { float: left; width: 201px; padding-left: 20px; border-left: 1px solid rgb(221, 221, 221); }
+#shortcut-2014 #ttbar-navs dl.fore1 { border-left: medium none; width: 301px; }
+#shortcut-2014 #ttbar-navs dt { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+#shortcut-2014 #ttbar-navs .item { float: left; width: 100px; }
+#shortcut-2014 #ttbar-navs .dd-spacer { right: 0px; width: 82px; }
+#search-2014 { position: relative; z-index: 11; float: left; width: 462px; margin-top: 25px; }
+#search-2014 .form { width: 462px; height: 36px; }
+#search-2014 .text { float: left; width: 370px; height: 24px; line-height: 24px; color: rgb(102, 102, 102); padding: 4px; margin-bottom: 4px; border-width: 2px 0px 2px 2px; border-color: rgb(182, 29, 29); border-style: solid; outline: 0px none; font-size: 14px; font-family: "microsoft yahei"; }
+#search-2014 .button { float: left; width: 82px; height: 36px; background: rgb(182, 29, 29) none repeat scroll 0% 0%; border: medium none; line-height: 1; color: rgb(255, 255, 255); font-family: "Microsoft YaHei"; font-size: 16px; cursor: pointer; }
+#search-2014 .cw-icon i { top: 0px; left: 0px; width: 82px; height: 36px; }
+#hotwords-2014 { float: left; width: 462px; height: 20px; line-height: 20px; overflow: hidden; }
+#hotwords-2014 a { margin-right: 10px; }
+#shelper { overflow: hidden; position: absolute; top: 36px; left: 0px; width: 379px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#ttbar-myjd .dt { width: 49px; padding-right: 25px; }
+#ttbar-myjd .dorpdown-layer { width: 270px; }
+#ttbar-myjd .dd-spacer { left: 0px; width: 82px; }
+#categorys-2014 .item-sub::after { content: "."; display: block; height: 0px; clear: both; }
+#settleup-2014 { float: right; z-index: 11; height: 36px; margin-top: 25px; }
+#settleup-2014 .cw-icon { width: 75px; height: 34px; border: 1px solid rgb(223, 223, 223); padding: 0px 28px 0px 36px; background: rgb(249, 249, 249) none repeat scroll 0% 0%; text-align: center; line-height: 34px; }
+#settleup-2014 .ci-left { top: 9px; left: 18px; width: 18px; height: 16px; background: transparent url('jd2015img.png') no-repeat scroll 0px -58px; }
+#settleup-2014 .ci-right { top: 11px; right: 10px; width: 7px; height: 13px; overflow: hidden; font: 400 13px/13px simsun; color: rgb(153, 153, 153); }
+#settleup-2014 .ci-count { position: absolute; top: -4px; left: 104px; display: inline-block; padding: 1px 2px; font-size: 12px; line-height: 12px; color: rgb(255, 255, 255); background-color: rgb(200, 22, 35); border-radius: 7px 7px 7px 0px; min-width: 12px; text-align: center; }
+#settleup-2014.hover .cw-icon, #settleup-2014.hover .dorpdown-layer, #settleup-2014:hover .cw-icon, #settleup-2014:hover .dorpdown-layer { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+#settleup-2014.hover .dorpdown-layer, #settleup-2014:hover .dorpdown-layer { display: block; right: 0px; width: 308px; }
+#settleup-2014.hover .spacer, #settleup-2014:hover .spacer { position: absolute; right: 0px; top: -7px; width: 139px; height: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#settleup-content { position: relative; z-index: 2; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#settleup-content .loading { display: block; height: 50px; background: transparent url('loading.gif') no-repeat scroll center center; }
+#footer-2014 { border-top: 1px solid rgb(229, 229, 229); padding: 20px 0px 30px; text-align: center; }
+#footer-2014 .links a { margin: 0px 10px; }
+#footer-2014 .copyright { margin: 10px 0px; }
+#footer-2014 .authentication a { margin: 0px 5px; text-decoration: none; }
+#service-2014 { margin-bottom: 20px; }
+#service-2014 dl { float: left; width: 222px; }
+#service-2014 dl.fore5 { width: 100px; }
+#service-2014 dt { padding: 6px 0px; font: 400 16px/24px "microsoft yahei"; }
+#service-2014 dd { line-height: 20px; }
+.m, .mb, .mc, .mt, .sm, .smb, .smc, .smt { overflow: hidden; }
+/* ::::: http://misc.360buyimg.com/user/myjd-2015/css/myjd.safe.css ::::: */
+
+#content .form { margin-left: 100px; }
+#content .form .selt { width: 187px; }
+#content .form .msg-error { color: rgb(228, 57, 60); }
+#content .form .itxt, #content .form .text { width: 157px; }
+#content .form .itxt:focus { border-color: rgb(113, 178, 71); }
+#content .form .item span.label { width: 130px; }
+#content .form .msg-text { color: rgb(153, 153, 153); }
+#content .formno { margin-left: 200px; }
+.ftx-un { font-size: 16px; line-height: 25px; margin-right: 10px; }
+.safe-item::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.list-h::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.stepflex { display: block; }
+.stepflex::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.stepflex { border-top: 5px solid rgb(204, 204, 204); text-align: center; margin: 30px auto; }
+.stepflex dl { float: left; position: relative; width: 160px; top: -5px; border-top: 5px solid rgb(204, 204, 204); }
+.s-num { position: relative; margin: -15px auto 0px; color: rgb(255, 255, 255); font-weight: 700; width: 23px; height: 23px; background-image: url('step2013.png'); line-height: 23px; }
+.s-text { color: rgb(204, 204, 204); }
+dl.doing { border-top-color: rgb(122, 189, 84); }
+.doing .s-num { background-position: -23px 0px; }
+.doing .s-text { color: rgb(122, 189, 84); }
+dl.done { border-top-color: rgb(202, 236, 182); }
+.done .s-num { background-position: -46px 0px; }
+.done .s-text { color: rgb(202, 236, 182); }
+.doing b, .doing s, .first s, .last b { width: 5px; height: 5px; position: absolute; line-height: 0; font-size: 0px; top: -5px; background-image: url('step2013.png'); overflow: hidden; }
+.stepflex s { left: 0px; }
+.stepflex b { right: 0px; }
+.first s { background-position: 0px -24px; background-color: rgb(255, 255, 255); }
+.last b { background-position: -5px -24px; background-color: rgb(255, 255, 255); }
+.doing s { background-position: -23px -24px; }
+.doing b { background-position: -28px -24px; background-color: rgb(204, 204, 204); }
+.doing.last s, .doing.normal s { background-color: rgb(202, 236, 182); }
+.done s { background-position: -46px -24px; }
+.done b { background-position: -51px -24px; }
+.last .s-num { background-position: -68px 0px; }
+#sflex04 { width: 640px; }
+/* ::::: http://misc.360buyimg.com/user/myjd-2015/widget/??common/common.css ::::: */
+
+.ml10 { margin-left: 10px; }
+.pt10 { padding-top: 10px; }
+.ftx-01, .ftx01 { color: rgb(228, 57, 60); }
+.fl { float: left; }
+.fr { float: right; }
+li { list-style: outside none none; }
+.btn-5, .btn-6, .btn-7, .btn-8 { background-color: rgb(245, 251, 239); background-image: linear-gradient(to bottom, rgb(245, 251, 239) 0px, rgb(234, 246, 226) 100%); border-radius: 2px; display: inline-block; height: 18px; line-height: 18px; border: 1px solid rgb(191, 214, 175); padding: 2px 14px 3px; color: rgb(50, 51, 51); }
+.btn-5:hover, .btn-6:hover, .btn-7:hover, .btn-8:hover { background-color: rgb(246, 251, 243); background-image: linear-gradient(to bottom, rgb(246, 251, 243) 0px, rgb(238, 247, 232) 100%); }
+.btn-5:link, .btn-5:visited, .btn-6:link, .btn-6:visited, .btn-7:link, .btn-7:visited, .btn-8:link, .btn-8:visited { color: rgb(50, 51, 51); text-decoration: none; }
+.btn-10, .btn-11, .btn-12, .btn-9 { background-color: rgb(247, 247, 247); background-image: linear-gradient(to bottom, rgb(247, 247, 247) 0px, rgb(243, 242, 242) 100%); border-radius: 2px; display: inline-block; height: 18px; line-height: 18px; border: 1px solid rgb(221, 221, 221); padding: 2px 14px 3px; color: rgb(50, 51, 51); }
+.btn-10:hover, .btn-11:hover, .btn-12:hover, .btn-9:hover { background-color: rgb(248, 248, 248); background-image: linear-gradient(to bottom, rgb(248, 248, 248) 0px, rgb(245, 245, 245) 100%); }
+.btn-10:link, .btn-10:visited, .btn-11:link, .btn-11:visited, .btn-12:link, .btn-12:visited, .btn-9:link, .btn-9:visited { color: rgb(50, 51, 51); text-decoration: none; }
+.btn-10, .btn-14 { padding: 5px 14px; }
+.mod-main { padding: 10px; background-color: rgb(255, 255, 255); margin-bottom: 20px; }
+.mod-main .mt { display: block; padding: 10px; }
+.mod-main .mt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.mod-main .mt h3 { float: left; font-family: "微软雅黑"; font-size: 16px; color: rgb(51, 51, 51); line-height: 20px; }
+.mod-main .mc { overflow: visible; }
+#container, #container .w { background-color: rgb(245, 245, 245); }
+#content { padding-left: 120px; padding-top: 20px; display: block; }
+#content::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#main { float: left; width: 99.9%; margin-left: -120px; overflow: hidden; }
+#nav { height: 80px; background-color: rgb(228, 80, 80); }
+#nav .w { background-color: rgb(228, 80, 80); }
+#nav .logo { float: left; width: 265px; }
+#nav .logo a { text-decoration: none; color: rgb(255, 255, 255); }
+#nav .logo .fore1 { float: left; margin-right: 10px; width: 158px; height: 80px; background: transparent url('logo.png') no-repeat scroll 0% 0%; }
+#nav .logo .fore2 { float: left; font-size: 20px; font-family: "微软雅黑"; margin: 20px 0px 0px 6px; height: 22px; }
+#nav .logo .fore3 { float: left; margin: 5px 0px 0px; color: rgb(255, 178, 178); border: 1px solid rgb(255, 178, 178); height: 18px; line-height: 18px; padding: 0px 10px; border-radius: 10px; }
+#nav .logo .fore3:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-color: rgb(255, 255, 255); color: rgb(228, 57, 60); }
+#nav .navitems { float: left; height: 36px; width: 342px; line-height: 36px; padding: 22px 0px; margin: 0px 0px 0px 30px; font-size: 14px; }
+#nav .navitems a { color: rgb(255, 255, 255); }
+#nav .navitems a:hover { text-decoration: underline; }
+#nav .navitems ul { display: block; }
+#nav .navitems ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#nav .navitems li { float: left; margin: 0px 20px 0px 0px; }
+#nav .navitems li.fore-3, #nav .navitems li.fore-4 { margin: 0px; }
+#nav .navitems .dl { position: relative; }
+#nav .navitems .dl .dt { white-space: nowrap; height: 18px; line-height: 18px; padding: 9px 16px; width: 74px; }
+#nav .navitems .dl .dt span { color: rgb(255, 255, 255); }
+#nav .navitems .dl .dt b { display: inline-block; vertical-align: middle; width: 9px; height: 6px; overflow: hidden; margin-left: 5px; background: transparent url('icon.png') no-repeat scroll 0px -120px; transition: transform 0.2s ease-in 0s; }
+#nav .navitems .dl .dd { position: absolute; top: 34px; left: 0px; display: none; background-color: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(221, 221, 221) rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 12px; }
+#nav .navitems .dl .dd a { display: block; text-decoration: none; width: 88px; padding: 0px 0px 0px 16px; line-height: 30px; }
+#nav .navitems .dl .dd a:hover { background: rgb(245, 245, 245) none repeat scroll 0% 0%; color: rgb(228, 57, 60); }
+#nav .navitems .myjd-info { position: relative; }
+#nav .nav-r { float: right; width: 340px; margin-right: 5px; }
+#nav .nav-r #search-2014 { width: 186px; }
+#nav .nav-r #search-2014 .button { width: 56px; font-size: 12px; height: 32px; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247); }
+#nav .nav-r #search-2014 .text { width: 120px; border: 0px none; }
+#nav .nav-r #search-2014 #shelper { width: 338px; top: 32px; }
+#nav .nav-r #search-2014 .form { width: auto; }
+#nav .nav-r #settleup-2014 { float: right; margin-right: 0px; }
+#nav .nav-r #settleup-2014 .cw-icon { height: 30px; border: 1px solid rgb(255, 255, 255); }
+#nav .nav-r #settleup-2014 .ci-left { top: 7px; }
+#nav .nav-r #settleup-2014 .ci-right { top: 9px; }
+#nav .nav-r #settleup-2014 .dorpdown-layer { top: 32px; }
+#nav .nav-r #hotwords-2014 { width: auto; display: none; }
+#service-2014 dl { width: 22%; }
+#service-2014 dl.fore5 { width: 8%; }
+.form .item { display: block; margin-bottom: 20px; line-height: 30px; }
+.form .item::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.form .item span.label { float: left; height: 18px; line-height: 18px; padding: 6px 0px; width: 100px; text-align: right; }
+.form .area, .form .itxt, .form .sele, .form .selt { line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px; float: none; }
+.form .text { line-height: 18px; border: 1px solid rgb(204, 204, 204); }
+.form .sele, .form .selt { width: 100px; }
+.form .itxt, .form .text { height: 18px; width: 127px; padding: 5px 23px 5px 5px; }
+.form label { float: none; }
+.mod-comm { padding: 10px 20px 20px; }
+.mod-comm .mt { padding: 10px 0px; }
+.mod-comm .mt h3 { font-size: 12px; color: rgb(102, 102, 102); font-family: "宋体"; line-height: 18px; }
+.mod-comm .mc { line-height: 20px; }
+.remind-box .smt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.tip-box .links ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+img.err-poster, img.err-product { background: transparent url('error-jd.gif') no-repeat scroll 50% 50%; }
