@@ -18,4 +18,7 @@ return array(
 	'SHOW_PAGE_TRACE' => true,
 	'TMPL_L_DELIM' => '<{',
 	'TMPL_R_DELIM' => '}>',
+	'TMPL_PARSE_STRING' => array(
+		'__UPLOAD__' => __ROOT__.'/'.APP_NAME.'/Public/Upload/'
+		)
 );
