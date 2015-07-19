@@ -206,6 +206,9 @@ img.err-product, img.err-poster { background: transparent url('../images/error-j
 .ftx01, .ftx-01 { color: rgb(228, 57, 60); }
 .ftx03, .ftx-03 { color: rgb(153, 153, 153); }
 .ftx05, .ftx-05 { color: rgb(0, 94, 167); }
+.ftx04, .ftx-04 {
+  color: #FF8A15;
+}
 .g-0 { width: 100%; }
 .g-3-5 { width: 130px; }
 .g-0, .g-1, .g-2, .g-3, .g-3-5, .g-4, .g-5, .g-6, .g-7, .g-7-5, .g-8, .g-9, .g-a, .g-b, .g-c, .g-d, .g-e, .g-f, .g-g, .g-h, .g-i, .g-j, .g-k, .g-l, .g-m, .g-n { float: left; }
@@ -217,6 +220,20 @@ img.err-product, img.err-poster { background: transparent url('../images/error-j
 #container { background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
 #container .w { background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
 #container #main {  }
+.btn-1, .btn-2, .btn-3, .btn-4 {
+  background-color: #E74649;
+  background-image: linear-gradient(to top, #E74649 0px, #DF3134 100%);
+  border-radius: 2px;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  padding: 3px 15px 4px;
+  color: #FFF;
+}
+.btn-1:link, .btn-1:visited, .btn-2:link, .btn-2:visited, .btn-3:link, .btn-3:visited, .btn-4:link, .btn-4:visited {
+  color: #FFF;
+  text-decoration: none;
+}
 .btn-13, .btn-14, .btn-15, .btn-16 { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 2px; display: inline-block; height: 18px; line-height: 18px; border: 1px solid rgb(221, 221, 221); padding: 2px 14px 3px; color: rgb(204, 204, 204); }
 .btn-13:hover, .btn-14:hover, .btn-15:hover, .btn-16:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
 .btn-13:link, .btn-13:visited, .btn-14:link, .btn-14:visited, .btn-15:link, .btn-15:visited, .btn-16:link, .btn-16:visited { color: rgb(204, 204, 204); text-decoration: none; }
