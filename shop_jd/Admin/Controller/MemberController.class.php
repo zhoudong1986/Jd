@@ -90,4 +90,164 @@ class MemberController extends CommonController {
             $this->error('删除失败');
         }
     }
+
+    // 跳转管理员密码的修改页面
+    public function editPwd(){
+        // 接收id
+        $admin_id = I('get.id');
+        // 接收用户名
+        $admin_name = I('get.name');
+        // 分配变量
+        $this->assign('id',$admin_id);
+        $this->assign('name',$admin_name);
+        $this->display();
+    }
+
+    // 修改管理员密码
+    public function doEditPwd(){
+        // 接收id
+        $admin_id = I('id');
+        // 接收密码
+        $password = I('pwd','','md5');
+        // 连接数据库
+        $admin = M('admin');
+        // 组装要修改的信息
+        $up = array('password'=>$password);
+        // 执行修改操作
+        $editResult = $admin->where('admin_id='.$admin_id)->save($up);
+        if($editResult){//修改成功
+            $this->success('修改密码成功',U('Member/admin'));
+        }else{//修改失败
+            $this->error('修改失败');
+        }
+    }
+
+    // 获取管理员资料
+    public function edit(){
+        // 接收id
+        $id = I('id');
+        // 连接数据库
+        $admin = M('admin');
+        // 查询用户信息
+        $adminInfo = $admin->where('admin_id='.$id)->find();
+        if(!$adminInfo){
+            $this->error('资料获取失败,正在返回。。。');
+            return false;
+        }
+        switch($adminInfo['status']){
+            case 1:
+                $statusRig = 'checked';
+                $statusErr = '';
+                break;
+            case 2:
+                $statusErr = 'checked';
+                $statusRig = '';
+                break;
+        }
+        switch($adminInfo['role']){
+            case 1:
+                $roleOne = 'checked';
+                $roleTwo = '';
+                $roleThree = '';
+                break;
+            case 2:
+                $roleOne = '';
+                $roleTwo = 'checked';
+                $roleThree = '';
+                break;
+            case 3:
+                $roleOne = '';
+                $roleTwo = '';
+                $roleThree = 'checked';
+                break;
+        }
+        $statusArr = array('锁定','正常使用');
+        $roleArr = array('','超级管理员','管理员','网络编辑');
+        // 分配变量
+        $this->assign('id',$id);
+        $this->assign('name',$adminInfo['admin_name']);
+        $this->assign('qq',$adminInfo['qq']);
+        $this->assign('phone',$adminInfo['phone']);
+        $this->assign('email',$adminInfo['email']);
+        $this->assign('statusRig',$statusRig);
+        $this->assign('statusErr',$statusErr);
+        $this->assign('roleOne',$roleOne);
+        $this->assign('roleTwo',$roleTwo);
+        $this->assign('roleThree',$roleThree);
+        $this->assign('status',$statusArr[$adminInfo['status']]);
+        $this->assign('role',$roleArr[$adminInfo['role']]);
+        $this->display();
+    }
+
+    // 修改管理员信息
+    public function doEdit(){
+        // 接收修改信息
+        $id = I('id');
+        $name = I('name');
+        $qq = I('qq');
+        $phone = I('phone');
+        $status = I('status');
+        $role = I('role');
+        $email = I('email');
+        // 连接数据库
+        $admin = M('admin');
+        // 组合修改条件
+        if($status == '正常使用' || $status == '锁定'){
+            $up = array(
+                'admin_name' => $name,
+                'qq' => $qq,
+                'phone' => $phone,
+                'email' => $email
+                );
+        }else{
+            $up = array(
+                'admin_name' => $name,
+                'qq' => $qq,
+                'phone' => $phone,
+                'status' => $status,
+                'email' => $email,
+                'role' => $role
+                );
+        }
+        // 执行修改操作
+        $upResult = $admin->where('admin_id='.$id)->save($up);
+        if($upResult){
+            $this->success('修改成功',U('admin'));
+        }else{
+            $this->error('修改失败');
+        }
+    }
+
+    // 跳转添加管理员页面
+    public function add() {
+        $this->display();
+    }
+
+    // 添加管理员
+    public function doAdd() {
+        // 接收新管理员的信息
+        $name = I('name');
+        $pwd = I('pwd','','md5');
+        $email = I('email');
+        $role = I('role');
+        $status = I('status');
+        // 连接数据库
+        $admin = M('admin');
+        // 组合添加信息
+        $addArr = array(
+            'admin_name' => $name,
+            'password' => $pwd,
+            'email' => $email,
+            'role' => $role,
+            'status' => $status
+            );
+        // 添加管理员
+        $addResult = $admin->add($addArr);
+        if($addResult){
+            $this->success('添加成功',U('admin'));
+        }else{
+            $this->error('添加失败');
+        }
+    }
+
 }

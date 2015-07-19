@@ -221,7 +221,7 @@
                             <h3>密码修改</h3>
                           </div>
                           <div class="col-sm-1">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" onclick="cha();" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
@@ -262,8 +262,8 @@
                       </form>
                     </div>
                   </div>
-                  <!-- /.modal-content --> </div>
-                <!-- /.modal-dialog --> </div>
+                </div>
+              </div>
               <!-- /.modal -->
 
               <div class="modal fade logout-modal " tabindex="-1">
@@ -582,7 +582,7 @@
         </a>
         <ul>
           <li>
-            <a href="">前台买家</a>
+            <a href="<{:U('User/index')}>">前台买家</a>
           </li>
           <li>
             <a href="">前台卖家</a>
@@ -691,8 +691,10 @@
   <!-- Main bar -->
   <div class="mainbar">
     <!-- Page heading -->
-    
-    <iframe id="fram" src="<{:U('copyIndex')}>" width="1190" height="800" frameborder="no" name="adminFrame" border="0"  scrolling="no"></iframe>
+
+    <iframe id="fram" src="<{:U('copyIndex')}>
+      " width="1190" height="800" frameborder="no" name="adminFrame" border="0"  scrolling="no">
+    </iframe>
     <!-- Matter -->
 
     <!-- Matter ends --> </div>
@@ -944,10 +946,12 @@ function doEdit(){
     }
 }
 $('#cl').click(function(){
-  tips(this);
   $('#oPwd').val('');
   $('#Pwd').val('');
   $('#rePwd').val('');
+  $('#oTips').addClass('hide');
+  $('#Tips').addClass('hide');
+  $('#reTips').addClass('hide');
 });
 function tips(obj){
   $(obj).parent().next().children('label').addClass('hide');
@@ -960,6 +964,9 @@ document.onkeydown = function(event){
 }
 function logout(){
   location.href = '<{:U("Logout/logout")}>';
+}
+function cha(){
+  $('#cl').trigger('click');
 }
 /*$('#nav>li>ul a').click(function(){
   var $ifm = document.getElementsByTagName("iframe")[0];

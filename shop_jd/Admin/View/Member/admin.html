@@ -16,11 +16,14 @@
   <nav class="navbar navbar-primary">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a href="" class="navbar-brand">
+        <a  class="navbar-brand">
           <span class="glyphicon glyphicon-th-list"></span>
           &nbsp;&nbsp;管理员列表
+          <if condition="$Think.session.role eq 1">
+          <button id="add" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span>添加</button>
+        </if>
         </a>
-
+        
       </div>
       <div class="collapse navbar-collapse" >
         <form class="navbar-form navbar-right" action="__MODULE__/Member/admin" role="search" method="get">
@@ -63,66 +66,86 @@
             <td>
               <{$ad['admin_name']}></td>
               <td>
-              <if condition="$ad['role'] eq 1">超级管理员
-              <elseif condition="$ad['role'] eq 2" />管理员<{$Think.session.role}>
-              <else />网络编辑
-              </if>
-                </td>
+                <if condition="$ad['role'] eq 1">
+                  超级管理员
+                  <elseif condition="$ad['role'] eq 2" />
+                  管理员
+                  <else />
+                  网络编辑
+                </if>
+              </td>
+              <td>
+                <button class="btn <{$ad['right']}>
+                  ">
+                  <span class="<{$ad['status']}>"></span>
+                </button>
+              </td>
+              <td>
+                <{$ad['login_time']}></td>
                 <td>
-                  <button class="btn <{$ad['right']}> btn-xs"><span class="<{$ad['status']}>"></span></button></td>
-                  <td><{$ad['login_time']}></td>
-                  <td>
-                    <div>
-                       <a href="__MODULE__/Member/edit/id/<{$ad['admin_id']}>" class="btn btn-info btn-xs">
-                      <span class="glyphicon glyphicon-pencil"></span>
-                      编辑
-                    </a>
+                  <a href="__MODULE__/Member/edit/id/<{$ad['admin_id']}>
+                    " class="btn btn-info ">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    资料
+                  </a>
+                  <if condition="$Think.session.role lt $ad['role']">
+                    <span>
+                      <a href=""  admin_id="<{$ad['admin_id']}>
+                        " class="btn btn-success ">
+                        <span>
+                          <{$ad['button']}></span>
+                        </a>
+
+                      </span>
+                    </if>
                     <if condition="$Think.session.role lt $ad['role']">
-                    <a href=""  admin_id="<{$ad['admin_id']}>" class="btn btn-success btn-xs">
-                      <span><{$ad['button']}></span>
-                    </a>
+                      <a href="__MODULE__/Member/editPwd/id/<{$ad['admin_id']}>/name/<{$ad['admin_name']}>" class="btn btn-warning  ">
+                        <span>修改密码</span>
+                      </a>
                     </if>
                     <if condition="($ad['role'] neq 1) AND ($Think.session.role eq 1)">
 
-                    <a href="__MODULE__/Member/del/id/<{$ad['admin_id']}>" class="btn btn-danger btn-xs">删除</a>
-                  </if>
-                    </div>
-                   
+                      <a href="__MODULE__/Member/del/id/<{$ad['admin_id']}>" class="btn btn-danger ">删除</a>
+                    </if>
+
                   </td>
                 </tr>
+               
+                
               </volist>
               <tr>
                 <td colspan="6" align="right">
-                <{$pageNav}>
-                 <!--  <nav>
-                   <ul class="pagination pagination-md">
-                     <li>
-                       <a href="#" aria-label="Previous">
-                         <span aria-hidden="true">&laquo;</span>
-                       </a>
-                     </li>
-                     <li>
-                       <a href="#">1</a>
-                     </li>
-                     <li>
-                       <a href="#">2</a>
-                     </li>
-                     <li>
-                       <a href="#">3</a>
-                     </li>
-                     <li>
-                       <a href="#">4</a>
-                     </li>
-                     <li>
-                       <a href="#">5</a>
-                     </li>
-                     <li>
-                       <a href="#" aria-label="Next">
-                         <span aria-hidden="true">&raquo;</span>
-                       </a>
-                     </li>
-                   </ul>
-                 </nav> -->
+                  <{$pageNav}>
+                    <!--  <nav>
+                    <ul class="pagination pagination-md">
+                      <li>
+                        <a href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">1</a>
+                      </li>
+                      <li>
+                        <a href="#">2</a>
+                      </li>
+                      <li>
+                        <a href="#">3</a>
+                      </li>
+                      <li>
+                        <a href="#">4</a>
+                      </li>
+                      <li>
+                        <a href="#">5</a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  -->
                 </td>
               </tr>
 
@@ -134,7 +157,10 @@
           <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
           <script>
   $(function(){
-    $('tbody div a').click(function(){
+    $('#add').click(function(){
+      location.href = '__CONTROLLER__/add';
+    });
+    $('tbody span a').click(function(){
       var $admin_id = $(this).attr('admin_id');
       var $status = $(this).children('span').text();
       $.post(
