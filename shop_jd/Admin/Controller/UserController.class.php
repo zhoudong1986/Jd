@@ -119,7 +119,35 @@ class UserController extends CommonController {
     	$this->assign('user',$userInfo);
     	// 显示页面
     	$this->display();
+    }
 
-    } 
+    // 修改用户资料
+    public function doEdit(){
+        // 实例化文件上传类
+        $upload = new \Think\Upload();
+        $upload->maxSize = 3145728;//设置上传附件的最大值
+        $upload->rootPath = __UPLOAD__;//附件上传保存的根路径
+        $upload->savePath = 'Member/';//附件上传保存的目录
+        $upload->exts = array('jpg','jpeg','png','gif');//附件上传的类型
+        // 上传文件
+        $info = $upload->uploadOne($_FILES['pic']);
+        if(!$info){//上传失败
+            $this->error($upload->getError());
+        }else{//上传成功
+            // 上传文件保存的文件名
+            $fileName = $info['savename'];
+            // 接收传过来的修改值
+            $id = I('post.id');
+            $name = I('post.name');
+            $level = I('post.level');
+            $email = I('post.email');
+            $status = I('post.status');
+            $id = I('post.id');
+
+        }
+
+
+       
+    }
     
 }
