@@ -8,27 +8,29 @@ class UserController extends CommonController {
     	import('@.Class.Page');
     	//接收表单传递过来的搜索条件
     	$name = I('get.search');
-    	// 连接数据库
-    	$user = M('user');
+        // 实例化Model类
+        $user = M('user');
     	// 组合查询条件
     	$where['user_name'] = array('like','%'.$name.'%');
-    	// 查询符合条件的数据总数
-    	$count = $user->where($where)->count();
-    	// 进行第三方分页类的配置
-    	$page = array(
-    		'total' => $count,//分页显示的总数目
-    		'url' => !empty($param['url']) ? $param['url'] : '',//配置url
-    		'max' => !empty($param['max']) ? $param['max'] : 6,//设置每页显示的条数
-    		'url_model' => 1,//url模式
-    		'ajax' => !empty($param['ajax']) ? true : false,//开启ajax分页
-    		'out' => !empty($param['out']) ? $param['out'] : false,//输出设置
-    		'url_suffix' => true,//url后缀
-    		'tags' => array('首页','上一页','下一页','尾页')
-    		);
+        // 查询符合条件的数据总数
+        $count = $user->where($where)->count();
+        // 进行第三方分页类的配置
+        $page = array(
+            'total' => $count,//分页显示的总数目
+            'url' => !empty($param['url']) ? $param['url'] : '',//配置url
+            'max' => !empty($param['max']) ? $param['max'] : 6,//设置每页显示的条数
+            'url_model' => 1,//url模式
+            'ajax' => !empty($param['ajax']) ? true : false,//开启ajax分页
+            'out' => !empty($param['out']) ? $param['out'] : false,//输出设置
+            'url_suffix' => true,//url后缀
+            'tags' => array('首页','上一页','下一页','尾页')
+            );
+        // 组合查询条件
+        $where = "u.user_name LIKE '%{$name}%' AND u.user_id = a.user_id";
     	// 实例化第三方分页类
     	$p = new \Page($page);
     	// 查询符合条件的数据
-    	$data = $user->where($where)->limit($p->pagerows(),$p->maxrows())->select();
+    	$data = M()->table(array('jd_user'=>'u','jd_address'=>'a'))->field('u.user_id,u.user_name,u.level,u.status,a.pic')->where($where)->limit($p->pagerows(),$p->maxrows())->select();
     	// 分配变量
     	$this->assign('users',$data);
     	$this->assign('pageNav',$p->get_page());
@@ -109,14 +111,14 @@ class UserController extends CommonController {
     		'jd_address' => 'a'
     		);
     	// 查询数据
-    	$userInfo = M()->table($table)->field('u.user_name,u.level,u.status,a.pic')->where('u.user_id='.$id)->find();
+    	$userInfo = M()->table($table)->field('u.user_name,u.level,u.status,a.pic')->where('u.user_id=a.user_id AND u.user_id ='.$id)->select();
     	if(!$userInfo){//查询失败
     		$this->error('系统繁忙,请稍后再试');
     		return false;
     	}
     	// 分配变量
     	$this->assign('id',$id);
-    	$this->assign('user',$userInfo);
+    	$this->assign('user',$userInfo[0]);
     	// 显示页面
     	$this->display();
     }
@@ -126,8 +128,8 @@ class UserController extends CommonController {
         // 实例化文件上传类
         $upload = new \Think\Upload();
         $upload->maxSize = 3145728;//设置上传附件的最大值
-        $upload->rootPath = __UPLOAD__;//附件上传保存的根路径
-        $upload->savePath = 'Member/';//附件上传保存的目录
+        $upload->rootPath = './shop_jd/Public/Uploads/';//附件上传保存的根路径
+        $upload->savePath = 'member/';//附件上传保存的目录
         $upload->exts = array('jpg','jpeg','png','gif');//附件上传的类型
         // 上传文件
         $info = $upload->uploadOne($_FILES['pic']);
@@ -135,19 +137,56 @@ class UserController extends CommonController {
             $this->error($upload->getError());
         }else{//上传成功
             // 上传文件保存的文件名
-            $fileName = $info['savename'];
+            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
             // 接收传过来的修改值
             $id = I('post.id');
             $name = I('post.name');
             $level = I('post.level');
             $email = I('post.email');
             $status = I('post.status');
-            $id = I('post.id');
+            // 实例化Model类
+            $address = M('address');
+            // 组合修改信息
+            $data = array('pic'=>$file);
+            // 修改数据库的图片信息
+            $addressResult = $address->where('user_id='.$id)->save($data);
+            if(!$addressResult){//修改失败
+                $this->error('修改失败1');
+            }else{//修改成功
+                // 实例化Model类
+                $user = M('user');
+                // 组合修改信息
+                $data = array(
+                    'user_id' => $id,
+                    'name' => $name,
+                    'level' => $level,
+                    'status' => $status,
+                    'email' => $email
+                    );
+                // 修改信息
+                $userResult = $user->save($data);
+                $this->success('修改成功',U('index'));
+            }
 
         }
+    }
 
-
-       
+    public function coin(){
+        // 实例化文件上传类
+        $upload = new \Think\Upload();
+        $upload->maxSize = 3145728;//设置上传附件的最大值
+        $upload->rootPath = './shop_jd/Public/Uploads/';//附件上传保存的根路径
+        $upload->savePath = 'member/';//附件上传保存的目录
+        $upload->exts = array('jpg','jpeg','png','gif');//附件上传的类型
+        // 上传文件
+        $info = $upload->uploadOne($_FILES['pic']);
+        $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
+        if(!$info){//上传失败
+            $this->assign('file','');
+        }else{//上传成功
+           $this->assign('file',$file);
+        }
+        $this->display();
     }
     
 }

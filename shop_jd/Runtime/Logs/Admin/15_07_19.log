@@ -1,0 +1,18 @@
+[ 2015-07-19T17:12:32+08:00 ] ::1 /Jd/index.php/Admin/User/doEdit
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pic' cannot be null
+
+[ 2015-07-19T17:13:52+08:00 ] ::1 /Jd/index.php/Admin/User/doEdit
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'status' cannot be null
+
+[ 2015-07-19T17:34:20+08:00 ] ::1 /Jd/index.php/Admin/User/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.levle' in 'field list'
+
+[ 2015-07-19T18:07:08+08:00 ] ::1 /Jd/index.php/Admin/Index/charts.html
+ERR: 非法操作:charts
+
+[ 2015-07-19T19:09:27+08:00 ] ::1 /Jd/index.php/Admin/User/doEdit
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pic' cannot be null
+
+[ 2015-07-19T19:37:02+08:00 ] ::1 /Jd/index.php/Admin/User/getInfo/id/%7B$user['pic']%7D%3E
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['pic']}&gt; )' at line 1
+

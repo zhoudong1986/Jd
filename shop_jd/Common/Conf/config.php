@@ -17,8 +17,5 @@ return array(
 	'DB_DEPLOY_TYPE'  =>  0, // 数据库部署方式:0 集中式(单一服务器),1 分布式(主从服务器)
 	'SHOW_PAGE_TRACE' => true,
 	'TMPL_L_DELIM' => '<{',
-	'TMPL_R_DELIM' => '}>',
-	'TMPL_PARSE_STRING' => array(
-		'__UPLOAD__' => __ROOT__.'/'.APP_NAME.'/Public/Upload/'
-		)
+	'TMPL_R_DELIM' => '}>'
 );
