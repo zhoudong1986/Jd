@@ -322,6 +322,43 @@
       <div class="copyright">Copyright©2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有</div>
     </div>
   </div>
-
 </body>
 </html>
+<script>
+  function checkUserName($str){
+    var reg = /^[\u4E00-\u9FA5\uF900-\uFA2D\w-]{4,15}$/ig;
+    return reg.test($str);
+  }
+  $(function(){
+    $('#regName').focus(function(){
+      $(this).addClass('highlight1');//框变绿色
+      $(this).siblings('#regName_error').attr('class','').addClass('focus').text('4-15位字符，支持汉字、字母、数字、"-"以及"_"组合');
+    });
+    $('#regName').blur(function () {
+      var value = $(this).val(); //获取输入表单的值
+      if(!checkUserName(value)){
+        $(this).addClass('highlight2');//框变红色
+        $(this).css('color','#333'); //字体色变成黑色
+        $(this).siblings('#regName_error').attr('class','').addClass('error').text('用户名长度只能在4-15位字符之间');
+        return;
+      }
+      //ajax查看用户名有没被注册过
+      $.ajax({
+        type:'post',
+        url:"<{:U('Index/checkRegister')}>",
+        beforeSend:function(XMLHttpRequest){
+          $('#regName').siblings('#regName_error').text('监测中……');
+        },
+        success:function($msg){
+          if($msg){
+            $('#select-regName').find('.i-name').css({backgroundUrl:'__IMAGE__/sucess.png'});
+          }else{
+            alert(3333);
+          }
+        },
+        data:{'userName':value}
+      })
+
+    })
+  })
+</script>

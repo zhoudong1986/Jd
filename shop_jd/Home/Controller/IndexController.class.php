@@ -21,4 +21,11 @@ class IndexController extends Controller {
       $verify = new \Think\Verify($config);
       $verify->entry();
     }
+
+  //验证注册用户名
+    public function checkRegister(){
+      $userName = I('userName');
+      //去数据库查询是否有重名
+      
+    }
 }
