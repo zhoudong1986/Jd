@@ -1,0 +1,15 @@
+[ 2015-07-19T17:43:35+08:00 ] ::1 /index.php/Index/image
+ERR: 非法操作:image
+
+[ 2015-07-19T17:44:02+08:00 ] ::1 /index.php/Index/image
+ERR: 非法操作:image
+
+[ 2015-07-19T17:44:37+08:00 ] ::1 /index.php/Index/image
+ERR: 非法操作:image
+
+[ 2015-07-19T17:55:58+08:00 ] ::1 /index.php/Index/%3C%7B/index.php/Public/verify/%7D%3E
+ERR: 非法操作:
+
+[ 2015-07-19T17:56:28+08:00 ] ::1 /index.php/Public/verify/
+ERR: 无法加载控制器:Public
+
