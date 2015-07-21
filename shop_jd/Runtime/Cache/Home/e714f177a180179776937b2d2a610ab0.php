@@ -1,13 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="Cache-Control" content="no-cache,must-revalidate">
   <title>注册-个人用户</title>
-  <link rel="stylesheet" type="text/css" href="__CSS__/register.css" media="all">
-  <script src="__JS__/jquery-1.10.2.min.js"></script>
-  <script src="__JS__/common.js"></script>
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/register.css" media="all">
+  <script src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
+  <script src="/shop_jd/Home/Public/js/common.js"></script>
 </head>
 <body>
 <!--验证邮箱框-->
@@ -28,7 +28,7 @@
         <div class="fl item-ifo">
           <input id="authcode1" style="ime-mode:disabled" name="authcode1" class="text text-1" tabindex="6" autocomplete="off" maxlength="6" type="text">
           <label class="img">
-            <img src="<{:U('verify2')}>" style="cursor:pointer;width:100px;height:36px;display:block;" onclick="this.src= this.src+ '?' + new Date().getTime()"  id="JD_Verification2"> </label>
+            <img src="<?php echo U('verify2');?>" style="cursor:pointer;width:100px;height:36px;display:block;" onclick="this.src= this.src+ '?' + new Date().getTime()"  id="JD_Verification2"> </label>
           <label class="ftx23">&nbsp;看不清？<a href="javascript:void(0)" onclick="verify2()" class="flk13">换一张</a></label>
           <label id="authcode_succeed" class="blank invisible"></label>
           <span class="clr"></span>
@@ -193,7 +193,7 @@
   <div class="w" id="logo">
     <div>
       <a href="http://www.jd.com/">
-        <img src="__IMAGE__/logo-2013.png" alt="京东商城" height="60" width="170"></a>
+        <img src="/shop_jd/Home/Public/images/logo-2013.png" alt="京东商城" height="60" width="170"></a>
       <b></b>
     </div>
   </div>
@@ -318,7 +318,7 @@
             <div class="fl item-ifo">
               <input value="" id="authcode" style="ime-mode: disabled;" name="authcode" class="text text-1" tabindex="6" autocomplete="off" maxlength="6" type="text">
               <label class="img">
-                <img src="<{:U('verify')}>" style="cursor: pointer; width: 100px; height: 36px; display: block;" alt="" clstag="regist|keycount|personalreg|06" onclick="this.src= this.src+ '?' + new Date().getTime()" id="JD_Verification1"></label>
+                <img src="<?php echo U('verify');?>" style="cursor: pointer; width: 100px; height: 36px; display: block;" alt="" clstag="regist|keycount|personalreg|06" onclick="this.src= this.src+ '?' + new Date().getTime()" id="JD_Verification1"></label>
 
               <label class="ftx23">
                 &nbsp;看不清？
@@ -347,7 +347,7 @@
             <input class="btn-img btn-regist" id="registsubmit" value="立即注册" tabindex="8" clstag="regist|keycount|personalreg|07" onclick="reg();" type="button"></div>
         </div>
         <div class="phone">
-          <img src="__IMAGE__/phone-bg.jpg" height="180" width="180"></div>
+          <img src="/shop_jd/Home/Public/images/phone-bg.jpg" height="180" width="180"></div>
         <span class="clr"></span>
       </form>
     </div>
@@ -385,10 +385,10 @@
   var error = 1;
   var errorMail = 1;
   function verify(){
-    return document.getElementById('JD_Verification1').src='<{:U("verify")}>'+'?'+new Date().getTime();
+    return document.getElementById('JD_Verification1').src='<?php echo U("verify");?>'+'?'+new Date().getTime();
   }
   function verify2(){
-    return document.getElementById('JD_Verification2').src='<{:U("verify2")}>'+'?'+new Date().getTime();
+    return document.getElementById('JD_Verification2').src='<?php echo U("verify2");?>'+'?'+new Date().getTime();
   }
   function checkUserName($str){//测查用户名
     var reg = /^[\u4E00-\u9FA5\uF900-\uFA2D\w-]{4,15}$/ig;
@@ -415,7 +415,7 @@
 
   function userSuccess(){ //用户名未被注册
     $('#regName').attr('class','').addClass('text');//框变绿色
-    $('#select-regName').find('.o-intelligent-regName').children('i').css({background:'transparent url("__IMAGE__/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
+    $('#select-regName').find('.o-intelligent-regName').children('i').css({background:'transparent url("/shop_jd/Home/Public/images/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
     $('#regName').siblings('#regName_error').text('');
     $('#regName').siblings('#regName_error').attr('class','').addClass('null');
   }
@@ -423,7 +423,7 @@
     $('#regName').addClass('highlight2');//框变红色
     $('#regName').css('color','#333'); //字体色变成黑色
     $('#select-regName').find('.o-intelligent-regName').children('i').removeAttr('style'); //删除背景图
-    $('#regName').siblings('#regName_error').attr('class','').addClass('error').html('<span>该用户名已被使用，请重新输入。如果您是该用户，请立刻<a href="<{:U('Login/login')}>" class="flk13">登录</a></span>');
+    $('#regName').siblings('#regName_error').attr('class','').addClass('error').html('<span>该用户名已被使用，请重新输入。如果您是该用户，请立刻<a href="<?php echo U('Login/login');?>" class="flk13">登录</a></span>');
   }
   function toLong($obj){
     $obj.addClass('highlight2');//框变红色
@@ -451,7 +451,7 @@
         //ajax查看用户名有没被注册过
         $.ajax({
           type:'post',
-          url:"<{:U('Index/checkRegister')}>",
+          url:"<?php echo U('Index/checkRegister');?>",
           beforeSend:function(XMLHttpRequest){
             $('#regName').siblings('#regName_error').text('监测中……');
           },
@@ -519,7 +519,7 @@
             error = 1;
             break;
           case 3:
-            $(this).siblings('i.i-pass').css({background:'transparent url("__IMAGE__/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
+            $(this).siblings('i.i-pass').css({background:'transparent url("/shop_jd/Home/Public/images/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
             $(this).siblings('#pwdRepeat_error').attr('class','hide');
             break;
         }
@@ -556,7 +556,7 @@
         if(checkMail($val)){//符合邮箱规则
           //去后台看下邮箱有没有没使用过
           $.ajax({
-            url:'<{:U("checkMail")}>',
+            url:'<?php echo U("checkMail");?>',
             type:'post',
             data:{'mail':$val},
             beforeSend:function(){
@@ -595,7 +595,7 @@
     $('#authcode1').blur(function(){
       var $val = $(this).val(); //获得输入的验证码表单
       $.ajax({
-        url:"<{:U('checkVerify2')}>",
+        url:"<?php echo U('checkVerify2');?>",
         type:'post',
         data:{'code':$val},
         success:function($msg){
@@ -620,7 +620,7 @@
           var userName = $('#regName').val();
           var password = $('#pwd').val();
           $.ajax({
-            url:"<{:U('setMail')}>",
+            url:"<?php echo U('setMail');?>",
             type:'post',
             data:{'userName':userName,'password':password},
             success:function($msg){

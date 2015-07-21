@@ -154,7 +154,7 @@ body, #regist .mt { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
   border: 1px solid #7ABD54;
   color: #333;
 }
-#regist .highlight2,.thickbox-form .highlight2{
+#regist .highlight2,#pwd .highlight2,.thickbox-form .highlight2{
   border: 1px solid #FF0000;
   color: #f00;
 }
@@ -164,4 +164,213 @@ body, #regist .mt { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
   line-height: 36px;
   background: #f7f7f7;
   border: 1px solid #ddd;
+}
+#regist .error span, .focus span, .thickbox-form .error span {
+  padding: 5px 0px;
+  line-height: 13px;
+  display: block;
+}
+#box{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10000001;
+  width: 100%;
+  height: 100%;
+  background: #000 none repeat scroll 0% 0%;
+  border: 0px none;
+  opacity: 0.15;
+}
+.thickbox {
+  position: absolute;
+  z-index: 10000002;
+  overflow: hidden;
+  padding: 0px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.thicktitle {
+  height: 27px;
+  padding: 0px 10px;
+  border-style: solid;
+  border-color: #C4C4C4;
+  border-image: none;
+  border-width: 1px 1px 0px;
+  background: #F3F3F3 none repeat scroll 0% 0%;
+  line-height: 27px;
+  font-family: arial,"宋体";
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.thickbox .thicktitle {
+  padding: 0px 10px;
+  text-align: left;
+}
+.thickcon {
+  overflow: hidden;
+  background: #FFF none repeat scroll 0% 0%;
+  border: 1px solid #C4C4C4;
+  padding: 10px;
+}
+.thickclose:link, .thickclose:visited {
+  display: block;
+  position: absolute;
+  z-index: 100000;
+  top: 7px;
+  right: 12px;
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+  background: transparent url("../images/bg_thickbox.gif") no-repeat scroll 0px -18px;
+  font-size: 0px;
+  line-height: 100px;
+}
+.thickbox-form {
+  width: 500px;
+  background: #FFF none repeat scroll 0% 0%;
+  padding-top: 20px;
+}
+.form {
+  position: relative;
+}
+.form {
+  float: left;
+  width: 750px;
+}
+.thickbox-form .f-body {
+  height: 170px;
+}
+.form .item {
+  overflow: hidden;
+}
+.thickbox-form .item {
+  height: 70px;
+  line-height: 40px;
+  position: relative;
+  z-index: 1;
+}
+.form label, .form input, .form select, .form textarea, .form button, .form .label {
+  float: left;
+  font-size: 12px;
+}
+.thickbox-form .label {
+  width: 130px;
+}
+#regist .label, .thickbox-form .label {
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.thickbox-form .item .item-ifo {
+  position: relative;
+  width: 330px;
+}
+.thickbox-form .label {
+  width: 130px;
+}
+.clr {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0px;
+  line-height: 0;
+  font-size: 0px;
+}
+.thickbox-form .btn-verify:hover, .thickbox-tip .btn-red:hover {
+  background-color: #F05356;
+  background-image: linear-gradient(to top, #F05356 0px, #EB3C3F 100%);
+  text-decoration: none;
+}
+.thickbox-form .btn-verify, .thickbox-tip .btn-red {
+  background-color: #E74649;
+  background-image: linear-gradient(to top, #E74649 0px, #DF3033 100%);
+  border-radius: 2px;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  padding: 0px 40px;
+  color: #FFF;
+  font-family: "microsoft yahei";
+  font-size: 16px;
+  font-weight: bold;
+}
+.thickbox-form .focus, .thickbox-form .cue {
+  display: block;
+  width: 263px;
+  padding-left: 5px;
+}
+.thickbox-form .focus, .thickbox-form .success, .thickbox-form .error, .thickbox-form .cue {
+  height: 26px;
+  line-height: 26px;
+  margin-top: -1px;
+}
+#regist .focus, .thickbox-form .focus,#authcode1 .focus {
+  color: #666;
+  width: 260px;
+  line-height: 36px;
+  background: #F7F7F7 none repeat scroll 0% 0%;
+  border: 1px solid #DDD;
+}
+#regist .succeed, .thickbox-form .succeed {
+  background: #FFF url("../images/sucess.png") no-repeat scroll center center;
+}
+#regist .error-ico, .thickbox-form .error-ico {
+  background: #FFF url("../images/error.png") no-repeat scroll center center;
+}
+
+.thickbox-form .success {
+  display: block;
+  width: 263px;
+  padding-left: 5px;
+  border: 1px solid #D0E4C2;
+  color: #71B247;
+}
+.thickbox-tip {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px 40px;
+  font-family: verdana;
+}
+.icon-box {
+  position: relative;
+}
+.icon-box .succ-icon {
+  background-position: 0px 0px;
+}
+.icon-box .m-icon {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 48px;
+  height: 48px;
+  background: transparent url("../images/icon48.png") no-repeat scroll 0% 0%;
+}
+.icon-box .item-fore {
+  margin: 5px 0px 25px 58px;
+}
+.icon-box .info-succ, .icon-box h2 {
+  font-size: 22px;
+  font-family: "microsoft yahei";
+  line-height: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+.ftx02, .ftx-02 {
+  color: #71B247;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.ftx01, .ftx-01 {
+  color: #E4393C;
+}
+.ftx05, .ftx-05, a.ftx-05:link, a.ftx-05:visited {
+  color: #005EA7;
 }

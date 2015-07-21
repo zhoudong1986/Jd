@@ -17,5 +17,15 @@ return array(
 	'DB_DEPLOY_TYPE'  =>  0, // 数据库部署方式:0 集中式(单一服务器),1 分布式(主从服务器)
 	'SHOW_PAGE_TRACE' => true,
 	'TMPL_L_DELIM' => '<{',
-	'TMPL_R_DELIM' => '}>'
+	'TMPL_R_DELIM' => '}>',
+
+  // 配置邮件发送服务器
+    'MAIL_HOST' =>'smtp.qq.com',
+    'MAIL_SMTPAUTH' =>TRUE, //启用smtp认证
+    'MAIL_USERNAME' =>'77135016@qq.com',
+    'MAIL_FROM' =>'77135016@qq.com',
+    'MAIL_FROMNAME' =>'yoyo',
+    'MAIL_PASSWORD' =>'22413082285957',
+    'MAIL_CHARSET' =>'utf-8',
+    'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
 );
