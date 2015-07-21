@@ -1,12 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>京东-欢迎登录</title>
-    <link rel="stylesheet" type="text/css" href="./css/login.css" media="all">
-    <script src="./js/jquery-1.10.2.min.js"></script>
-    <script src="./js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/login.css" media="all">
+    <script src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
+    <script src="/shop_jd/Home/Public/js/login.js"></script>
 </head>
 <body>
     <div class="w">
@@ -24,7 +24,7 @@
                             <h1>京东会员</h1>
                             <div class="extra-r">
                                 <div class="regist-link">
-                                    <a href="shop_jd/Home/View/Index/register.html" target="_top" clstag="pageclick|keycount|20150112ABD|1"> <b></b>
+                                    <a href="/index.php/Home/Index/register" target="_top"> <b></b>
                                         立即注册
                                     </a>
                                 </div>

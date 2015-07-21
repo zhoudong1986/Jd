@@ -564,7 +564,7 @@ a{text-decoration: none;}
   position: absolute;
   top:29px;
   left: 2px;
-  z-index: 5;
+  z-index: 6;
   display: none;
 }
 #headBox .head ul.rightBox li.navBox i.ci-right{

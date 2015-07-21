@@ -1210,3 +1210,48 @@ ERR: XML标签语法错误
 [ 2015-07-21T15:35:20+08:00 ] ::1 /index.php/Index/index/uid/1.html
 ERR: XML标签语法错误
 
+[ 2015-07-21T16:28:22+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0900s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2015-07-21T16:28:37+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0156s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0618s ]
+
+[ 2015-07-21T16:28:45+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T16:28:49+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-21T16:28:57+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T17:24:44+08:00 ] ::1 /index.php/Home/Login/logout
+ERR: 非法操作:logout
+
+[ 2015-07-21T19:03:46+08:00 ] ::1 /index.php/Home/Login/css/login.css
+ERR: 非法操作:css
+
+[ 2015-07-21T19:03:46+08:00 ] ::1 /index.php/Home/Login/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2015-07-21T19:03:47+08:00 ] ::1 /index.php/Home/Login/js/login.js
+ERR: 非法操作:js
+
+[ 2015-07-21T19:06:45+08:00 ] ::1 /index.php/Home/Login/shop_jd/Home/View/Index/register.html
+ERR: 非法操作:shop_jd
+

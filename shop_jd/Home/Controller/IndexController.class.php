@@ -4,6 +4,11 @@ use Think\Controller;
 class IndexController extends Controller {
     //首页
     public function index(){
+      if($_SESSION['login_info']['isLogin']){
+        $uid = $_SESSION['login_info']['uid'];
+        $re = M('user')->where(array('user_id'=>$uid))->field('user_id,user_name')->find();
+        $this->assign('login_info',$re);
+      }
       $this->display();
     }
 
@@ -138,7 +143,12 @@ class IndexController extends Controller {
       if(!D('user_details')->add($arr)){
         $this->error('插入详情表出错');
       }else{
-        $this->redirect('Index/index', array('uid' => $id), 1, '页面跳转中...');
+        //别刚注册的人写到session里面
+        $_SESSION['login_info']=array(
+          'isLogin'=>true,
+          'uid'=>$id
+        );
+        $this->redirect('Index/index', '', 1, '页面跳转中...');
       }
     }else{
       $this->error('操作有误');
