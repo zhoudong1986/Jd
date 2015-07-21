@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="__SELLERIMAGE__/JD.ico">
+  <title>商家客户端-京东商城</title>
+  <meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
+  <meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- basic styles -->
+  <link href="__SELLERCSS__/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome.min.css" />
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+  <!-- page specific plugin styles -->
+
+  <!-- fonts -->
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <!--  <link rel="stylesheet" href="__SELLERFONTS__/" -->
+
+  <!-- ace styles -->
+
+  <link rel="stylesheet" href="__SELLERCSS__/ace.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-rtl.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-skins.min.css" />
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="__SELLERCSS__/ace-ie.min.css" />
+  <![endif]-->
+
+  <!-- inline styles related to this page -->
+
+  <!-- ace settings handler -->
+
+  <script src="__SELLERJS__/ace-extra.min.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+  <!--[if lt IE 9]>
+  <script src="__SELLERJS__/html5shiv.js"></script>
+  <script src="__SELLERJS__/respond.min.js"></script>
+  <![endif]-->
+  <style>
+      div.photo{
+        width:700px;
+        height:280px;
+        background:#3A87AD;
+        position:absolute;
+        left:0px;
+        top:420px;
+        padding-top:45px;
+        border-radius: 15px;
+        display:none;
+      }
+    *{
+      font-size:18px;
+    }
+    
+  </style>
+
+</head>
+<body>
+
+<div class="photo">
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="__SELLERIMAGE__/7.jpg" alt="头相1">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="__SELLERIMAGE__/8.jpg" alt="头相2">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="__SELLERIMAGE__/9.jpg" alt="头相3">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="__SELLERIMAGE__/10.jpg" alt="头相4">
+      </a>
+    </div>
+
+  </div>
+</div>
+<div class="page-header" style="background:#fff;">
+  <h1>
+    管理员信息详情
+    <!--<small>-->
+      <!--<i class="icon-double-angle-right"></i>-->
+      <!--如下-->
+    <!--</small>-->
+  </h1>
+</div><!-- /.page-header -->
+
+<div class="page-content">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- PAGE CONTENT BEGINS -->
+
+      <!--<div class="clearfix"></div>-->
+
+      <div class="hr dotted"></div>
+
+      <div>
+        <div id="user-profile-1" class="user-profile row">
+          <div class="col-xs-12 col-sm-3 center">
+            <div class="pic">
+												<!--<span class="profile-picture">-->
+													<!--<img style="display: block;" id="avatar" class="editable img-responsive editable-click editable-empty" alt="Alex's Avatar" src="__SELLERIMAGE__/profile-pic.jpg">-->
+												<!--</span>-->
+              <div class="row">
+                <div class="col-xs-6 col-md-8">
+                  <a href="#" class="thumbnail">
+                    <img src="__SELLERIMAGE__/profile-pic.jpg" width="200px" height="200px" alt="..." style="display:block">
+                  </a>
+                </div>
+              </div>
+              <div class="space-4"></div>
+
+              <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right" style="margin-left:-50px;">
+                <div class="inline position-relative">
+                  <a href="#" class="user-title-label dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-circle light-green middle"></i>
+                    &nbsp;
+                    <span class="white" id="change">更换头相请点我</span>
+                  </a>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="space-6"></div>
+
+            <div class="hr hr16 dotted"></div>
+          </div>
+
+          <div class="col-xs-12 col-sm-9">
+
+
+            <div class="space-12"></div>
+
+            <div class="profile-user-info profile-user-info-striped">
+              <div class="profile-info-row">
+                <div class="profile-info-name"> 管理员账号 </div>
+
+                <div class="profile-info-value">
+                  <span class="editable editable-click " id="username"><{$edit['adname']}></span>
+                </div>
+              </div>
+
+              <div class="profile-info-row">
+                <div class="profile-info-name"> 管理员角色 </div>
+
+                <div class="profile-info-value">
+                  <!--<i class="icon-map-marker light-orange bigger-110"></i>-->
+                  <span class="editable editable-click" id="country">
+                    <!--<input class="text" type="text" name="adname" value="<{$edit['role']=='1'?'普通管理员':'网络编辑'}>" style="border:none">-->
+                    <select class="input-sm " style="font-size:13px;" id="role">
+                      <!--<option value="">请选择</option>-->
+                      <if condition="($edit['role'] eq 1)">
+                        <option selected>普通管理员</option>
+                        <option>网络编辑</option>
+                        <else />
+                        <option>普通管理员</option>
+                        <option selected>网络编辑</option>
+                      </if>
+                    </select>
+                  </span>
+                </div>
+              </div>
+
+              <div class="profile-info-row">
+                <div class="profile-info-name"> 登录状态 </div>
+
+                <div class="profile-info-value">
+                  <span class="editable editable-click" id="signup">
+                    <select class="input-sm " style="font-size:13px;" id="unlock">
+                      <!--<option value="">请选择</option>-->
+                      <if condition="($edit['status'] eq 1)">
+                      <option selected>正常登录</option>
+                      <option>锁定</option>
+                        <else />
+                        <option>正常登录</option>
+                        <option selected>锁定</option>
+                        </if>
+                    </select>
+                  </span>
+                </div>
+              </div>
+
+              <div class="profile-info-row">
+                <div class="profile-info-name"> email </div>
+
+                <div class="profile-info-value">
+                  <span class="editable editable-click" id="login"><input class="text" type="text" name="email" value="<{$edit['email']}>" style="border:none"/></span>
+                  <span id="e-mail" style="color:red"></span>
+                </div>
+              </div>
+              <div class="profile-info-value">
+                <span class="editable editable-click " id="suerUp" style="color:red;"></span>
+              </div>
+            </div>
+            </div>
+
+            <div class="space-20"></div>
+
+            <div class="widget-box transparent">
+              <button class="btn btn-success" id="buttonOne" style="border-radius: 5px;margin-left:250px;">提交修改</button>
+              <button class="btn btn-danger" style="border-radius: 5px;" id="buttonTwo">取&nbsp;&nbsp;&nbsp;&nbsp;消</button>
+
+          </div>
+        </div>
+      </div>
+      <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</div>
+
+
+
+<script src="__SELLERJS__/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write("<script src='__SELLERJS__/jquery-2.0.3.min.js'>"+"<"+"script>");
+</script>
+<script type="text/javascript">
+  if("ontouchend" in document) document.write("<script src='__SELLERJS__/jquery.mobile.custom.min.js'>"+"<"+"script>");
+</script>
+<!--<script type="text/javascript" src="__SELLERJS__/console.js"></script>-->
+<script src="__SELLERJS__/jquery-1.10.2.min.js"></script>
+<script src="__SELLERJS__/bootstrap.min.js"></script>
+<script src="__SELLERJS__/typeahead-bs2.min.js"></script>
+<script src="__SELLERJS__/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="__SELLERJS__/jquery.ui.touch-punch.min.js"></script>
+<script src="__SELLERJS__/jquery.slimscroll.min.js"></script>
+<script src="__SELLERJS__/jquery.easy-pie-chart.min.js"></script>
+<script src="__SELLERJS__/jquery.sparkline.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.pie.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.resize.min.js"></script>
+
+<!-- ace scripts -->
+
+<script src="__SELLERJS__/ace-elements.min.js"></script>
+<script src="__SELLERJS__/ace.min.js"></script>
+        <script>
+
+          $(function(){
+            $('#change').click(function(){
+              $('div.photo').toggle();
+            });
+
+            $('div.photo img').first().click(function(){
+              $('div.pic img').eq(0).attr({src:'__SELLERIMAGE__/7.jpg'});
+            });
+            $('div.photo img').eq(1).click(function(){
+              $('div.pic img').first().attr({src:'__SELLERIMAGE__/8.jpg'});
+            });
+            $('div.photo img').eq(2).click(function(){
+              $('div.pic img').first().attr({src:'__SELLERIMAGE__/9.jpg'});
+            });
+            $('div.photo img').eq(3).click(function(){
+              $('div.pic img').first().attr({src:'__SELLERIMAGE__/10.jpg'});
+            });
+            $('#buttonOne').click(function(){
+              if($('input[name="email"]').val().length==0){
+                $('#e-mail').html('邮件内容不能为空');
+//                alert($('#username').html());
+              }else{
+                $status=document.getElementById('unlock').value;
+                $role=document.getElementById('role').value;
+                $adname=$('#username').html();
+                $pic=$('div.photo img').attr('src');
+                $.ajax({
+                  url:"<{:U('Members/updateEdit')}>",
+                  type:'post',
+                  data:{'pic':$pic,'status':$status,'role':$role,'email':$('input[name="email"]').val(),'adname':$adname},
+                  success:function(data){
+                    if(data=='0'){
+                        $('#suerUp').html('信息并未修改，请修改后提交');
+                    }else if(data=='1'){
+                      alert('修改成功');location="<{:U(members)}>";
+                    }
+
+                  }
+                })
+              }
+            })
+            $('#buttonTwo').click(function(){
+              location="<{:U(members)}>";
+            })
+
+          })
+        </script>
+</body>
+</html>

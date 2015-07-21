@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="__SELLERCSS__/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="__SELLERCSS__/profile.css">
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+  <!-- page specific plugin styles -->
+
+  <!-- fonts -->
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+</head>
+<body>
+<div id="box"></div>
+<div id="boxTwo">
+  <div class="boxTitle"><i class="icon-leaf"></i>个人资料与修改</div>
+  <div id="remind" style="width:430px;height:40px;color:red;text-align: center;line-height:40px;font-size:18px;"></div>
+  <div class="borderIn">
+    <form action="" method="" onsubmit="return false;" class="formOne">
+      <if condition="$data['sname']" >
+      <div class="form-group col-sm-11">
+        <label for="account">账号：</label>
+        <input type="text" class="form-control" id="account" name="sname" value="<{$data['sname']}>" disabled>
+      </div>
+      <else />
+      <div class="form-group col-sm-11">
+        <label for="accoun">账号：</label>
+        <input type="text" class="form-control" id="accoun" name="sname" value="<{$data['adname']}>" disabled>
+      </div>
+      </if>
+
+      <div class="form-group col-sm-11">
+
+        <label for="inputEmail">邮箱：</label><span id="e-mail"></span>
+        <input type="email" class="form-control" id="inputEmail" name="email" value="<{$data['email']}>">
+      </div>
+      <!--<div class="form-group">-->
+        <!--<label for="exampleInputPassword1">头相：</label><span id="pwdThree"></span>-->
+        <!--<input type="password" class="form-control col-sm-2" id="exampleInputPassword1" name="surePwd" value="" >-->
+      <!--</div>-->
+      <div class="form-group col-sm-5">
+        <label for="headPic" class="control-label">头相:</label>
+        <!--<div>-->
+          <select id="headPic" class="form-control">
+            <option>profile-pic.jpg</option>
+            <option>7.jpg</option>
+            <option>8.jpg</option>
+            <option>9.jpg</option>
+            <option>10.jpg</option>
+          </select>
+        <!--</div>-->
+        <div class="row">
+          <div class="col-xs-6 col-sm-8">
+            <a href="#" class="thumbnail">
+              <img src="<{$data['pic']}>" alt="..." id="image">
+            </a>
+          </div>
+          <!--...-->
+        </div>
+      </div>
+      <div class="form-group col-sm-offset-4 col-sm-6">
+      <button class="btn btn-success" id="sureBtn">确认</button>
+      <button class="btn btn-danger" id="cancelBtn">取消</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<script src="__SELLERJS__/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write("<script src='__SELLERJS__/jquery-2.0.3.min.js'>"+"<"+"script>");
+</script>
+<script type="text/javascript">
+  if("ontouchend" in document) document.write("<script src='__SELLERJS__/jquery.mobile.custom.min.js'>"+"<"+"script>");
+</script>
+<script type="text/javascript" src="__SELLERJS__/console.js"></script>
+<script src="__SELLERJS__/jquery-1.10.2.min.js"></script>
+<script src="__SELLERJS__/bootstrap.min.js"></script>
+<script>
+  $('#headPic').change(function() {
+    $pic=$('#headPic').val();
+
+    $('#image').attr('src','__SELLERIMAGE__/'+$pic);
+  })
+  $('#sureBtn').click(function() {
+
+    if($('#inputEmail').val().length != 0){
+      $.ajax({
+        url:"<{:U('Index/updateAd')}>",
+        type:'get',
+        data:{'email':$('#inputEmail').val(),'pic':$('#image').attr('src')},
+        success:function(data){
+          if(data=='0'){
+            $('#remind').html('请对内容进行修改后再保存')
+          }else if(data=='1'){
+            alert('修改成功');location="copy";
+
+          }else if(data=='2'){
+            $('#remind').html('修改失败');
+          }
+        }
+      })
+    }else{
+      $('#remind').html('邮箱不能为空');
+    }
+  })
+  $('#cancelBtn').click(function(){
+    location="copy";
+  })
+</script>
+
+</body>
+
+</html>

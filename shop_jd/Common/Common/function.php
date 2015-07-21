@@ -27,6 +27,6 @@ function sendMail($to, $subject, $content) {
     echo "Mailer Error: " . $mail->ErrorInfo;
     exit();
   } else {
-    echo "Message has been sent";
+//    echo "Message has been sent";
   }
 }

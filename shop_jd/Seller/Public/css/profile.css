@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#box{
+  width:100%;
+  height:800px;
+  background:#2c2c2c;
+  opacity:0.2;
+}
+#boxTwo{
+  width:430px;
+  height:500px;
+  background:#fff;
+  border-radius: 15px;
+  position: absolute;
+  left:400px;
+  top:95px;
+}
+div.boxTitle{
+  height:50px;
+  width:430px;
+  background:#a4c6dd;
+  border-radius: 15px 15px 0 0;
+  font-size:18px;
+  line-height:50px;
+  border-bottom: 1px dotted #8a8a8a;
+  text-align: center;
+}

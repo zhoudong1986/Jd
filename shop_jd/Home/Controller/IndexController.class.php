@@ -32,6 +32,17 @@ class IndexController extends Controller {
     $verify->entry(2);
   }
 
+//检验验证码2(邮箱验证)
+  public function checkVerify1(){
+    $code = I('code'); //前台AJAX过来的验证码
+    $verify = new \Think\Verify(); //实例化验证码类
+    if($verify->check($code, '1')){
+      $this->ajaxReturn('1');
+    }else{
+      $this->ajaxReturn('2');
+    }
+  }
+
   //检验验证码2(邮箱验证)
   public function checkVerify2(){
     $code = I('code'); //前台AJAX过来的验证码
@@ -90,10 +101,22 @@ class IndexController extends Controller {
     $arr = explode(',',$tmp);//组装参数为数组
     $userName = $arr[0];//用户名
     $pwd = $arr[1];//密码
-    $mail = $arr[2];//邮箱
-    //
-
-
-
+    $email = $arr[2];//邮箱
+    //组装添加数组
+    $addArr = array(
+      'user_name'=>$userName,
+      'password'=>$pwd
+    );
+    //链接数据库，添加注册新用户
+    $lastInsertId = M('user')->add($addArr);
+    $data['email'] =$email;
+    $data['user_id']= $lastInsertId;
+    M('user_details')->add($data);
+    $this->assign('uid',$lastInsertId);
+    $this->display('mailSuccess');
+  }
+  //处理表单提交
+  public function actionRegister(){
+    dump(I('.post'));
   }
 }

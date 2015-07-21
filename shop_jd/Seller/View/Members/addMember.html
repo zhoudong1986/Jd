@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="__SELLERIMAGE__/JD.ico">
+  <title>商家客户端-京东商城</title>
+  <meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
+  <meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- basic styles -->
+  <link href="__SELLERCSS__/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome.min.css" />
+  <!--<link rel="stylesheet" type="text/css" href="__SELLERCSS__/members.css">-->
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+  <!-- page specific plugin styles -->
+
+  <!-- fonts -->
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <!--  <link rel="stylesheet" href="__SELLERFONTS__/" -->
+
+  <!-- ace styles -->
+
+  <link rel="stylesheet" href="__SELLERCSS__/ace.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-rtl.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-skins.min.css" />
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="__SELLERCSS__/ace-ie.min.css" />
+  <![endif]-->
+
+  <!-- inline styles related to this page -->
+
+  <!-- ace settings handler -->
+
+  <script src="__SELLERJS__/ace-extra.min.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+  <!--[if lt IE 9]>
+  <script src="__SELLERJS__/html5shiv.js"></script>
+  <script src="__SELLERJS__/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<div class="jumbotron" style="background:#fff;height:60px;">
+  <!--<h1>Hello, world!</h1>-->
+  <p><i class="icon-plus">添加管理员</i></p>
+  <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
+</div>
+<form class="form-horizontal">
+  <div class="form-group has-success">
+    <label for="adname" class="col-sm-1 control-label">账户名称</label>
+    <div class="col-sm-5">
+      <span id="account" style="color:red;"></span>
+      <input type="text" class="form-control" id="adname" name="uname" value="">
+
+    </div>
+  </div>
+  <div class="form-group has-success">
+    <label for="password" class="col-sm-1 control-label">密码</label>
+    <div class="col-sm-5">
+      <span id="pass" style="color:red;"></span>
+      <input type="password" class="form-control" id="password" name="pwd" value="">
+
+    </div>
+  </div>
+  <div class="form-group has-success">
+    <label for="password" class="col-sm-1 control-label">确认密码</label>
+    <div class="col-sm-5">
+      <span id="passs" style="color:red;"></span>
+      <input type="password" class="form-control" id="passwordd" name="surePwd" value="">
+
+    </div>
+  </div>
+  <div class="form-group has-success">
+    <label for="email" class="col-sm-1 control-label">邮箱</label>
+    <div class="col-sm-5">
+      <span id="e-mail" style="color:red"></span>
+      <input type="text" class="form-control" id="email" name="email" value="">
+
+    </div>
+  </div>
+  <div class="form-group has-success">
+    <label for="role" class="col-sm-1 control-label">管理员角色</label>
+    <div class="col-sm-5">
+      <select id="role" class="form-control">
+        <option>普通管理员</option>
+        <option>网络编辑</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group has-success">
+    <label for="status" class="col-sm-1 control-label">管理状态</label>
+    <div class="col-sm-5">
+      <select id="status" class="form-control">
+        <option>正常登录</option>
+        <option>锁定</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+
+    <div class="col-sm-offset-2 col-sm-5">
+
+      <button type="button" class="btn btn-success" id="buttonOne">确认添加</button>
+      <button type="button" class="btn btn-danger" id="buttonTwo">取&nbsp;&nbsp;&nbsp;消</button>
+    </div>
+  </div>
+  </div>
+
+</form>
+
+
+<script src="__SELLERJS__/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write("<script src='__SELLERJS__/jquery-2.0.3.min.js'>"+"<"+"script>");
+</script>
+<script type="text/javascript">
+  if("ontouchend" in document) document.write("<script src='__SELLERJS__/jquery.mobile.custom.min.js'>"+"<"+"script>");
+</script>
+<script type="text/javascript" src="__SELLERJS__/console.js"></script>
+<script src="__SELLERJS__/jquery-1.10.2.min.js"></script>
+<script src="__SELLERJS__/bootstrap.min.js"></script>
+<script src="__SELLERJS__/typeahead-bs2.min.js"></script>
+<script src="__SELLERJS__/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="__SELLERJS__/jquery.ui.touch-punch.min.js"></script>
+<script src="__SELLERJS__/jquery.slimscroll.min.js"></script>
+<script src="__SELLERJS__/jquery.easy-pie-chart.min.js"></script>
+<script src="__SELLERJS__/jquery.sparkline.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.pie.min.js"></script>
+<script src="__SELLERJS__/flot/jquery.flot.resize.min.js"></script>
+
+<!-- ace scripts -->
+
+<script src="__SELLERJS__/ace-elements.min.js"></script>
+<script src="__SELLERJS__/ace.min.js"></script>
+
+  <script>
+    $('input[name="uname"]').blur(function(){
+          $adname=$('input[name="uname"]').val();
+          if($adname.length==0){
+            $('#account').html('账号名称不能为空');
+          }
+          $('input[name="email"]').blur(function(){
+            $email=$('input[name="email"]').val();
+            if($email.length==0) {
+              $('#e-mail').html('邮箱不能为空');
+            }
+          })
+          $('input[name="pwd"]').blur(function(){
+            if($('input[name="pwd"]').val()==0){
+              $('#pass').html('密码不能为空');
+            }
+          })
+          $('#passwordd').blur(function(){
+
+            if($('input[name="surePwd"]').val() != $('input[name="pwd"]').val()){
+              $('#passs').html('密码不相同');
+            }
+          })
+        })
+    $('#buttonOne').click(function(){
+      //      获取添加的值
+      $adname=$('input[name="uname"]').val();
+      $email=$('input[name="email"]').val();
+      $role=$('#role').val();
+      $status=$('#status').val();
+      $pass=$('input[name="pwd"]').val();
+      $pic='__SELLERIMAGE__/profile-pic.jpg';
+
+      if($adname.length !=0 && $email.length !=0 && $pass.length !=0){
+        $.ajax({
+          url:"<{:U('Members/addMembers')}>",
+          type:'post',
+          data:{'adname':$adname,'password':$pass,'email':$email,'role':$role,'status':$status,'pic':$pic},
+          success:function(data){
+              if(data=='1'){
+                alert('添加成功');location="<{:U('members')}>";
+              }else if(data=='2'){
+                alert('添加失败');location="<{:U(members)}>";
+              }else if(data=='0'){
+                $('#account').html('此账号名已存在');
+              }
+          }
+        })
+      }
+    })
+
+    $('#buttonTwo').click(function(){
+      location="<{:U('members')}>";
+    })
+</script>
+</body>
+</html>

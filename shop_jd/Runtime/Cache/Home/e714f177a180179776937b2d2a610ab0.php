@@ -12,39 +12,45 @@
 <body>
 <!--验证邮箱框-->
 <div id="box" style="display: none"></div>
-<div style="display:none;width: 502px; height: 310px; left: 376.5px; top: 300.5px;" class="thickbox" id="mailBox"><div class="thicktitle" id="" style="width:500"><span>验证邮箱</span></div><div class="thickcon" id="opinioncon" style="width: 500px; height: 260px; padding-left: 0px; padding-right: 0px; border-left: 1px none; border-right: 1px none;">
-  <div class="form thickbox-form" style="display: block;">
-    <div class="f-body">
-      <div class="item">
-        <span class="label"><b class="ftx04">*</b>请输入邮箱：</span>
-        <div class="fl item-ifo">
-          <input id="mail" name="mail" class="text" maxlength="50" onpaste="return  false" autocomplete="off" type="text">
-          <label id="mail_succeed" class="blank"></label>
-          <label id="mail_error" class=""></label>
-        </div>
-      </div>
-      <div class="item">
-        <span class="label"><b class="ftx04">*</b>验证码：</span>
-        <div class="fl item-ifo">
-          <input id="authcode1" style="ime-mode:disabled" name="authcode1" class="text text-1" tabindex="6" autocomplete="off" maxlength="6" type="text">
-          <label class="img">
-            <img src="<?php echo U('verify2');?>" style="cursor:pointer;width:100px;height:36px;display:block;" onclick="this.src= this.src+ '?' + new Date().getTime()"  id="JD_Verification2"> </label>
-          <label class="ftx23">&nbsp;看不清？<a href="javascript:void(0)" onclick="verify2()" class="flk13">换一张</a></label>
-          <label id="authcode_succeed" class="blank invisible"></label>
-          <span class="clr"></span>
-          <label id="authcode_error"></label>
-        </div>
-        <span class="clr"></span>
-      </div>
+<div style="display:none;width: 502px; height: 310px; left: 376.5px; top: 300.5px;background: #fff;" class="thickbox" id="mailBox">
+  <div id="before">
+    <div class="thicktitle" id="" style="width:500px" >
+      <span>验证邮箱</span>
     </div>
-    <div class="f-footer">
-      <div class="item">
-        <span class="label">&nbsp;</span>
-        <input class="btn-img btn-verify" value="发送邮箱验证" type="button">
+    <div class="thickcon" id="opinioncon" style="width: 500px; height: 260px; padding-left: 0px; padding-right: 0px; border-left: 1px none; border-right: 1px none;">
+      <div class="form thickbox-form" style="display: block;">
+        <div class="f-body">
+          <div class="item">
+            <span class="label"><b class="ftx04">*</b>请输入邮箱：</span>
+            <div class="fl item-ifo">
+              <input id="mail" name="mail" class="text" maxlength="50" onpaste="return  false" autocomplete="off" type="text">
+              <label id="mail_succeed" class="blank"></label>
+              <label id="mail_error" class=""></label>
+            </div>
+          </div>
+          <div class="item">
+            <span class="label"><b class="ftx04">*</b>验证码：</span>
+            <div class="fl item-ifo">
+              <input id="authcode1" style="ime-mode:disabled" name="authcode1" class="text text-1" tabindex="6" autocomplete="off" maxlength="6" type="text">
+              <label class="img">
+                <img src="<?php echo U('verify2');?>" style="cursor:pointer;width:100px;height:36px;display:block;" onclick="this.src= this.src+ '?' + new Date().getTime()"  id="JD_Verification2"> </label>
+              <label class="ftx23">&nbsp;看不清？<a href="javascript:void(0)" onclick="verify2()" class="flk13">换一张</a></label>
+              <label id="authcode_succeed" class="blank invisible"></label>
+              <span class="clr"></span>
+              <label id="authcode_error"></label>
+            </div>
+            <span class="clr"></span>
+          </div>
+        </div>
+        <div class="f-footer">
+          <div class="item">
+            <span class="label">&nbsp;</span>
+            <input class="btn-img btn-verify" value="发送邮箱验证" type="button">
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
   <!--发送邮件成功-->
   <div class="thickbox-tip fz14" style="display: none">
     <div class="icon-box">
@@ -62,9 +68,6 @@
       <span class="clr"></span>
     </div>
   </div>
-
-
-</div>
   <a href="#" id="closeBox" class="thickclose">×</a>
 </div>
 
@@ -221,7 +224,7 @@
       </div>
     </div>
     <div class="mc">
-      <form action="https://reg.jd.com/reg/person?ReturnUrl=http%3A//www.jd.com/" id="personRegForm" method="POST" onsubmit="return false;">
+      <form action="<?php echo U('actionRegister');?>" id="personRegForm" method="POST" onsubmit="return false;">
         <input name="regType" id="regType" value="person" type="hidden">
         <input name="uuid" id="uuid" value="07967044-4dee-4b35-88a4-9c286cabf05b" type="hidden">
         <input name="verifymc" id="verifymc" value="" type="hidden">
@@ -438,6 +441,7 @@
 
   $(function(){
     $('#regName').focus(function(){
+      $(this).siblings('.i-name').removeAttr('style');
       $(this).attr('class','').addClass('text highlight1'); //框变绿色
       $(this).siblings('#regName_error').attr('class','').addClass('focus').text('4-15位字符，支持汉字、字母、数字、"-"以及"_"组合');
     });
@@ -472,13 +476,16 @@
         $(this).attr('class','').addClass('text');
         $(this).removeAttr('style');
         $('#regName').siblings('#regName_error').attr('class','').addClass('hide');
+        $(this).siblings('.i-name').removeAttr('style');
+        error = 0;
       }
     });
 
     //密码验证部分
     $('#pwd').focus(function(){
+      $(this).siblings('.i-pass').removeAttr('style');
       $(this).attr('class','').addClass('text highlight1'); //框变绿色
-      $(this).siblings('#pwd_error').attr('class','focus').text('6-20位字符,建议由数字和字母组成');
+      $(this).siblings('#pwd_error').attr('class','focus').show().text('6-20位字符,建议由数字和字母组成');
     });
     $('#pwd').blur(function () {
       var value = $(this).val(); //获取输入表单的值
@@ -489,11 +496,14 @@
           return;
         }else{
           //符合密码规则
+          $(this).siblings('.i-pass').css({background:'transparent url("/shop_jd/Home/Public/images/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
+          $(this).siblings('#pwd_error').attr('class','null').hide();
           error = 0;
         }
-      }else{
+      }else{//没有填值
         $(this).attr('class','text').removeAttr('style');
         $(this).siblings('#pwd_error').attr('class','hide');
+        error = 0;
       }
     });
 
@@ -519,8 +529,10 @@
             error = 1;
             break;
           case 3:
+            //没有错误
             $(this).siblings('i.i-pass').css({background:'transparent url("/shop_jd/Home/Public/images/sucess.png") no-repeat scroll 0px 0px'});//变成绿色钩
             $(this).siblings('#pwdRepeat_error').attr('class','hide');
+            error = 0;
             break;
         }
       }else{ //没有输入值的时候
@@ -531,19 +543,37 @@
 
     //邮箱验证
     $('#phone').focus(function(){
+      //先判断账号密码有没有填写
+      if($('#regName').val().length==0){//用户名没有填写
+          $('#regName').addClass('highlight2').siblings('.i-name').removeAttr('style').siblings('#regName_error').attr('class','error').text('此项必须填写');
+      }
+      if($('#pwd').val().length==0){//密码没有填写
+        $('#pwd').addClass('highlight2').siblings('.i-pass').removeAttr('style').siblings('#pwd_error').attr('class','error').text('此项必须填写');
+      }
+      if($('#pwdRepeat').val().length==0){//确认密码没有填写
+        $('#pwdRepeat').addClass('highlight2').siblings('.i-pass').removeAttr('style').siblings('#pwdRepeat_error').attr('class','error').text('此项必须填写');
+      }
+      //判断有没有其他该填项有没有错误
+      if(error){return;}
       $(this).attr('class','').addClass('text highlight1'); //框变绿色
-      $(this).siblings('#phone_error').attr('class','focus').html('完成验证,以后可以通过邮箱找回密码,<strong id="checkMail">点击验证</strong>');
+      $(this).siblings('#phone_error').attr('class','focus').html('<p>完成验证,以后可以通过邮箱找回密码,<strong id="checkMail">点击验证</strong></p>');
     });
     //点击显示验证邮箱框
-    $('#phone_error').delegate('strong','click',function(){
+    $('#phone_error').delegate('p','click',function(){
       $('#box').show();
       $('#mailBox').show();
+      $('#before').show();
+      $('.thickbox-tip').hide();
+      $('.f-body').find('#mail').val('');
+      $('#mail_succeed').attr('class','blank');
+      $('#mail_error').attr('class','null').text('').hide();
+      $('#authcode1').val('');
     });
     //关闭验证邮箱框
     $('#closeBox').click(function(){
       $('#box').hide();
       $('#mailBox').hide();
-      $('#phone_error').attr('class','null').text('');
+//      $('#phone_error').attr('class','null').text('');
     });
     //开始邮箱验证
     $('#mail').focus(function(){
@@ -588,6 +618,7 @@
         $(this).attr('class','text').removeAttr('style');
         $(this).siblings('#mail_error').attr('class','hide').hide();
         $(this).siblings('#mail_succeed').attr('class','blank');
+        errorMail = 0;
       }
     });
 
@@ -620,20 +651,50 @@
           var userName = $('#regName').val();//获得用户名
           var password = $('#pwd').val();//获得密码
           var mail = $('#mail').val(); //获得邮箱
-
           $.ajax({
             url:"<?php echo U('setMail');?>",
             type:'post',
             data:{'userName':userName,'password':password,'mail':mail},
             success:function($msg){
-
+              if($msg=='1'){
+                $('#before').hide();
+                $('.thickbox-tip').find('strong.ftx-01').text(mail);//更改小框里的邮箱地址
+                $('#phone').val(mail);//更改主框里的邮件地址
+                $('#phone').attr('disabled','disabled');
+                $('#phone').siblings('#phone_error').attr('class','focus').html("<p>重新填写邮箱</p>");
+                $('.thickbox-tip').show();//发送邮件成功界面显示
+              }
             }
           });
         }
     });
 
+    //主框验证码
+    $('#authcodeDiv').find('#authcode').blur(function(){
+      var $val = $(this).val(); //获得输入的验证码表单
+      $.ajax({
+        url:"<?php echo U('checkVerify1');?>",
+        type:'post',
+        data:{'code':$val},
+        success:function($msg){
+          if($msg=='1'){//验证码正确
+            $('#authcode').css({'border': '1px solid #7ABD54'});
+            errorMail=0;
+          }else{
+            $('#authcode').css({'border': '1px solid #FF0000'});
+            errorMail=1;
+          }
+        }
+      })
+    });
+
+    //点击注册
+    $('#registsubmit').click(function(){
+      if(error==0 && errorMail==0){
+        $('#personRegForm').submit();
+      }else{
+        return;
+      }
+    })
   })
-
-
-
 </script>
