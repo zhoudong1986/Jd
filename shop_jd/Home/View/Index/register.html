@@ -617,12 +617,13 @@
           return false;
         }else{
           //没错误可以提交
-          var userName = $('#regName').val();
-          var password = $('#pwd').val();
+          var userName = $('#regName').val();//获得用户名
+          var password = $('#pwd').val();//获得密码
+          var mail = $('#mail').val(); //获得邮箱
           $.ajax({
             url:"<{:U('setMail')}>",
             type:'post',
-            data:{'userName':userName,'password':password},
+            data:{'userName':userName,'password':password,'mail':mail},
             success:function($msg){
 
             }

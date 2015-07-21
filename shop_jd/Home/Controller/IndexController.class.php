@@ -76,8 +76,24 @@ class IndexController extends Controller {
     public function setMail(){
       $userName = I('userName'); //用户名
       $pwd  = I('password','','md5'); //密码
-      $serialize = serialize($userName.','.$pwd);
+      $mail = I('mail'); //邮箱
+      $serialize = serialize($userName.','.$pwd.','.$mail);
       $url = U('finishMailCheck',array('serialize'=>$serialize));
       sendMail("11273548@qq.com","仿京东：邮件验证","内容:请点击以下链接以完成验证:<a href='http://".'127.0.0.1/'."$url'>".date('ymdhis').rand(00000-99999)."</a>");
+      //发送成功后
+      $this->ajaxReturn(1);
     }
+
+  //完成邮箱验证
+  public  function finishMailCheck(){
+    $tmp = I('serialize','','unserialize');//获得传参
+    $arr = explode(',',$tmp);//组装参数为数组
+    $userName = $arr[0];//用户名
+    $pwd = $arr[1];//密码
+    $mail = $arr[2];//邮箱
+    //
+
+
+
+  }
 }
