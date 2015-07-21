@@ -1,15 +1,254 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>京东网上商城-综合网购首选（JD.COM）-正品低价、品质保障、货到付款、配送及时、放心服务、轻松购物！</title>
-  <link rel="stylesheet" href="__CSS__/index.css"/>
-  <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
-  <script language="JavaScript" src="__JS__/common.js"></script>
-  <script language="JavaScript" src="__JS__/index.js"></script>
+  <link rel="stylesheet" href="/shop_jd/Home/Public/css/index.css"/>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/index.js"></script>
 </head>
 <body>
-<include file="Public:header" />
+<!--样式一头部-->
+<div id="headBox">
+  <div class="head">
+    <div class="cityBox">
+      <div class="shadow"></div>
+      <p class="content">送至：<span class="choose">黑龙江</span><i class="ci-cor"><span>◇</span></i></p>
+      <ul class="citys">
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">黑龙江</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">秦皇岛</a></li>
+        <li><a  href="">海外</a></li>
+      </ul>
+    </div>
+    <ul class="rightBox">
+      <li class="login"><a href="#" class="default">您好，请登陆</a>&nbsp;&nbsp;<a class="please" href="">免费注册</a></li>
+      <li class="separate"></li>
+      <li class="myOrder"><a href="">我的订单</a></li>
+      <li class="separate"></li>
+      <li class="myJd">
+        <a href="" class="jd">我的京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="conBox">
+          <img src="./images/no-img_mid_.jpg" alt="默认头像" class="pic"/>
+          <div class="right">
+            <a class="first">您好，请登录</a>
+            <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
+            </p>
+          </div>
+          <div class="bottomBox">
+            <ul class="left">
+              <li><a href="#">待处理订单</a></li>
+              <li><a href="#">资讯回复</a></li>
+              <li><a href="#">降价商品</a></li>
+              <li><a href="#">返修退换货</a></li>
+            </ul>
+            <ul class="right">
+              <li><a href="#">我的关注</a></li>
+              <li><a href="#">我的京豆</a></li>
+              <li><a href="#">我的理财</a></li>
+              <li><a href="#">我的白条</a></li>
+            </ul>
+          </div>
+          <div class="recently">
+            <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
+            <div class="imgs">
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="separate"></li>
+      <li class="memBox">
+        <a href="" class="member">京东会员</a>
+      </li>
+      <li class="separate"></li>
+      <li class="comBox">
+        <a href="" class="company">企业采购</a>
+      </li>
+      <li class="separate"></li>
+      <li class="phBox">
+        <a href="#" class='phone'>手机京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="bbt"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="attenBox">
+        <p href="" class="attention">关注京东</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="code"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="clientBox">
+        <p class="clientService">客户服务</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <ul class="content">
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">售后服务</a></li>
+          <li><a href="">在线客服</a></li>
+          <li><a href="">意见建议</a></li>
+          <li><a href="">客服邮箱</a></li>
+        </ul>
+      </li>
+      <li class="separate"></li>
+      <li class="navBox">
+        <p class="navigation">网站导航</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="contents">
+          <div class="fore1">
+            <h3>特色主题</h3>
+            <div class="clear"></div>
+            <ul>
+              <li><a href="">品牌街</a></li>
+              <li><a href="">今日炒底</a></li>
+              <li><a href="">好东西</a></li>
+              <li><a href="">京东预售</a></li>
+              <li><a href="">尖er货</a></li>
+              <li><a href="">京东首发</a></li>
+              <li><a href="">今日团购</a></li>
+              <li><a href="">优惠券</a></li>
+              <li><a href="">闪购</a></li>
+              <li><a href="">京东会员</a></li>
+              <li><a href="">京东京选</a></li>
+              <li><a href="">定期送</a></li>
+              <li><a href="">装机大师</a></li>
+              <li><a href="">搭配购</a></li>
+              <li><a href="">京东试用</a></li>
+              <li><a href="">礼品购</a></li>
+              <li><a href="">智能馆</a></li>
+              <li><a href="">玩bigger</a></li>
+              <li><a href="">大牌免息</a></li>
+              <li><a href="">北京老字号</a></li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>行业频道</h3>
+            <div class="clear"></div>
+            <ul>
+              <li><a href="">服装城</a></li>
+              <li><a href="">家用电器</a></li>
+              <li><a href="">电脑办公</a></li>
+              <li><a href="">手机</a></li>
+              <li><a href="">美妆馆</a></li>
+              <li><a href="">食品</a></li>
+              <li><a href="">数码</a></li>
+              <li><a href="">母婴</a></li>
+              <li><a href="">家装城</a></li>
+              <li><a href="">运动户外</a></li>
+              <li><a href="">整车</a></li>
+              <li><a href="">图书</a></li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>生活服务</h3>
+            <div class="clear"></div>
+            <ul>
+              <li>京东凑众</li>
+              <li>白条</li>
+              <li>京东钱包</li>
+              <li>京东小金库</li>
+              <li>理财</li>
+              <li>话费</li>
+              <li>旅行</li>
+              <li>彩票</li>
+              <li>游戏</li>
+              <li>机票</li>
+              <li>电影票</li>
+              <li>水电费</li>
+              <li>京东到家</li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>生活服务</h3>
+            <div class="clear"></div>
+            <ul class="fore2">
+              <li>京东社区</li>
+              <li>京东通信</li>
+              <li>在线读书</li>
+              <li>京东E卡</li>
+              <li>智能社区</li>
+              <li>游戏社区</li>
+              <li>京友邦</li>
+              <li>卖家入驻</li>
+              <li>企业采购</li>
+              <li>服务市场</li>
+              <li>乡村招募</li>
+              <li>校园加盟</li>
+              <li>办公生活馆</li>
+              <li>知识产权维权</li>
+              <li>English Site</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--样式一头部结束-->
 <!--<div id="headBox">-->
   <!--<div class="head">-->
     <!--<div class="cityBox">-->
@@ -60,7 +299,7 @@
       <!--</ul>-->
     <!--</div>-->
     <!--<ul class="rightBox">-->
-      <!--<li class="login"><a href="#" class="default">您好，请登陆</a>&nbsp;&nbsp;<a class="please" href="<{:U('register')}>">免费注册</a></li>-->
+      <!--<li class="login"><a href="#" class="default">您好，请登陆</a>&nbsp;&nbsp;<a class="please" href="<?php echo U('register');?>">免费注册</a></li>-->
       <!--<li class="separate"></li>-->
       <!--<li class="myOrder"><a href="">我的订单</a></li>-->
       <!--<li class="separate"></li>-->
@@ -72,7 +311,7 @@
         <!--<div class="up"></div>-->
         <!--<div class="line"></div>-->
         <!--<div class="conBox">-->
-          <!--<img src="__IMAGE__/no-img_mid_.jpg" alt="默认头像" class="pic"/>-->
+          <!--<img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/>-->
           <!--<div class="right">-->
             <!--<a class="first">您好，请登录</a>-->
             <!--<p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>-->
@@ -95,10 +334,10 @@
           <!--<div class="recently">-->
             <!--<p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>-->
             <!--<div class="imgs">-->
-              <!--<img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>-->
-              <!--<img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>-->
-              <!--<img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>-->
-              <!--<img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>-->
+              <!--<img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>-->
+              <!--<img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>-->
+              <!--<img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>-->
+              <!--<img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>-->
             <!--</div>-->
           <!--</div>-->
         <!--</div>-->
@@ -250,7 +489,7 @@
 <!--</div>-->
 <!--广告-->
   <div id="banner">
-    <a href=""><img src="__IMAGE__/559a55b1Nba5cc052.jpg" alt=""/></a>
+    <a href=""><img src="/shop_jd/Home/Public/images/559a55b1Nba5cc052.jpg" alt=""/></a>
     <i></i>
   </div>
   
@@ -259,7 +498,7 @@
     <div class="w">
       <!-- Logo -->
       <div class="logo">
-        <a href=""><img src="__IMAGE__/logo-201305.png" alt=""/></a>
+        <a href=""><img src="/shop_jd/Home/Public/images/logo-201305.png" alt=""/></a>
       </div>
       <!-- 搜索框-->
       <div class="search">
@@ -289,7 +528,7 @@
             <p class="head">最新加入的商品</p>
             <ul class="lists">
               <li>
-                <div class="left"><img src="__IMAGE__/5584fec1Ndffff235.jpg" alt=""/></div>
+                <div class="left"><img src="/shop_jd/Home/Public/images/5584fec1Ndffff235.jpg" alt=""/></div>
                 <div class="center"><a href="" target="_blank">耐克Nike Air Max90限量款女子气垫跑鞋724882 345017 443817 树莓红443817-600  37.5码/5Y</a></div>
                 <div class="right"><p class="price"><strong>￥899.00</strong>×<span>1</span></p><a href="">删除</a></div>
               </li>
@@ -299,7 +538,7 @@
                 <p class="count">小计：￥899.00</p>
               </li>
               <li>
-                <div class="left"><img src="__IMAGE__/53a4097cN8308d4ec.jpg" alt=""/></div>
+                <div class="left"><img src="/shop_jd/Home/Public/images/53a4097cN8308d4ec.jpg" alt=""/></div>
                 <div class="center"><a href="" target="_blank">耐克Nike Air Max90限量款女子气垫跑鞋724882 345017 443817 树莓红443817-600  37.5码/5Y</a></div>
                 <div class="right"><p class="price"><strong>￥899.00</strong>×<span>1</span></p><a href="">删除</a></div>
               </li>
@@ -329,7 +568,7 @@
             <li><a href="">金融</a></li>
             <li><a href="">智能</a></li>
           </ul>
-          <div class="banner"><a href=""><img src="__IMAGE__/55963e07N1ca627c1.jpg" alt=""/></a></div>
+          <div class="banner"><a href=""><img src="/shop_jd/Home/Public/images/55963e07N1ca627c1.jpg" alt=""/></a></div>
         </div>
       </div>
     </div>
@@ -516,8 +755,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -637,8 +876,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -758,8 +997,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -879,8 +1118,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1000,8 +1239,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1121,8 +1360,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1242,8 +1481,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1363,8 +1602,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1484,8 +1723,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1605,8 +1844,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1726,8 +1965,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1847,8 +2086,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -1968,8 +2207,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -2089,8 +2328,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -2210,8 +2449,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
           <div class="item-sub">
@@ -2331,8 +2570,8 @@
               </dl>
             </div>
             <div class="item-promotions">
-              <a href=""><img src="__IMAGE__/559899a3N5271c3d3.jpg" width="168" height="134"></a>
-              <a href=""><img src="__IMAGE__/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/559899a3N5271c3d3.jpg" width="168" height="134"></a>
+              <a href=""><img src="/shop_jd/Home/Public/images/5599fa58N0cdd3ad1.jpg" width="168" height="134"/></a>
             </div>
           </div>
         </div>
@@ -2340,12 +2579,12 @@
       <!-- 轮换窗 -->
       <div class="turnBox">
         <div class="imgsBox">
-          <a href="" class='imgsA'><img src="__IMAGE__/1.jpg" alt=""/></a>
-          <a href="" class="imgsA"><img src="__IMAGE__/2.jpg" alt=""/></a>
-          <a href="" class='imgsA'><img src="__IMAGE__/3.jpg" alt=""/></a>
-          <a href="" class='imgsA'><img src="__IMAGE__/4.jpg" alt=""/></a>
-          <a href="" class='imgsA'><img src="__IMAGE__/5.jpg" alt=""/></a>
-          <a href="" class='imgsA'><img src="__IMAGE__/6.jpg" alt=""/></a>
+          <a href="" class='imgsA'><img src="/shop_jd/Home/Public/images/1.jpg" alt=""/></a>
+          <a href="" class="imgsA"><img src="/shop_jd/Home/Public/images/2.jpg" alt=""/></a>
+          <a href="" class='imgsA'><img src="/shop_jd/Home/Public/images/3.jpg" alt=""/></a>
+          <a href="" class='imgsA'><img src="/shop_jd/Home/Public/images/4.jpg" alt=""/></a>
+          <a href="" class='imgsA'><img src="/shop_jd/Home/Public/images/5.jpg" alt=""/></a>
+          <a href="" class='imgsA'><img src="/shop_jd/Home/Public/images/6.jpg" alt=""/></a>
         </div>
         <ul class="indexBox">
           <li>1</li>
@@ -2471,22 +2710,22 @@
             <li class="fore1">
               <div class="fore1">
                 <a href="" target="_blank">
-                  <img src="__IMAGE__/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
                 </a>
               </div>
               <div class="fore2">
                 <a href="" target="_blank">
-                  <img src="__IMAGE__/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
                 </a>
               </div>
               <div class="fore3">
                 <a href="" target="_blank">
-                  <img src="__IMAGE__/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
                 </a>
               </div>
               <div class="fore4">
                 <a href="" target="_blank">
-                  <img src="__IMAGE__/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/559ce147N436d7816.jpg" width="250" height="164" alt=""/>
                 </a>
               </div>
             </li>
@@ -2508,7 +2747,7 @@
             <li class="fore1">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2523,7 +2762,7 @@
             <li class="fore2">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2538,7 +2777,7 @@
             <li class="fore3">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2553,7 +2792,7 @@
             <li class="fore4">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2568,7 +2807,7 @@
             <li class="fore5">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2583,7 +2822,7 @@
             <li class="fore6">
               <div class="p-img">
                 <a href="">
-                  <img src="__IMAGE__/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
+                  <img src="/shop_jd/Home/Public/images/rBEhVVL113YIAAAAAAGclirin4YAAIcCQBGg34AAZyu686.jpg" alt=""/>
                 </a>
               </div>
               <div class="p-info">
@@ -2613,7 +2852,7 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">浪琴品牌专场 全场低至5.5折</p>
-                <img src="__IMAGE__/55a37ea5nfa9d6e3e.jpg" height="200" width="201">
+                <img src="/shop_jd/Home/Public/images/55a37ea5nfa9d6e3e.jpg" height="200" width="201">
               </a>
               <a href="#" target="_top" class="hs-item">
                 <p class="tit">
@@ -2622,7 +2861,7 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">运动大牌低至1折起 跑鞋59元抢</p>
-                <img src="__IMAGE__/55a47ccbn550245b0.jpg" height="200" width="201">
+                <img src="/shop_jd/Home/Public/images/55a47ccbn550245b0.jpg" height="200" width="201">
               </a>
             </div>
             <div class="hs-content-center">
@@ -2632,7 +2871,7 @@
                   <p class="hs-m-subtit">iPad 3G版低至1699</p>
                   <span class="hs-m-button">品牌街 &gt;</span>
                 </div>
-                <img src="__IMAGE__/55a37852na411ea29.jpg" height="200" width="403">
+                <img src="/shop_jd/Home/Public/images/55a37852na411ea29.jpg" height="200" width="403">
               </a>
               <div class="under">
                 <a href="http://pinpaijie.jd.com/International.html" target="_top" class="hs-item">
@@ -2642,39 +2881,39 @@
                     <span class="zw zwr"></span>
                   </p>
                   <p class="sub-tit">ELAND &amp; T.W.全场低至一折</p>
-                  <img src="__IMAGE__/55a365acn42479fec.jpg" height="200" width="201">
+                  <img src="/shop_jd/Home/Public/images/55a365acn42479fec.jpg" height="200" width="201">
                 </a>
                 <div class="hs-brands">
                   <div class="hs-brands-con">
                     <a href="" class="item " target="_top">
-                      <img src="__IMAGE__/55a46fbcnfb517e40.jpg" height="39" width="100" />
+                      <img src="/shop_jd/Home/Public/images/55a46fbcnfb517e40.jpg" height="39" width="100" />
                     </a>
                     <a href="http://mall.jd.com/index-1000004123.html" class="item even" target="_top">
-                      <img src="__IMAGE__/559500adnff8c8378.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/559500adnff8c8378.jpg" height="39" width="100">
                     </a>
                     <a href="#" class="item " target="_top">
-                      <img src="__IMAGE__/559b3ed0nc39f94dd.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/559b3ed0nc39f94dd.jpg" height="39" width="100">
                     </a>
                     <a href="#" class="item even" target="_top">
-                      <img src="__IMAGE__/559350a6n827214f3.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/559350a6n827214f3.jpg" height="39" width="100">
                     </a>
                     <a href="http://mall.jd.com/index-17529.html" class="item " target="_top">
-                      <img src="__IMAGE__/558a59cdnba04f631.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/558a59cdnba04f631.jpg" height="39" width="100">
                     </a>
                     <a href="http://mall.jd.com/index-60920.html" class="item even" target="_top">
-                      <img src="__IMAGE__/559b4079nbd3f7b42.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/559b4079nbd3f7b42.jpg" height="39" width="100">
                     </a>
                     <a href="http://mall.jd.com/index-121686.html" class="item " target="_top">
-                      <img src="__IMAGE__/55a33075n67b2eae6.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/55a33075n67b2eae6.jpg" height="39" width="100">
                     </a>
                     <a href="" class="item even" target="_top">
-                      <img src="__IMAGE__/55a34294n442252ba.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/55a34294n442252ba.jpg" height="39" width="100">
                     </a>
                     <a href="http://mall.jd.com/index-103760.html" class="item " target="_top">
-                      <img src="__IMAGE__/558a5aedn0bbf4c5e.png" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/558a5aedn0bbf4c5e.png" height="39" width="100">
                     </a>
                     <a href="http://mall.jd.com/index-41378.html" target="_top">
-                      <img src="__IMAGE__/559267bbn54ca9f41.jpg" height="39" width="100">
+                      <img src="/shop_jd/Home/Public/images/559267bbn54ca9f41.jpg" height="39" width="100">
                     </a>
                   </div>
                 </div>
@@ -2690,7 +2929,7 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">数码风暴 9.9元天天抢</p>
-                <img src="__IMAGE__/55a46ed2n2a53f4a9.jpg" height="200" width="200">
+                <img src="/shop_jd/Home/Public/images/55a46ed2n2a53f4a9.jpg" height="200" width="200">
               </a>
               <a href="#" target="_top" class="hs-item hs-item-red">
                 <p class="tit">
@@ -2700,7 +2939,7 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">小米电视 智能首发</p>
-                <img src="__IMAGE__/55a46ed2n2a53f4a9.jpg" height="200" width="200">
+                <img src="/shop_jd/Home/Public/images/55a46ed2n2a53f4a9.jpg" height="200" width="200">
               </a>
               <a href="#" target="_top" class="hs-item hs-item-red">
                 <p class="tit">
@@ -2710,7 +2949,7 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">小米电视 智能首发</p>
-                <img src="__IMAGE__/55a46ed2n2a53f4a9.jpg" height="200" width="200">
+                <img src="/shop_jd/Home/Public/images/55a46ed2n2a53f4a9.jpg" height="200" width="200">
               </a>
               <a href="#" target="_top" class="hs-item hs-item-red">
                 <p class="tit">
@@ -2720,11 +2959,11 @@
                   <span class="zw zwr"></span>
                 </p>
                 <p class="sub-tit">小米电视 智能首发</p>
-                <img src="__IMAGE__/55a46ed2n2a53f4a9.jpg" height="200" width="200">
+                <img src="/shop_jd/Home/Public/images/55a46ed2n2a53f4a9.jpg" height="200" width="200">
               </a>
               <div class="hs-item2 hs-item-2row">
                 <a href="http://yushou.jd.com/" target="_top" style="border: medium none;" class="hs-item2 hs-item-red">
-                  <img src="__IMAGE__/55a47e4an922f4c60.jpg" height="200" width="200">
+                  <img src="/shop_jd/Home/Public/images/55a47e4an922f4c60.jpg" height="200" width="200">
                 </a>
                 <div class="hs-item2 hs-item-more-m">
                   <div class="static-item-more">
@@ -2760,13 +2999,13 @@
     <!--广告条1-->
     <div class="banner_one">
       <a href="" class="fore1" target="_blank" style="display:inline-block;float:left;">
-        <img src="__IMAGE__/55a3832cNf75315fd.jpg" height="125" width="400">
+        <img src="/shop_jd/Home/Public/images/55a3832cNf75315fd.jpg" height="125" width="400">
       </a>
       <a href="" class="fore2" target="_blank" style="display:inline-block;float:left;">
-        <img src="__IMAGE__/55a3832cNf75315fd.jpg" height="125" width="400">
+        <img src="/shop_jd/Home/Public/images/55a3832cNf75315fd.jpg" height="125" width="400">
       </a>
       <a href="" class="fore3" target="_blank" style="display:inline-block;float:left;">
-        <img src="__IMAGE__/55a3832cNf75315fd.jpg" height="125" width="400">
+        <img src="/shop_jd/Home/Public/images/55a3832cNf75315fd.jpg" height="125" width="400">
       </a>
     </div>
     <!--广告条1结束-->
@@ -2792,7 +3031,7 @@
               <div class="side-inner">
                 <div class="banner">
                   <a href="#" target="_blank">
-                    <img src="__IMAGE__/55a3d74dNe8dc4ef8.jpg" width="330" height="475" alt="" >
+                    <img src="/shop_jd/Home/Public/images/55a3d74dNe8dc4ef8.jpg" width="330" height="475" alt="" >
                   </a>
                 </div>
                 <ul class="themes">
@@ -2861,7 +3100,7 @@
               </div>
               <div class="side-extra" >
                 <a target="_blank">
-                  <img width="328" height="157" src="__IMAGE__/55a3d786N4212b812.jpg">
+                  <img width="328" height="157" src="/shop_jd/Home/Public/images/55a3d786N4212b812.jpg">
                 </a>
               </div>
             </div>
@@ -2870,51 +3109,51 @@
                 <ul class="main-body">
                   <li class="fore1" >
                     <a target="_blank" href="">
-                      <img src="__IMAGE__/55a317cbNc379bfac.jpg" width="439" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a317cbNc379bfac.jpg" width="439" height="157">
                     </a>
                   </li>
                   <li class="fore2" id="f1-fore-random">
                     <a href="">
-                      <img src="__IMAGE__/55a31a85N18b8c31d.jpg" width="439" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a31a85N18b8c31d.jpg" width="439" height="157">
                     </a>
                   </li>
                   <li class="fore3">
                     <a target="_blank" href="">
-                      <img src="__IMAGE__/55a3dffaNd16e8d73.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a3dffaNd16e8d73.jpg" width="219" height="157">
                     </a>
                   </li>
                   <li class="fore4" clstag="h|keycount|2015|17b05">
                     <a target="_blank" href="http://sale.jd.com/act/Os1kPUaDzHn.html">
-                      <img src="__IMAGE__/55a482cdN38186674.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a482cdN38186674.jpg" width="219" height="157">
                     </a>
                   </li>
                   <li class="fore5" clstag="h|keycount|2015|17b06">
                     <a target="_blank" href="http://sale.jd.com/mall/I3L7msxXa12qH.html">
-                      <img src="__IMAGE__/55a3e038N8ff204ac.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a3e038N8ff204ac.jpg" width="219" height="157">
                     </a>
                   </li>
                   <li class="fore6" clstag="h|keycount|2015|17b07">
                     <a target="_blank" href="http://sale.jd.com/act/tPiYVGZJLHSIbdg.html">
-                      <img src="__IMAGE__/55a3dfd7N34666457.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a3dfd7N34666457.jpg" width="219" height="157">
                     </a>
                   </li>
                 </ul>
                 <ul class="main-extra">
                   <li class="fore1" clstag="h|keycount|2015|17b08">
                     <a target="_blank" href="http://sale.jd.com/act/KndAFrWuvpQG.html">
-                      <img src="__IMAGE__/55a3e04eNf976e0f9.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a3e04eNf976e0f9.jpg" width="219" height="157">
                     </a>
                   </li>
                   <li class="fore2" clstag="h|keycount|2015|17b09">
                     <a target="_blank" href="http://sale.jd.com/act/2sQxbeBqDXz7J.html">
-                      <img src="__IMAGE__/55a3e01dNc1c72c0b.jpg" width="219" height="157">
+                      <img src="/shop_jd/Home/Public/images/55a3e01dNc1c72c0b.jpg" width="219" height="157">
                     </a>
                   </li>
                   <li class="fore3" clstag="h|keycount|2015|17b10">
                     <!-- 广告位 2_955_6821-->
                     <div id="ad6821">
                       <a href='' target="_blank" title="">
-                        <img src="__IMAGE__/559f6fafNb670cc12.jpg" width="219" height="316"/>
+                        <img src="/shop_jd/Home/Public/images/559f6fafNb670cc12.jpg" width="219" height="316"/>
                       </a>
                     </div>
                   </li>
@@ -2925,22 +3164,22 @@
                   <ul class="slider-main" style="width: 2634px; left: -439px; position: absolute;">
                     <li fclog="10870.100270.202856.1.2_955_6221" class="slider-panel" clstag="h|keycount|2015|17b02d" style="float: left; display: list-item;">
                     <a href="http://c.nfa.jd.com/adclick?keyStr=z5AXFoIimt1jiDK32+w4mWlR1HP401IHmvwFQGlQg61ibUTERWPJNPV1CpT+xwLexPDnP5O/aneGMrNUEjJ3BJwid3amo7r5P1gMzSRBzKR93+Cz7jXoPxtJSbvfsN2St2zzWxLf+f/hKdgnq53OJJZmjB5yNIgdy4/UsmeI12Y9OgK342Nz1h2abIDrSuucAkuOIdHLRtkW/q4CIdzM/gKe2acHG0Ajuj9L8JXxidE+hmSpgLz9xmR1xEiObDPEY2cXhMASnNvmSUyLnxgFsxMv49nQdfWafuMVCtVmz8qXOlcppL6VE6XAjxQTKJJ8WOo1bdnPYgppNB+nDWfC8A==&amp;cv=2.0&amp;url=http://sale.jd.com/act/JAXctboFn4rC76.html" target="_blank" title="">
-                    <img src="__IMAGE__/55a36096Na4b9d4cc.jpg" width="439" height="315" data-lazy-img="done" alt="">
+                    <img src="/shop_jd/Home/Public/images/55a36096Na4b9d4cc.jpg" width="439" height="315" data-lazy-img="done" alt="">
                     </a>
                   </li>
                     <li class="slider-panel slider-panel-selected" style="float: left; display: list-item;">
                       <a href="" target="_blank" title="">
-                        <img src="__IMAGE__/55a46da1Na6fca429.jpg" width="439" height="315" alt="">
+                        <img src="/shop_jd/Home/Public/images/55a46da1Na6fca429.jpg" width="439" height="315" alt="">
                       </a>
                     </li>
                     <li class="slider-panel" style="float: left; display: list-item;">
                       <a  target="_blank" title="">
-                        <img src="__IMAGE__/55a3d7fbNcc2323ba.jpg" width="439" height="315">
+                        <img src="/shop_jd/Home/Public/images/55a3d7fbNcc2323ba.jpg" width="439" height="315">
                       </a>
                     </li>
                     <li class="slider-panel" style="float: left; display: list-item;">
                       <a  target="_blank" title="">
-                      <img src="__IMAGE__/55a3d7fbNcc2323ba.jpg" width="439" height="315">
+                      <img src="/shop_jd/Home/Public/images/55a3d7fbNcc2323ba.jpg" width="439" height="315">
                       </a>
                     </li>
                   </ul>
@@ -2966,7 +3205,7 @@
                 <li class="fore1">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -2977,7 +3216,7 @@
                 <li class="fore2">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -2988,7 +3227,7 @@
                 <li class="fore3">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -2999,7 +3238,7 @@
                 <li class="fore4">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -3010,7 +3249,7 @@
                 <li class="fore5">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -3021,7 +3260,7 @@
                 <li class="fore6">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -3032,7 +3271,7 @@
                 <li class="fore7">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -3043,7 +3282,7 @@
                 <li class="fore8">
                   <div class="p-img">
                     <a target="_blank" href="" title="">
-                      <img width="130" height="130" alt="" src="__IMAGE__/559ccc79N566fb407.png">
+                      <img width="130" height="130" alt="" src="/shop_jd/Home/Public/images/559ccc79N566fb407.png">
                     </a>
                   </div>
                   <div class="p-name">
@@ -3055,22 +3294,22 @@
               <ul class="img-list">
                 <li class="fore1">
                   <a target="_blank" href="">
-                    <img width="219" height="157" src="__IMAGE__/55a3d85dN0c4e4345.jpg">
+                    <img width="219" height="157" src="/shop_jd/Home/Public/images/55a3d85dN0c4e4345.jpg">
                   </a>
                 </li>
                 <li class="fore2">
                   <a target="_blank" href="">
-                    <img width="219" height="157" src="__IMAGE__/55a3d85dN0c4e4345.jpg">
+                    <img width="219" height="157" src="/shop_jd/Home/Public/images/55a3d85dN0c4e4345.jpg">
                   </a>
                 </li>
                 <li class="fore3">
                   <a target="_blank" href="">
-                    <img width="219" height="157" src="__IMAGE__/55a3d85dN0c4e4345.jpg">
+                    <img width="219" height="157" src="/shop_jd/Home/Public/images/55a3d85dN0c4e4345.jpg">
                   </a>
                 </li>
                 <li class="fore4">
                   <a target="_blank" href="">
-                    <img width="219" height="157" src="__IMAGE__/55a3d85dN0c4e4345.jpg">
+                    <img width="219" height="157" src="/shop_jd/Home/Public/images/55a3d85dN0c4e4345.jpg">
                   </a>
                 </li>
               </ul>
@@ -3083,52 +3322,52 @@
           <ul>
             <li class="fore1" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore2" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore3" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore4" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore5" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore6" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore7" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore8" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore9" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
             <li class="fore10" >
               <a href="#" target="_blank" title="">
-                <img src="__IMAGE__/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
+                <img src="/shop_jd/Home/Public/images/5535c11fNfc0f3bbf.jpg" width="100" height="40" alt="">
               </a>
             </li>
           </ul>
@@ -3140,13 +3379,13 @@
       <div class="floor-banner">
         <div class="floor-banner-main">
           <a href="" class="fore1" target="_top" style="display: inline-block;float: left">
-            <img src="__IMAGE__/559df713n2f0f2aea.jpg" height="125" width="400">
+            <img src="/shop_jd/Home/Public/images/559df713n2f0f2aea.jpg" height="125" width="400">
           </a>
           <a href="" class="fore2" target="_top" style="display: inline-block;float: left">
-            <img src="__IMAGE__/559df713n2f0f2aea.jpg" height="125" width="400">
+            <img src="/shop_jd/Home/Public/images/559df713n2f0f2aea.jpg" height="125" width="400">
           </a>
           <a href="" class="fore3" target="_top" style="display: inline-block;float: left">
-            <img src="__IMAGE__/559df713n2f0f2aea.jpg" height="125" width="400">
+            <img src="/shop_jd/Home/Public/images/559df713n2f0f2aea.jpg" height="125" width="400">
           </a>
         </div>
       </div>
@@ -3175,7 +3414,7 @@
           <div class="side-inner">
             <div class="banner">
               <a href="#" title="" target="_blank">
-                <img src="__IMAGE__/55a52e52Nd7c96010.jpg" alt="" height="475" width="330"></a>
+                <img src="/shop_jd/Home/Public/images/55a52e52Nd7c96010.jpg" alt="" height="475" width="330"></a>
             </div>
             <ul class="themes">
               <li class="fore1">
@@ -3226,43 +3465,43 @@
             <ul class="main-body">
               <li class="fore1">
                 <a target="_blank" href="http://mall.jd.com/index-1000002299.html">
-                  <img src="__IMAGE__/55a52fbaNd22634f5.jpg" height="117" width="219">
+                  <img src="/shop_jd/Home/Public/images/55a52fbaNd22634f5.jpg" height="117" width="219">
                 </a>
               </li>
               <li class="fore2">
                 <a target="_blank" href="http://sale.jd.com/act/szZx6WPhON1wI.html">
-                  <img src="__IMAGE__/55a52fbaNd22634f5.jpg" height="117" width="219">
+                  <img src="/shop_jd/Home/Public/images/55a52fbaNd22634f5.jpg" height="117" width="219">
                 </a>
               </li>
               <li class="fore3">
                 <a target="_blank" href="http://sale.jd.com/act/mKupSoGOkFVg.html">
-                  <img src="__IMAGE__/55a52f75N27f24e16.jpg" height="236" width="219"></a>
+                  <img src="/shop_jd/Home/Public/images/55a52f75N27f24e16.jpg" height="236" width="219"></a>
               </li>
               <li class="fore4">
                 <a target="_blank" href="http://sale.jd.com/act/7RmiNZun1Y.html">
-                  <img src="__IMAGE__/55a52f75N27f24e16.jpg" height="236" width="219">
+                  <img src="/shop_jd/Home/Public/images/55a52f75N27f24e16.jpg" height="236" width="219">
                 </a>
               </li>
               <li class="fore5">
                 <a target="_blank" href="http://sale.jd.com/act/aFjqpzHBdKkR0UWs.html">
-                  <img src="__IMAGE__/55a52f75N27f24e16.jpg" height="236" width="219">
+                  <img src="/shop_jd/Home/Public/images/55a52f75N27f24e16.jpg" height="236" width="219">
                 </a>
               </li>
             </ul>
             <ul class="main-extra">
               <li class="fore1">
                 <a target="_blank" href="http://sale.jd.com/act/3L0BKPsmolfnXQRM.html">
-                  <img src="__IMAGE__/55a52fd9N413bc556.jpg" height="117" width="219"></a>
+                  <img src="/shop_jd/Home/Public/images/55a52fd9N413bc556.jpg" height="117" width="219"></a>
               </li>
               <li class="fore2">
                 <a target="_blank" href="">
-                  <img src="__IMAGE__/55a52fd9N413bc556.jpg" height="117" width="219">
+                  <img src="/shop_jd/Home/Public/images/55a52fd9N413bc556.jpg" height="117" width="219">
                 </a>
               </li>
               <li class="fore3">
                 <div id="ad6824">
                   <a href="" target="_blank" title="">
-                    <img src="__IMAGE__/559b77afNf912c4ea.jpg" height="236" width="219">
+                    <img src="/shop_jd/Home/Public/images/559b77afNf912c4ea.jpg" height="236" width="219">
                   </a>
                 </div>
               </li>
@@ -3273,22 +3512,22 @@
               <ul style="width: 2634px; left: -439px; position: absolute;" class="slider-main">
                 <li style="float: left; display: list-item;" class="slider-panel">
                   <a href="" target="_blank" title="">
-                    <img src="__IMAGE__/559e1adaN7e702567.jpg" height="236" width="439">
+                    <img src="/shop_jd/Home/Public/images/559e1adaN7e702567.jpg" height="236" width="439">
                   </a>
                 </li>
                 <li style="float: left; display: list-item;" class="slider-panel">
                   <a href="" target="_blank" title="">
-                    <img src="__IMAGE__/55a68487N2fb9b2e4.jpg" height="236" width="439">
+                    <img src="/shop_jd/Home/Public/images/55a68487N2fb9b2e4.jpg" height="236" width="439">
                   </a>
                 </li>
                 <li style="float: left; display: list-item;" class="slider-panel">
                   <a href="" target="_blank" title="">
-                    <img src="__IMAGE__/559e1adaN7e702567.jpg" height="236" width="439">
+                    <img src="/shop_jd/Home/Public/images/559e1adaN7e702567.jpg" height="236" width="439">
                   </a>
                 </li>
                 <li style="float: left; display: list-item;" class="slider-panel">
                   <a href="" target="_blank" title="">
-                    <img src="__IMAGE__/55a68487N2fb9b2e4.jpg" height="236" width="439">
+                    <img src="/shop_jd/Home/Public/images/55a68487N2fb9b2e4.jpg" height="236" width="439">
                   </a>
                 </li>
               </ul>
@@ -3313,7 +3552,7 @@
             <li class="fore1">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3326,7 +3565,7 @@
             <li class="fore2">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3339,7 +3578,7 @@
             <li class="fore3">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3352,7 +3591,7 @@
             <li class="fore4">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3365,7 +3604,7 @@
             <li class="fore5">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3378,7 +3617,7 @@
             <li class="fore6">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3391,7 +3630,7 @@
             <li class="fore7">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3404,7 +3643,7 @@
             <li class="fore8">
               <div class="p-img">
                 <a target="_blank" href="" title="【2299.下单立显】科龙1.5匹变频冷暖空调">
-                  <img src="__IMAGE__/558b58fcN2bb4fe9e.jpg" height="130" width="130">
+                  <img src="/shop_jd/Home/Public/images/558b58fcN2bb4fe9e.jpg" height="130" width="130">
                 </a>
               </div>
               <div class="p-name">
@@ -3423,52 +3662,52 @@
       <ul>
         <li class="fore1" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore2" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore3" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore4" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore5" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore6" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore7" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore8" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore9" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
         <li class="fore10" fclog="10968.100172.166080.1.2_955_6234">
           <a href="" target="_blank" title="">
-            <img src="__IMAGE__/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
+            <img src="/shop_jd/Home/Public/images/55028bb4N78c090dc.jpg" alt="" height="40" width="100">
           </a>
         </li>
       </ul>
@@ -3479,10 +3718,10 @@
 <div id="footBox">
   <div class="items">
     <div class="imgs">
-      <img src="__IMAGE__/service_items_1.png" alt=""/>
-      <img src="__IMAGE__/service_items_2.png" alt=""/>
-      <img src="__IMAGE__/service_items_3.png" alt=""/>
-      <img src="__IMAGE__/service_items_4.png" alt=""/>
+      <img src="/shop_jd/Home/Public/images/service_items_1.png" alt=""/>
+      <img src="/shop_jd/Home/Public/images/service_items_2.png" alt=""/>
+      <img src="/shop_jd/Home/Public/images/service_items_3.png" alt=""/>
+      <img src="/shop_jd/Home/Public/images/service_items_4.png" alt=""/>
     </div>
     <div class="buttom">
       <dl class="fore1">
@@ -3549,20 +3788,20 @@
       </div>
       <div class="authentication">
         <a rel="nofollow" target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
-          <img alt="经营性网站备案中心" src="__IMAGE__/54b8871eNa9a7067e.png" class="err-product" height="32" width="103">
+          <img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871eNa9a7067e.png" class="err-product" height="32" width="103">
         </a>
 
         <a rel="nofollow" target="_blank" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
-          <img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="__IMAGE__/54b8872dNe37a9860.png" class="err-product" border="true" height="32" width="103">
+          <img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dNe37a9860.png" class="err-product" border="true" height="32" width="103">
         </a>
         <a rel="nofollow" target="_blank" href="http://www.bj.cyberpolice.cn/index.do">
-          <img alt="朝阳网络警察" src="__IMAGE__/54b8874bN694454a5.png" class="err-product" height="32" width="103">
+          <img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bN694454a5.png" class="err-product" height="32" width="103">
         </a>
         <a rel="nofollow" target="_blank" href="https://search.szfw.org/cert/l/CX20120111001803001836">
-          <img src="__IMAGE__/54b8875fNad1e0c4c.png" class="err-product" height="32" width="103">
+          <img src="/shop_jd/Home/Public/images/54b8875fNad1e0c4c.png" class="err-product" height="32" width="103">
         </a>
         <a target="_blank" href="http://jubao.china.cn:13225/reportform.do">
-          <img src="__IMAGE__/54b8863dN8d2c61ec.png" class="err-product" height="32" width="185">
+          <img src="/shop_jd/Home/Public/images/54b8863dN8d2c61ec.png" class="err-product" height="32" width="185">
         </a>
       </div>
     </div>

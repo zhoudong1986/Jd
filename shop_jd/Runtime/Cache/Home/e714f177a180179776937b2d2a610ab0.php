@@ -224,7 +224,7 @@
       </div>
     </div>
     <div class="mc">
-      <form action="<?php echo U('actionRegister');?>" id="personRegForm" method="POST" onsubmit="return false;">
+      <form action="<?php echo U('actionRegister');?>" id="personRegForm" method="POST" >
         <input name="regType" id="regType" value="person" type="hidden">
         <input name="uuid" id="uuid" value="07967044-4dee-4b35-88a4-9c286cabf05b" type="hidden">
         <input name="verifymc" id="verifymc" value="" type="hidden">
@@ -690,10 +690,15 @@
 
     //点击注册
     $('#registsubmit').click(function(){
+      if($('#regName').val().length==0 || $('#pwd').val().length==0 || $('#pwdRepeat').val().length==0 || $('#phone').val().length==0 ||$('#authcode').val().length==0){
+        return false;
+      }
       if(error==0 && errorMail==0){
         $('#personRegForm').submit();
       }else{
-        return;
+        $('#person').submit(function(){
+          return false;
+        });
       }
     })
   })

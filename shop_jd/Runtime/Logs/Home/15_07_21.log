@@ -1025,3 +1025,188 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 
+[ 2015-07-21T13:57:24+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:08:26+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.4690s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T14:08:48+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0010s ]
+
+[ 2015-07-21T14:08:54+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:08:57+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:09:02+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T14:09:04+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:09:08+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:09:10+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 93 行.
+
+[ 2015-07-21T14:09:24+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:35:56+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0280s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T14:36:17+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-21T14:36:22+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:36:24+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:36:32+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:36:35+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T14:36:38+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:36:48+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:36:50+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 93 行.
+
+[ 2015-07-21T14:37:05+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:39:59+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0600s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T14:40:12+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:41:27+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:41:37+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0060s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T14:41:42+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T14:41:46+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T14:43:41+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T14:43:49+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T14:43:55+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T15:21:09+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:24:27+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:24:38+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:24:38+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:35:17+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:35:19+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:35:20+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+
+[ 2015-07-21T15:35:20+08:00 ] ::1 /index.php/Index/index/uid/1.html
+ERR: XML标签语法错误
+

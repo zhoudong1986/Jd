@@ -117,6 +117,31 @@ class IndexController extends Controller {
   }
   //处理表单提交
   public function actionRegister(){
-    dump(I('.post'));
+    //组装注册数组
+    $data = array(
+      'user_name'=>I('regName'),
+      'pwd'=>I('pwd','','md5'),
+      'pwdRepeat'=>I('pwdRepeat','','md5')
+    );
+    //检测两次输入密码是否一致
+    if($data['pwd']!==$data['pwdRepeat']){
+      $this->error('两次输入的密码不一致');
+    }
+    //注册
+    $id = M('user')->add($data);
+    if($id){
+      $arr = array(
+        'user_id'=>$id,
+        'email'=>I('phone')
+      );
+
+      if(!D('user_details')->add($arr)){
+        $this->error('插入详情表出错');
+      }else{
+        $this->redirect('Index/index', array('uid' => $id), 1, '页面跳转中...');
+      }
+    }else{
+      $this->error('操作有误');
+    }
   }
 }
