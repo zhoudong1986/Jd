@@ -6,8 +6,10 @@ class IndexController extends Controller {
     public function index(){
       if($_SESSION['login_info']['isLogin']){
         $uid = $_SESSION['login_info']['uid'];
-        $re = M('user')->where(array('user_id'=>$uid))->field('user_id,user_name')->find();
-        $this->assign('login_info',$re);
+        $info = M('user')->where(array('user_id'=>$uid))->field('user_id,user_name')->find();//取用户基本信息
+        $img = M()->table(array('jd_user'=>'user','jd_user_details'=>'details'))->field('pic')->find();
+        $this->assign('pic',$img);
+        $this->assign('login_info',$info);
       }
       $this->display();
     }
