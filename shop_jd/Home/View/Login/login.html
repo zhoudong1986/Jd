@@ -12,7 +12,7 @@
     <div class="w">
         <div id="logo">
             <a href="http://www.jd.com/" clstag="pageclick|keycount|20150112ABD|45">
-                <img src="./images/logo-201305-b.png" alt="京东" height="60" width="170"></a> <b></b>
+                <img src="__IMAGE__/logo-201305-b.png" alt="京东" height="60" width="170"></a> <b></b>
         </div>
     </div>
     <div id="content">
@@ -166,7 +166,7 @@
             </div>
             <div class="login-banner" style="background-color: rgb(94, 143, 54);">
                 <div class="w">
-                    <div id="banner-bg" clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: rgb(94, 143, 54) url('./images/554ad450na30d68d6.jpg') no-repeat scroll 0px 0px;"></div>
+                    <div id="banner-bg" clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: rgb(94, 143, 54) url('__IMAGE__/554ad450na30d68d6.jpg') no-repeat scroll 0px 0px;"></div>
                 </div>
             </div>
         </div>
@@ -207,6 +207,103 @@
             <div class="copyright">Copyright©2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有</div>
         </div>
     </div>
-
 </body>
 </html>
+<script>
+  $(function(){
+    $('#loginname').focus(function(){
+      $(this).parent('div.item').removeClass('item-error');
+      $(this).parent('div.item').addClass('item-focus');
+    });
+    $('#loginname').blur(function () {
+      $(this).parent('div.item').removeClass('item-focus');
+    });
+    $('#nloginpwd').focus(function(){
+      $(this).parent('div.item').removeClass('item-error');
+      $(this).parent('div#entry').addClass('item-focus');
+    });
+    $('#nloginpwd').blur(function () {
+      $(this).parent('div#entry').removeClass('item-focus');
+    });
+    //京东会员名键盘事件
+    $('#loginname').keyup(function(){
+        if($(this).val().length>0){//有输入值得时候
+          $('.msg-error').addClass('hide').hide().text('');
+          $('.msg-warn').removeAttr('style');
+          $(this).siblings('.clear-btn').css({'display':'inline'});
+        }else{//没有输入值
+          $(this).siblings('.clear-btn').css({'display':'none'});
+          $(this).val('');
+        }
+    });
+    //京东会员密码键盘事件
+    $('#nloginpwd').keyup(function(){
+      if($(this).val().length>0){//有输入值得时候
+        $('.msg-error').addClass('hide').hide().text('');
+        $('.msg-warn').removeAttr('style');
+        $(this).siblings('.clear-btn').css({'display':'inline'});
+      }else{//没有输入值
+        $(this).siblings('.clear-btn').css({'display':'none'});
+        $(this).val('');
+      }
+    });
+    //点击交叉清除用户名
+    $('#loginname').siblings('.clear-btn').click(function(){
+      $('#loginname').val('');
+      $(this).css({'display':'none'});
+    });
+    //点击交叉清除密码
+    $('#nloginpwd').siblings('.clear-btn').click(function(){
+      $('#nloginpwd').val('');
+      $(this).css({'display':'none'});
+    });
+    //点击登录事件
+    $('#loginsubmit').click(function(){
+      var error = 0;
+      if($('#loginname').val().length==0 && $('#nloginpwd').val().length==0){ //用户名与密码为空
+        $('#loginname').parent('div.item').addClass('item-error');
+        $('#nloginpwd').parent('div.item').addClass('item-error');
+        $('.msg-error').removeClass('hide').text('请输入账户名和密码').show();
+        $('.msg-warn').hide();
+        error =1;
+      }else if($('#loginname').val().length==0){//用户名为空
+        $('#loginname').parent('div.item').addClass('item-error');
+        $('.msg-error').removeClass('hide').text('用户名不能为空').show();
+        $('.msg-warn').hide();
+        error =1;
+      }else if($('#nloginpwd').val().length==0){//密码为空
+        $('#nloginpwd').parent('div.item').addClass('item-error');
+        $('.msg-error').removeClass('hide').text('密码不能为空').show();
+        $('.msg-warn').hide();
+        error =1;
+      }
+      if(!error){
+        $('.msg-error').addClass('hide').hide();
+        $('.msg-warn').show();
+        var uname = $('#loginname').val();
+        var pwd = $('#nloginpwd').val();
+        //ajax到后台验证账号和密码
+        $.ajax({
+          url:'__MODULE__/Login/checkAccount',
+          type:'post',
+          data:{'uname':uname,'pwd':pwd},
+          beforeSend:function(XMLHttpRequest){
+            $('#loginsubmit').text('正在登录中……')
+          },
+          success:function($msg){
+            if($msg==1){//登录的账户存在
+              window.location.href='__MODULE__/Index/index'
+            }else{//登录账户不存在
+              $('#loginname').parent('div.item').addClass('item-error');
+              $('#nloginpwd').parent('div.item').addClass('item-error');
+              $('.msg-error').removeClass('hide').text('用户名或者密码错误').show();
+              $('.msg-warn').hide();
+              $('#loginsubmit').html('登&nbsp;&nbsp;&nbsp;录');
+            }
+          }
+        });
+      }
+
+    });
+  })
+</script>

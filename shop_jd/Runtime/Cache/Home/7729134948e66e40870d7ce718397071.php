@@ -61,7 +61,7 @@
       </ul>
     </div>
     <ul class="rightBox">
-      <li class="login"><a href="#" class="default"><?php if($login_info){ echo $login_info['user_name']."<a href='/index.php/Home/Login/logOut' "."style='color: #002a80'>&nbsp;&nbsp;&nbsp;退出</a>";}else{echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?></a>&nbsp;&nbsp;<a class="please" href="<?php echo U('register');?>">免费注册</a></li>
+      <li class="login"><?php if($login_info){echo $login_info['user_name']."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
       <li class="separate"></li>
       <li class="myOrder"><a href="">我的订单</a></li>
       <li class="separate"></li>
@@ -73,7 +73,7 @@
         <div class="up"></div>
         <div class="line"></div>
         <div class="conBox">
-          <img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/>
+          <img src="./images/no-img_mid_.jpg" alt="默认头像" class="pic"/>
           <div class="right">
             <a class="first">您好，请登录</a>
             <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
@@ -96,10 +96,10 @@
           <div class="recently">
             <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
             <div class="imgs">
-              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
             </div>
           </div>
         </div>

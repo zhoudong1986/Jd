@@ -546,12 +546,15 @@
       //先判断账号密码有没有填写
       if($('#regName').val().length==0){//用户名没有填写
           $('#regName').addClass('highlight2').siblings('.i-name').removeAttr('style').siblings('#regName_error').attr('class','error').text('此项必须填写');
+        error =1;
       }
       if($('#pwd').val().length==0){//密码没有填写
         $('#pwd').addClass('highlight2').siblings('.i-pass').removeAttr('style').siblings('#pwd_error').attr('class','error').text('此项必须填写');
+        error =1;
       }
       if($('#pwdRepeat').val().length==0){//确认密码没有填写
         $('#pwdRepeat').addClass('highlight2').siblings('.i-pass').removeAttr('style').siblings('#pwdRepeat_error').attr('class','error').text('此项必须填写');
+        error =1;
       }
       //判断有没有其他该填项有没有错误
       if(error){return;}

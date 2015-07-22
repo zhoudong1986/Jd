@@ -95,7 +95,7 @@ class IndexController extends Controller {
       $mail = I('mail'); //邮箱
       $serialize = serialize($userName.','.$pwd.','.$mail);
       $url = U('finishMailCheck',array('serialize'=>$serialize));
-      sendMail("11273548@qq.com","仿京东：邮件验证","内容:请点击以下链接以完成验证:<a href='http://".'127.0.0.1/'."$url'>".date('ymdhis').rand(00000-99999)."</a>");
+      sendMail("77135016@qq.com","仿京东：邮件验证","内容:请点击以下链接以完成验证:<a href='http://".'127.0.0.1/'."$url'>".date('ymdhis').rand(00000-99999)."</a>");
       //发送成功后
       $this->ajaxReturn(1);
     }

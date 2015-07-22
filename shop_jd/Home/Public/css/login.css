@@ -56,6 +56,12 @@ a:hover { color: rgb(228, 57, 60); text-decoration: underline; }
 .form .item-fore1 { z-index: 6; }
 .form .item-fore2 { height: 38px; }
 .form .item-fore3 { z-index: 5; margin-bottom: 15px; }
+.form .item-focus { border:1px solid #3AA2E4; }
+.form .item-error { border:1px solid #E4393C; }
+.form .item-error .name-label {
+  background-position: 0px -96px;
+  border-color: #E4393C;
+}
 .form .updata { z-index: 10; position: absolute; top: 20px; left: 30px; width: 188px; padding: 5px; line-height: 108px; height: 40px; overflow: hidden; background: transparent url('../images/login-update.png') no-repeat scroll 0% 0%; }
 .form .updata .up-one { position: absolute; right: 16px; top: 16px; width: 10px; height: 10px; }
 .form .updata .up-two { position: absolute; left: 92px; top: 13px; width: 72px; height: 20px; }

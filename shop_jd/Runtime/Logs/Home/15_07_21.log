@@ -1255,3 +1255,367 @@ ERR: 非法操作:js
 [ 2015-07-21T19:06:45+08:00 ] ::1 /index.php/Home/Login/shop_jd/Home/View/Index/register.html
 ERR: 非法操作:shop_jd
 
+[ 2015-07-21T21:44:35+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.2380s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2015-07-21T21:45:20+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:46:13+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T21:46:45+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:47:16+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:47:20+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:49:21+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T21:49:25+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:49:27+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:50:00+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T21:50:25+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:51:41+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T21:51:55+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0468s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0386s ]
+
+[ 2015-07-21T21:51:59+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T21:52:02+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T21:52:09+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T21:52:10+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T21:52:25+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T21:54:11+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0010s ]
+
+[ 2015-07-21T21:54:14+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T21:54:24+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T21:54:31+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T21:54:38+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T21:54:40+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:00:43+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:07:08+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T22:23:26+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:31:26+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:32:41+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:33:05+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:34:53+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:35:06+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-21T22:35:17+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0030s ]
+
+[ 2015-07-21T22:35:24+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-21T22:35:24+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:35:37+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:35:51+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:37:23+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:37:37+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:39:52+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0070s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:40:01+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:40:15+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins4950' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-21T22:40:39+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:40:44+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-21T22:40:47+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:43:07+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:43:16+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins50' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:43:32+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='77135016@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:43:37+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T22:43:42+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
+[ 2015-07-21T22:45:34+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins50' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:45:49+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='77135016@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-21T22:45:57+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T22:46:02+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-21T22:46:07+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-21T22:46:08+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given E:\Jd\ThinkPHP3.2.3\Library\Vendor\PHPMailer\class.smtp.php 第 308 行.
+
