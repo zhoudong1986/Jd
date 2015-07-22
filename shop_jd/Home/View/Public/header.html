@@ -61,9 +61,16 @@
         <div class="up"></div>
         <div class="line"></div>
         <div class="conBox">
-          <img src="./images/no-img_mid_.jpg" alt="默认头像" class="pic"/>
+          <if condition="$pic"><img src="$pic" alt="用户自定义头像" class="pic"/>
+            <else/>
+            <img src="__IMAGE__/no-img_mid_.jpg" alt="默认头像" class="pic"/>
+          </if>
           <div class="right">
-            <a class="first">您好，请登录</a>
+            <if condition="$login_info">
+              <a href='__MODULE__/Member/home/uid/<{$login_info["user_id"]}>' class='first'><{$login_info['user_name']}></a>
+              <else/>
+              <a class="first" href="__MODULE__/Login/login" >您好，请登录</a>
+            </if>
             <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
             </p>
           </div>
@@ -84,10 +91,10 @@
           <div class="recently">
             <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
             <div class="imgs">
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="__IMAGE__/552de9f5Nca6d7263.jpg" alt=""/>
             </div>
           </div>
         </div>
