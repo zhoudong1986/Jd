@@ -67,8 +67,8 @@
               <input type="password" class="form-control" id="exampleInputEmail1" name="oldPwd" value="">
             </div>
            <div class="form-group">
-            <label for="exampleInputPassword1">新密码：</label><span id="pwdTwo"></span>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="newPwd" value="">
+            <label for="exampleInputPassword">新密码：</label><span id="pwdTwo"></span>
+            <input type="password" class="form-control" id="exampleInputPassword" name="newPwd" value="">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">确认密码：</label><span id="pwdThree"></span>
@@ -80,7 +80,7 @@
       </div>
     </div>
 
-  </div>
+  <!--</div>-->
   <div class="navbar navbar-default" id="navbar">
       <script type="text/javascript">
         try{ace.settings.check('navbar' , 'fixed')}catch(e){}
@@ -461,6 +461,31 @@
               </ul>
             </li>
             </if>
+            <li>
+              <a href="#" class="dropdown-toggle">
+                <i class="icon-heart"></i>
+                <span class="menu-text"> 我的店铺 </span>
+
+                <b class="arrow icon-angle-down"></b>
+              </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="<{:U('Shop/shopInfor')}>">
+                    <i class="icon-double-angle-right"></i>
+                    店铺信息
+                  </a>
+                </li>
+
+                <li>
+                  <a href="<{:U('Members/addMember')}>">
+                    <i class="icon-double-angle-right"></i>
+                    <i class="icon-plus"></i>
+                    添加管理员
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
           <!-- /.nav-list -->
           <!--<div class="sidebar-collapse" id="sidebar-collapse">-->
@@ -521,20 +546,44 @@
             </div>
           </div>
         </div> <!-- /#ace-settings-container 设置按键节束 -->
-        <div class="breadcrumbs" id="breadcrumbs">
-            <script type="text/javascript">
-              try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
-            </script>
 
-            <ul class="breadcrumb">
-              <li>
-                <i class="icon-home home-icon"></i>
-                <a href="#">首页</a>
-              </li>
-              <li class="active">控制台</li>
+        <!--<div class="sidebar-collapse" id="sidebar-collapse">-->
+          <!--<i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>-->
+        <!--</div>-->
+
+        <script type="text/javascript">
+          try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+        </script>
+      </div>
+
+  <div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+      <script type="text/javascript">
+        try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+      </script>
+
+      <ul class="breadcrumb">
+        <li>
+          <i class="icon-home home-icon"></i>
+          <a href="#">首页</a>
+        </li>
+        <li class="active">控制台</li>
+      </ul><!-- .breadcrumb -->
+
+        <!--<div class="breadcrumbs" id="breadcrumbs">-->
+            <!--<script type="text/javascript">-->
+              <!--try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}-->
+            <!--</script>-->
+
+            <!--<ul class="breadcrumb">-->
+              <!--<li>-->
+                <!--<i class="icon-home home-icon"></i>-->
+                <!--<a href="#">首页</a>-->
+              <!--</li>-->
+              <!--<li class="active">控制台</li>-->
 
 
-            </ul><!-- .breadcrumb -->
+            <!--</ul>&lt;!&ndash; .breadcrumb &ndash;&gt;-->
 
             <div class="nav-search" id="nav-search">
               <form class="form-search">

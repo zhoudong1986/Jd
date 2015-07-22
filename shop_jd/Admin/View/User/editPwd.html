@@ -12,7 +12,7 @@
       <a href="#">会员管理</a>
     </li>
     <li ><a href="#">后台管理员</a></li>
-    <li ><a href="#"><{$name}></a></li>
+    <li ><a href="#"><{$name}><{$id}></a></li>
     <li class="active">密码修改</li>
   </ol>
   <nav class="navbar navbar-primary">
@@ -43,7 +43,7 @@
         <div class="form-group">
         <div class="col-sm-offset-4 col-sm-3">
           <a class="btn btn-success  btn-lg" id="submit">提交</a>
-          <a class="btn btn-danger btn-lg" href="__CONTROLLER__/admin">取消</a>
+          <a class="btn btn-danger btn-lg" href="__CONTROLLER__/index">取消</a>
         </div>
         </div>
         <input type="hidden" name="id" value="<{$id}>">
@@ -58,10 +58,17 @@
       $('#tips').addClass('sr-only');
       $('.form-group').removeClass('has-error');
     });
+    window.onkeydown = function(event){
+      var e = event || window.event;
+      if(e.keyCode == 13){
+        $('#submit').trigger('click');
+      }
+    }
     $('#submit').click(function(){
       var $pwd = $('#pwd').val();
       var $repwd = $('#repwd').val();
       if($pwd == '' || $repwd == ''){
+        alert('密码不能为空');
         return false;
       }
       if($pwd != $repwd){

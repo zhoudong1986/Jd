@@ -105,13 +105,8 @@ class UserController extends CommonController {
     public function getInfo(){
     	// 接收id
     	$id = I('get.id');
-    	// 表格数组
-    	$table = array(
-    		'jd_user' => 'u',
-    		'jd_address' => 'a'
-    		);
     	// 查询数据
-    	$userInfo = M()->table($table)->field('u.user_name,u.level,u.status,a.pic')->where('u.user_id=a.user_id AND u.user_id ='.$id)->select();
+        $userInfo = M()->table(array('jd_user'=>'u','jd_address'=>'a'))->where("u.user_id = a.user_id AND u.user_id=".$id)->field('u.user_name,u.level,u.status,a.email')->select();
     	if(!$userInfo){//查询失败
     		$this->error('系统繁忙,请稍后再试');
     		return false;
@@ -125,52 +120,31 @@ class UserController extends CommonController {
 
     // 修改用户资料
     public function doEdit(){
-        // 实例化文件上传类
-        $upload = new \Think\Upload();
-        $upload->maxSize = 3145728;//设置上传附件的最大值
-        $upload->rootPath = './shop_jd/Public/Uploads/';//附件上传保存的根路径
-        $upload->savePath = 'member/';//附件上传保存的目录
-        $upload->exts = array('jpg','jpeg','png','gif');//附件上传的类型
-        // 上传文件
-        $info = $upload->uploadOne($_FILES['pic']);
-        if(!$info){//上传失败
-            $this->error($upload->getError());
-        }else{//上传成功
-            // 上传文件保存的文件名
-            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
             // 接收传过来的修改值
             $id = I('post.id');
             $name = I('post.name');
             $level = I('post.level');
             $email = I('post.email');
             $status = I('post.status');
-            // 实例化Model类
-            $address = M('address');
+            $user = M('user');
             // 组合修改信息
-            $data = array('pic'=>$file);
-            // 修改数据库的图片信息
-            $addressResult = $address->where('user_id='.$id)->save($data);
-            if(!$addressResult){//修改失败
-                $this->error('修改失败1');
+            $data = array(
+                'user_id' => $id,
+                'name' => $name,
+                'level' => $level,
+                'status' => $status,
+                'email' => $email
+                );
+            // 修改信息
+            $userResult = $user->save($data);
+            if(!$userResult){//修改失败
+                $this->error('修改失败',U('index'));
             }else{//修改成功
-                // 实例化Model类
-                $user = M('user');
-                // 组合修改信息
-                $data = array(
-                    'user_id' => $id,
-                    'name' => $name,
-                    'level' => $level,
-                    'status' => $status,
-                    'email' => $email
-                    );
-                // 修改信息
-                $userResult = $user->save($data);
                 $this->success('修改成功',U('index'));
             }
-
-        }
     }
 
+    // 修改商家头像
     public function coin(){
         // 实例化文件上传类
         $upload = new \Think\Upload();
@@ -181,10 +155,25 @@ class UserController extends CommonController {
         // 上传文件
         $info = $upload->uploadOne($_FILES['pic']);
         $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
+        $error = 'error';
         if(!$info){//上传失败
-            $this->assign('file','');
+            $this->assign('file',$error);
         }else{//上传成功
-           $this->assign('file',$file);
+            // 接收id
+            $id = I('id');
+            // 实例化model类
+            $address = M('address');
+            // 更新信息
+            $data = array('pic'=>$file);
+            // 条件
+            $where = 'user_id='.$id;
+            // 修改
+            $upResult = $address->where($where)->save($data);
+            if($upResult){
+                $this->assign('file',$file);
+            }else{
+                $this->assign('file',$error);
+            }
         }
         $this->display();
     }
