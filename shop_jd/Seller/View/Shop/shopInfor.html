@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="__SELLERCSS__/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome.min.css" />
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="__SELLERCSS__/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+  <!-- page specific plugin styles -->
+
+  <!-- fonts -->
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+
+  <!-- ace styles -->
+
+  <link rel="stylesheet" href="__SELLERCSS__/ace.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-rtl.min.css" />
+  <link rel="stylesheet" href="__SELLERCSS__/ace-skins.min.css" />
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="__SELLERCSS__/ace-ie.min.css" />
+  <![endif]-->
+
+  <!-- inline styles related to this page -->
+
+  <!-- ace settings handler -->
+
+  <script src="__SELLERJS__/ace-extra.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="__SELLERJS__/html5shiv.js"></script>
+  <script src="__SELLERJS__/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body style="background:#fff;">
+<!--<ul class="nav nav-tabs">-->
+  <!--<li role="presentation" class="active"><a href="#">店铺信息</a></li>-->
+<!--</ul>-->
+<div class="panel panel-primary" style="font-size:12px;width:97%;">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h5>店铺基本信息</h5></div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">店铺名称：<{$data1['shop_name']}></div>
+      <div class="col-sm-3 col-sm-offset-1">店铺ID：<{$data1['shop_id']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">店铺类型：<{$data1['shop_type']==1?'普通店铺':'厂商直营旗舰店'}></div>
+      <div class="col-sm-3 col-sm-offset-1">店铺主账号：<{$data2['sname']}></div>
+      <div class="col-sm-1"><button class="btn btn-danger" style="border-radius: 5px;">修改</button></div>
+    </div>
+   </div>
+  </div>
+
+<div class="panel panel-info" style="font-size:12px;width:97%;">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h5>店铺负责人</h5></div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">姓名：<{$data3['charge_name']}></div>
+      <div class="col-sm-3 col-sm-offset-1">手机：<{$data3['charge_cell']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">电子邮箱：<{$data3['charge_email']}></div>
+      <div class="col-sm-3 col-sm-offset-1">座机：<{$data3['charge_tel']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">QQ：<{$data3['charge_qq']}></div>
+      <div class="col-sm-1 col-sm-offset-4">
+        <button class="btn btn-danger" style="border-radius: 5px;">修改</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-success" style="width:97%;font-size:12px;">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h5>运营联系人</h5></div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">姓名：<{$data4['operate_name']}></div>
+      <div class="col-sm-3 col-sm-offset-1">手机：<{$data4['operate_cell']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">电子邮件：<{$data4['operate_email']}></div>
+      <div class="col-sm-3 col-sm-offset-1">座机：<{$data4['operate_tel']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">QQ：<{$data4['operate_qq']}></div>
+      <div class="col-sm-1 col-sm-offset-4">
+        <button class="btn btn-danger" style="border-radius: 5px;">修改</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-warning" style="width:97%;font-size:12px;">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h5>售后联系人</h5></div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">姓名：<{$data5[serve_name]}></div>
+      <div class="col-sm-3 col-sm-offset-1">手机：<{$data5[serve_cell]}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">电子邮件：<{$data5['serve_email']}></div>
+      <div class="col-sm-3 col-sm-offset-1">座机：<{$data5['serve_tel']}></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">QQ：<{$data5['serve_qq']}></div>
+      <div class="col-sm-1 col-sm-offset-4">
+        <button class="btn btn-danger" style="border-radius: 5px;">修改</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="__SELLERJS__/bootstrap.min.js"></script>
+</body>
+</html>
