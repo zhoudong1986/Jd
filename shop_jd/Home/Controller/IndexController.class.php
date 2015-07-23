@@ -7,7 +7,7 @@ class IndexController extends Controller {
       if($_SESSION['login_info']['isLogin']){
         $uid = $_SESSION['login_info']['uid'];
         $info = M('user')->where(array('user_id'=>$uid))->field('user_id,user_name')->find();//取用户基本信息
-        $img = M()->table(array('jd_user'=>'user','jd_user_details'=>'details'))->field('pic')->find();
+        $img = M()->table(array('jd_user'=>'user','jd_user_details'=>'details'))->where('details.user_id=user.user_id')->field('details.pic')->find();//查找用户头像
         $this->assign('pic',$img);
         $this->assign('login_info',$info);
       }
@@ -148,7 +148,8 @@ class IndexController extends Controller {
         //别刚注册的人写到session里面
         $_SESSION['login_info']=array(
           'isLogin'=>true,
-          'uid'=>$id
+          'uid'=>$id,
+          'user_name'=>$data['user_name']
         );
         $this->redirect('Index/index', '', 1, '页面跳转中...');
       }

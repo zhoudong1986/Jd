@@ -145,7 +145,7 @@ li { list-style: outside none none; }
 #content::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 #sub { float: left; width: 120px; position: relative; left: -120px; }
 #main { float: left; width: 99.9%; margin-left: -120px; overflow: hidden; }
-#nav { height: 80px; background-color: rgb(228, 80, 80); }
+#nav { height: 80px; background-color: rgb(228, 80, 80); position: relative; z-index: 2 }
 #nav .w { background-color: rgb(228, 80, 80); }
 #nav .logo { float: left; width: 265px; }
 #nav .logo a { text-decoration: none; color: rgb(255, 255, 255); }
@@ -181,6 +181,9 @@ li { list-style: outside none none; }
 #nav .nav-r #settleup-2014 .ci-right { top: 9px; }
 #nav .nav-r #settleup-2014 .dorpdown-layer { top: 32px; }
 #nav .nav-r #hotwords-2014 { width: auto; display: none; }
+#nav .navitems .hover {
+  z-index: 10;
+}
 #service-2014 dl { width: 22%; }
 #service-2014 dl.fore5 { width: 8%; }
 #menu { width: 100px; padding-left: 10px; }
@@ -245,7 +248,7 @@ img.err-poster, img.err-product { background: transparent url('../images/error-j
 .user-info .info-m .u-name a:hover { color: rgb(228, 57, 60); }
 .user-info .info-m .u-level { margin-bottom: 10px; height: 18px; }
 .user-info .info-m .u-safe span, .user-info .info-m .u-safe #cla, .user-info .info-m .u-safe #rank-text, .user-info .info-m .u-safe #up { float: left; }
-.user-info .info-m .u-safe .safe-rank01, .user-info .info-m .u-safe .safe-rank02, .user-info .info-m .u-safe .safe-rank03, .user-info .info-m .u-safe .safe-rank04, .user-info .info-m .u-safe .safe-rank05, .user-info .info-m .u-safe .safe-rank06 { background: transparent url('safe-rank2015.png') no-repeat scroll 0px 0px; font-size: 0px; height: 14px; line-height: 0; overflow: hidden; width: 50px; margin: 3px 6px 2px 0px; }
+.user-info .info-m .u-safe .safe-rank01, .user-info .info-m .u-safe .safe-rank02, .user-info .info-m .u-safe .safe-rank03, .user-info .info-m .u-safe .safe-rank04, .user-info .info-m .u-safe .safe-rank05, .user-info .info-m .u-safe .safe-rank06 { background: transparent url('../images/safe-rank2015.png') no-repeat scroll 0px 0px; font-size: 0px; height: 14px; line-height: 0; overflow: hidden; width: 50px; margin: 3px 6px 2px 0px; }
 .user-info .info-m .u-safe .safe-rank05 { background-position: 0px -60px; }
 .user-info .info-m .u-safe .rank-text { font-weight: normal; margin-right: 5px; }
 .user-info .info-m .u-safe .rank-text.ftx-05, .user-info .info-m .u-safe .rank-text.ftx-06 { color: rgb(102, 153, 51); }

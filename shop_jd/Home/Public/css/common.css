@@ -26,6 +26,8 @@ a{text-decoration: none;}
 #headBox{
   width: 100%;
   background-color: #f1f1f1;
+  position: relative;
+  z-index: 3;
 }
 #headBox .head{
   width: 1210px;
@@ -154,6 +156,7 @@ a{text-decoration: none;}
 }
 #headBox .head ul.rightBox li.myJd a.jd{
   color: #666;
+  height: 25px;
   padding: 0 28px 0 8px;
   margin: 0 1px 0 1px;
   display: inline-block;
@@ -191,7 +194,7 @@ a{text-decoration: none;}
   height: 1px;
   position: absolute;
   left: 2px;
-  top:29px;
+  top:25px;
   background-color: #fff;
   display: none;
   z-index: 5;
@@ -200,7 +203,7 @@ a{text-decoration: none;}
   width: 260px;
   border: 1px solid #ddd;
   position: absolute;
-  top:29px;
+  top:25px;
   left:1px;
   background: #fff;
   padding: 10px 0 15px 10px;
@@ -645,6 +648,8 @@ a{text-decoration: none;}
   background-color: #f7f7f7;
   border-bottom: 1px solid #eee;
   font-family: 微软雅黑;
+  position: relative;
+  z-index: 3;
   /*overflow: hidden;*/
 }
 #headBox2 div.contents{
@@ -719,6 +724,7 @@ a{text-decoration: none;}
   position: relative;
   z-index: 1;
   float: left;
+  top:6px;
 }
 #headBox2 div.contents ul.right li.memBox a.member{
   padding: 0 10px 0 10px;

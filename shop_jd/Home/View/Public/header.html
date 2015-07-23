@@ -49,9 +49,9 @@
       </ul>
     </div>
     <ul class="rightBox">
-      <li class="login"><php>if($login_info){echo $login_info['user_name']."&nbsp;&nbsp;<a href='__MODULE__/Login/logOut'>退出</a>";}else{ echo '<a href="__MODULE__/Login/login">您好，请登陆</a>';}</php>&nbsp;&nbsp;<a class="please" href="__MODULE__/Index/register">免费注册</a></li>
+      <li class="login"><php>if($_SESSION['login_info']['isLogin']){echo "<a href='__MODULE__/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='__MODULE__/Login/logOut'>退出</a>";}else{ echo '<a href="__MODULE__/Login/login">您好，请登陆</a>';}</php>&nbsp;&nbsp;<a class="please" href="__MODULE__/Index/register">免费注册</a></li>
       <li class="separate"></li>
-      <li class="myOrder"><a href="">我的订单</a></li>
+      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<{$_SESSION['login_info']['uid']}>">我的订单</a></li>
       <li class="separate"></li>
       <li class="myJd">
         <a href="" class="jd">我的京东</a>
@@ -66,8 +66,8 @@
             <img src="__IMAGE__/no-img_mid_.jpg" alt="默认头像" class="pic"/>
           </if>
           <div class="right">
-            <if condition="$login_info">
-              <a href='__MODULE__/Member/home/uid/<{$login_info["user_id"]}>' class='first'><{$login_info['user_name']}></a>
+            <if condition="$_SESSION['login_info']['isLogin']">
+              <a href='__MODULE__/Member/home/uid/<{$_SESSION["login_info"]["uid"]}>' class='first'><{$_SESSION['login_info']['user_name']}></a>
               <else/>
               <a class="first" href="__MODULE__/Login/login" >您好，请登录</a>
             </if>

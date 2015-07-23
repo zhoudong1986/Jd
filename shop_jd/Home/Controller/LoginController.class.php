@@ -30,7 +30,8 @@ class LoginController extends Controller {
       //把该用户资料写到session里面
       $_SESSION['login_info']=array(
           'isLogin'=>true,
-          'uid'=>$id['user_id']
+          'uid'=>$id['user_id'],
+          'user_name'=>$data['user_name']
       );
       $this->ajaxReturn('1');
     }else{

@@ -229,3 +229,17 @@ li { list-style: outside none none; }
 .remind-box .smt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 .tip-box .links ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 img.err-poster, img.err-product { background: transparent url('../images/error-jd.gif') no-repeat scroll 50% 50%; }
+.form .itxt-error {
+  border-color: #E4393C;
+  color: #E4393C;
+  background: transparent url("../images/error-ico.png") no-repeat scroll right center;
+}
+.form .prompt-error {
+  clear: both;
+  margin-top: 5px;
+  color: #E4393C;
+  line-height: 18px;
+}
+.form .itxt-succ {
+  background: transparent url("../images/succ-ico.png") no-repeat scroll right center;
+}
