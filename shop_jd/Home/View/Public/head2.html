@@ -1,0 +1,99 @@
+<div id="headBox2">
+  <div class="contents">
+    <ul class="left">
+      <li class="first"><a href="__MODULE__/Index/index">返回京东</a></li>
+      <li class="second"><span class="start"></span><a href="">收藏京东会员</a></li>
+    </ul>
+    <ul class="right">
+      <li class="login">
+        <if condition="$_SESSION['login_info']['isLogin']">
+          <a href='__MODULE__/Member/home/uid/<{$_SESSION["login_info"]["uid"]}>' class='first'><{$_SESSION['login_info']['user_name']}></a>
+          <else/>
+          <a class="first" href="__MODULE__/Login/login" >您好，请登录</a>
+        </if>
+      </li>
+      <li class="register">
+        <a href="">免费注册</a>
+      </li>
+      <li class="separate"></li>
+      <li class="myOrder">
+        <a href="__MODULE__/Member/myOrder/uid/<{$_SESSION['login_info']['uid']}>">我的订单</a>
+      </li>
+      <li class="separate"></li>
+      <li class="memBox">
+        <a href="" class="member">京东会员</a>
+      </li>
+      <li class="separate"></li>
+      <li class="business">
+        <img src="__IMAGE__/546bfdd4N00e36964.jpg" alt=""/>
+        <a href="">企业频道</a>
+      </li>
+      <li class="separate"></li>
+      <li class="phBox">
+        <a href="#" class='phone2'>手机京东</a>
+        <i class="ci-right"></i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="bbt"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="clientBox">
+        <p class="clientService">客户服务</p>
+        <i class="ci-right"></i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <ul class="content">
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">售后服务</a></li>
+          <li><a href="">在线客服</a></li>
+          <li><a href="">意见建议</a></li>
+          <li><a href="">客服邮箱</a></li>
+        </ul>
+      <li class="separate"></li>
+      <li class="navBox">
+        <p class="navigation">网站导航</p>
+        <i class="ci-right"></i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="contents">
+          <div class="feature">
+            <h3>特色栏目</h3>
+            <ul class="lis">
+              <li><a href="#">京东通信</a></li>
+              <li><a href="#">校园之星</a></li>
+              <li><a href="#">视频购物</a></li>
+              <li><a href="">京东社区</a></li>
+              <li><a href="">在线读书</a></li>
+              <li><a href="">装机大师</a></li>
+              <li><a href="">京东E卡</a></li>
+              <li><a href="">家装城</a></li>
+              <li><a href="">搭配购</a></li>
+              <li><a href="">游戏社区</a></li>
+              <li><a href="">智能社区</a></li>
+              <li><a href="">智能馆</a></li>
+              <li><a href="">礼品购</a></li>
+              <li><a href="">乡村招募</a></li>
+              <li><a href="">校园加盟</a></li>
+            </ul>
+          </div>
+          <div class="separate2"></div>
+          <div class="feature">
+            <h3>企业服务</h3>
+            <ul class="lis">
+              <li><a href="">企业采购</a></li>
+              <li><a href="">办公生活馆</a></li>
+            </ul>
+          </div>
+          <div class="separate2"></div>
+          <div class="feature">
+            <h3>其他栏目</h3>
+            <ul class="lis">
+              <li><a href="">English Site</a></li>
+              <li><a href="">知识产权维权</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
