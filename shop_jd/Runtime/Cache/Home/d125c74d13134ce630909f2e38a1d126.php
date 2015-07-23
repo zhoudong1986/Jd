@@ -1,0 +1,758 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>退款/取消查询</title>
+	<link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/refundList.css" media="all"></head>
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/common.css" media="all"></head>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/index.js"></script>
+
+<body myjd="_MYJD_refundment">
+	<title>退款查询</title>
+	<div id="shortcut-2014">
+		<div class="w">
+			<ul class="fl">
+				<li class="dorpdown" id="ttbar-mycity">
+					<div class="dt cw-icon ui-areamini-text-wrap" style=""> <i class="ci-right"><s>◇</s></i> 
+						送至：
+						<span title="广东" data-id="19" class="ui-areamini-text">广东</span>
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="ui-areamini-content-wrap">
+							<div class="ui-areamini-content">
+								<div class="ui-areamini-content-list">
+									<div class="item">
+										<a data-id="1" href="javascript:void(0)">北京</a>
+									</div>
+									<div class="item">
+										<a data-id="2" href="javascript:void(0)">上海</a>
+									</div>
+									<div class="item">
+										<a data-id="3" href="javascript:void(0)">天津</a>
+									</div>
+									<div class="item">
+										<a data-id="4" href="javascript:void(0)">重庆</a>
+									</div>
+									<div class="item">
+										<a data-id="5" href="javascript:void(0)">河北</a>
+									</div>
+									<div class="item">
+										<a data-id="6" href="javascript:void(0)">山西</a>
+									</div>
+									<div class="item">
+										<a data-id="7" href="javascript:void(0)">河南</a>
+									</div>
+									<div class="item">
+										<a data-id="8" href="javascript:void(0)">辽宁</a>
+									</div>
+									<div class="item">
+										<a data-id="9" href="javascript:void(0)">吉林</a>
+									</div>
+									<div class="item">
+										<a data-id="10" href="javascript:void(0)">黑龙江</a>
+									</div>
+									<div class="item">
+										<a data-id="11" href="javascript:void(0)">内蒙古</a>
+									</div>
+									<div class="item">
+										<a data-id="12" href="javascript:void(0)">江苏</a>
+									</div>
+									<div class="item">
+										<a data-id="13" href="javascript:void(0)">山东</a>
+									</div>
+									<div class="item">
+										<a data-id="14" href="javascript:void(0)">安徽</a>
+									</div>
+									<div class="item">
+										<a data-id="15" href="javascript:void(0)">浙江</a>
+									</div>
+									<div class="item">
+										<a data-id="16" href="javascript:void(0)">福建</a>
+									</div>
+									<div class="item">
+										<a data-id="17" href="javascript:void(0)">湖北</a>
+									</div>
+									<div class="item">
+										<a data-id="18" href="javascript:void(0)">湖南</a>
+									</div>
+									<div class="item">
+										<a class="selected" data-id="19" href="javascript:void(0)">广东</a>
+									</div>
+									<div class="item">
+										<a data-id="20" href="javascript:void(0)">广西</a>
+									</div>
+									<div class="item">
+										<a data-id="21" href="javascript:void(0)">江西</a>
+									</div>
+									<div class="item">
+										<a data-id="22" href="javascript:void(0)">四川</a>
+									</div>
+									<div class="item">
+										<a data-id="23" href="javascript:void(0)">海南</a>
+									</div>
+									<div class="item">
+										<a data-id="24" href="javascript:void(0)">贵州</a>
+									</div>
+									<div class="item">
+										<a data-id="25" href="javascript:void(0)">云南</a>
+									</div>
+									<div class="item">
+										<a data-id="26" href="javascript:void(0)">西藏</a>
+									</div>
+									<div class="item">
+										<a data-id="27" href="javascript:void(0)">陕西</a>
+									</div>
+									<div class="item">
+										<a data-id="28" href="javascript:void(0)">甘肃</a>
+									</div>
+									<div class="item">
+										<a data-id="29" href="javascript:void(0)">青海</a>
+									</div>
+									<div class="item">
+										<a data-id="30" href="javascript:void(0)">宁夏</a>
+									</div>
+									<div class="item">
+										<a data-id="31" href="javascript:void(0)">新疆</a>
+									</div>
+									<div class="item">
+										<a data-id="32" href="javascript:void(0)">台湾</a>
+									</div>
+									<div class="item">
+										<a data-id="42" href="javascript:void(0)">香港</a>
+									</div>
+									<div class="item">
+										<a data-id="43" href="javascript:void(0)">澳门</a>
+									</div>
+									<div class="item">
+										<a data-id="84" href="javascript:void(0)">钓鱼岛</a>
+									</div>
+									<div class="item">
+										<a href="http://en.jd.com/" target="_top" data-onchange="1">海外</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="fr">
+				<li class="fore1" id="ttbar-login">
+					<a target="_top" href="http://home.jd.com/" class="link-user">jd_女王空大</a>
+					&nbsp;&nbsp;
+					<a href="https://passport.jd.com/uc/login?ltype=logout" class="link-logout">退出</a>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore2">
+					<div class="dt">
+						<a target="_top" href="http://order.jd.com/center/list.action">我的订单</a>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore3 dorpdown" id="ttbar-myjd">
+					<div class="dt cw-icon"> <i class="ci-right"><s>◇</s></i> 
+						<a target="_top" href="http://home.jd.com/">我的京东</a>
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="dd-inner">
+							<span class="loading"></span>
+						</div>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore4">
+					<div class="dt">
+						<a target="_top" href="http://vip.jd.com/">京东会员</a>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore5">
+					<div class="dt">
+						<a target="_top" href="http://b.jd.com/">企业采购</a>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li aid="2_955_6342" class="fore6 dorpdown" id="ttbar-apps">
+					<div class="dt cw-icon">
+						<i class="ci-left"></i>
+						<i class="ci-right">
+							<s>◇</s>
+						</i>
+						<a target="_top" href="http://app.jd.com/">手机京东</a>
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="dd-inner" id="ttbar-apps-main">
+							<div class="dd-spacer"></div>
+							<div class="dd-inner">
+								<span class="loading"></span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li aid="2_955_6494" class="fore7 dorpdown" id="ttbar-atte">
+					<div class="dt cw-icon">
+						<i class="ci-right">
+							<s>◇</s>
+						</i>
+						关注京东
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="dd-inner" id="ttbar-atte-main">
+							<div class="dd-spacer"></div>
+							<div class="dd-inner">
+								<span class="loading"></span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore8 dorpdown" id="ttbar-serv">
+					<div class="dt cw-icon">
+						<i class="ci-right">
+							<s>◇</s>
+						</i>
+						客户服务
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="dd-inner">
+							<span class="loading"></span>
+						</div>
+					</div>
+				</li>
+				<li class="spacer"></li>
+				<li class="fore9 dorpdown" id="ttbar-navs">
+					<div class="dt cw-icon">
+						<i class="ci-right">
+							<s>◇</s>
+						</i>
+						网站导航
+					</div>
+					<div class="dd dorpdown-layer">
+						<div class="dd-spacer"></div>
+						<div class="dd-inner">
+							<span class="loading"></span>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<span class="clr"></span>
+		</div>
+	</div>
+	<div id="o-header-2013">
+		<div id="header-2013" style="display: none;"></div>
+	</div>
+	<div id="nav">
+		<div class="w">
+			<div class="logo">
+				<a href="http://www.jd.com/" target="_top" class="fore1"></a>
+				<a href="http://home.jd.com/" target="_self" class="fore2">我的京东</a>
+				<a href="http://www.jd.com/" target="_top" class="fore3">返回京东首页</a>
+			</div>
+			<div class="navitems">
+				<ul>
+					<li class="fore-1">
+						<a target="_self" href="http://home.jd.com/">首页</a>
+					</li>
+					<li class="fore-2">
+						<a href="http://me.jd.com/" target="_top" clstag="click|keycount|myhome|hgr">个人主页</a>
+					</li>
+					<li class="fore-3">
+						<div class="dl" clstag="click|keycount|myhome|hsz">
+							<div class="dt">
+								<span class="myjd-set">账户设置</span> <b></b>
+							</div>
+							<div class="dd">
+								<a tid="_MYJD_info" href='/index.php/Home/Member/personal/uid/<?php echo ($_SESSION["login_info"]["uid"]); ?>' target="_self">
+									<span>个人信息</span>
+								</a>
+								<a tid="_MYJD_safe" clstag="Homesafe" href="http://safe.jd.com/user/paymentpassword/safetyCenter.action" target="_self">
+									<span>账户安全</span>
+								</a>
+								<a tid="_MYJD_accbinde" clstag="Homezhbd" href="http://safe.jd.com/union/index.action" target="_self">
+									<span>账号绑定</span>
+								</a>
+								<a tid="_MYJD_grade" clstag="Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">
+									<span>我的级别</span>
+								</a>
+								<a tid="_MYJD_comments" clstag="homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">
+									<span>收货地址</span>
+								</a>
+								<a tid="_MYJD_share" clstag="Homeshare" href="http://share.jd.com/share/index.html" target="_self">
+									<span>分享绑定</span>
+								</a>
+								<a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">
+									<span>邮件订阅</span>
+								</a>
+								<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">
+									<span>消费记录</span>
+								</a>
+								<a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">
+									<span>应用授权</span>
+								</a>
+								<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">
+									<span>快捷支付</span>
+								</a>
+								<a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">
+									<span>增票资质</span>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="fore-4">
+						<div class="dl myjd-info" clstag="click|keycount|myhome|hsq">
+							<div class="dt ">
+								<span>
+									社区
+									<i>2</i>
+								</span> <b></b>
+							</div>
+							<div class="dd">
+								<a tid="_MYJD_joy" clstag="Homemsg" href="http://joycenter.jd.com/" target="_self">
+									<span>
+										消息精灵
+										<b>(2)</b>
+									</span>
+								</a>
+								<a tid="_MYJD_activities" clstag="Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html" target="_self">
+									<span>我的活动</span>
+								</a>
+								<a tid="_MYJD_circle" clstag="Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm" target="_self">
+									<span>我的圈子</span>
+								</a>
+								<a tid="_MYJD_mycollect" clstag="Homethread" href="http://group.jd.com/thread/mythread.htm" target="_self">
+									<span>我的帖子</span>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-r">
+				<div id="search-2014">
+					<ul style="display: none;" id="shelper" class="hide"></ul>
+					<div class="form">
+						<input value="荣耀4A" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" type="text">
+						<button onclick="search('key');return false;" class="button cw-icon" type="button">
+							<i></i>
+							搜索
+						</button>
+					</div>
+				</div>
+				<div id="settleup-2014" class="dorpdown">
+					<div class="cw-icon">
+						<i class="ci-left"></i>
+						<i class="ci-right">&gt;</i>
+						<i class="ci-count" id="shopping-amount">0</i>
+						<a target="_top" href="http://cart.jd.com/cart/cart.html">我的购物车</a>
+					</div>
+					<div class="dorpdown-layer">
+						<div class="spacer"></div>
+						<div id="settleup-content">
+							<span class="loading"></span>
+						</div>
+					</div>
+				</div>
+				<div id="hotwords-2014">
+					<a href="http://sale.jd.com/act/BRmr0lD1qJjQ.html?cpdad=1DLSUE" target="_top" class="style-red">减减减</a>
+					<a href="http://sale.jd.com/act/1LdMxPk5ZVB.html" target="_top">送SSD</a>
+					<a href="http://sale.jd.com/act/j0OHg4QEYws.html" target="_top">“极”TV</a>
+					<a href="http://sale.jd.com/mall/nzChrXUQEGdIgfTR.html" target="_top">樱桃29元</a>
+					<a href="http://sale.jd.com/act/WiNblg8JfIhXVHY6.html" target="_top">惊天满减</a>
+					<a href="http://z.jd.com/project/details/18263.html" target="_top">ZUK盲筹</a>
+					<a href="http://tuan.jd.com/channel/entity-beijing-56-0-0-1-0-0-0-0-1.html" target="_top">暑期阅读</a>
+					<a href="http://sale.jd.com/act/KXojGsEAh7Qk8.html?from=jdpopser_jr" target="_top">苹果免息</a>
+					<a href="http://sale.jd.com/act/pQukl7nj3hf.html" target="_top">尖货1元</a>
+				</div>
+			</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="w">
+			<div id="content">
+				<div id="sub">
+					<!--/ /widget/menu/menu.tpl -->
+					<div id="menu">
+						<dl class="fore1">
+							<dt id="_MYJD_order">订单中心</dt>
+							<dd class="fore1_1" id="_MYJD_ordercenter">
+								<a clstag="homepage|keycount|home2013|Homeoder" href="http://order.jd.com/center/list.action" target="_self">我的订单</a>
+							</dd>
+							<dd class="fore1_2" id="_MYJD_tuan">
+								<a clstag="homepage|keycount|home2013|Hometuan" href="http://tuan.jd.com/order/index.php" target="_top">团购订单</a>
+							</dd>
+							<dd class="fore1_3" id="_MYJD_locallife">
+								<a clstag="homepage|keycount|home2013|Homelife" href="http://life.jd.com/localOrder/iniOrder.do" target="_self">本地生活订单</a>
+							</dd>
+							<dd class="fore1_4" id="_MYJD_yushou">
+								<a clstag="homepage|keycount|home2013|Homeys" href="http://yushou.jd.com/member/qualificationList.action" target="_self">我的预售</a>
+							</dd>
+							<dd class="fore1_5" id="_MYJD_comments">
+								<a clstag="homepage|keycount|home2013|Homecomments" href="http://club.jd.com/mycomments.aspx" target="_self">评价晒单</a>
+							</dd>
+							<dd class="fore1_6 curr" id="_MYJD_refundment">
+								<a clstag="homepage|keycount|home2013|Homerefund" href="http://rps.fm.jd.com/rest/refund/refundList" target="_self">取消订单记录</a>
+							</dd>
+						</dl>
+						<dl class="fore2">
+							<dt id="_MYJD_gz">关注中心</dt>
+							<dd class="fore2_1" id="_MYJD_product">
+								<a clstag="homepage|keycount|home2013|Homefollow" href="http://t.jd.com/home/follow" target="_self">关注的商品</a>
+							</dd>
+							<dd class="fore2_2" id="_MYJD_vender">
+								<a clstag="homepage|keycount|home2013|Homefollowv" href="http://t.jd.com/vender/followVenderList.action" target="_self">关注的店铺</a>
+							</dd>
+							<dd class="fore2_3" id="_MYJD_brand">
+								<a clstag="homepage|keycount|home2013|Homebrand" href="http://t.jd.com/follow/brand/list.action" target="_self">关注的品牌</a>
+							</dd>
+							<dd class="fore2_4" id="_MYJD_activity">
+								<a clstag="homepage|keycount|home2013|Homefollowa" href="http://t.jd.com/activity/followActivityList.action" target="_self">关注的活动</a>
+							</dd>
+							<dd class="fore2_5" id="_MYJD_history">
+								<a clstag="homepage|keycount|home2013|Homelist" href="http://my.jd.com/history/list.html" target="_top">
+									浏览历史&nbsp;
+									<img src="/shop_jd/Home/Public/images/myjd-new-ico.png" height="11" width="24"></a>
+							</dd>
+						</dl>
+						<dl class="fore5">
+							<dt id="_MYJD_fw">客户服务</dt>
+							<dd class="fore5_1" id="_MYJD_repair">
+								<a clstag="homepage|keycount|home2013|Homerepair" href="http://myjd.jd.com/afs/list/allRepairs.action" target="_self">返修退换货</a>
+							</dd>
+							<dd class="fore5_2" id="_MYJD_protection">
+								<a clstag="homepage|keycount|home2013|Homejb" href="http://jiabao.jd.com/protecting" target="_self">价格保护</a>
+							</dd>
+							<dd class="fore5_3" id="_MYJD_complaint">
+								<a clstag="homepage|keycount|home2013|Homeopinion" href="http://myjd.jd.com/opinion/orderList.action" target="_self">意见建议</a>
+							</dd>
+							<dd class="fore5_4" id="_MYJD_consultation">
+								<a clstag="homepage|keycount|home2013|Homeconsu" href="http://club.jd.com/myjd/userConsultationList_1.html" target="_self">购买咨询</a>
+							</dd>
+						</dl>
+						<dl class="fore6">
+							<dt id="_MYJD_sz">设置</dt>
+							<dd class="fore6_1" id="_MYJD_info">
+								<a clstag="homepage|keycount|home2013|Homeyser2" href='/index.php/Home/Member/personal/uid/<?php echo ($_SESSION["login_info"]["uid"]); ?>' target="_self">个人信息</a>
+							</dd>
+							<dd class="fore6_2" id="_MYJD_add">
+								<a clstag="homepage|keycount|home2013|Homeadd2" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
+							</dd>
+						</dl>
+					</div>
+					<div id="menu-ads">
+						<!--广告全部放这里-->
+						<div>
+							<a href="http://c.nfa.jd.com/adclick?keyStr=z5AXFoIimt1jiDK32+w4mZYsU2J35VXuTltSWhYSnymMImvln2Js0HU3q+mnlAr0LpeSNpALCbss46Fg5S8sQYb7iog8VJRd/DurbeYQwISZI7p/OOlX6LABVlykvJwqJOjcdfYtg4LR/8nWWAGIVoNyWeGqd+Q7wP6xUaN8n11WkEWpXi1QspDG2bIfft81PEzrJnemcL6wJZCMFF5ypUKHfimMQj3Iw4V9UaLhib1ll/LIATEUbAn/s32Kw4IT+2H9P9ZloUHfxMDj1t98jemO+qRFI51oV5yjVXWSb1Vwmcnz+LjKmIEN7/uZJP43Dti/UNGXO9rUg+5WktSX8KghgkpMFgdFGRP3JZtfl3w=&amp;cv=2.0&amp;url=http://wan.jd.com/yeyou/play.html?gameId=86&amp;gateWayId=s127" target="_top">
+								<img src="/shop_jd/Home/Public/images/55399ba2n6c0b842e.gif" height="70" width="90"></a>
+						</div>
+						<div>
+							<a href="http://c.nfa.jd.com/adclick?keyStr=z5AXFoIimt1jiDK32+w4mZYsU2J35VXuTltSWhYSnynCTVKyJRBYwMfx3Gu9fPpAEPE4mrvodIb0pQt3Nq6M3PBVd1QQq0Cus40+v1P/Ue193+Cz7jXoPxtJSbvfsN2St2zzWxLf+f/hKdgnq53OJMep8AR/TITn6gh405VpVim/IPqT0Wc4p3wGuyXJ0fcrBvY0tDzeYVvO6GD7pv64H8vAa6QAm01CnX10pC6qyde7NopedPC3du7DL5C86LCm7rgAJfsDkN3cr39q/mKyOw8DnD4R7zcofvTr4ytU1fEqjV5eNKY+ZtEexFIgZ9O50KLb4qjigzwt6HHBU+SMjg==&amp;cv=2.0&amp;url=http://sale.jd.com/act/QORdqIMt8XB.html" target="_top">
+								<img alt=""  src="/shop_jd/Home/Public/images/55ac8b8ane8e7b2d0.jpg" height="70" width="90"></a>
+						</div>
+					</div>
+					<!--/ /widget/menu/menu.tpl -->
+				</div>
+				<div id="main">
+					<div class="mod-main mod-comm">
+						<div class="mt mb10">
+							<h3>取消订单记录</h3>
+							<div class="extra-r"></div>
+						</div>
+						<div class="mc">
+							<table class="tb-void tb-top" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<th width="90">订单编号</th>
+										<th width="110">订单商品</th>
+										<th width="110">提交时间</th>
+										<th width="212">支付明细</th>
+										<th width="120">退款状态</th>
+										<th width="110">操作</th>
+									</tr>
+									<tr>
+										<td>
+											<a href="http://order.jd.com/normal/item.action?orderid=9340756034&amp;PassKey=13C62E62485613312B24FB7E5D03BD03" target="_top">9340756034</a>
+										</td>
+										<td>
+											<div class="img-list">
+												<a class="img-box" href="http://www.jd.com/product/1490618597.html" target="_top">
+													<img src="/shop_jd/Home/Public/images/554879e5n8099eeb1.jpg" title="华诗兰奴 2015夏装上新女装修身短袖真丝雪纺连衣裙夏Z082 浅色花 L"></a>
+												<a class="img-box" href="http://www.jd.com/product/1485529227.html" target="_top">
+													<img src="/shop_jd/Home/Public/images/5524bebcn5294d2e5.jpg" title="华诗兰奴 2015春装新款衬衫领打底衫休闲韩版大码雪纺衫长袖女春C008 2222 L"></a>
+											</div>
+										</td>
+										<td>
+											<span class="ftx-03">
+												2015-05-13
+												<br>15:36:22</span>
+										</td>
+										<td>
+											<dl class="pdeta">
+												<dt>
+													<div class="fore1">订单支付金额：</div>
+													<div class="fore2">￥0.00</div>
+												</dt>
+												<div class="fore1">无支付信息&nbsp;&nbsp;</div>
+												<div class="fore2"></div>
+												<div class="fore3"></div>
+
+											</dl>
+										</td>
+										<td>
+
+											<span class="ftx-02">已完成</span>
+
+										</td>
+										<td>
+											<a href="http://rps.fm.jd.com/rest/refund/refundDetail?orderId=9340756034&amp;applyId=237543009&amp;status=40&amp;handleResult=true&amp;bizType=0">查看</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="http://order.jd.com/normal/item.action?orderid=9339174165&amp;PassKey=C9234B3F9E0503FBFBC465231F06FEDF" target="_top">9339174165</a>
+										</td>
+										<td>
+											<div class="img-list">
+												<a class="img-box" href="http://www.jd.com/product/1250285.html" target="_top">
+													<img src="/shop_jd/Home/Public/images/544f35fcn21211519.jpg" title="iPhone屏碎保修服务6个月"></a>
+												<a class="img-box" href="http://www.jd.com/product/1217510.html" target="_top">
+													<img src="/shop_jd/Home/Public/images/542d0c1bn0fcb5c06.jpg" title="苹果（Apple）iPhone 6 (A1586) 64GB 银色 移动联通电信4G手机"></a>
+												<a class="img-box" href="http://www.jd.com/product/1295318.html" target="_top">
+													<img src="/shop_jd/Home/Public/images/55926ca3n4151db4c.jpg" title="【京东自营】dostyle PC303 苹果iphone6 4.7寸 手机壳/手机套+钢化玻璃膜 月牙白"></a>
+											</div>
+										</td>
+										<td>
+											<span class="ftx-03">
+												2015-05-12
+												<br>21:57:14</span>
+										</td>
+										<td>
+											<dl class="pdeta">
+												<dt>
+													<div class="fore1">订单支付金额：</div>
+													<div class="fore2">￥0.00</div>
+												</dt>
+												<div class="fore1">无支付信息&nbsp;&nbsp;</div>
+												<div class="fore2"></div>
+												<div class="fore3"></div>
+
+											</dl>
+										</td>
+										<td>
+
+											<span class="ftx-02">已完成</span>
+
+										</td>
+										<td>
+											<a href="http://rps.fm.jd.com/rest/refund/refundDetail?orderId=9339174165&amp;applyId=236997004&amp;status=40&amp;handleResult=true&amp;bizType=0">查看</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="mt10 clearfix">
+
+							<div class="pagin pagin-m fr">
+								<!--  <span class="text">共2条记录</span>
+							<span class="text">共1页</span>
+							-->
+							<span class="prev-disabled">
+								上一页
+								<b></b>
+							</span>
+
+							<!-- <span class="prev-disabled">首页</span>
+						-->
+						<a class="current">1</a>
+						<!-- <span class="next-disabled">末页</span>
+					-->
+					<span class="next-disabled">
+						下一页
+						<b></b>
+					</span>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div id="service-2014">
+<div class="w">
+<dl class="fore1">
+	<dt>购物指南</dt>
+	<dd>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-29.html">购物流程</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-151.html">会员介绍</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-297.html">生活旅行/团购</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue.html">常见问题</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-136.html">大家电</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/index.html">联系客服</a>
+		</div>
+	</dd>
+</dl>
+<dl class="fore2">
+	<dt>配送方式</dt>
+	<dd>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81-100.html">上门自提</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81.html">211限时达</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/103-983.html">配送服务查询</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/109-188.html">配送费收取标准</a>
+		</div>
+		<div>
+			<a target="_top" href="http://en.jd.com/chinese.html">海外配送</a>
+		</div>
+	</dd>
+</dl>
+<dl class="fore3">
+	<dt>支付方式</dt>
+	<dd>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-172.html">货到付款</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-173.html">在线支付</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-176.html">分期付款</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-174.html">邮局汇款</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-175.html">公司转账</a>
+		</div>
+	</dd>
+</dl>
+<dl class="fore4">
+	<dt>售后服务</dt>
+	<dd>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/321-981.html">售后政策</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-132.html">价格保护</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/130-978.html">退款说明</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://myjd.jd.com/repair/repairs.action">返修/退换货</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-50.html">取消订单</a>
+		</div>
+	</dd>
+</dl>
+<dl class="fore5">
+	<dt>特色服务</dt>
+	<dd>
+		<div>
+			<a target="_top" href="http://help.jd.com/user/issue/list-133.html">夺宝岛</a>
+		</div>
+		<div>
+			<a target="_top" href="http://help.jd.com/user/issue/list-134.html">DIY装机</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://fuwu.jd.com/">延保服务</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://giftcard.jd.com/market/index.action">京东E卡</a>
+		</div>
+		<div>
+			<a rel="nofollow" target="_top" href="http://mobile.jd.com/">京东通信</a>
+		</div>
+	</dd>
+</dl>
+<span class="clr"></span>
+</div>
+</div>
+﻿
+<div class="w">
+<div id="footer-2014">
+<div class="links">
+	<a rel="nofollow" target="_top" href="http://www.jd.com/intro/about.aspx">关于我们</a>
+	|
+	<a rel="nofollow" target="_top" href="http://www.jd.com/contact/">联系我们</a>
+	|
+	<a rel="nofollow" target="_top" href="http://www.jd.com/contact/joinin.aspx">商家入驻</a>
+	|
+	<a rel="nofollow" target="_top" href="http://jzt.jd.com/">营销中心</a>
+	|
+	<a rel="nofollow" target="_top" href="http://app.jd.com/">手机京东</a>
+	|
+	<a target="_top" href="http://club.jd.com/links.aspx">友情链接</a>
+	|
+	<a target="_top" href="http://media.jd.com/">销售联盟</a>
+	|
+	<a href="http://club.jd.com/" target="_top">京东社区</a>
+	|
+	<a href="http://gongyi.jd.com/" target="_top">京东公益</a>
+	|
+	<a href="http://en.jd.com/" target="_top">English Site</a>
+	|
+	<a href="http://help.en.jd.com/help/question-46.html" target="_top">Contact Us</a>
+</div>
+<div class="copyright">
+	北京市公安局朝阳分局备案编号110105014669&nbsp;&nbsp;|&nbsp;&nbsp;京ICP证070359号&nbsp;&nbsp;|&nbsp;&nbsp;
+	<a target="_top" href="53f16c24n7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+	&nbsp;&nbsp;|&nbsp;&nbsp;新出发京零&nbsp;字第大120007号
+	<br>
+	<a rel="nofollow" href="f_music.jpg" target="_top">音像制品经营许可证苏宿批005号</a>
+	&nbsp;&nbsp;|&nbsp;&nbsp;出版物经营许可证编号新出发(苏)批字第N-012号&nbsp;&nbsp;|&nbsp;&nbsp;互联网出版许可证编号新出网证(京)字150号
+	<br>
+	<a href="wlwhjyxkz.jpg" target="_top">网络文化经营许可证京网文[2014]2148-348号</a>
+	&nbsp;&nbsp;违法和不良信息举报电话：4006561155&nbsp;&nbsp;Copyright&nbsp;©&nbsp;2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+	<br>
+	京东旗下网站：
+	<a target="_top" href="http://www.360top.com/">360TOP</a>
+	&nbsp;&nbsp;
+	<a href="http://www.paipai.com/" target="_top">拍拍网</a>
+	&nbsp;&nbsp;
+	<a href="https://www.wangyin.com/" target="_top">网银在线</a>
+</div>
+<div class="authentication">
+	<a rel="nofollow" target="_top" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
+		<img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871ena9a7067e.png" class="err-product" height="32" width="103"></a>
+	<a rel="nofollow" target="_top" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
+		<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dne37a9860.png" class="err-product" border="true" height="32" width="103"></a>
+	<a rel="nofollow" target="_top" href="http://www.bj.cyberpolice.cn/index.do">
+		<img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bn694454a5.png" class="err-product" height="32" width="103"></a>
+	<a rel="nofollow" target="_top" href="https://search.szfw.org/cert/l/CX20120111001803001836">
+		<img src="/shop_jd/Home/Public/images/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
+	<a target="_top" href="http://jubao.china.cn:13225/reportform.do">
+		<img src="/shop_jd/Home/Public/images/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
+</div>
+</div>
+</div>
+
+<input name="hiddenDomExp" id="hiddenDomExp" value="" type="hidden">
+<span style="display: block; color: white;">BP-YZH-2-2325.360buy.com</span>
+
+</body>
+</html>

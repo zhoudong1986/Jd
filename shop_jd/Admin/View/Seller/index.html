@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">会员管理</a>
+    </li>
+    <li class="active" id="my">前台商家</li>
+  </ol>
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">
+          <span class="glyphicon glyphicon-th-list"></span>
+          &nbsp;&nbsp;商家列表
+         <button id="add" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加</button>
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form navbar-right" action="__MODULE__/Seller/index" role="search" method="get">
+          <div class="form-group">
+            <label for="search" class="control-label">账号:</label>
+            <input type="text" id="search" class="form-control" name="search"></div>
+            <input type="submit" class="btn  btn-primary" value="搜索">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <table style="text-align:center"  class="table  table-bordered table-hover table-striped" >
+    <thead align="center">
+      <tr class="info">
+        <td> <strong>ID</strong>
+        </td>
+        <td> <strong>商家名称</strong>
+        </td>
+        <td>
+          <strong>商家等级</strong>
+        </td>
+        <td>
+          <strong>商家头像</strong>
+        </td>
+        <td>
+          <strong>状态</strong>
+        </td>
+        <td>
+          <strong>操作</strong>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <volist name="sellers" id="s">
+        <tr id="t<{$s['sellers_id']}>">
+          <td scope="row">
+            <strong><{$s['sellers_id']}></strong>
+            </td>
+            <td>
+              <{$s['sname']}></td>
+              <td>
+              <if condition="$s['level'] lt 5">
+              普通商家
+              <elseif condition="$s['level'] lt 10"/>
+              白金商家
+              <else />
+              砖石商家
+              </if>
+              </td>
+                <td>
+                  <form action="__CONTROLLER__/coin" target="photo" id="f<{$s['sellers_id']}>" method="post" enctype="multipart/form-data">
+                    <label class=" pointer-events" for="p<{$s['sellers_id']}>">
+                      <img src="<{$s['pic']}>" width="50px" height="50px" uid="<{$s['sellers_id']}>" alt="..." class="img-thumbnail" /></label>
+                      <input type="file" name='pic' class="hide" id="p<{$s['sellers_id']}>">
+                      <input type="hidden"  name="id" value="<{$s['sellers_id']}>"></form>
+                  </td>
+                  <td>
+                    <if condition="$s['status'] eq 1">
+                      <button class="btn btn-success " value="0" sid="<{$s['sellers_id']}>">
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                      <button class="btn btn-default hide" value="1" sid="<{$s['sellers_id']}>">
+                        <span class="glyphicon glyphicon-lock"></span>
+                      </button>
+                      <else />
+                      <button class="btn btn-default" value="1" sid="<{$s['sellers_id']}>">
+                        <span class="glyphicon glyphicon-lock"></span>
+                      </button>
+                      <button class="btn btn-success hide" value="0" sid="<{$s['sellers_id']}>">
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                    </if>
+                  </td>
+                  <td>
+                    <a href="__MODULE__/Seller/getInfo/id/<{$s['sellers_id']}>" class="btn btn-info ">
+                      <span class="glyphicon glyphicon-pencil"></span>
+                      资料
+                    </a>
+                    <a href="__MODULE__/Seller/editPwd/id/<{$s['sellers_id']}>/name/<{$s['sname']}>" class="btn btn-warning  ">
+                        <span>修改密码</span>
+                      </a>
+                      <neq name="Think.session.role" value="3">
+                      <a class="btn btn-warning" mishi="mishi" uid="<{$s['sellers_id']}>">生成密匙</a>
+                      </neq>
+                      <a href="__MODULE__/Seller/del/id/<{$s['sellers_id']}>" class="btn btn-danger ">删除</a>
+                    </td>
+                  </tr>
+
+                </volist>
+                <tr>
+                  <td colspan="6" align="right">
+                    <{$page}></td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <iframe name="photo" id="photo" width="600px" class="hide" height="300px" frameborder="0"></iframe>
+
+              <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+              <script src="__ADMINPUBLIC__/js/layer/layer.js"></script>
+              <!-- jQuery -->
+              <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+              <script>
+          $(function(){
+            // 生成密匙
+            $('tbody a').click(function(){
+              if($(this).attr('mishi') == 'mishi'){
+                var $ms = $(this);
+                var $id = $ms.attr('uid');
+                layer.tips('获取中,请勿进行其他操作！',$ms); 
+                var index = layer.load();
+                $.post(
+                  '<{:U("mishi")}>',
+                  {'id':$id},
+                  function($msg){
+                    layer.close(index);
+                    if($msg){
+                      layer.alert("生成新密匙成功:"+$msg,{icon:6});
+                    }else{
+                      layer.msg('生成新密匙失败');
+                    }
+                  }
+                  );
+              }
+            });
+            // 添加商家
+            $('#add').click(function(){
+              location.href = "__CONTROLLER__/add";
+            });
+
+
+            // 状态修改
+            $('tbody button').click(function(){
+              var $s = $(this);
+              var $status = $(this).attr('value');
+              var $id = $(this).attr('sid');
+              $.post(
+                '<{:U("Seller/status")}>',
+                {'status':$status,'id':$id},
+                function($msg){
+                  if(!$msg){
+                    alert('系统忙,请稍后再操作');
+                  }else{
+                    $s.toggleClass('hide');
+                    $s.siblings('button').toggleClass('hide');
+                  }
+                }
+                );
+            });
+            // 无刷新换头像
+            var $time = null;
+            var $pic = '';
+            var $p = '';
+            $('tbody label').click(function(){
+              var $img = $(this).next();
+              var $src = $(this).children('img');
+              var $id = $img.next().val();
+              var $t = '#t' + $id;
+              var $fo = '#f' + $id;
+              $img.change(function(){
+                $($fo).submit();
+                layer.load();
+                // 检测是否上传成功
+                $time = setInterval(function(){
+                  $pic = document.getElementById('photo').contentWindow.document.getElementById('pic').value;
+                    if($pic == 'error'){//上传失败,清空时间器
+                      layer.closeAll('loading'); //关闭加载层
+                      alert('上传失败');
+                      clearTimeout($time);
+                      $time = null;
+                    }else{//上传成功
+                      if($p != $pic){//判断获取到的头像名不是上一次操作得到的头像名(所有头像名都是唯一的)
+                        $src.attr('src',$pic);
+                        $p = $pic;//更新头像名标识
+                        layer.closeAll('loading'); //关闭加载层
+                        clearTimeout($time);
+                        $time = null;
+                      }
+                    }
+                    return false;
+                },1000);
+              });
+            });
+
+
+          
+          })
+          </script>
+</body>
+            </html>

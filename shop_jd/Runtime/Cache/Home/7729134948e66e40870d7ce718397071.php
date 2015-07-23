@@ -61,9 +61,9 @@
       </ul>
     </div>
     <ul class="rightBox">
-      <li class="login"><?php if($login_info){echo $login_info['user_name']."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
+      <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
       <li class="separate"></li>
-      <li class="myOrder"><a href="">我的订单</a></li>
+      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
       <li class="separate"></li>
       <li class="myJd">
         <a href="" class="jd">我的京东</a>
@@ -73,9 +73,13 @@
         <div class="up"></div>
         <div class="line"></div>
         <div class="conBox">
-          <img src="./images/no-img_mid_.jpg" alt="默认头像" class="pic"/>
+          <?php if($pic): ?><img src="$pic" alt="用户自定义头像" class="pic"/>
+            <?php else: ?>
+            <img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/><?php endif; ?>
           <div class="right">
-            <a class="first">您好，请登录</a>
+            <?php if($_SESSION['login_info']['isLogin']): ?><a href='/index.php/Home/Member/home/uid/<?php echo ($_SESSION["login_info"]["uid"]); ?>' class='first'><?php echo ($_SESSION['login_info']['user_name']); ?></a>
+              <?php else: ?>
+              <a class="first" href="/index.php/Home/Login/login" >您好，请登录</a><?php endif; ?>
             <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
             </p>
           </div>
@@ -96,10 +100,10 @@
           <div class="recently">
             <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
             <div class="imgs">
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
-              <img src="./images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
             </div>
           </div>
         </div>

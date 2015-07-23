@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">商品分类管理</a>
+    </li>
+    <li class="active" id="my">商品分类列表</li>
+  </ol>
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">
+          <span class="glyphicon glyphicon-th-list"></span>
+          &nbsp;&nbsp;商品分类列表
+         <button id="add" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加</button>
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form navbar-right" action="__MODULE__/Seller/index" role="search" method="get">
+          <div class="form-group">
+            <label for="search" class="control-label">分类名:</label>
+            <input type="text" id="search" class="form-control" name="search"></div>
+            <input type="submit" class="btn  btn-primary" value="搜索">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <table style="text-align:center"  class="table  table-bordered table-hover table-striped" >
+    <thead align="center">
+      <tr class="info">
+        <td> <strong>ID</strong>
+        </td>
+        <td> <strong>商品分类名</strong>
+        </td>
+        <td>
+          <strong>PID</strong>
+        </td>
+        <td>
+          <strong>Path</strong>
+        </td>
+        <td>
+          <strong>状态</strong>
+        </td>
+        <td>
+          <strong>操作</strong>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <volist name="types" id="t">
+        <tr id="t<{$t['cat_id']}>">
+          <td scope="row">
+            <strong><{$t['cat_id']}></strong>
+            </td>
+            <td>
+              <{$t['cat_name']}></td>
+              <td><{$t['parent_id']}>
+              </td>
+                <td><{$t['path']}>
+                  </td>
+                  <td>
+                    <if condition="$t['is_show'] eq 1">
+                      <button class="btn btn-success " value="0" >
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                      <p class="hide"><{$t['del']}></p>
+                      <strong class="hide"><{$t['cat_id']}></strong>
+                      <button class="btn btn-default hide" value="1" >
+                        <span class="glyphicon glyphicon-remove"></span>
+                      </button>
+                      <else />
+                      <button class="btn btn-default" value="1" >
+                        <span class="glyphicon glyphicon-remove"></span>
+                      </button>
+                      <p class="hide"><{$t['del']}></p>
+                      <button class="btn btn-success hide" value="0">
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                    </if>
+                  </td>
+                  <td>
+                    <a href="__MODULE__/Type/getInfo/id/<{$t['cat_id']}>" class="btn btn-info ">
+                      <span class="glyphicon glyphicon-pencil"></span>
+                      分类详情
+                    </a>
+                    <eq name="t['del']" value="del">
+                      <a href="__MODULE__/Type/del/id/<{$t['cat_id']}>" class="btn btn-danger "><span class="glyphicon glyphicon-trash"></span></a>
+                    <else />
+                    <s class="btn btn-default disabled"><span class="glyphicon glyphicon-trash"></span></s>
+                    </eq>
+                    </td>
+                  </tr>
+
+                </volist>
+                <tr>
+                  <td colspan="6" align="right">
+                    <{$page}></td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <iframe name="photo" id="photo" width="0px" class="hide" height="0px" frameborder="0"></iframe>
+
+              <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+              <script src="__ADMINPUBLIC__/js/layer/layer.js"></script>
+              <!-- jQuery -->
+              <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+              <script>
+          $(function(){
+            // 添加商品分类
+            $('#add').click(function(){
+              location.href = "__CONTROLLER__/add";
+            });
+
+
+            // 状态修改
+            $('tbody button').click(function(){
+              var $s = $(this);
+              var $i = $(this).siblings('p').html();
+              var $status = $(this).attr('value');
+              var $id = $(this).siblings('strong').html();
+              var $tips = null;
+              if($i != 'del'){
+                layer.alert('亲,该分类下有子分类,不允许进行状态修改操作!',{icon:6});
+                return false;
+              }
+              $.post(
+                '<{:U("Type/status")}>',
+                {'status':$status,'id':$id},
+                function($msg){
+                if(!$msg){
+                  alert('系统忙,请稍后再操作');
+                }else{
+                  $s.toggleClass('hide');
+                  $s.siblings('button').toggleClass('hide');
+                }
+              });
+            });
+          
+          })
+          </script>
+</body>
+            </html>

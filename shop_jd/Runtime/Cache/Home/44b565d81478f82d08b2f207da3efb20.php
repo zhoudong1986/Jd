@@ -1,244 +1,258 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>账户信息</title>
-	<link rel="stylesheet" type="text/css" href="./css/personal.css" media="all"></head>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/personal.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/common.css" media="all">
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
+</head>
 <body myjd="_MYJD_info" menuid="set">
-	<div id="shortcut-2014">
-		<div class="w">
-			<ul class="fl">
-				<li class="dorpdown" id="ttbar-mycity">
-					<div class="dt cw-icon ui-areamini-text-wrap" style=""> <i class="ci-right"><s>◇</s></i> 
-						送至：
-						<span title="北京" data-id="1" class="ui-areamini-text">北京</span>
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="ui-areamini-content-wrap">
-							<div class="ui-areamini-content">
-								<div class="ui-areamini-content-list">
-									<div class="item">
-										<a class="selected" data-id="1" href="javascript:void(0)">北京</a>
-									</div>
-									<div class="item">
-										<a data-id="2" href="javascript:void(0)">上海</a>
-									</div>
-									<div class="item">
-										<a data-id="3" href="javascript:void(0)">天津</a>
-									</div>
-									<div class="item">
-										<a data-id="4" href="javascript:void(0)">重庆</a>
-									</div>
-									<div class="item">
-										<a data-id="5" href="javascript:void(0)">河北</a>
-									</div>
-									<div class="item">
-										<a data-id="6" href="javascript:void(0)">山西</a>
-									</div>
-									<div class="item">
-										<a data-id="7" href="javascript:void(0)">河南</a>
-									</div>
-									<div class="item">
-										<a data-id="8" href="javascript:void(0)">辽宁</a>
-									</div>
-									<div class="item">
-										<a data-id="9" href="javascript:void(0)">吉林</a>
-									</div>
-									<div class="item">
-										<a data-id="10" href="javascript:void(0)">黑龙江</a>
-									</div>
-									<div class="item">
-										<a data-id="11" href="javascript:void(0)">内蒙古</a>
-									</div>
-									<div class="item">
-										<a data-id="12" href="javascript:void(0)">江苏</a>
-									</div>
-									<div class="item">
-										<a data-id="13" href="javascript:void(0)">山东</a>
-									</div>
-									<div class="item">
-										<a data-id="14" href="javascript:void(0)">安徽</a>
-									</div>
-									<div class="item">
-										<a data-id="15" href="javascript:void(0)">浙江</a>
-									</div>
-									<div class="item">
-										<a data-id="16" href="javascript:void(0)">福建</a>
-									</div>
-									<div class="item">
-										<a data-id="17" href="javascript:void(0)">湖北</a>
-									</div>
-									<div class="item">
-										<a data-id="18" href="javascript:void(0)">湖南</a>
-									</div>
-									<div class="item">
-										<a data-id="19" href="javascript:void(0)">广东</a>
-									</div>
-									<div class="item">
-										<a data-id="20" href="javascript:void(0)">广西</a>
-									</div>
-									<div class="item">
-										<a data-id="21" href="javascript:void(0)">江西</a>
-									</div>
-									<div class="item">
-										<a data-id="22" href="javascript:void(0)">四川</a>
-									</div>
-									<div class="item">
-										<a data-id="23" href="javascript:void(0)">海南</a>
-									</div>
-									<div class="item">
-										<a data-id="24" href="javascript:void(0)">贵州</a>
-									</div>
-									<div class="item">
-										<a data-id="25" href="javascript:void(0)">云南</a>
-									</div>
-									<div class="item">
-										<a data-id="26" href="javascript:void(0)">西藏</a>
-									</div>
-									<div class="item">
-										<a data-id="27" href="javascript:void(0)">陕西</a>
-									</div>
-									<div class="item">
-										<a data-id="28" href="javascript:void(0)">甘肃</a>
-									</div>
-									<div class="item">
-										<a data-id="29" href="javascript:void(0)">青海</a>
-									</div>
-									<div class="item">
-										<a data-id="30" href="javascript:void(0)">宁夏</a>
-									</div>
-									<div class="item">
-										<a data-id="31" href="javascript:void(0)">新疆</a>
-									</div>
-									<div class="item">
-										<a data-id="32" href="javascript:void(0)">台湾</a>
-									</div>
-									<div class="item">
-										<a data-id="42" href="javascript:void(0)">香港</a>
-									</div>
-									<div class="item">
-										<a data-id="43" href="javascript:void(0)">澳门</a>
-									</div>
-									<div class="item">
-										<a data-id="84" href="javascript:void(0)">钓鱼岛</a>
-									</div>
-									<div class="item">
-										<a href="http://en.jd.com/" target="_top" data-onchange="1">海外</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-			<ul class="fr">
-				<li class="fore1" id="ttbar-login">
-					<a target="_top" href="http://home.jd.com/" class="link-user">jd_女王空大</a>
-					&nbsp;&nbsp;
-					<a href="https://passport.jd.com/uc/login?ltype=logout" class="link-logout">退出</a>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore2">
-					<div class="dt">
-						<a target="_top" href="http://order.jd.com/center/list.action">我的订单</a>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore3 dorpdown" id="ttbar-myjd">
-					<div class="dt cw-icon"> <i class="ci-right"><s>◇</s></i> 
-						<a target="_top" href="http://home.jd.com/">我的京东</a>
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="dd-inner">
-							<span class="loading"></span>
-						</div>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore4">
-					<div class="dt">
-						<a target="_top" href="http://vip.jd.com/">京东会员</a>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore5">
-					<div class="dt">
-						<a target="_top" href="http://b.jd.com/">企业采购</a>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li aid="2_955_6342" class="fore6 dorpdown" id="ttbar-apps">
-					<div class="dt cw-icon">
-						<i class="ci-left"></i>
-						<i class="ci-right">
-							<s>◇</s>
-						</i>
-						<a target="_top" href="http://app.jd.com/">手机京东</a>
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="dd-inner" id="ttbar-apps-main">
-							<div class="dd-spacer"></div>
-							<div class="dd-inner">
-								<span class="loading"></span>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li aid="2_955_6494" class="fore7 dorpdown" id="ttbar-atte">
-					<div class="dt cw-icon">
-						<i class="ci-right">
-							<s>◇</s>
-						</i>
-						关注京东
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="dd-inner" id="ttbar-atte-main">
-							<div class="dd-spacer"></div>
-							<div class="dd-inner">
-								<span class="loading"></span>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore8 dorpdown" id="ttbar-serv">
-					<div class="dt cw-icon">
-						<i class="ci-right">
-							<s>◇</s>
-						</i>
-						客户服务
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="dd-inner">
-							<span class="loading"></span>
-						</div>
-					</div>
-				</li>
-				<li class="spacer"></li>
-				<li class="fore9 dorpdown" id="ttbar-navs">
-					<div class="dt cw-icon">
-						<i class="ci-right">
-							<s>◇</s>
-						</i>
-						网站导航
-					</div>
-					<div class="dd dorpdown-layer">
-						<div class="dd-spacer"></div>
-						<div class="dd-inner">
-							<span class="loading"></span>
-						</div>
-					</div>
-				</li>
-			</ul>
-			<span class="clr"></span>
-		</div>
-	</div>
+  <!--样式一头部-->
+<div id="headBox">
+  <div class="head">
+    <div class="cityBox">
+      <div class="shadow"></div>
+      <p class="content">送至：<span class="choose">黑龙江</span><i class="ci-cor"><span>◇</span></i></p>
+      <ul class="citys">
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">黑龙江</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">秦皇岛</a></li>
+        <li><a  href="">海外</a></li>
+      </ul>
+    </div>
+    <ul class="rightBox">
+      <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
+      <li class="separate"></li>
+      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
+      <li class="separate"></li>
+      <li class="myJd">
+        <a href="" class="jd">我的京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="conBox">
+          <?php if($pic): ?><img src="$pic" alt="用户自定义头像" class="pic"/>
+            <?php else: ?>
+            <img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/><?php endif; ?>
+          <div class="right">
+            <?php if($_SESSION['login_info']['isLogin']): ?><a href='/index.php/Home/Member/home/uid/<?php echo ($_SESSION["login_info"]["uid"]); ?>' class='first'><?php echo ($_SESSION['login_info']['user_name']); ?></a>
+              <?php else: ?>
+              <a class="first" href="/index.php/Home/Login/login" >您好，请登录</a><?php endif; ?>
+            <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
+            </p>
+          </div>
+          <div class="bottomBox">
+            <ul class="left">
+              <li><a href="#">待处理订单</a></li>
+              <li><a href="#">资讯回复</a></li>
+              <li><a href="#">降价商品</a></li>
+              <li><a href="#">返修退换货</a></li>
+            </ul>
+            <ul class="right">
+              <li><a href="#">我的关注</a></li>
+              <li><a href="#">我的京豆</a></li>
+              <li><a href="#">我的理财</a></li>
+              <li><a href="#">我的白条</a></li>
+            </ul>
+          </div>
+          <div class="recently">
+            <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
+            <div class="imgs">
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="separate"></li>
+      <li class="memBox">
+        <a href="" class="member">京东会员</a>
+      </li>
+      <li class="separate"></li>
+      <li class="comBox">
+        <a href="" class="company">企业采购</a>
+      </li>
+      <li class="separate"></li>
+      <li class="phBox">
+        <a href="#" class='phone'>手机京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="bbt"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="attenBox">
+        <p href="" class="attention">关注京东</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="code"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="clientBox">
+        <p class="clientService">客户服务</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <ul class="content">
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">售后服务</a></li>
+          <li><a href="">在线客服</a></li>
+          <li><a href="">意见建议</a></li>
+          <li><a href="">客服邮箱</a></li>
+        </ul>
+      </li>
+      <li class="separate"></li>
+      <li class="navBox">
+        <p class="navigation">网站导航</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="contents">
+          <div class="fore1">
+            <h3>特色主题</h3>
+            <div class="clear"></div>
+            <ul>
+              <li><a href="">品牌街</a></li>
+              <li><a href="">今日炒底</a></li>
+              <li><a href="">好东西</a></li>
+              <li><a href="">京东预售</a></li>
+              <li><a href="">尖er货</a></li>
+              <li><a href="">京东首发</a></li>
+              <li><a href="">今日团购</a></li>
+              <li><a href="">优惠券</a></li>
+              <li><a href="">闪购</a></li>
+              <li><a href="">京东会员</a></li>
+              <li><a href="">京东京选</a></li>
+              <li><a href="">定期送</a></li>
+              <li><a href="">装机大师</a></li>
+              <li><a href="">搭配购</a></li>
+              <li><a href="">京东试用</a></li>
+              <li><a href="">礼品购</a></li>
+              <li><a href="">智能馆</a></li>
+              <li><a href="">玩bigger</a></li>
+              <li><a href="">大牌免息</a></li>
+              <li><a href="">北京老字号</a></li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>行业频道</h3>
+            <div class="clear"></div>
+            <ul>
+              <li><a href="">服装城</a></li>
+              <li><a href="">家用电器</a></li>
+              <li><a href="">电脑办公</a></li>
+              <li><a href="">手机</a></li>
+              <li><a href="">美妆馆</a></li>
+              <li><a href="">食品</a></li>
+              <li><a href="">数码</a></li>
+              <li><a href="">母婴</a></li>
+              <li><a href="">家装城</a></li>
+              <li><a href="">运动户外</a></li>
+              <li><a href="">整车</a></li>
+              <li><a href="">图书</a></li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>生活服务</h3>
+            <div class="clear"></div>
+            <ul>
+              <li>京东凑众</li>
+              <li>白条</li>
+              <li>京东钱包</li>
+              <li>京东小金库</li>
+              <li>理财</li>
+              <li>话费</li>
+              <li>旅行</li>
+              <li>彩票</li>
+              <li>游戏</li>
+              <li>机票</li>
+              <li>电影票</li>
+              <li>水电费</li>
+              <li>京东到家</li>
+            </ul>
+          </div>
+          <div class="separate"></div>
+          <div class="fore2">
+            <h3>生活服务</h3>
+            <div class="clear"></div>
+            <ul class="fore2">
+              <li>京东社区</li>
+              <li>京东通信</li>
+              <li>在线读书</li>
+              <li>京东E卡</li>
+              <li>智能社区</li>
+              <li>游戏社区</li>
+              <li>京友邦</li>
+              <li>卖家入驻</li>
+              <li>企业采购</li>
+              <li>服务市场</li>
+              <li>乡村招募</li>
+              <li>校园加盟</li>
+              <li>办公生活馆</li>
+              <li>知识产权维权</li>
+              <li>English Site</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--样式一头部结束-->
 	<div id="o-header-2013">
 		<div id="header-2013" style="display: none;"></div>
 	</div>
@@ -278,23 +292,8 @@
 								<a tid="_MYJD_comments" clstag="homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">
 									<span>收货地址</span>
 								</a>
-								<a tid="_MYJD_share" clstag="Homeshare" href="http://share.jd.com/share/index.html" target="_self">
-									<span>分享绑定</span>
-								</a>
-								<a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">
-									<span>邮件订阅</span>
-								</a>
 								<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">
 									<span>消费记录</span>
-								</a>
-								<a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">
-									<span>应用授权</span>
-								</a>
-								<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">
-									<span>快捷支付</span>
-								</a>
-								<a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">
-									<span>增票资质</span>
 								</a>
 							</div>
 						</div>
@@ -357,7 +356,7 @@
 									<li>
 										<div class="p-img fl">
 											<a href="http://item.jd.com/1499247677.html" target="_top">
-												<img src="./images/5584fec1ndffff235.jpg" alt="" height="50" width="50"></a>
+												<img src="/shop_jd/Home/Public/images/5584fec1ndffff235.jpg" alt="" height="50" width="50"></a>
 										</div>
 										<div class="p-name fl">
 											<a href="http://item.jd.com/1499247677.html" title="耐克Nike Air Max90 女子气垫跑鞋 休闲鞋724882 443817 树莓红443817-600  37.5码/5Y" target="_top">
@@ -387,7 +386,7 @@
 									<li>
 										<div class="p-img fl">
 											<a href="http://item.jd.com/1153740.html" target="_top">
-												<img src="./images/53a4097cn8308d4ec.jpg" alt="" height="50" width="50"></a>
+												<img src="/shop_jd/Home/Public/images/53a4097cn8308d4ec.jpg" alt="" height="50" width="50"></a>
 										</div>
 										<div class="p-name fl">
 											<span></span>
@@ -454,24 +453,6 @@
 							<dd class="fore1_5" id="_MYJD_comments">
 								<a clstag="homepage|keycount|home2013|homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
 							</dd>
-							<dd class="fore1_6" id="_MYJD_share">
-								<a clstag="homepage|keycount|home2013|Homeshare" href="http://share.jd.com/share/index.html" target="_self">分享绑定</a>
-							</dd>
-							<dd class="fore1_7" id="_MYJD_rss">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">邮件订阅</a>
-							</dd>
-							<dd class="fore1_8" id="_MYJD_recor">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">消费记录</a>
-							</dd>
-							<dd class="fore1_9" id="_MYJD_app">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">应用授权</a>
-							</dd>
-							<dd class="fore1_10" id="_MYJD_pay">
-								<a clstag="homepage|keycount|home2013|Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">快捷支付</a>
-							</dd>
-							<dd class="fore1_11" id="_MYJD_zpzz">
-								<a clstag="homepage|keycount|home2013|Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">增票资质</a>
-							</dd>
 						</dl>
 					</div>
 				</div>
@@ -500,7 +481,7 @@
 											昵称：
 										</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoname" class="itxt" maxlength="20" id="nickName" name="userVo.nickName" value="jd_女王空大" type="text">
+											<input clstag="homepage|keycount|home2013|infoname" class="itxt" maxlength="20" id="nickName" name="userVo.nickName" value="<?php echo ($info['sname']); ?>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="nickName_msg"></span>
@@ -513,12 +494,12 @@
 											性别：
 										</span>
 										<div class="fl" clstag="homepage|keycount|home2013|infoGender">
-											<input name="sex" class="jdradio" value="0" type="radio">
+											<input name="sex" class="jdradio" value="0" type="radio" <?php if($info['sex']=='1'){echo "checked='checked'";} ?>>
 											<label class="mr10">男</label>
-											<input name="sex" class="jdradio" value="1" type="radio">
+											<input name="sex" class="jdradio" value="1" type="radio"  <?php if($info['sex']=='0'){echo "checked='checked'";} ?>>
 											<label class="mr10">女</label>
-											<input checked="checked" name="sex" class="jdradio" value="2" type="radio">
-											<label class="mr10">保密</label>
+											<input name="sex" class="jdradio" value="2" type="radio" <?php if($info['sex']=='2'){echo "checked='checked'";} ?>>
+											<label class="mr10" >保密</label>
 										</div>
 									</div>
 									<div class="item" clstag="homepage|keycount|home2013|infoBirthday">
@@ -640,6 +621,37 @@
 											<label class="ml5 mr5">月</label>
 											<select name="" class="selt selt1" id="birthdayDay">
 												<option value="0" disabled="" selected="selected">请选择：</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
 											</select>
 											<label class="ml5 mr5">日</label>
 											<span class="ftx03">填生日有惊喜哦~</span>
@@ -651,58 +663,11 @@
 										<div class="fl interest-list">
 											<p>请选择您感兴趣的分类，给您最精准的推荐</p>
 											<ul class="hobul" clstag="homepage|keycount|home2013|infoInterest">
-												<li class="selected" name="hobbyType" value="1">
-													图书/音像/数字商品
-													<s></s>
-												</li>
-												<li name="hobbyType" value="2">
-													家用电器
-													<s></s>
-												</li>
-												<li name="hobbyType" value="3">
-													手机/数码
-													<s></s>
-												</li>
-												<li name="hobbyType" value="4">
-													电脑/办公
-													<s></s>
-												</li>
-												<li class="selected" name="hobbyType" value="5">
-													家居/家具/家装/厨具
-													<s></s>
-												</li>
-												<li class="selected" name="hobbyType" value="6">
-													服饰内衣/珠宝首饰
-													<s></s>
-												</li>
-												<li class="selected" name="hobbyType" value="7">
-													个护化妆
-													<s></s>
-												</li>
-												<li name="hobbyType" value="8">
-													鞋靴/箱包/钟表/奢侈品
-													<s></s>
-												</li>
-												<li name="hobbyType" value="9">
-													运动健康
-													<s></s>
-												</li>
-												<li name="hobbyType" value="10">
-													汽车用品
-													<s></s>
-												</li>
-												<li name="hobbyType" value="11">
-													母婴/玩具乐器
-													<s></s>
-												</li>
-												<li name="hobbyType" value="12">
-													食品饮料/保健食品
-													<s></s>
-												</li>
-												<li name="hobbyType" value="13">
-													彩票/旅行/充值/票务
-													<s></s>
-												</li>
+                        <?php if(is_array($hobulArr)): $i = 0; $__LIST__ = $hobulArr;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li <?php if(in_array($data['hobul_value'],$usrhobulArr)): ?>class='selected'<?php else: ?>class=''<?php endif; ?> name="hobbyType" value="<?php echo ($data["hobul_value"]); ?>">
+                            <?php echo ($data["hobul_name"]); ?>
+                            <s></s>
+                          </li><?php endforeach; endif; else: echo "" ;endif; ?>
+
 											</ul>
 										</div>
 									</div>
@@ -734,89 +699,14 @@
 											真实姓名：
 										</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoname2" class="itxt" maxlength="20" name="userVo.realName" id="realName" value="女王空大" type="text">
+											<input clstag="homepage|keycount|home2013|infoname2" class="itxt" maxlength="20" name="userVo.realName" id="realName" value="<?php echo ($info['name']); ?>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="realName_msg"></span>
 											</div>
 										</div>
 									</div>
-									<div class="item" clstag="homepage|keycount|home2013|infoadd">
-										<span class="label">所在地：</span>
-										<div class="fl">
-											<select value="1" name="userVo.province" class="selt mr5" id="province">
-												<option value="1">北京</option>
-												<option value="2">上海</option>
-												<option value="3">天津</option>
-												<option value="4">重庆</option>
-												<option value="5">河北</option>
-												<option value="6">山西</option>
-												<option value="7">河南</option>
-												<option value="8">辽宁</option>
-												<option value="9">吉林</option>
-												<option value="10">黑龙江</option>
-												<option value="11">内蒙古</option>
-												<option value="12">江苏</option>
-												<option value="13">山东</option>
-												<option value="14">安徽</option>
-												<option value="15">浙江</option>
-												<option value="16">福建</option>
-												<option value="17">湖北</option>
-												<option value="18">湖南</option>
-												<option value="19">广东</option>
-												<option value="20">广西</option>
-												<option value="21">江西</option>
-												<option value="22">四川</option>
-												<option value="23">海南</option>
-												<option value="24">贵州</option>
-												<option value="25">云南</option>
-												<option value="26">西藏</option>
-												<option value="27">陕西</option>
-												<option value="28">甘肃</option>
-												<option value="29">青海</option>
-												<option value="30">宁夏</option>
-												<option value="31">新疆</option>
-												<option value="32">台湾</option>
-												<option value="42">香港</option>
-												<option value="43">澳门</option>
-												<option value="84">海外</option>
-											</select>
-											<select value="72" name="userVo.city" class="selt mr5" id="city">
-												<option value="72">朝阳区</option>
-												<option value="2800">海淀区</option>
-												<option value="2801">西城区</option>
-												<option value="2802">东城区</option>
-												<option value="2803">崇文区</option>
-												<option value="2804">宣武区</option>
-												<option value="2805">丰台区</option>
-												<option value="2806">石景山区</option>
-												<option value="2807">门头沟</option>
-												<option value="2808">房山区</option>
-												<option value="2809">通州区</option>
-												<option value="2810">大兴区</option>
-												<option value="2812">顺义区</option>
-												<option value="2814">怀柔区</option>
-												<option value="2816">密云区</option>
-												<option value="2901">昌平区</option>
-												<option value="2953">平谷区</option>
-												<option value="3065">延庆县</option>
-											</select>
-											<select value="2799" name="userVo.county" class="selt mr5" id="county">
-												<option value="2799">三环以内</option>
-												<option value="2819">三环到四环之间</option>
-												<option value="2839">四环到五环之间</option>
-												<option value="2840">五环到六环之间</option>
-												<option value="4137">管庄</option>
-												<option value="4139">北苑</option>
-												<option value="4211">定福庄</option>
-												<option value="4212">北京经济技术开发区</option>
-											</select>
-											<div class="clr"></div>
-											<div class="prompt-06">
-												<span id="city_msg"></span>
-											</div>
-										</div>
-									</div>
+
 									<div class="item">
 										<span class="label">&nbsp;</span>
 										<div class="fl">
@@ -832,37 +722,39 @@
 										<div class="fl">
 											<input id="code" value="964921" style="display: none;">
 											<input id="rkey" value="736e6f5f315f67657455736572496e666f31383832303134373736305f70393634393231" style="display: none;">
-											<a clstag="homepage|keycount|home2013|infobtn" href="javascript:void(0)" class="btn-5" onclick="updateUserInfo()">提交</a>
+											<a clstag="homepage|keycount|home2013|infobtn" href="javascript:void(0)" class="btn-5">提交</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div id="user-info">
 								<div class="u-pic">
-									<img alt="用户头像" src="./images/31383832303134373736305f7031343336353738373733333838_mid.jpg">
+									<img alt="用户头像" src="/shop_jd/Home/Public/images/31383832303134373736305f7031343336353738373733333838_mid.jpg">
 									<div class="mask"></div>
 									<div class="face-link-box"></div>
 									<a href="http://i.jd.com/user/userinfo/showImg.html" class="face-link">修改头像</a>
 								</div>
 								<div class="info-m">
 									<div>
-										<b>用户名：18820147760_p</b>
+										<b><?php echo ($_SESSION['login_info']['user_name']); ?></b>
 									</div>
 									<div class="u-level">
 										<span class="rank r2">
 											<s></s>
-											<a clstag="homepage|keycount|home2013|infoMember" href="http://usergrade.jd.com/user/grade" target="_top">铜牌会员</a>
+                     <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<a href="#" target="_top">铜牌会员</a>'; break; case $account['points']<500: echo '<a href="#" target="_top">银牌会员</a>'; break; case $account['points']<1000: echo '<a href="#" target="_top">金牌会员</a>'; break; default; echo '<a href="#" target="_top">金牌会员</a>'; break; } }else{ echo '<a href="http://usergrade.jd.com/user/grade" target="_top">灵魂会员</a>'; } ?>
 										</span>
 									</div>
 									<div class="shop-level">
 										购物行为评级：
 										<span>
 											<a target="_top" href="http://vip.jd.com/help_behaviorRating.html">
-												<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>
+                        <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; case $account['points']<500: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; case $account['points']<1000: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; default; echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; } }else{ echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; } ?>
 											</a>
 										</span>
 									</div>
-									<div>会员类型：个人用户</div>
+                  <?php if($account['level']==1): ?><div>会员类型：个人用户</div>
+                    <?php elseif($account['level']==2): ?>
+                      <div>会员类型：京东会员</div><?php endif; ?>
 								</div>
 							</div>
 							<div class="fr ac" style="width: 280px;">
@@ -1032,15 +924,15 @@
 			</div>
 			<div class="authentication">
 				<a rel="nofollow" target="_top" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
-					<img alt="经营性网站备案中心" src="./images/54b8871ena9a7067e.png" class="err-product" height="32" width="103"></a>
+					<img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871ena9a7067e.png" class="err-product" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
-					<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="./images/54b8872dne37a9860.png" class="err-product" border="true" height="32" width="103"></a>
+					<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dne37a9860.png" class="err-product" border="true" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" href="http://www.bj.cyberpolice.cn/index.do">
-					<img alt="朝阳网络警察" src="./images/54b8874bn694454a5.png" class="err-product" height="32" width="103"></a>
+					<img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bn694454a5.png" class="err-product" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" href="https://search.szfw.org/cert/l/CX20120111001803001836">
-					<img src="./images/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
+					<img src="/shop_jd/Home/Public/images/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
 				<a target="_top" href="http://jubao.china.cn:13225/reportform.do">
-					<img src="./images/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
+					<img src="/shop_jd/Home/Public/images/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
 			</div>
 		</div>
 	</div>
@@ -1050,3 +942,54 @@
 -->
 </body>
 </html>
+<script>
+    function checkSname($str){//检测呢称
+      var reg = /^[\u4E00-\u9FA5\uF900-\uFA2D\w-]{4,20}$/ig;
+      return reg.test($str);
+    }
+    $(function(){
+      //自动根据数据库选择生日
+      var birthdayYear = <?php echo ($birthArr[0]); ?>; //年
+      var birthdayMonth = <?php echo ($birthArr[1]); ?>;//月
+      var birthdayDay = <?php echo ($birthArr[2]); ?>;//日
+      var error = 1;
+      $('#birthdayYear').children('option').each(function(i){
+          if(this.value==birthdayYear){
+              this.selected='selected';
+          }
+      });
+      $('#birthdayMonth').children('option').each(function(i){
+        if(this.value==birthdayMonth){
+          this.selected='selected';
+        }
+      });
+      $('#birthdayDay').children('option').each(function(i){
+        if(this.value==birthdayDay){
+          this.selected='selected';
+        }
+      });
+
+      //表单判断
+      $('#nickName').focus(function () {
+        $(this).attr('class','itxt');
+        $('#nickName_msg').parent('div').attr('class','prompt-06').end().show().text('4-20位字符,可全部由字母组成，或数字、字母、下划线');
+      });
+      $('#nickName').blur(function () {
+        var $val = $(this).val();
+        if($val.length>0){ //有输入值
+          if(!checkSname($val)){//不符合长度、字符规则
+            $(this).attr('class','itxt itxt-error');
+            $('#nickName_msg').parent('div').attr('class','prompt-error').end().show().text('4-20位字符,可由中英文、数字、字母、下划线');
+          }else{//符合长度、字符规则
+            $(this).attr('class','itxt itxt-succ');
+            $('#nickName_msg').parent('div').attr('class','prompt-06').end().text('').hide();
+            error = 0;
+          }
+        }else{//没有输入值
+          $(this).attr('class','itxt itxt-error');
+          $('#nickName_msg').parent('div').attr('class','prompt-error').end().show().text('请输入昵称');
+        }
+      })
+    })
+
+</script>
