@@ -1,0 +1,635 @@
+[ 2015-07-23T08:34:25+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0918s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T08:34:27+08:00 ] ::1 /index.php/Home/Index/$pic
+ERR: 非法操作:$pic
+
+[ 2015-07-23T08:49:32+08:00 ] ::1 /index.php/Index/$pic
+ERR: 非法操作:$pic
+
+[ 2015-07-23T09:05:32+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T09:06:00+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-23T09:06:13+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T09:06:57+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T09:07:05+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T09:08:23+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T09:33:38+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0740s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:33:41+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:33:51+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:34:28+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:35:10+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:35:48+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:36:14+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:36:15+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:36:24+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:36:29+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:40:02+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:40:05+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:41:34+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:42:11+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:42:37+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0390s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:44:07+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:44:50+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:46:10+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:46:26+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:47:03+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:49:12+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname="{$sname}" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:51:06+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '无聊人士' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:51:30+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '无聊人士' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:51:46+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '无聊人士1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:51:56+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( user_id="$uid" AND sname="$sname" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:54:30+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:55:04+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:55:59+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:58:54+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0430s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:59:12+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:59:23+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '无聊人士' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='无聊人士' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T09:59:33+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女王大人' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女王大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T09:59:42+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T11:00:37+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T11:04:30+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T11:05:43+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = 'uuuuu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='uuuuu' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T11:52:55+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = 'uuuuu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='uuuuu' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T11:53:08+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = 'uuuuu' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='uuuuu' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-07-23T11:53:12+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = 'uuuuu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='uuuuu' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T13:33:56+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '无聊啦啦' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='无聊啦啦' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T13:34:31+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T13:34:56+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T13:37:58+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T13:43:09+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '无聊啦啦' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='无聊啦啦' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T13:43:10+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '无聊啦啦' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='无聊啦啦' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T13:46:42+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-07-23T14:03:30+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T14:04:05+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女无语呜呜' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女无语呜呜' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:04:12+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-23T14:04:26+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:04:33+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人111' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:09:16+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人111' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:09:23+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-23T14:10:15+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人111' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-23T14:10:21+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-23T14:18:02+08:00 ] ::1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 1 AND `sname` = '女菀大人111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='女菀大人111' AND user_id!='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:18:08+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='2',`sname`='女菀大人111',`birthDay`='',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.1610s ]
+
+[ 2015-07-23T14:19:10+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='2',`sname`='女菀大人111',`birthDay`='',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:21:50+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: UPDATE `jd_user_details` SET `sex`='2',`sname`='女菀大人111',`birthDay`='',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0010s ]
+
+[ 2015-07-23T14:27:33+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='',`hobbies`='1,2,3,4,5,6,7,8,9,10,11,12,13',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:29:36+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'hobbies' cannot be null
+
+[ 2015-07-23T14:30:56+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'hobbies' cannot be null
+
+[ 2015-07-23T14:36:06+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:36:32+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:37:06+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0010s ]
+
+[ 2015-07-23T14:38:44+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='2015/2/2',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:39:49+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='2015/9/2',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:39:58+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,6',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:40:07+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,3,7',`name`='李红',`address`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:40:21+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,3,7',`name`='李红',`address`='随便写个地址' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:41:10+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,3,7',`name`='李红',`address`='啊大大' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:42:00+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-07-23T14:43:32+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,3,7',`name`='李红',`address`='啊大大2222' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T14:43:59+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_user_details` SET `sex`='0',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2,3,7',`name`='李红',`address`='啊大大' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2015-07-23T21:26:29+08:00 ] ::1 /index.php/Home/Uploads/face
+ERR: 无法加载控制器:Uploads
+

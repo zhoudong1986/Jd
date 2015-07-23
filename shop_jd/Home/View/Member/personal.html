@@ -222,7 +222,7 @@
 									<a class="curr" href="http://i.jd.com/user/info">基本信息</a>
 								</li>
 								<li class="fore-2">
-									<a href="http://i.jd.com/user/userinfo/showImg.html">头像照片</a>
+									<a href="__MODULE__/Member/showImg/uid/<{$_SESSION['login_info']['uid']}>">头像照片</a>
 								</li>
 								<li class="fore-3">
 									<a href="http://i.jd.com/user/userinfo/more.html">更多个人信息</a>
@@ -238,7 +238,7 @@
 											昵称：
 										</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoname" class="itxt" maxlength="20" id="nickName" name="userVo.nickName" value="<{$info['sname']}>" type="text">
+											<input  class="itxt" maxlength="20" id="nickName"  value="<{$info['sname']}>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="nickName_msg"></span>
@@ -431,28 +431,6 @@
 										</div>
 									</div>
 									<div class="item">
-										<span class="label">邮箱：</span>
-										<div class="fl" clstag="homepage|keycount|home2013|infomail">
-											<div>
-												<strong></strong>
-												<s id="email_orderly"></s>
-												&nbsp;&nbsp;&nbsp;
-												<a href="http://safe.jd.com/validate/verifyMail" class="ml5 ftx05">
-													<s></s>
-													立即验证
-												</a>
-
-											</div>
-											<div class="clr"></div>
-											<div class="prompt-06">
-												<span id="email_msg"></span>
-											</div>
-										</div>
-
-										<div class="clr"></div>
-									</div>
-
-									<div class="item">
 										<span class="label">
 											<em>*</em>
 											真实姓名：
@@ -469,7 +447,7 @@
 									<div class="item">
 										<span class="label">&nbsp;</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoadd" class="itxt itxt1" name="userVo.address" id="address" value="" type="text">
+											<input clstag="homepage|keycount|home2013|infoadd" class="itxt itxt1" name="userVo.address" id="address" value="<{$info['address']}>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="address_msg"></span>
@@ -746,12 +724,16 @@
       var reg = /^[\u4E00-\u9FA5\uF900-\uFA2D\w-]{4,20}$/ig;
       return reg.test($str);
     }
+    function checkRealName($str){//检查真实姓名
+      var reg = /^[\u4E00-\u9FA5\uF900-\uFA2Da-zA-Z]{2,10}$/ig;
+      return reg.test($str);
+    }
     $(function(){
       //自动根据数据库选择生日
       var birthdayYear = <{$birthArr[0]}>; //年
       var birthdayMonth = <{$birthArr[1]}>;//月
       var birthdayDay = <{$birthArr[2]}>;//日
-      var error = 1;
+      var error = 0;
       $('#birthdayYear').children('option').each(function(i){
           if(this.value==birthdayYear){
               this.selected='selected';
@@ -779,28 +761,120 @@
           if(!checkSname($val)){//不符合长度、字符规则
             $(this).attr('class','itxt itxt-error');
             $('#nickName_msg').parent('div').attr('class','prompt-error').end().show().text('4-20位字符,可由中英文、数字、字母、下划线');
+            error = 1;
           }else{//符合长度、字符规则
             //去数据库查这个呢称有没重复
             $.ajax({
-              url:"__MODULE__/Member/checknickName"
+              url:"__MODULE__/Member/checknickName",
               type:'post',
-              data:{'uid':"<{$uid}>"},
-              beforeSend:function(){
-
+              data:{'uid':"<{$uid}>",'sname':$val},
+              beforeSend:function(XMLHttpRequest){
+                $('#nickName').attr('class','itxt');
+                $('#nickName_msg').css({'display':'inline'}).text('呢称唯一性检测中……');
               },
               success:function($msg){
-
+                if($msg=='1'){//此呢称可用
+                  $('#nickName').attr('class','itxt itxt-succ');
+                  $('#nickName_msg').text('').hide().parent('div').attr('class','prompt-06');
+                  error = 0;
+                }else{//呢称不可用
+                  $('#nickName').attr('class','itxt itxt-error');
+                  $('#nickName_msg').text('呢称已经被使用，请更换').parent('div').attr('class','prompt-error');
+                }
               }
             });
-            $(this).attr('class','itxt itxt-succ');
-            $('#nickName_msg').parent('div').attr('class','prompt-06').end().text('').hide();
-            error = 0;
           }
         }else{//没有输入值
           $(this).attr('class','itxt itxt-error');
           $('#nickName_msg').parent('div').attr('class','prompt-error').end().show().text('请输入昵称');
+          error = 1;
+        }
+      });
+      //真实姓名
+      $('#realName').focus(function () {
+//        请输入真实姓名，英文长度:4-20   中文长度:2-10
+        var $val = $(this).val();
+        $(this).attr('class','itxt');
+        $('#realName_msg').show().text('请输入真实姓名,10个字母或者10个汉字').parent('div').attr('class','prompt-06');
+      });
+      $('#realName').blur(function(){
+        var $val = $(this).val();
+        if($val.length>0){ //有输入值的时候
+            if(!checkRealName($val)) {//字符长度不符合
+              $(this).attr('class','itxt itxt-error');
+              $('#realName_msg').show().text('真实姓名中包含不符合规范的字符').parent('div').attr('class','prompt-error');
+              error = 1;
+            }else{//通过检测
+              $(this).attr('class','itxt itxt-succ');
+              $('#realName_msg').hide().text('').parent('div').attr('class','prompt-06');
+              error = 0;
+            }
+        }else{//没有输入值的时候
+          $(this).attr('class','itxt itxt-error');
+          $('#realName_msg').show().text('真实姓名不能为空').parent('div').attr('class','prompt-error');
+          error =1;
+        }
+      });
+      //兴趣爱好点击选中/取消选中
+      $('.hobul').children('li').click(function(){
+        $(this).toggleClass('selected');
+      });
+
+      //点击提交
+      $('.btn-5').click(function () {
+        if(!error){//没有错误可以提交
+            //收集表单数据
+          var $nickName = $('#nickName').val();
+          var $jdradio = null; //性别表单
+          var $birthdayYear = '';//年
+          var $birthdayMonth = ''; //月
+          var $birthdayDay = ''; //日
+          var $hobul = []; //爱好空数组
+          var $realName = null; //真实姓名
+          var $address  = null; //地址
+          $('.jdradio').each(function(i){
+            if($(this).attr('checked')=='checked'){
+              $jdradio = $(this).val();
+            }
+          });
+          if($('#birthdayYear').val()!=null){$birthdayYear = $('#birthdayYear').val();} //收集生日-年
+          if($('#birthdayMonth').val()!==null){$birthdayMonth = $('#birthdayMonth').val();} //收集生日-月
+          if($('#birthdayDay').val()!==null){$birthdayDay = $('#birthdayDay').val();} //收集生日-日
+          //收集兴趣爱好
+          $('.hobul').children('li').each(function(i){
+              if($(this).attr('class')=='selected'){
+                $hobul.push($(this).val());
+              }
+          });
+          //收集真实姓名
+          $realName = $('#realName').val();
+          //收集地址
+          $address = $('#address').val();
+          //ajax到后台录入
+          $.ajax({
+            url:'__MODULE__/Member/entering',
+            type:'post',
+            data:{
+                  'sex':$jdradio,
+                  'sname':$nickName,
+                  'birthdayYear':$birthdayYear,
+                  'birthdayMonth':$birthdayMonth,
+                  'birthdayDay':$birthdayDay,
+                  'hobul':$hobul,
+                  'realName':$realName,
+                  'address':$address,
+                  'uid':"<{$_SESSION['login_info']['uid']}>"
+                },
+            success:function($msg){
+                if($msg){
+                  alert('修改资料成功');
+                  window.location.href ="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>";
+                }
+            }
+          })
         }
       })
     })
+
 
 </script>

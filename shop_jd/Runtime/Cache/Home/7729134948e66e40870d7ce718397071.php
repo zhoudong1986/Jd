@@ -254,6 +254,7 @@
   </div>
 </div>
 <!--样式一头部结束-->
+
   <div id="banner">
     <a href=""><img src="/shop_jd/Home/Public/images/559a55b1Nba5cc052.jpg" alt=""/></a>
     <i></i>

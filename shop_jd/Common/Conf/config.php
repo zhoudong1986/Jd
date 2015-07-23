@@ -28,4 +28,10 @@ return array(
     'MAIL_PASSWORD' =>'zhoudong1986',
     'MAIL_CHARSET' =>'utf-8',
     'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
+
+  //头像上传配置
+  'UPLOAD_MAX_SIZE'=>4000000, //允许上传头像大小
+  'UPLOADS_ROOTPATH'=>'./Uploads', //头像上传根目录文件夹
+  'UPLOADS_SAVEPATH'=>'',// 设置附件上传（子）目录
+  'UPLOADS_EXTS'=>array('jpg','jpeg','bmp','png','gif'),//允许上传的文件后缀
 );
