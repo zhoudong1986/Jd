@@ -171,4 +171,9 @@ class MemberController extends Controller {
         return 1;
       }
   }
+
+  //更多个人资料
+  public function more(){
+
+  }
 }
