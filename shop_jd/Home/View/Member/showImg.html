@@ -51,24 +51,6 @@
 								<a tid="_MYJD_comments" clstag="homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">
 									<span>收货地址</span>
 								</a>
-								<a tid="_MYJD_share" clstag="Homeshare" href="http://share.jd.com/share/index.html" target="_self">
-									<span>分享绑定</span>
-								</a>
-								<a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">
-									<span>邮件订阅</span>
-								</a>
-								<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">
-									<span>消费记录</span>
-								</a>
-								<a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">
-									<span>应用授权</span>
-								</a>
-								<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">
-									<span>快捷支付</span>
-								</a>
-								<a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">
-									<span>增票资质</span>
-								</a>
 							</div>
 						</div>
 					</li>
@@ -165,24 +147,6 @@
 							<dd class="fore1_5" id="_MYJD_comments">
 								<a clstag="homepage|keycount|home2013|homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
 							</dd>
-							<dd class="fore1_6" id="_MYJD_share">
-								<a clstag="homepage|keycount|home2013|Homeshare" href="http://share.jd.com/share/index.html" target="_self">分享绑定</a>
-							</dd>
-							<dd class="fore1_7" id="_MYJD_rss">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">邮件订阅</a>
-							</dd>
-							<dd class="fore1_8" id="_MYJD_recor">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">消费记录</a>
-							</dd>
-							<dd class="fore1_9" id="_MYJD_app">
-								<a clstag="homepage|keycount|home2013|Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">应用授权</a>
-							</dd>
-							<dd class="fore1_10" id="_MYJD_pay">
-								<a clstag="homepage|keycount|home2013|Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">快捷支付</a>
-							</dd>
-							<dd class="fore1_11" id="_MYJD_zpzz">
-								<a clstag="homepage|keycount|home2013|Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">增票资质</a>
-							</dd>
 						</dl>
 					</div>
 				</div>
@@ -191,13 +155,13 @@
 						<div class="mt">
 							<ul class="extra-l">
 								<li class="fore-1">
-									<a href="http://i.jd.com/user/info">基本信息</a>
+									<a href="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>">基本信息</a>
 								</li>
 								<li class="fore-2">
-									<a class="curr" href="http://i.jd.com/user/userinfo/showImg.html">头像照片</a>
+									<a class="curr" href="__MODULE__/Member/showImg/uid/<{$_SESSION['login_info']['uid']}>">头像照片</a>
 								</li>
 								<li class="fore-3">
-									<a href="http://i.jd.com/user/userinfo/more.html">更多个人信息</a>
+									<a href="__MODULE__/Member/more/uid/<{$_SESSION['login_info']['uid']}>">更多个人信息</a>
 								</li>
 
 							</ul>

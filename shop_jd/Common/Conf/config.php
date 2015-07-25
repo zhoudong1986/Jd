@@ -34,4 +34,6 @@ return array(
   'UPLOADS_ROOTPATH'=>'./Uploads', //头像上传根目录文件夹
   'UPLOADS_SAVEPATH'=>'',// 设置附件上传（子）目录
   'UPLOADS_EXTS'=>array('jpg','jpeg','bmp','png','gif'),//允许上传的文件后缀
+
+
 );

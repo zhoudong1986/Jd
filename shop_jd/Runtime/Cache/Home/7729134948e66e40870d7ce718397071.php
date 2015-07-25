@@ -73,7 +73,7 @@
         <div class="up"></div>
         <div class="line"></div>
         <div class="conBox">
-          <?php if($pic): ?><img src="$pic" alt="用户自定义头像" class="pic"/>
+          <?php if($pic): ?><a href="/index.php/Home/Member/Home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>"><img src="<?php echo ($pic); ?>" alt="用户自定义头像" class="pic"/></a>
             <?php else: ?>
             <img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/><?php endif; ?>
           <div class="right">
@@ -109,14 +109,14 @@
         </div>
       </li>
       <li class="separate"></li>
-      <li class="memBox">
-        <a href="" class="member">京东会员</a>
-      </li>
-      <li class="separate"></li>
-      <li class="comBox">
-        <a href="" class="company">企业采购</a>
-      </li>
-      <li class="separate"></li>
+      <!--<li class="memBox">-->
+        <!--<a href="" class="member">京东会员</a>-->
+      <!--</li>-->
+      <!--<li class="separate"></li>-->
+      <!--<li class="comBox">-->
+        <!--<a href="" class="company">企业采购</a>-->
+      <!--</li>-->
+      <!--<li class="separate"></li>-->
       <li class="phBox">
         <a href="#" class='phone'>手机京东</a>
         <i class="ci-right">
@@ -145,111 +145,111 @@
         <div class="up"></div>
         <div class="line"></div>
         <ul class="content">
-          <li><a href="">帮助中心</a></li>
-          <li><a href="">售后服务</a></li>
+          <!--<li><a href="">帮助中心</a></li>-->
+          <!--<li><a href="">售后服务</a></li>-->
           <li><a href="">在线客服</a></li>
-          <li><a href="">意见建议</a></li>
-          <li><a href="">客服邮箱</a></li>
+          <!--<li><a href="">意见建议</a></li>-->
+          <!--<li><a href="">客服邮箱</a></li>-->
         </ul>
       </li>
-      <li class="separate"></li>
-      <li class="navBox">
-        <p class="navigation">网站导航</p>
-        <i class="ci-right">
-          <s>◇</s>
-        </i>
-        <div class="up"></div>
-        <div class="line"></div>
-        <div class="contents">
-          <div class="fore1">
-            <h3>特色主题</h3>
-            <div class="clear"></div>
-            <ul>
-              <li><a href="">品牌街</a></li>
-              <li><a href="">今日炒底</a></li>
-              <li><a href="">好东西</a></li>
-              <li><a href="">京东预售</a></li>
-              <li><a href="">尖er货</a></li>
-              <li><a href="">京东首发</a></li>
-              <li><a href="">今日团购</a></li>
-              <li><a href="">优惠券</a></li>
-              <li><a href="">闪购</a></li>
-              <li><a href="">京东会员</a></li>
-              <li><a href="">京东京选</a></li>
-              <li><a href="">定期送</a></li>
-              <li><a href="">装机大师</a></li>
-              <li><a href="">搭配购</a></li>
-              <li><a href="">京东试用</a></li>
-              <li><a href="">礼品购</a></li>
-              <li><a href="">智能馆</a></li>
-              <li><a href="">玩bigger</a></li>
-              <li><a href="">大牌免息</a></li>
-              <li><a href="">北京老字号</a></li>
-            </ul>
-          </div>
-          <div class="separate"></div>
-          <div class="fore2">
-            <h3>行业频道</h3>
-            <div class="clear"></div>
-            <ul>
-              <li><a href="">服装城</a></li>
-              <li><a href="">家用电器</a></li>
-              <li><a href="">电脑办公</a></li>
-              <li><a href="">手机</a></li>
-              <li><a href="">美妆馆</a></li>
-              <li><a href="">食品</a></li>
-              <li><a href="">数码</a></li>
-              <li><a href="">母婴</a></li>
-              <li><a href="">家装城</a></li>
-              <li><a href="">运动户外</a></li>
-              <li><a href="">整车</a></li>
-              <li><a href="">图书</a></li>
-            </ul>
-          </div>
-          <div class="separate"></div>
-          <div class="fore2">
-            <h3>生活服务</h3>
-            <div class="clear"></div>
-            <ul>
-              <li>京东凑众</li>
-              <li>白条</li>
-              <li>京东钱包</li>
-              <li>京东小金库</li>
-              <li>理财</li>
-              <li>话费</li>
-              <li>旅行</li>
-              <li>彩票</li>
-              <li>游戏</li>
-              <li>机票</li>
-              <li>电影票</li>
-              <li>水电费</li>
-              <li>京东到家</li>
-            </ul>
-          </div>
-          <div class="separate"></div>
-          <div class="fore2">
-            <h3>生活服务</h3>
-            <div class="clear"></div>
-            <ul class="fore2">
-              <li>京东社区</li>
-              <li>京东通信</li>
-              <li>在线读书</li>
-              <li>京东E卡</li>
-              <li>智能社区</li>
-              <li>游戏社区</li>
-              <li>京友邦</li>
-              <li>卖家入驻</li>
-              <li>企业采购</li>
-              <li>服务市场</li>
-              <li>乡村招募</li>
-              <li>校园加盟</li>
-              <li>办公生活馆</li>
-              <li>知识产权维权</li>
-              <li>English Site</li>
-            </ul>
-          </div>
-        </div>
-      </li>
+      <!--<li class="separate"></li>-->
+      <!--<li class="navBox">-->
+        <!--<p class="navigation">网站导航</p>-->
+        <!--<i class="ci-right">-->
+          <!--<s>◇</s>-->
+        <!--</i>-->
+        <!--<div class="up"></div>-->
+        <!--<div class="line"></div>-->
+        <!--<div class="contents">-->
+          <!--<div class="fore1">-->
+            <!--<h3>特色主题</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li><a href="">品牌街</a></li>-->
+              <!--<li><a href="">今日炒底</a></li>-->
+              <!--<li><a href="">好东西</a></li>-->
+              <!--<li><a href="">京东预售</a></li>-->
+              <!--<li><a href="">尖er货</a></li>-->
+              <!--<li><a href="">京东首发</a></li>-->
+              <!--<li><a href="">今日团购</a></li>-->
+              <!--<li><a href="">优惠券</a></li>-->
+              <!--<li><a href="">闪购</a></li>-->
+              <!--<li><a href="">京东会员</a></li>-->
+              <!--<li><a href="">京东京选</a></li>-->
+              <!--<li><a href="">定期送</a></li>-->
+              <!--<li><a href="">装机大师</a></li>-->
+              <!--<li><a href="">搭配购</a></li>-->
+              <!--<li><a href="">京东试用</a></li>-->
+              <!--<li><a href="">礼品购</a></li>-->
+              <!--<li><a href="">智能馆</a></li>-->
+              <!--<li><a href="">玩bigger</a></li>-->
+              <!--<li><a href="">大牌免息</a></li>-->
+              <!--<li><a href="">北京老字号</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>行业频道</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li><a href="">服装城</a></li>-->
+              <!--<li><a href="">家用电器</a></li>-->
+              <!--<li><a href="">电脑办公</a></li>-->
+              <!--<li><a href="">手机</a></li>-->
+              <!--<li><a href="">美妆馆</a></li>-->
+              <!--<li><a href="">食品</a></li>-->
+              <!--<li><a href="">数码</a></li>-->
+              <!--<li><a href="">母婴</a></li>-->
+              <!--<li><a href="">家装城</a></li>-->
+              <!--<li><a href="">运动户外</a></li>-->
+              <!--<li><a href="">整车</a></li>-->
+              <!--<li><a href="">图书</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>生活服务</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li>京东凑众</li>-->
+              <!--<li>白条</li>-->
+              <!--<li>京东钱包</li>-->
+              <!--<li>京东小金库</li>-->
+              <!--<li>理财</li>-->
+              <!--<li>话费</li>-->
+              <!--<li>旅行</li>-->
+              <!--<li>彩票</li>-->
+              <!--<li>游戏</li>-->
+              <!--<li>机票</li>-->
+              <!--<li>电影票</li>-->
+              <!--<li>水电费</li>-->
+              <!--<li>京东到家</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>生活服务</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul class="fore2">-->
+              <!--<li>京东社区</li>-->
+              <!--<li>京东通信</li>-->
+              <!--<li>在线读书</li>-->
+              <!--<li>京东E卡</li>-->
+              <!--<li>智能社区</li>-->
+              <!--<li>游戏社区</li>-->
+              <!--<li>京友邦</li>-->
+              <!--<li>卖家入驻</li>-->
+              <!--<li>企业采购</li>-->
+              <!--<li>服务市场</li>-->
+              <!--<li>乡村招募</li>-->
+              <!--<li>校园加盟</li>-->
+              <!--<li>办公生活馆</li>-->
+              <!--<li>知识产权维权</li>-->
+              <!--<li>English Site</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</li>-->
     </ul>
   </div>
 </div>

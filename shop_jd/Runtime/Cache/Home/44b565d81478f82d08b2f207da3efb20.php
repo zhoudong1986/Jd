@@ -1,15 +1,259 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>账户信息</title>
-  <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="__CSS__/personal.css" media="all">
-  <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
-  <script language="JavaScript" src="__JS__/common.js"></script>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/personal.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/common.css" media="all">
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
 </head>
 <body myjd="_MYJD_info" menuid="set">
-  <include file="Public:header"/>
+  <!--样式一头部-->
+<div id="headBox">
+  <div class="head">
+    <div class="cityBox">
+      <div class="shadow"></div>
+      <p class="content">送至：<span class="choose">黑龙江</span><i class="ci-cor"><span>◇</span></i></p>
+      <ul class="citys">
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">黑龙江</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">上海</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">北京</a></li>
+        <li><a  href="">秦皇岛</a></li>
+        <li><a  href="">海外</a></li>
+      </ul>
+    </div>
+    <ul class="rightBox">
+      <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
+      <li class="separate"></li>
+      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
+      <li class="separate"></li>
+      <li class="myJd">
+        <a href="" class="jd">我的京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="conBox">
+          <?php if($pic): ?><a href="/index.php/Home/Member/Home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>"><img src="<?php echo ($pic); ?>" alt="用户自定义头像" class="pic"/></a>
+            <?php else: ?>
+            <img src="/shop_jd/Home/Public/images/no-img_mid_.jpg" alt="默认头像" class="pic"/><?php endif; ?>
+          <div class="right">
+            <?php if($_SESSION['login_info']['isLogin']): ?><a href='/index.php/Home/Member/home/uid/<?php echo ($_SESSION["login_info"]["uid"]); ?>' class='first'><?php echo ($_SESSION['login_info']['user_name']); ?></a>
+              <?php else: ?>
+              <a class="first" href="/index.php/Home/Login/login" >您好，请登录</a><?php endif; ?>
+            <p class="second"><a href="">优惠券</a><s></s><a href="">消息</a>
+            </p>
+          </div>
+          <div class="bottomBox">
+            <ul class="left">
+              <li><a href="#">待处理订单</a></li>
+              <li><a href="#">资讯回复</a></li>
+              <li><a href="#">降价商品</a></li>
+              <li><a href="#">返修退换货</a></li>
+            </ul>
+            <ul class="right">
+              <li><a href="#">我的关注</a></li>
+              <li><a href="#">我的京豆</a></li>
+              <li><a href="#">我的理财</a></li>
+              <li><a href="#">我的白条</a></li>
+            </ul>
+          </div>
+          <div class="recently">
+            <p class="left">最近浏览</p><p class="right"><a href="">更多></a></p>
+            <div class="imgs">
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+              <img src="/shop_jd/Home/Public/images/552de9f5Nca6d7263.jpg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="separate"></li>
+      <!--<li class="memBox">-->
+        <!--<a href="" class="member">京东会员</a>-->
+      <!--</li>-->
+      <!--<li class="separate"></li>-->
+      <!--<li class="comBox">-->
+        <!--<a href="" class="company">企业采购</a>-->
+      <!--</li>-->
+      <!--<li class="separate"></li>-->
+      <li class="phBox">
+        <a href="#" class='phone'>手机京东</a>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="bbt"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="attenBox">
+        <p href="" class="attention">关注京东</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <div class="code"></div>
+      </li>
+      <li class="separate"></li>
+      <li class="clientBox">
+        <p class="clientService">客户服务</p>
+        <i class="ci-right">
+          <s>◇</s>
+        </i>
+        <div class="up"></div>
+        <div class="line"></div>
+        <ul class="content">
+          <!--<li><a href="">帮助中心</a></li>-->
+          <!--<li><a href="">售后服务</a></li>-->
+          <li><a href="">在线客服</a></li>
+          <!--<li><a href="">意见建议</a></li>-->
+          <!--<li><a href="">客服邮箱</a></li>-->
+        </ul>
+      </li>
+      <!--<li class="separate"></li>-->
+      <!--<li class="navBox">-->
+        <!--<p class="navigation">网站导航</p>-->
+        <!--<i class="ci-right">-->
+          <!--<s>◇</s>-->
+        <!--</i>-->
+        <!--<div class="up"></div>-->
+        <!--<div class="line"></div>-->
+        <!--<div class="contents">-->
+          <!--<div class="fore1">-->
+            <!--<h3>特色主题</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li><a href="">品牌街</a></li>-->
+              <!--<li><a href="">今日炒底</a></li>-->
+              <!--<li><a href="">好东西</a></li>-->
+              <!--<li><a href="">京东预售</a></li>-->
+              <!--<li><a href="">尖er货</a></li>-->
+              <!--<li><a href="">京东首发</a></li>-->
+              <!--<li><a href="">今日团购</a></li>-->
+              <!--<li><a href="">优惠券</a></li>-->
+              <!--<li><a href="">闪购</a></li>-->
+              <!--<li><a href="">京东会员</a></li>-->
+              <!--<li><a href="">京东京选</a></li>-->
+              <!--<li><a href="">定期送</a></li>-->
+              <!--<li><a href="">装机大师</a></li>-->
+              <!--<li><a href="">搭配购</a></li>-->
+              <!--<li><a href="">京东试用</a></li>-->
+              <!--<li><a href="">礼品购</a></li>-->
+              <!--<li><a href="">智能馆</a></li>-->
+              <!--<li><a href="">玩bigger</a></li>-->
+              <!--<li><a href="">大牌免息</a></li>-->
+              <!--<li><a href="">北京老字号</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>行业频道</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li><a href="">服装城</a></li>-->
+              <!--<li><a href="">家用电器</a></li>-->
+              <!--<li><a href="">电脑办公</a></li>-->
+              <!--<li><a href="">手机</a></li>-->
+              <!--<li><a href="">美妆馆</a></li>-->
+              <!--<li><a href="">食品</a></li>-->
+              <!--<li><a href="">数码</a></li>-->
+              <!--<li><a href="">母婴</a></li>-->
+              <!--<li><a href="">家装城</a></li>-->
+              <!--<li><a href="">运动户外</a></li>-->
+              <!--<li><a href="">整车</a></li>-->
+              <!--<li><a href="">图书</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>生活服务</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul>-->
+              <!--<li>京东凑众</li>-->
+              <!--<li>白条</li>-->
+              <!--<li>京东钱包</li>-->
+              <!--<li>京东小金库</li>-->
+              <!--<li>理财</li>-->
+              <!--<li>话费</li>-->
+              <!--<li>旅行</li>-->
+              <!--<li>彩票</li>-->
+              <!--<li>游戏</li>-->
+              <!--<li>机票</li>-->
+              <!--<li>电影票</li>-->
+              <!--<li>水电费</li>-->
+              <!--<li>京东到家</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="separate"></div>-->
+          <!--<div class="fore2">-->
+            <!--<h3>生活服务</h3>-->
+            <!--<div class="clear"></div>-->
+            <!--<ul class="fore2">-->
+              <!--<li>京东社区</li>-->
+              <!--<li>京东通信</li>-->
+              <!--<li>在线读书</li>-->
+              <!--<li>京东E卡</li>-->
+              <!--<li>智能社区</li>-->
+              <!--<li>游戏社区</li>-->
+              <!--<li>京友邦</li>-->
+              <!--<li>卖家入驻</li>-->
+              <!--<li>企业采购</li>-->
+              <!--<li>服务市场</li>-->
+              <!--<li>乡村招募</li>-->
+              <!--<li>校园加盟</li>-->
+              <!--<li>办公生活馆</li>-->
+              <!--<li>知识产权维权</li>-->
+              <!--<li>English Site</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</li>-->
+    </ul>
+  </div>
+</div>
+<!--样式一头部结束-->
+
 	<div id="o-header-2013">
 		<div id="header-2013" style="display: none;"></div>
 	</div>
@@ -113,7 +357,7 @@
 									<li>
 										<div class="p-img fl">
 											<a href="http://item.jd.com/1499247677.html" target="_top">
-												<img src="__IMAGE__/5584fec1ndffff235.jpg" alt="" height="50" width="50"></a>
+												<img src="/shop_jd/Home/Public/images/5584fec1ndffff235.jpg" alt="" height="50" width="50"></a>
 										</div>
 										<div class="p-name fl">
 											<a href="http://item.jd.com/1499247677.html" title="耐克Nike Air Max90 女子气垫跑鞋 休闲鞋724882 443817 树莓红443817-600  37.5码/5Y" target="_top">
@@ -143,7 +387,7 @@
 									<li>
 										<div class="p-img fl">
 											<a href="http://item.jd.com/1153740.html" target="_top">
-												<img src="__IMAGE__/53a4097cn8308d4ec.jpg" alt="" height="50" width="50"></a>
+												<img src="/shop_jd/Home/Public/images/53a4097cn8308d4ec.jpg" alt="" height="50" width="50"></a>
 										</div>
 										<div class="p-name fl">
 											<span></span>
@@ -196,10 +440,10 @@
 						<dl class="fore1">
 							<dt id="_MYJD_setting">设置</dt>
               <dd class="fore1_1 curr" id="_MYJD_info">
-                <a  href="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>" target="_self">个人信息</a>
+                <a  href="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">个人信息</a>
               </dd>
               <dd class="fore1_3" id="_MYJD_safe">
-                <a clstag="homepage|keycount|home2013|Homesafe" href="__MODULE__/Member/safetyCenter/uid/<{$_SESSION['login_info']['uid']}>" target="_self">账户安全</a>
+                <a clstag="homepage|keycount|home2013|Homesafe" href="/index.php/Home/Member/safetyCenter/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">账户安全</a>
               </dd>
               <dd class="fore1_4" id="_MYJD_grade">
                 <a clstag="homepage|keycount|home2013|Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">我的级别</a>
@@ -216,13 +460,13 @@
 						<div class="mt">
 							<ul class="extra-l">
 								<li class="fore-1">
-									<a class="curr" href="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>">基本信息</a>
+									<a class="curr" href="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">基本信息</a>
 								</li>
 								<li class="fore-2">
-									<a href="__MODULE__/Member/showImg/uid/<{$_SESSION['login_info']['uid']}>">头像照片</a>
+									<a href="/index.php/Home/Member/showImg/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">头像照片</a>
 								</li>
 								<li class="fore-3">
-									<a href="__MODULE__/Member/more/uid/<{$_SESSION['login_info']['uid']}>">更多个人信息</a>
+									<a href="/index.php/Home/Member/more/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">更多个人信息</a>
 								</li>
 
 							</ul>
@@ -235,7 +479,7 @@
 											昵称：
 										</span>
 										<div class="fl">
-											<input  class="itxt" maxlength="20" id="nickName"  value="<{$info['sname']}>" type="text">
+											<input  class="itxt" maxlength="20" id="nickName"  value="<?php echo ($info['sname']); ?>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="nickName_msg"></span>
@@ -248,11 +492,11 @@
 											性别：
 										</span>
 										<div class="fl" clstag="homepage|keycount|home2013|infoGender">
-											<input name="sex" class="jdradio" value="0" type="radio" <php>if($info['sex']=='1'){echo "checked='checked'";}</php>>
+											<input name="sex" class="jdradio" value="0" type="radio" <?php if($info['sex']=='1'){echo "checked='checked'";} ?>>
 											<label class="mr10">男</label>
-											<input name="sex" class="jdradio" value="1" type="radio"  <php>if($info['sex']=='0'){echo "checked='checked'";}</php>>
+											<input name="sex" class="jdradio" value="1" type="radio"  <?php if($info['sex']=='0'){echo "checked='checked'";} ?>>
 											<label class="mr10">女</label>
-											<input name="sex" class="jdradio" value="2" type="radio" <php>if($info['sex']=='2'){echo "checked='checked'";}</php>>
+											<input name="sex" class="jdradio" value="2" type="radio" <?php if($info['sex']=='2'){echo "checked='checked'";} ?>>
 											<label class="mr10" >保密</label>
 										</div>
 									</div>
@@ -417,12 +661,10 @@
 										<div class="fl interest-list">
 											<p>请选择您感兴趣的分类，给您最精准的推荐</p>
 											<ul class="hobul" clstag="homepage|keycount|home2013|infoInterest">
-                        <volist name="hobulArr" id="data">
-                          <li <if condition="in_array($data['hobul_value'],$usrhobulArr)">class='selected'<else/>class=''</if> name="hobbyType" value="<{$data.hobul_value}>">
-                            <{$data.hobul_name}>
+                        <?php if(is_array($hobulArr)): $i = 0; $__LIST__ = $hobulArr;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li <?php if(in_array($data['hobul_value'],$usrhobulArr)): ?>class='selected'<?php else: ?>class=''<?php endif; ?> name="hobbyType" value="<?php echo ($data["hobul_value"]); ?>">
+                            <?php echo ($data["hobul_name"]); ?>
                             <s></s>
-                          </li>
-                        </volist>
+                          </li><?php endforeach; endif; else: echo "" ;endif; ?>
 
 											</ul>
 										</div>
@@ -433,7 +675,7 @@
 											真实姓名：
 										</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoname2" class="itxt" maxlength="20" name="userVo.realName" id="realName" value="<{$info['name']}>" type="text">
+											<input clstag="homepage|keycount|home2013|infoname2" class="itxt" maxlength="20" name="userVo.realName" id="realName" value="<?php echo ($info['name']); ?>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="realName_msg"></span>
@@ -444,7 +686,7 @@
 									<div class="item">
 										<span class="label">&nbsp;</span>
 										<div class="fl">
-											<input clstag="homepage|keycount|home2013|infoadd" class="itxt itxt1" name="userVo.address" id="address" value="<{$info['address']}>" type="text">
+											<input clstag="homepage|keycount|home2013|infoadd" class="itxt itxt1" name="userVo.address" id="address" value="<?php echo ($info['address']); ?>" type="text">
 											<div class="clr"></div>
 											<div class="prompt-06">
 												<span id="address_msg"></span>
@@ -463,72 +705,32 @@
 							</div>
 							<div id="user-info">
 								<div class="u-pic">
-									<img alt="用户头像" src="__IMAGE__/31383832303134373736305f7031343336353738373733333838_mid.jpg">
+									<img alt="用户头像" src="/shop_jd/Home/Public/images/31383832303134373736305f7031343336353738373733333838_mid.jpg">
 									<div class="mask"></div>
 									<div class="face-link-box"></div>
 									<a href="http://i.jd.com/user/userinfo/showImg.html" class="face-link">修改头像</a>
 								</div>
 								<div class="info-m">
 									<div>
-										<b><{$_SESSION['login_info']['user_name']}></b>
+										<b><?php echo ($_SESSION['login_info']['user_name']); ?></b>
 									</div>
 									<div class="u-level">
 										<span class="rank r2">
 											<s></s>
-                     <php>
-                       if($account['points']){
-                         switch($account['points']){
-                           case $account['points']<100:
-                           echo '<a href="#" target="_top">铜牌会员</a>';
-                           break;
-                           case $account['points']<500:
-                           echo '<a href="#" target="_top">银牌会员</a>';
-                           break;
-                           case $account['points']<1000:
-                           echo '<a href="#" target="_top">金牌会员</a>';
-                           break;
-                           default;
-                           echo '<a href="#" target="_top">金牌会员</a>';
-                           break;
-                        }
-                       }else{
-                        echo '<a href="http://usergrade.jd.com/user/grade" target="_top">灵魂会员</a>';
-                       }
-                     </php>
+                     <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<a href="#" target="_top">铜牌会员</a>'; break; case $account['points']<500: echo '<a href="#" target="_top">银牌会员</a>'; break; case $account['points']<1000: echo '<a href="#" target="_top">金牌会员</a>'; break; default; echo '<a href="#" target="_top">金牌会员</a>'; break; } }else{ echo '<a href="http://usergrade.jd.com/user/grade" target="_top">灵魂会员</a>'; } ?>
 										</span>
 									</div>
 									<div class="shop-level">
 										购物行为评级：
 										<span>
 											<a target="_top" href="http://vip.jd.com/help_behaviorRating.html">
-                        <php>
-                          if($account['points']){
-                            switch($account['points']){
-                              case $account['points']<100:
-                              echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>';
-                              break;
-                              case $account['points']<500:
-                              echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>';
-                              break;
-                              case $account['points']<1000:
-                              echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>';
-                              break;
-                              default;
-                              echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>';
-                              break;
-                            }
-                          }else{
-                            echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>';
-                          }
-                        </php>
+                        <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; case $account['points']<500: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; case $account['points']<1000: echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; default; echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s><s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; break; } }else{ echo '<s id="userCredit" class="rank-sh rank-sh01 rank-sh04"></s>'; } ?>
 											</a>
 										</span>
 									</div>
-                  <if condition="$account['level']==1">
-                      <div>会员类型：个人用户</div>
-                    <elseif condition="$account['level']==2"/>
-                      <div>会员类型：京东会员</div>
-                  </if>
+                  <?php if($account['level']==1): ?><div>会员类型：个人用户</div>
+                    <?php elseif($account['level']==2): ?>
+                      <div>会员类型：京东会员</div><?php endif; ?>
 								</div>
 							</div>
 							<div class="fr ac" style="width: 280px;">
@@ -698,15 +900,15 @@
 			</div>
 			<div class="authentication">
 				<a rel="nofollow" target="_top" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
-					<img alt="经营性网站备案中心" src="__IMAGE__/54b8871ena9a7067e.png" class="err-product" height="32" width="103"></a>
+					<img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871ena9a7067e.png" class="err-product" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
-					<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="__IMAGE__/54b8872dne37a9860.png" class="err-product" border="true" height="32" width="103"></a>
+					<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dne37a9860.png" class="err-product" border="true" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" href="http://www.bj.cyberpolice.cn/index.do">
-					<img alt="朝阳网络警察" src="__IMAGE__/54b8874bn694454a5.png" class="err-product" height="32" width="103"></a>
+					<img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bn694454a5.png" class="err-product" height="32" width="103"></a>
 				<a rel="nofollow" target="_top" href="https://search.szfw.org/cert/l/CX20120111001803001836">
-					<img src="__IMAGE__/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
+					<img src="/shop_jd/Home/Public/images/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
 				<a target="_top" href="http://jubao.china.cn:13225/reportform.do">
-					<img src="__IMAGE__/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
+					<img src="/shop_jd/Home/Public/images/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
 			</div>
 		</div>
 	</div>
@@ -727,9 +929,9 @@
     }
     $(function(){
       //自动根据数据库选择生日
-      var birthdayYear = <{$birthArr[0]}>; //年
-      var birthdayMonth = <{$birthArr[1]}>;//月
-      var birthdayDay = <{$birthArr[2]}>;//日
+      var birthdayYear = <?php echo ($birthArr[0]); ?>; //年
+      var birthdayMonth = <?php echo ($birthArr[1]); ?>;//月
+      var birthdayDay = <?php echo ($birthArr[2]); ?>;//日
       var error = 0;
       $('#birthdayYear').children('option').each(function(i){
           if(this.value==birthdayYear){
@@ -762,9 +964,9 @@
           }else{//符合长度、字符规则
             //去数据库查这个呢称有没重复
             $.ajax({
-              url:"__MODULE__/Member/checknickName",
+              url:"/index.php/Home/Member/checknickName",
               type:'post',
-              data:{'uid':"<{$uid}>",'sname':$val},
+              data:{'uid':"<?php echo ($uid); ?>",'sname':$val},
               beforeSend:function(XMLHttpRequest){
                 $('#nickName').attr('class','itxt');
                 $('#nickName_msg').css({'display':'inline'}).text('呢称唯一性检测中……');
@@ -849,7 +1051,7 @@
           $address = $('#address').val();
           //ajax到后台录入
           $.ajax({
-            url:'__MODULE__/Member/entering',
+            url:'/index.php/Home/Member/entering',
             type:'post',
             data:{
                   'sex':$jdradio,
@@ -860,12 +1062,12 @@
                   'hobul':$hobul,
                   'realName':$realName,
                   'address':$address,
-                  'uid':"<{$_SESSION['login_info']['uid']}>"
+                  'uid':"<?php echo ($_SESSION['login_info']['uid']); ?>"
                 },
             success:function($msg){
                 if($msg){
                   alert('修改资料成功');
-                  window.location.href ="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>";
+                  window.location.href ="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>";
                 }
             }
           })

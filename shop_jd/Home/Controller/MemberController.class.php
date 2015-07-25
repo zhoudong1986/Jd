@@ -9,7 +9,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class MemberController extends Controller {
+class MemberController extends CommonController {
   //会员首页
   public function home(){
     $uid=  I('uid');
@@ -174,6 +174,79 @@ class MemberController extends Controller {
 
   //更多个人资料
   public function more(){
+    $uid = I('uid');
+    if($uid){
+      $info = M('user_details')->field('marriage,income,id_card,educate')->where(array('user_id'=>$uid))->find();
+      $this->assign('info',$info);
+      $this->assign('uid',$uid);
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
 
+  }
+  //处理更多个人资料
+  public function actionMore(){
+    //组装上传数组
+    $uid = I('uid');
+    $data = array(
+      'marriage'=>I('marriage'),
+      'educate'=>I('educate'),
+      'income'=>I('income'),
+      'id_card'=>I('id_card')
+    );
+    M('user_details')->where(array('user_id'=>$uid))->save($data);
+    $this->ajaxReturn('1');
+  }
+
+  //账户安全
+  public function safetyCenter(){
+    $uid = I('uid');
+    if($uid){
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+
+  //修改用户密码
+  public function editPwd(){
+    $uid = I('uid');
+    if($uid){
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+  //验证码
+  public function verify(){
+    $Verify = new \Think\Verify();
+    $Verify->entry(3);
+  }
+  //检查验证码
+  public function checkVerify(){
+    $code = I('verify');
+    $uid = I('uid');
+    $verify = new \Think\Verify();
+    if($verify->check($code, '3')){
+      //组装修改密码数组
+      $data = array(
+        'pwd'=>I('pwd','','md5')
+      );
+      //去数据库更改密码
+      M('user')->where(array('user_id'=>$uid))->save($data);
+      $this->ajaxReturn('1');
+    }else{
+      $this->ajaxReturn('2');
+    }
+  }
+  //修改密码成功页
+  public function pwdSuccess(){
+    $uid = I('uid');
+    if($uid){
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
   }
 }
