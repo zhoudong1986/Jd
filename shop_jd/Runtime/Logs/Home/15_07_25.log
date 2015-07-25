@@ -1,0 +1,275 @@
+[ 2015-07-25T08:51:40+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0750s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2015-07-25T10:16:50+08:00 ] ::1 /index.php/Home/Member/verifyMail/uid/1
+ERR: 模板不存在:./shop_jd/Home/View/Member/verifyMail.html
+
+[ 2015-07-25T15:31:27+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0518s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T15:53:34+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:setMail
+
+[ 2015-07-25T15:54:07+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+ERR: 非法操作:setMail
+
+[ 2015-07-25T16:04:53+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:setMail
+
+[ 2015-07-25T16:05:53+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:setMail
+
+[ 2015-07-25T16:06:31+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-25T16:07:29+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:07:57+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:08:36+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:08:37+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:08:43+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:09:57+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:10:24+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:10:46+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:15:48+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: e_tmpe E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 269 行.
+
+[ 2015-07-25T16:16:02+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:17:07+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:17:47+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:18:47+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:19:47+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:19:59+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:20:12+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T16:33:00+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 271 行.
+
+[ 2015-07-25T16:33:38+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.2298s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 271 行.
+
+[ 2015-07-25T16:38:17+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 271 行.
+
+[ 2015-07-25T16:38:18+08:00 ] ::1 /index.php/Home/Member/sendMailSuccess/uid/1/emali/$email
+ERR: 非法操作:sendMailSuccess
+
+[ 2015-07-25T17:14:06+08:00 ] ::1 /index.php/Home/Member/
+ERR: 非法操作:index
+
+[ 2015-07-25T17:16:19+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 268 行.
+
+[ 2015-07-25T17:16:22+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 268 行.
+
+[ 2015-07-25T17:19:22+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0468s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 268 行.
+
+[ 2015-07-25T17:59:35+08:00 ] ::1 /index.php/Home/Member/
+ERR: 非法操作:index
+
+[ 2015-07-25T18:05:58+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 268 行.
+
+[ 2015-07-25T18:24:52+08:00 ] ::1 /index.php/Home/Member/safetyCenter/uid/1
+ERR: XML标签语法错误 : condition="$info['flag']"/
+
+[ 2015-07-25T18:31:08+08:00 ] ::1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 274 行.
+
+[ 2015-07-25T18:44:16+08:00 ] 127.0.0.1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'e3ceb5881a0a1fdaad01296d7554868d' LIMIT 1   [ RunTime:0.0312s ]
+
+[ 2015-07-25T18:44:26+08:00 ] 127.0.0.1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-25T18:45:33+08:00 ] 127.0.0.1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 274 行.
+
+[ 2015-07-25T18:46:37+08:00 ] 127.0.0.1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 274 行.
+

@@ -22,10 +22,10 @@ return array(
   // 配置邮件发送服务器
     'MAIL_HOST' =>'smtp.qq.com',
     'MAIL_SMTPAUTH' =>TRUE, //启用smtp认证
-    'MAIL_USERNAME' =>'11273548@qq.com',
-    'MAIL_FROM' =>'11273548@qq.com',
+    'MAIL_USERNAME' =>'77135016@qq.com',
+    'MAIL_FROM' =>'77135016@qq.com',
     'MAIL_FROMNAME' =>'yoyo',
-    'MAIL_PASSWORD' =>'zhoudong1986',
+    'MAIL_PASSWORD' =>'22413082285957',
     'MAIL_CHARSET' =>'utf-8',
     'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
 

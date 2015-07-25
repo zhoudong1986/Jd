@@ -690,6 +690,7 @@
                   <!--<strong class="rank-text ftx-02">较高</strong>-->
                   <!--<span class="ftx-04 ml10" id="promptInfo">建议您启动全部安全设置，以保障账户及资金安全。</span>-->
                 <!--</div>-->
+
                 <div class="safe-item">
                   <div class="fore1">
                     <s class="icon-01"></s>
@@ -703,23 +704,32 @@
                     <a href="/index.php/Home/Member/editPwd/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" class="ftx-05">修改</a>
                   </div>
                 </div>
-                <div class="safe-item">
-                  <div class="fore1">
-                    <s class="icon-02"></s>
-                    <strong>邮箱验证</strong>
-                    <b class="icon-id01d">邮箱认证</b>
+                <?php if($info['flag']): ?><div class="safe-item">
+                    <div class="fore1">
+                      <s class="icon-01"></s><strong>邮箱验证</strong><b class="icon-id01">邮箱认证</b>
+                    </div>
+                    <div class="fore2"><span class="ftx-03">您验证的邮箱：</span>
+                      <strong class="ftx-06" id="email"><?php echo ($email); ?></strong>
+                    </div>
+                    <div class="fore3"><a href="/index.php/Home/Member/verifyMail/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" class="ftx-05">修改</a></div>
                   </div>
-                  <div class="fore2">
-                    <span class="ftx-03">验证后，可用于快速找回登录密码，接收账户余额变动提醒。</span>
-                  </div>
-                  <div class="fore3">
-                    <a href="http://safe.jd.com/validate/verifyMail" class="btn btn-7">
-                      <s></s>
-                      立即验证
-                    </a>
-                  </div>
-                </div>
-
+                <?php else: ?>
+                  <div class="safe-item">
+                    <div class="fore1">
+                      <s class="icon-02"></s>
+                      <strong>邮箱验证</strong>
+                      <b class="icon-id01d">邮箱认证</b>
+                    </div>
+                    <div class="fore2">
+                      <span class="ftx-03">验证后，可用于快速找回登录密码，接收账户余额变动提醒。</span>
+                    </div>
+                    <div class="fore3">
+                      <a href="/index.php/Home/Member/verifyMail/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" class="btn btn-7">
+                        <s></s>
+                        立即验证
+                      </a>
+                    </div>
+                  </div><?php endif; ?>
                 <!--<div class="safe-item">-->
                   <!--<div class="fore1">-->
                     <!--<s class="icon-01"></s>-->

@@ -469,7 +469,7 @@
       height:30,
       buttonImage:"__APPPUBLIC__/uploadify/browse-btn.png",
       fileTypeDesc: 'Image File', //允许上传文件类型
-      fileTypeExts: '*.jpeg:*.jpg;*.png;*.gif;*.bmp',//允许选择的文件类型
+      fileTypeExts: '*.jpeg;*.jpg;*.png;*.gif;*.bmp',//允许选择的文件类型
       formData:{'session_id' : "<{$_SESSION['login_info']['uid']}>"},//把UID传到后台
       onUploadSuccess:function(file,data,response) {//上传的文件名、返回信息
         if (data == 2) {

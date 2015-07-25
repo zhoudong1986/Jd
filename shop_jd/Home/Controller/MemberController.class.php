@@ -203,6 +203,12 @@ class MemberController extends CommonController {
   public function safetyCenter(){
     $uid = I('uid');
     if($uid){
+      $info = M('user_details')->where(array('uid'=>$uid))->find();
+      $emailARR = explode('@',$info['email']);
+      $email = substr_replace($emailARR[0],'***','-3','3');
+      $tmp = $email.'@'.$emailARR[1];
+      $this->assign('email',$tmp);
+      $this->assign('info',$info);
       $this->display();
     }else{
       $this->redirect('Index/index', '', 0, '');
@@ -242,6 +248,75 @@ class MemberController extends CommonController {
   }
   //修改密码成功页
   public function pwdSuccess(){
+    $uid = I('uid');
+    if($uid){
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+  //邮箱验证
+  public function verifyMail(){
+    $uid = I('uid');
+    if($uid){
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+  //发送邮件
+  public function setMail(){
+    $uid = I('uid');
+    $email = I('email');
+    if($uid && $email){
+      $serialize = serialize($uid.','.$email);
+      $url = U('finishMailCheck',array('serialize'=>$serialize));
+      sendMail("$email","仿京东：邮件验证","内容:请点击以下链接以完成验证:<a href='http://".'127.0.0.1/'."$url'>".date('ymdhis').rand(00000-99999)."</a>");
+      $this->ajaxReturn('1');
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+
+  //发送邮件成功后
+  public function sendMailSuccess(){
+    $uid = I('uid');
+    $email = I('email');
+    if($uid && $email){
+      $dd = explode('@',$email);
+      $e_tmp = substr_replace($dd[0],'***',-3,3);
+      $str = $e_tmp.'@'.$dd[1];
+      $this->assign('email',$str);
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+
+  //完成邮箱验证
+  public function finishMailCheck(){
+//    $s = unserialize(I('serialize'));
+    $tmp = I('serialize','','unserialize');//获得传参
+    $sArr = explode(',',$tmp);
+    $uid = $sArr[0];
+    $email = $sArr[1];
+    if($uid && $email){
+      //把验证邮箱写到相对应的user_id
+      $data = array(
+        'email'=>$email,
+        'flag'=>'1'
+      );
+      if(M('user_details')->where(array('user_id'=>$uid))->save($data)){
+        $this->redirect('Member/BindMail', array('uid'=>$uid), 0, '');
+      }else{
+        $this->redirect('verifyMail', array('uid'=>$uid), 0, '');
+      }
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+  //邮件绑定成功
+  public function BindMail(){
     $uid = I('uid');
     if($uid){
       $this->display();
