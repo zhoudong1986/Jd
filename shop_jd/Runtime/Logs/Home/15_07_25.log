@@ -273,3 +273,48 @@ SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
 SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
 NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 274 行.
 
+[ 2015-07-25T20:31:47+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.1004s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2015-07-25T21:49:38+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : value="$info['points']<100" break="0"
+
+[ 2015-07-25T21:55:25+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : name="<{$info['points']}
+
+[ 2015-07-25T21:55:50+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : value="<{$info['points']}
+
+[ 2015-07-25T21:57:39+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : value="$info['points'] < 100" break="0"
+
+[ 2015-07-25T22:12:28+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$info['points']<100"
+
+[ 2015-07-25T22:22:54+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$info['points']<100"
+
+[ 2015-07-25T22:23:26+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$info['points'] < 100"
+
+[ 2015-07-25T22:24:54+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$info.points < 100"
+
+[ 2015-07-25T22:25:37+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$info.points < 100"
+
+[ 2015-07-25T22:32:50+08:00 ] ::1 /index.php/Home/Member/grade/uid/1
+ERR: XML标签语法错误 : condition="$points < 1000 "
+
+[ 2015-07-25T23:20:48+08:00 ] ::1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='1',`sname`='女菀大人111',`birthDay`='2015/11/2',`hobbies`='2',`name`='李红',`address`='啊大大' WHERE `user_id` = 1 [ RunTime:0.0150s ]
+

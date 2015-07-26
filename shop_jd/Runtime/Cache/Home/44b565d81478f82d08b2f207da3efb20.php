@@ -439,17 +439,17 @@
 					<div id="menu">
 						<dl class="fore1">
 							<dt id="_MYJD_setting">设置</dt>
-              <dd class="fore1_1 curr" id="_MYJD_info">
+              <dd class="fore1_1  curr" id="_MYJD_info">
                 <a  href="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">个人信息</a>
               </dd>
               <dd class="fore1_3" id="_MYJD_safe">
                 <a clstag="homepage|keycount|home2013|Homesafe" href="/index.php/Home/Member/safetyCenter/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">账户安全</a>
               </dd>
               <dd class="fore1_4" id="_MYJD_grade">
-                <a clstag="homepage|keycount|home2013|Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">我的级别</a>
+                <a href="/index.php/Home/Member/grade/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">我的级别</a>
               </dd>
               <dd class="fore1_5" id="_MYJD_comments">
-                <a clstag="homepage|keycount|home2013|homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
+                <a href="/index.php/Home/Member/myAddrList/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">收货地址</a>
               </dd>
 						</dl>
 					</div>
@@ -705,7 +705,7 @@
 							</div>
 							<div id="user-info">
 								<div class="u-pic">
-									<img alt="用户头像" src="/shop_jd/Home/Public/images/31383832303134373736305f7031343336353738373733333838_mid.jpg">
+									<img alt="用户头像" src="<?php echo ($pic); ?>">
 									<div class="mask"></div>
 									<div class="face-link-box"></div>
 									<a href="http://i.jd.com/user/userinfo/showImg.html" class="face-link">修改头像</a>
@@ -717,7 +717,7 @@
 									<div class="u-level">
 										<span class="rank r2">
 											<s></s>
-                     <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<a href="#" target="_top">铜牌会员</a>'; break; case $account['points']<500: echo '<a href="#" target="_top">银牌会员</a>'; break; case $account['points']<1000: echo '<a href="#" target="_top">金牌会员</a>'; break; default; echo '<a href="#" target="_top">金牌会员</a>'; break; } }else{ echo '<a href="http://usergrade.jd.com/user/grade" target="_top">灵魂会员</a>'; } ?>
+                     <?php if($account['points']){ switch($account['points']){ case $account['points']<100: echo '<a href="#" target="_top">铜牌会员</a>'; break; case $account['points']<500: echo '<a href="#" target="_top">银牌会员</a>'; break; case $account['points']<1000: echo '<a href="#" target="_top">金牌会员</a>'; break; default; echo '<a href="#" target="_top">白金会员</a>'; break; } }else{ echo '<a href="http://usergrade.jd.com/user/grade" target="_top">灵魂会员</a>'; } ?>
 										</span>
 									</div>
 									<div class="shop-level">

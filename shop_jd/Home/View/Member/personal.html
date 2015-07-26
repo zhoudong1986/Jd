@@ -195,17 +195,17 @@
 					<div id="menu">
 						<dl class="fore1">
 							<dt id="_MYJD_setting">设置</dt>
-              <dd class="fore1_1 curr" id="_MYJD_info">
+              <dd class="fore1_1  curr" id="_MYJD_info">
                 <a  href="__MODULE__/Member/personal/uid/<{$_SESSION['login_info']['uid']}>" target="_self">个人信息</a>
               </dd>
               <dd class="fore1_3" id="_MYJD_safe">
                 <a clstag="homepage|keycount|home2013|Homesafe" href="__MODULE__/Member/safetyCenter/uid/<{$_SESSION['login_info']['uid']}>" target="_self">账户安全</a>
               </dd>
               <dd class="fore1_4" id="_MYJD_grade">
-                <a clstag="homepage|keycount|home2013|Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">我的级别</a>
+                <a href="__MODULE__/Member/grade/uid/<{$_SESSION['login_info']['uid']}>" target="_self">我的级别</a>
               </dd>
               <dd class="fore1_5" id="_MYJD_comments">
-                <a clstag="homepage|keycount|home2013|homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
+                <a href="__MODULE__/Member/myAddrList/uid/<{$_SESSION['login_info']['uid']}>" target="_self">收货地址</a>
               </dd>
 						</dl>
 					</div>
@@ -463,7 +463,7 @@
 							</div>
 							<div id="user-info">
 								<div class="u-pic">
-									<img alt="用户头像" src="__IMAGE__/31383832303134373736305f7031343336353738373733333838_mid.jpg">
+									<img alt="用户头像" src="__ROOT__<{$pic}>">
 									<div class="mask"></div>
 									<div class="face-link-box"></div>
 									<a href="http://i.jd.com/user/userinfo/showImg.html" class="face-link">修改头像</a>
@@ -488,7 +488,7 @@
                            echo '<a href="#" target="_top">金牌会员</a>';
                            break;
                            default;
-                           echo '<a href="#" target="_top">金牌会员</a>';
+                           echo '<a href="#" target="_top">白金会员</a>';
                            break;
                         }
                        }else{

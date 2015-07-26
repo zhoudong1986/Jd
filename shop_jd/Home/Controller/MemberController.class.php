@@ -8,7 +8,6 @@
 
 namespace Home\Controller;
 use Think\Controller;
-
 class MemberController extends CommonController {
   //会员首页
   public function home(){
@@ -52,6 +51,7 @@ class MemberController extends CommonController {
         //根据UID去查询客户的信息
       $info = M('user_details')->where("user_id='$uid'")->find();//客户详细资料
       $account = M()->table(array('jd_user'=>'user','jd_user_account'=>'account'))->field('account.points,account.balance,user.level')->where('user.user_id=account.user_id')->find();
+      $img = ltrim($info['pic'],'.');
       if(!$info['birthDay']){$tmp = '0/0/0';}else{$tmp = $info['birthDay'];}
       $birthArr = explode('/',$tmp);
       $usrhobulArr = explode(',',$info['hobbies']);//客户兴趣爱好
@@ -59,7 +59,7 @@ class MemberController extends CommonController {
       $this->assign('birthArr',$birthArr);
       $this->assign('hobulArr',$hobulArr);
       $this->assign('info',$info);
-
+      $this->assign($img);
       $this->assign('account',$account);//客户账户资料
       $this->assign('usrhobulArr',$usrhobulArr);
       $this->assign('uid',$uid);
@@ -324,4 +324,19 @@ class MemberController extends CommonController {
       $this->redirect('Index/index', '', 0, '');
     }
   }
+
+  //个人等级
+  public function grade(){
+    $uid = I('uid');
+    if($uid){
+      $info = M('user_account')->where(array('user_id'=>$uid))->find();
+      $this->assign('info',$info);
+      $this->assign('points',$info['points']);
+      $this->display();
+    }else{
+      $this->redirect('Index/index', '', 0, '');
+    }
+  }
+
+
 }
