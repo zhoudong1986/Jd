@@ -95,10 +95,16 @@ a:hover { color: rgb(200, 22, 35); }
 .m, .sm { margin-bottom: 10px; }
 .mt h2, .smt h3 { font-family: "microsoft yahei"; }
 /* ::::: http://misc.360buyimg.com/user/myjd-2015/css/myjd.easebuy.css ::::: */
-
+.thickframe { position: fixed; top: 0px; left: 0px; z-index: 10000000; width: 100%; height: 100%; background: rgb(0, 0, 0) none repeat scroll 0% 0%; border: 0px none; opacity: 0; display: none;}
+.thickdiv { position: fixed; top: 0px; left: 0px; z-index: 10000001; width: 100%; height: 100%; background: rgb(0, 0, 0) none repeat scroll 0% 0%; border: 0px none; opacity: 0.15; display: none;}
+.thickbox { position: absolute; z-index: 10000002; overflow: hidden; padding: 0px; border: 4px solid rgba(0, 0, 0, 0.1); border-radius: 5px; display: none; }
+.thicktitle { height: 27px; padding: 0px 10px; border-style: solid; border-color: rgb(196, 196, 196); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 1px 0px; background: rgb(243, 243, 243) none repeat scroll 0% 0%; line-height: 27px; font-family: arial,"宋体"; font-size: 14px; font-weight: 700; color: rgb(51, 51, 51); }
+.thickclose:link, .thickclose:visited { display: block; position: absolute; z-index: 100000; top: 7px; right: 12px; overflow: hidden; width: 15px; height: 15px; background: transparent url('../images/bg_thickbox.gif') no-repeat scroll 0px -18px; font-size: 0px; line-height: 100px; }
+.thickcon { overflow: auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(196, 196, 196); padding: 10px; }
 .ml10 { margin-left: 10px; }
 a.e-btn:active, a.e-btn:hover, a.e-btn:link, a.e-btn:visited { color: rgb(51, 51, 51); text-decoration: none; }
 a.add-btn { display: inline-block; vertical-align: middle; font-weight: 700; padding: 0px 14px; height: 28px; line-height: 28px; font-size: 14px; margin: 0px 10px 0px 0px; }
+a.save-btn { height: 28px; line-height: 28px; padding: 0px 14px; font-size: 14px; }
 #describe { line-height: 22px; overflow: visible; }
 #describe .link { margin: 5px 0px 0px; }
 #describe .extra { width: 226px; }
@@ -208,3 +214,23 @@ li { list-style: outside none none; }
 .remind-box .smt::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 .tip-box .links ul::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 img.err-poster, img.err-product { background: transparent url('../images/error-jd.gif') no-repeat scroll 50% 50%; }
+.form .item span.label {
+  float: left;
+  height: 18px;
+  line-height: 18px;
+  padding: 6px 0px;
+  width: 100px;
+  text-align: right;
+}
+.form em {
+  color: #E4393C;
+}
+#edit-cont { padding: 20px; }
+#edit-cont .item { margin: 0px 0px 5px; line-height: 22px; }
+#edit-cont .item .label { float: none; display: block; vertical-align: middle; color: rgb(153, 153, 153); text-align: left; }
+#edit-cont .item .extra-span { margin: 26px 5px 0px; display: block; }
+#edit-cont .item .text { height: 18px; line-height: 18px; padding: 6px; width: 220px; margin-right: 5px; vertical-align: middle; }
+#edit-cont .item .sele { width: auto; margin-right: 10px; }
+#edit-cont .item .text1 { width: 484px; }
+#edit-cont .item .error-msg { color: rgb(204, 0, 0); line-height: 32px; }
+#edit-cont .btns { margin: 10px 0px 0px; }

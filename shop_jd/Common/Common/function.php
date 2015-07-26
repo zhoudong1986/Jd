@@ -30,3 +30,19 @@ function sendMail($to, $subject, $content) {
 //    echo "Message has been sent";
   }
 }
+
+/**
+ * 返回省份、城市、地区、街道名字
+ * @param int $int [省市地区码]
+ * @param int $flag [标志位，1转变省份 2转变城市 3转变地区 4转变街道]
+ * @param return array [从数据库查找到的省份|城市|地区的数组]
+ */
+function convertAddr($int){
+  if($int){
+    $info = M('region')->where(array('region_id'=>$int))->field('region_name')->find();
+    return $info['region_name'];
+  }else{
+    echo "convertAddr函数初始化失败";
+    return false;
+  }
+}

@@ -338,5 +338,26 @@ class MemberController extends CommonController {
     }
   }
 
-
+  //收货地址
+  public function myAddr(){
+      $uid = I('uid');
+      if($uid){
+        //先去查询当前用于的收货地址信息
+        $info = M('buy_address')->where(array('user_id'=>$uid))->select();
+        $this->assign('info',$info);
+        //去省市表查询出省份
+        $province = M('region')->where("parent_id='0'")->field('region_name,region_id')->select();
+        $this->assign('province',$province);
+        $this->display();
+      }else{
+        $this->redirect('Index/index','',0,'');
+      }
+  }
+  //省市联动
+  public function linkage(){
+   $needCity = I('needCity'); //省份id
+    //根据省份ID去查城市id
+   $result =  M('region')->where("parent_id='$needCity' AND region_type='2'")->field('region_name,region_id')->select();
+    dump($result);
+  }
 }

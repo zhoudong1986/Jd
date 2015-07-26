@@ -1,0 +1,22 @@
+[ 2015-07-26T08:41:53+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0700s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2015-07-26T15:41:05+08:00 ] ::1 /index.php/Home/Member/myAddr/uid/1
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_jd_region' doesn't exist
+
+[ 2015-07-26T18:05:05+08:00 ] ::1 /index.php/Home/Member/linkage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_region` [ RunTime:0.0050s ]
+SQL: SELECT `region_name`,`region_id` FROM `jd_region` WHERE ( parent_id='1' AND region_type='2' )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
