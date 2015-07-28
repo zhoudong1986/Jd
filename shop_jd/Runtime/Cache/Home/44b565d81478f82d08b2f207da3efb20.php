@@ -3,9 +3,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>账户信息</title>
-  <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
   <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/personal.css" media="all">
   <link rel="stylesheet" type="text/css" href="/shop_jd/Home/Public/css/common.css" media="all">
+  <script>
+    var $url = "/index.php/Home/Common/getMsg";
+  </script>
+  <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
   <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
 </head>
 <body myjd="_MYJD_info" menuid="set">
@@ -62,7 +65,7 @@
     <ul class="rightBox">
       <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
       <li class="separate"></li>
-      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
+      <li class="myOrder"><a href="/index.php/Home/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
       <li class="separate"></li>
       <li class="myJd">
         <a href="" class="jd">我的京东</a>
@@ -258,179 +261,131 @@
 		<div id="header-2013" style="display: none;"></div>
 	</div>
 	<div id="nav">
-		<div class="w">
-			<div class="logo">
-				<a href="http://www.jd.com/" target="_top" class="fore1"></a>
-				<a href="http://home.jd.com/" target="_self" class="fore2">我的京东</a>
-				<a href="http://www.jd.com/" target="_top" class="fore3">返回京东首页</a>
-			</div>
-			<div class="navitems">
-				<ul>
-					<li class="fore-1">
-						<a target="_self" href="http://home.jd.com/">首页</a>
-					</li>
-					<li class="fore-2">
-						<a href="http://me.jd.com/" target="_top" clstag="click|keycount|myhome|hgr">个人主页</a>
-					</li>
-					<li class="fore-3">
-						<div class="dl" clstag="click|keycount|myhome|hsz">
-							<div class="dt">
-								<span class="myjd-set">账户设置</span> <b></b>
-							</div>
-							<div class="dd">
-								<a tid="_MYJD_info" clstag="Homeyser" href="http://i.jd.com/user/info" target="_self">
-									<span>个人信息</span>
-								</a>
-								<a tid="_MYJD_safe" clstag="Homesafe" href="http://safe.jd.com/user/paymentpassword/safetyCenter.action" target="_self">
-									<span>账户安全</span>
-								</a>
-								<a tid="_MYJD_accbinde" clstag="Homezhbd" href="http://safe.jd.com/union/index.action" target="_self">
-									<span>账号绑定</span>
-								</a>
-								<a tid="_MYJD_grade" clstag="Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">
-									<span>我的级别</span>
-								</a>
-								<a tid="_MYJD_comments" clstag="homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">
-									<span>收货地址</span>
-								</a>
-								<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">
-									<span>消费记录</span>
-								</a>
-							</div>
-						</div>
-					</li>
-					<li class="fore-4">
-						<div class="dl myjd-info" clstag="click|keycount|myhome|hsq">
-							<div class="dt ">
+  <div class="w">
+    <div class="logo">
+      <a href="/index.php/Home/Index/index" target="_top" class="fore1"></a>
+      <a href="/index.php/Home/Member/home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self" class="fore2">我的京东</a>
+      <a href="/index.php/Home/Index/index" target="_top" class="fore3">返回京东首页</a>
+    </div>
+    <div class="navitems">
+      <ul>
+        <li class="fore-1">
+          <a target="_self" href="/index.php/Home/Member/home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">首页</a>
+        </li>
+        <li class="fore-2">
+          <a href="http://me.jd.com/" target="_top">个人主页</a>
+        </li>
+        <li class="fore-3">
+          <div class="dl">
+            <div class="dt">
+              <span class="myjd-set">账户设置</span> <b></b>
+            </div>
+            <div class="dd">
+              <a tid="_MYJD_info" href="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
+                <span>个人信息</span>
+              </a>
+              <a tid="_MYJD_safe"  href="/index.php/Home/Member/safetyCenter/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
+                <span>账户安全</span>
+              </a>
+              <!--<a tid="_MYJD_accbinde"  href="http://safe.jd.com/union/index.action" target="_self">-->
+              <!--<span>账号绑定</span>-->
+              <!--</a>-->
+              <a tid="_MYJD_grade"  href="/index.php/Home/Member/grade/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
+                <span>我的级别</span>
+              </a>
+              <a tid="_MYJD_comments" href="/index.php/Home/Member/grade/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
+                <span>收货地址</span>
+              </a>
+              <!--<a tid="_MYJD_share" href="http://share.jd.com/share/index.html" target="_self">-->
+              <!--<span>分享绑定</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">-->
+              <!--<span>邮件订阅</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">-->
+              <!--<span>消费记录</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">-->
+              <!--<span>应用授权</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">-->
+              <!--<span>快捷支付</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">-->
+              <!--<span>增票资质</span>-->
+              <!--</a>-->
+            </div>
+          </div>
+        </li>
+        <li class="fore-4">
+          <div class="dl myjd-info">
+            <div class="dt ">
 								<span>
 									社区
-									<i>1</i>
+									<i></i>
 								</span> <b></b>
-							</div>
-							<div class="dd">
-								<a tid="_MYJD_joy" clstag="Homemsg" href="http://joycenter.jd.com/" target="_self">
+            </div>
+            <div class="dd">
+              <a tid="_MYJD_joy" href="http://joycenter.jd.com/" target="_self">
 									<span>
 										消息精灵
-										<b>(1)</b>
+										<b></b>
 									</span>
-								</a>
-								<a tid="_MYJD_activities" clstag="Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html" target="_self">
-									<span>我的活动</span>
-								</a>
-								<a tid="_MYJD_circle" clstag="Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm" target="_self">
-									<span>我的圈子</span>
-								</a>
-								<a tid="_MYJD_mycollect" clstag="Homethread" href="http://group.jd.com/thread/mythread.htm" target="_self">
-									<span>我的帖子</span>
-								</a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="nav-r">
-				<div id="search-2014">
-					<ul style="display: none;" id="shelper" class="hide"></ul>
-					<div class="form">
-						<input value="冷风扇" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" type="text">
-						<button onclick="search('key');return false;" class="button cw-icon" type="button">
-							<i></i>
-							搜索
-						</button>
-					</div>
-				</div>
-				<div id="settleup-2014" class="dorpdown">
-					<div class="cw-icon">
-						<i class="ci-left"></i>
-						<i class="ci-right">&gt;</i>
-						<i class="ci-count" id="shopping-amount">2</i>
-						<a target="_top" href="http://cart.jd.com/cart/cart.html">我的购物车</a>
-					</div>
-					<div class="dorpdown-layer">
-						<div class="spacer"></div>
-						<div id="settleup-content">
-							<div class="smt">
-								<h4 class="fl">最新加入的商品</h4>
-							</div>
-							<div class="smc">
-								<ul id="mcart-sigle">
-									<li>
-										<div class="p-img fl">
-											<a href="http://item.jd.com/1499247677.html" target="_top">
-												<img src="/shop_jd/Home/Public/images/5584fec1ndffff235.jpg" alt="" height="50" width="50"></a>
-										</div>
-										<div class="p-name fl">
-											<a href="http://item.jd.com/1499247677.html" title="耐克Nike Air Max90 女子气垫跑鞋 休闲鞋724882 443817 树莓红443817-600  37.5码/5Y" target="_top">
-												耐克Nike Air Max90 女子气垫跑鞋 休闲鞋724882 443817 树莓红443817-600  37.5码/5Y
-											</a>
-										</div>
-										<div class="p-detail fr ar">
-											<span class="p-price"> <strong>￥899.00</strong>
-												×1
-											</span>
-											<br>
-											<a class="delete" data-id="1499247677" data-type="RemoveProduct" href="javascript:void(0)">删除</a>
-										</div>
-									</li>
-								</ul>
-								<ul id="mcart-gift"></ul>
-								<ul id="mcart-mz">
-									<li class="dt">
-										<div class="fl">
-											<span class="hl-orange">满赠</span>
-											已购满30元，您可领赠品
-										</div>
-										<div class="fr"> <em>小计：￥99.00</em>
-										</div>
-										<div class="clr"></div>
-									</li>
-									<li>
-										<div class="p-img fl">
-											<a href="http://item.jd.com/1153740.html" target="_top">
-												<img src="/shop_jd/Home/Public/images/53a4097cn8308d4ec.jpg" alt="" height="50" width="50"></a>
-										</div>
-										<div class="p-name fl">
-											<span></span>
-											<a href="http://item.jd.com/1153740.html" title="乐心（LIFESENSE） Mambo 运动手环 智能手环 计步器 微信朋友圈运动PK 微信互联 " target="_top">乐心（LIFESENSE） Mambo 运动手环 智能手环 计步器 微信朋友圈运动PK 微信互联</a>
-										</div>
-										<div class="p-detail fr ar">
-											<span class="p-price"> <strong>￥99.00</strong>
-												×1
-											</span>
-											<br>
-											<a class="delete" data-id="1153740|183830361" data-type="RemoveSuit" href="#delete">删除</a>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="smb ar">
-								<div class="p-total">
-									共
-									<b>2</b>
-									件商品　共计
-									<strong>￥ 998.00</strong>
-								</div>
-								<a href="http://cart.jd.com/cart/cart.html?r=1437188916939" title="去购物车" id="btn-payforgoods">去购物车</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="hotwords-2014">
-					<a href="http://sale.jd.com/act/SyJi8KHaZYFjwLuq.html" target="_top" class="style-red">优惠券</a>
-					<a href="http://list.jd.com/list.html?cat=670%2C716%2C722&amp;delivery=1&amp;page=1&amp;ev=834_56682||101308||13521" target="_top">3D巨幕</a>
-					<a href="http://sale.jd.com/act/7RmiNZun1Y.html" target="_top">家电5折</a>
-					<a href="http://sale.jd.com/act/JdyF1iDOSU.html" target="_top">200减100</a>
-					<a href="http://sale.jd.com/act/WiNblg8JfIhXVHY6.html" target="_top">惊天满减</a>
-					<a href="http://sale.jd.com/act/BPdqrCOIc86uZ.html" target="_top">大牌秒杀</a>
-					<a href="http://sale.jd.com/act/0CoHdsWgeMjrpt7.html?cpdad=1DLSUE" target="_top">38折封顶</a>
-					<a href="http://sale.jd.com/act/W1BULaSyo3.html?from=jdpopser_jr" target="_top">苹果399+</a>
-					<a href="http://sale.jd.com/act/zvP8qMJLC7e.html" target="_top">机票20元</a>
-				</div>
-			</div>
-			<div class="clr"></div>
-		</div>
-	</div>
-
+              </a>
+              <!--<a tid="_MYJD_activities" clstag="Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html" target="_self">-->
+              <!--<span>我的活动</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_circle" clstag="Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm" target="_self">-->
+              <!--<span>我的圈子</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_mycollect" clstag="Homethread" href="http://group.jd.com/thread/mythread.htm" target="_self">-->
+              <!--<span>我的帖子</span>-->
+              <!--</a>-->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-r">
+      <div id="search-2014">
+        <ul id="shelper" class="hide"></ul>
+        <div class="form">
+          <input value="秘密花园" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" type="text">
+          <button onclick="search('key');return false;" class="button cw-icon" type="button">
+            <i></i>
+            搜索
+          </button>
+        </div>
+      </div>
+      <div id="settleup-2014" class="dorpdown">
+        <div class="cw-icon">
+          <i class="ci-left"></i>
+          <i class="ci-right">&gt;</i>
+          <i class="ci-count" id="shopping-amount">0</i>
+          <a target="_top" href="http://cart.jd.com/cart/cart.html">我的购物车</a>
+        </div>
+        <div class="dorpdown-layer">
+          <div class="spacer"></div>
+          <div id="settleup-content">
+            <span class="loading"></span>
+          </div>
+        </div>
+      </div>
+      <div id="hotwords-2014">
+        <a href="http://sale.jd.com/act/SyJi8KHaZYFjwLuq.html" target="_top" class="style-red">优惠券</a>
+        <a href="http://list.jd.com/list.html?cat=670%2C716%2C722&amp;delivery=1&amp;page=1&amp;ev=834_56682||101308||13521" target="_top">3D巨幕</a>
+        <a href="http://sale.jd.com/act/7RmiNZun1Y.html" target="_top">家电5折</a>
+        <a href="http://sale.jd.com/act/JdyF1iDOSU.html" target="_top">200减100</a>
+        <a href="http://sale.jd.com/act/WiNblg8JfIhXVHY6.html" target="_top">惊天满减</a>
+        <a href="http://sale.jd.com/act/BPdqrCOIc86uZ.html" target="_top">大牌秒杀</a>
+        <a href="http://sale.jd.com/act/0CoHdsWgeMjrpt7.html?cpdad=1DLSUE" target="_top">38折封顶</a>
+        <a href="http://sale.jd.com/act/W1BULaSyo3.html?from=jdpopser_jr" target="_top">苹果399+</a>
+        <a href="http://sale.jd.com/act/zvP8qMJLC7e.html" target="_top">机票20元</a>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
 	<!--container start-->
 	<div id="container">
 		<div class="w">

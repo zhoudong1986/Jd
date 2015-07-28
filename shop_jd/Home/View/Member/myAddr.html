@@ -5,6 +5,9 @@
 	<title>收货地址</title>
 	<link rel="stylesheet" type="text/css" href="__CSS__/myAddr.css" media="all">
   <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
+  <script>
+    var $url = "__MODULE__/Common/getMsg";
+  </script>
   <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
   <script language="JavaScript" src="__JS__/common.js"></script>
 </head>
@@ -85,7 +88,7 @@
 							<a  class="e-btn add-btn btn-5" href="javascript:;">新增收货地址</a>
 							<span class="ftx-03">
 								您已创建
-								<span id="addressNum_top" class="ftx-02"><if condition="$info"><{:$info|count}><else/>0</if></if></span>
+								<span id="addressNum_top" class="ftx-02"><if condition="$info"><{$info|count}><else/>0</if></if></span>
 								个收货地址，最多可创建
 								<span class="ftx-02">20</span>
 								个
@@ -93,11 +96,11 @@
 						</div>
 						<div class="mc">
               <volist name="info" id="vo">
-                <div class="sm easebuy-m " id="addresssDiv-137624748">
+                <div class="sm easebuy-m " id="addresssDiv-<{$vo['address_id']}>">
                   <div class="smt">
                     <h3><if condition="$vo['alias']"><{$vo['alias']}><else/><{$vo['consignee']}><{$vo['district']|convertAddr=###}></if></h3>
                     <div class="extra">
-                      <a class="del-btn" href="#none">删除</a>
+                      <a class="del-btn" id="addresssDiv-<{$vo['address_id']}>" href="#none">删除</a>
                     </div>
                   </div>
                   <div class="smc">
@@ -130,7 +133,7 @@
                         </div>
                         <div class="item">
                           <span class="label">固定电话：</span>
-                          <div class="fl"></div>
+                          <div class="fl"><{$vo['telephone']}></div>
                           <div class="clr"></div>
                         </div>
                         <!--<div class="item">-->
@@ -139,13 +142,13 @@
                           <!--<div class="clr"></div>-->
                         <!--</div>-->
                       </div>
-                      <div class="item-rcol">
-                        <div class="extra">
-                          <a class="ml10 ftx-05" href="javascript:makeAddressAllDefault('137624748');">设为默认</a>
-                          <a class="ml10 ftx-05" href="javascript:getPayment(137624748,0,0);">使用轻松购</a>
-                          <a class="ml10 ftx-05" href="javascript:;" onclick="alertUpdateAddressDiag(137624748);">编辑</a>
-                        </div>
-                      </div>
+                      <!--<div class="item-rcol">-->
+                        <!--<div class="extra">-->
+                          <!--<a class="ml10 ftx-05" href="javascript:makeAddressAllDefault('137624748');">设为默认</a>-->
+                          <!--<a class="ml10 ftx-05" href="javascript:getPayment(137624748,0,0);">使用轻松购</a>-->
+                          <!--<a class="ml10 ftx-05" href="javascript:;" onclick="alertUpdateAddressDiag(137624748);">编辑</a>-->
+                        <!--</div>-->
+                      <!--</div>-->
                       <div class="clr"></div>
                     </div>
                   </div>
@@ -157,7 +160,7 @@
 					<a  class="e-btn add-btn btn-5" href="javascript:;">新增收货地址</a>
 					<span class="ftx-03">
 						您已创建
-						<span id="addressNum_botton" class="ftx-02"><{:$info|count}></span>
+						<span id="addressNum_botton" class="ftx-02"><if condition="$info"><{$info|count}><else/>0</if></if></span>
 						个收货地址，最多可创建
 						<span class="ftx-02">20</span>
 						个
@@ -336,8 +339,7 @@
 </div>
   <iframe style="width: 100%; height: 1086px;" class="thickframe" id="" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
   <div style="width: 100%; height: 1086px;" class="thickdiv" id=""></div>
-  <div style="left: 246.5px; top: 126px; width: 762px; height: 542px;" class="thickbox"
-       id="">
+  <div style="left: 246.5px; top: 126px; width: 762px; height: 542px;" class="thickbox" id="">
     <div style="width: 760px;" class="thickwrap">
       <div class="thicktitle" id="" style="width:740">
           <span>
@@ -385,17 +387,17 @@
                         </option>
                       </volist>
                     </select>
-                    <select id="cityDiv" class="sele" onchange="loadCounty()">
+                    <select id="cityDiv" class="sele">
                       <option value="0">
                         请选择
                       </option>
                     </select>
-                    <select id="countyDiv" class="sele" onchange="loadTown()">
+                    <select id="countyDiv" class="sele" >
                       <option value="0">
                         请选择
                       </option>
                     </select>
-                    <select id="townDiv" class="sele hide" onchange="fillTownName()">
+                    <select id="townDiv" class="sele hide">
                       <option>
                         请选择
                       </option>
@@ -416,8 +418,7 @@
                   <div class="fl">
                       <span style="float: left; margin-right: 5px; line-height: 32px;" id="areaName">
                       </span>
-                    <input value="" id="consigneeAddress" class="text text1" onblur="checkConsigneeAddress()"
-                           type="text">
+                    <input value="" id="consigneeAddress" class="text text1" type="text">
                   </div>
                     <span class="error-msg" id="consigneeAddressNote">
                     </span>
@@ -488,11 +489,12 @@
       </a>
     </div>
   </div>
+  <div id="ccc" style="display: none"></div>
 </body>
 </html>
 <script>
   $(function(){
-    error = 1;
+     var error = 1;
     //新增收货地址
     $('.add-btn').click(function () {
       $('.thickframe').show();
@@ -514,12 +516,23 @@
       var $val = $(this).val();
       if($val.length==0){
         $('#consigneeNameNote').text('请填写收货人').show();
+        error = 1;
+      }else{
+        error = 0;
       }
     });
-    //省市联动
+    //省市联动-添加城市
     $('#provinceDiv').change(function(){
         var val = $(this).val();
-        if(val!=0){//
+        //清空option的值,以防重复添加
+        $('#cityDiv').children('option').remove();
+        $('#cityDiv').append("<option value='0'>请选择</option>");
+        if(val!=0){ //不是选中请选着的时候
+          //把选中的省份写到容器里面
+          var $cont = $(this).children('option:selected').text();
+          var $t_val = $('#areaName').text();
+          var $tmp = $t_val + $cont ;
+          $('#areaName').text($tmp);
           $.ajax({
             url:'__MODULE__/Member/linkage',
             type:'post',
@@ -529,10 +542,162 @@
                   $('#cityDiv').append($msg);
                 }else{
                   alert('添加城市失败');
+                  $('#areaName').text('');
                 }
             }
           });
+        }else{
+          $('#areaName').text('');
         }
     });
+    //省市联动-地区
+    $('#cityDiv').change(function(){
+      var $val = $(this).val();
+      //清空地区下拉菜单，防止重复地区
+      $('#countyDiv').children('option').remove();
+      $('#countyDiv').append("<option value='0'>请选择</option>");
+      $('#areaName').text($tmp);
+
+      if($val!='0'){//防止选中请选择
+        var $cont = $(this).children('option:selected').text();
+        var $t_val = $('#areaName').text();
+        var $tmp = $t_val + $cont ;
+        $('#areaName').text($tmp);
+        $.ajax({
+          url:'__MODULE__/Member/county',
+          type:'post',
+          data:{county:$val},
+          success: function ($msg) {
+            if($msg){
+              $('#countyDiv').append($msg);
+            }else{
+              alert('添加地区失败');
+              $('#areaName').text('');
+            }
+          }
+        });
+      }else{
+        $('#areaName').text('');
+      }
+    });
+  //省市联动-地区
+    $('#countyDiv').change(function(){
+       var $val = $('#countyDiv').val();//获得当前表单的选中值
+       if($val!='0'){
+         var $cont = $(this).children('option:selected').text();
+         var $t_val = $('#areaName').text();
+         var $tmp = $t_val + $cont ;
+         $('#areaName').text($tmp);
+       }else{
+         $('#areaName').text('');
+       }
+    });
+
+    //收货人地址详情
+    $('#consigneeAddress').blur(function(){
+      if($(this).val().length==0){
+        $('#consigneeAddressNote').text('请您填写收货人详细地址').show();
+        error = 1;
+      }else{
+        $('#consigneeAddressNote').text('').hide();
+        error = 0;
+      }
+    });
+    //收货人手机或者固定电话
+    $('#consigneeMobile').blur(function(){
+      if($(this).val().length==0){//手机没有填写
+        if($('#consigneePhone').val().length==0){//固话没填写
+          $('#consigneeMobileNote').text('请您填写联系电话').show();
+          error = 1;
+        }else{//固话有填写
+          $('#consigneeMobileNote').text('').hide();//
+          error = 0;
+        }
+      }else{//手机填写了
+        $('#consigneeMobileNote').text('').hide();
+        error = 0;
+      }
+    });
+    //检测固话
+    $('#consigneePhone').blur(function () {
+      if($(this).val().length==0){//固话没有填写
+        if($('#consigneeMobile').val().length==0){//手机没填写
+          $('#consigneeMobileNote').text('请您填写联系电话').show();
+          error = 1;
+        }else{//手机有填写
+          $('#consigneeMobileNote').text('').hide();//
+          error = 0;
+        }
+      }else{//固话填写了
+        $('#consigneeMobileNote').text('').hide();
+        error = 0;
+      }
+    });
+    //检测收货别名
+    $('#consigneeAlias').blur(function () {
+      if($(this).val().length==0){//没有填写别名
+        $('#consigneeAliasNote').text('请填写别名').show();//
+        error =1;
+      }else{//填写了别名
+        $('#consigneeAliasNote').text('').hide();
+        error = 0;
+      }
+    });
+
+    //点击保存收货
+    $('.save-btn').click(function () {
+      if(!error){//没有错误
+        //收集表单信息
+        var consigneeName = $('#consigneeName').val();//收货人
+        var provinceDiv = $('#provinceDiv').val();//省份
+        var cityDiv = $('#cityDiv').val();//城市
+        var countyDiv = $('#countyDiv').val(); //地区
+        var consigneeAddress = $('#consigneeAddress').val();//街道
+        var Mobile = $('#consigneeMobile').val();//手机电话
+        var Phone = $('#consigneePhone').val(); //固话
+        var Alias = $('#consigneeAlias').val(); //别名
+        $.ajax({
+          url:"__MODULE__/Member/actMyAddr",
+          type:"post",
+          data:{
+            'name':consigneeName,
+            'province':provinceDiv,
+            'city':cityDiv,
+            'county':countyDiv,
+            'street':consigneeAddress,
+            'Mobile':Mobile,
+            'Phone':Phone,
+            'Alias':Alias,
+            'uid': "<{$_SESSION['login_info']['uid']}>"
+          },
+          success:function($msg){
+            if($msg=='1'){
+              window.location.href = "__MODULE__/Member/myAddr/uid/<{$_SESSION['login_info']['uid']}>";
+            }else{
+              alert('添加失败')
+            }
+          }
+        });
+      }else{
+        return false;
+      }
+    });
+    $('.del-btn').click(function(){
+      var $id = $(this).attr('id');
+      $('#'+$id).remove();
+      $.ajax({
+        url:"__MODULE__/Member/deteleAddr",
+        type:'post',
+        data:{'id':$id,'uid':"<{$_SESSION['login_info']['uid']}>"},
+        success:function($msg){
+          if($msg=='2'){
+            alert('删除失败');
+            window.location.href='__MODULE__/Index/index';
+          }
+        }
+      })
+    });
+
+
   });
 </script>

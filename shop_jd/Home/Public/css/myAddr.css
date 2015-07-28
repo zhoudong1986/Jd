@@ -234,3 +234,15 @@ img.err-poster, img.err-product { background: transparent url('../images/error-j
 #edit-cont .item .text1 { width: 484px; }
 #edit-cont .item .error-msg { color: rgb(204, 0, 0); line-height: 32px; }
 #edit-cont .btns { margin: 10px 0px 0px; }
+
+.btn-10, .btn-11, .btn-12, .btn-9 {
+  background-color: #F7F7F7;
+  background-image: linear-gradient(to bottom, #F7F7F7 0px, #F3F2F2 100%);
+  border-radius: 2px;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #DDD;
+  padding: 2px 14px 3px;
+  color: #323333;
+}

@@ -62,7 +62,7 @@
     <ul class="rightBox">
       <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
       <li class="separate"></li>
-      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
+      <li class="myOrder"><a href="/index.php/Home/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
       <li class="separate"></li>
       <li class="myJd">
         <a href="" class="jd">我的京东</a>
@@ -260,82 +260,84 @@
   <div id="nav">
   <div class="w">
     <div class="logo">
-      <a href="http://www.jd.com/" target="_top" class="fore1"></a>
-      <a href="http://home.jd.com/" target="_self" class="fore2">我的京东</a>
-      <a href="http://www.jd.com/" target="_top" class="fore3">返回京东首页</a>
+      <a href="/index.php/Home/Index/index" target="_top" class="fore1"></a>
+      <a href="/index.php/Home/Member/home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self" class="fore2">我的京东</a>
+      <a href="/index.php/Home/Index/index" target="_top" class="fore3">返回京东首页</a>
     </div>
     <div class="navitems">
       <ul>
         <li class="fore-1">
-          <a target="_self" href="http://home.jd.com/">首页</a>
+          <a target="_self" href="/index.php/Home/Member/home/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">首页</a>
         </li>
         <li class="fore-2">
-          <a href="http://me.jd.com/" target="_top" clstag="click|keycount|myhome|hgr">个人主页</a>
+          <a href="http://me.jd.com/" target="_top">个人主页</a>
         </li>
         <li class="fore-3">
-          <div class="dl" clstag="click|keycount|myhome|hsz">
+          <div class="dl">
             <div class="dt">
               <span class="myjd-set">账户设置</span> <b></b>
             </div>
             <div class="dd">
-              <a tid="_MYJD_info" clstag="Homeyser" href="http://i.jd.com/user/info" target="_self">
+              <a tid="_MYJD_info" href="/index.php/Home/Member/personal/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
                 <span>个人信息</span>
               </a>
-              <a tid="_MYJD_safe" clstag="Homesafe" href="http://safe.jd.com/user/paymentpassword/safetyCenter.action" target="_self">
+              <a tid="_MYJD_safe"  href="/index.php/Home/Member/safetyCenter/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
                 <span>账户安全</span>
               </a>
-
-              <a tid="_MYJD_grade" clstag="Homegrade" href="http://usergrade.jd.com/user/grade" target="_self">
+              <!--<a tid="_MYJD_accbinde"  href="http://safe.jd.com/union/index.action" target="_self">-->
+              <!--<span>账号绑定</span>-->
+              <!--</a>-->
+              <a tid="_MYJD_grade"  href="/index.php/Home/Member/grade/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
                 <span>我的级别</span>
               </a>
-              <a tid="_MYJD_comments" clstag="homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">
+              <a tid="_MYJD_comments" href="/index.php/Home/Member/myAddr/uid/<?php echo ($_SESSION['login_info']['uid']); ?>" target="_self">
                 <span>收货地址</span>
               </a>
-              <a tid="_MYJD_share" clstag="Homeshare" href="http://share.jd.com/share/index.html" target="_self">
-                <span>分享绑定</span>
-              </a>
-              <a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">
-                <span>邮件订阅</span>
-              </a>
-              <a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">
-                <span>消费记录</span>
-              </a>
-              <a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">
-                <span>应用授权</span>
-              </a>
-              <a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">
-                <span>快捷支付</span>
-              </a>
-              <a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">
-                <span>增票资质</span>
-              </a>
+              <!--<a tid="_MYJD_share" href="http://share.jd.com/share/index.html" target="_self">-->
+              <!--<span>分享绑定</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_rss" clstag="Homeedm" href="http://edm.jd.com/front/subscribe/index.aspx" target="_self">-->
+              <!--<span>邮件订阅</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_recor" clstag="Homeedm" href="http://usergrade.jd.com/user/consume" target="_self">-->
+              <!--<span>消费记录</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_app" clstag="Homeedm" href="http://fw.jd.com/home/auth_list.action" target="_top">-->
+              <!--<span>应用授权</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_top">-->
+              <!--<span>快捷支付</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_zpzz" clstag="Homezpzz" href="http://invoice.jd.com/user/userinfo/zpzz.html" target="_self">-->
+              <!--<span>增票资质</span>-->
+              <!--</a>-->
             </div>
           </div>
         </li>
         <li class="fore-4">
-          <div class="dl myjd-info" clstag="click|keycount|myhome|hsq">
+          <div class="dl myjd-info">
             <div class="dt ">
 								<span>
 									社区
-									<i>2</i>
+									<i>1</i>
 								</span> <b></b>
             </div>
             <div class="dd">
-              <a tid="_MYJD_joy" clstag="Homemsg" href="http://joycenter.jd.com/" target="_self">
+              <a tid="_MYJD_joy" href="http://joycenter.jd.com/" target="_self">
 									<span>
 										消息精灵
-										<b>(2)</b>
+										<b>(1)</b>
 									</span>
               </a>
-              <a tid="_MYJD_activities" clstag="Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html" target="_self">
-                <span>我的活动</span>
-              </a>
-              <a tid="_MYJD_circle" clstag="Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm" target="_self">
-                <span>我的圈子</span>
-              </a>
-              <a tid="_MYJD_mycollect" clstag="Homethread" href="http://group.jd.com/thread/mythread.htm" target="_self">
-                <span>我的帖子</span>
-              </a>
+              <!--<a tid="_MYJD_activities" clstag="Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html" target="_self">-->
+              <!--<span>我的活动</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_circle" clstag="Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm" target="_self">-->
+              <!--<span>我的圈子</span>-->
+              <!--</a>-->
+              <!--<a tid="_MYJD_mycollect" clstag="Homethread" href="http://group.jd.com/thread/mythread.htm" target="_self">-->
+              <!--<span>我的帖子</span>-->
+              <!--</a>-->
             </div>
           </div>
         </li>
@@ -344,13 +346,13 @@
     <div class="nav-r">
       <div id="search-2014">
         <ul id="shelper" class="hide"></ul>
-        <!--<div class="form">-->
-          <!--<input value="闪购特卖" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" type="text">-->
-          <!--<button onclick="search('key');return false;" class="button cw-icon" type="button">-->
-            <!--<i></i>-->
-            <!--搜索-->
-          <!--</button>-->
-        <!--</div>-->
+        <div class="form">
+          <input value="秘密花园" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" type="text">
+          <button onclick="search('key');return false;" class="button cw-icon" type="button">
+            <i></i>
+            搜索
+          </button>
+        </div>
       </div>
       <div id="settleup-2014" class="dorpdown">
         <div class="cw-icon">
@@ -367,15 +369,15 @@
         </div>
       </div>
       <div id="hotwords-2014">
-        <a href="http://sale.jd.com/act/bpdqrcoic86uz.html" target="_top" class="style-red">机不可失</a>
-        <a href="http://sale.jd.com/act/1LdMxPk5ZVB.html" target="_top">游戏爆品</a>
-        <a href="http://sale.jd.com/act/BRmr0lD1qJjQ.html" target="_top">减减减</a>
-        <a href="http://sale.jd.com/act/LJjlYizcMpoxqh.html" target="_top">低至5折</a>
+        <a href="http://sale.jd.com/act/SyJi8KHaZYFjwLuq.html" target="_top" class="style-red">优惠券</a>
+        <a href="http://list.jd.com/list.html?cat=670%2C716%2C722&amp;delivery=1&amp;page=1&amp;ev=834_56682||101308||13521" target="_top">3D巨幕</a>
+        <a href="http://sale.jd.com/act/7RmiNZun1Y.html" target="_top">家电5折</a>
+        <a href="http://sale.jd.com/act/JdyF1iDOSU.html" target="_top">200减100</a>
         <a href="http://sale.jd.com/act/WiNblg8JfIhXVHY6.html" target="_top">惊天满减</a>
-        <a href="http://sale.jd.com/act/MqVOwgZFE047m.html" target="_top">荣耀4A</a>
-        <a href="http://tuan.jd.com/channel/entity-beijing-56-0-0-1-0-0-0-0-1.html" target="_top">暑期阅读</a>
-        <a href="http://sale.jd.com/act/KXojGsEAh7Qk8.html?from=jdpopser_jr" target="_top">苹果免息</a>
-        <a href="http://sale.jd.com/act/pQukl7nj3hf.html" target="_top">尖货1元</a>
+        <a href="http://sale.jd.com/act/BPdqrCOIc86uZ.html" target="_top">大牌秒杀</a>
+        <a href="http://sale.jd.com/act/0CoHdsWgeMjrpt7.html?cpdad=1DLSUE" target="_top">38折封顶</a>
+        <a href="http://sale.jd.com/act/W1BULaSyo3.html?from=jdpopser_jr" target="_top">苹果399+</a>
+        <a href="http://sale.jd.com/act/zvP8qMJLC7e.html" target="_top">机票20元</a>
       </div>
     </div>
     <div class="clr"></div>
@@ -452,18 +454,18 @@
 							<a  class="e-btn add-btn btn-5" href="javascript:;">新增收货地址</a>
 							<span class="ftx-03">
 								您已创建
-								<span id="addressNum_top" class="ftx-02"><?php if($info): echo $info|count; else: ?>0<?php endif; ?></if></span>
+								<span id="addressNum_top" class="ftx-02"><?php if($info): echo (count($info)); else: ?>0<?php endif; ?></if></span>
 								个收货地址，最多可创建
 								<span class="ftx-02">20</span>
 								个
 							</span>
 						</div>
 						<div class="mc">
-              <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="sm easebuy-m " id="addresssDiv-137624748">
+              <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="sm easebuy-m " id="addresssDiv-<?php echo ($vo['address_id']); ?>">
                   <div class="smt">
                     <h3><?php if($vo['alias']): echo ($vo['alias']); else: echo ($vo['consignee']); echo (convertAddr($vo['district'])); endif; ?></h3>
                     <div class="extra">
-                      <a class="del-btn" href="#none">删除</a>
+                      <a class="del-btn" id="addresssDiv-<?php echo ($vo['address_id']); ?>" href="#none">删除</a>
                     </div>
                   </div>
                   <div class="smc">
@@ -496,7 +498,7 @@
                         </div>
                         <div class="item">
                           <span class="label">固定电话：</span>
-                          <div class="fl"></div>
+                          <div class="fl"><?php echo ($vo['telephone']); ?></div>
                           <div class="clr"></div>
                         </div>
                         <!--<div class="item">-->
@@ -505,13 +507,13 @@
                           <!--<div class="clr"></div>-->
                         <!--</div>-->
                       </div>
-                      <div class="item-rcol">
-                        <div class="extra">
-                          <a class="ml10 ftx-05" href="javascript:makeAddressAllDefault('137624748');">设为默认</a>
-                          <a class="ml10 ftx-05" href="javascript:getPayment(137624748,0,0);">使用轻松购</a>
-                          <a class="ml10 ftx-05" href="javascript:;" onclick="alertUpdateAddressDiag(137624748);">编辑</a>
-                        </div>
-                      </div>
+                      <!--<div class="item-rcol">-->
+                        <!--<div class="extra">-->
+                          <!--<a class="ml10 ftx-05" href="javascript:makeAddressAllDefault('137624748');">设为默认</a>-->
+                          <!--<a class="ml10 ftx-05" href="javascript:getPayment(137624748,0,0);">使用轻松购</a>-->
+                          <!--<a class="ml10 ftx-05" href="javascript:;" onclick="alertUpdateAddressDiag(137624748);">编辑</a>-->
+                        <!--</div>-->
+                      <!--</div>-->
                       <div class="clr"></div>
                     </div>
                   </div>
@@ -522,7 +524,7 @@
 					<a  class="e-btn add-btn btn-5" href="javascript:;">新增收货地址</a>
 					<span class="ftx-03">
 						您已创建
-						<span id="addressNum_botton" class="ftx-02"><?php echo $info|count;?></span>
+						<span id="addressNum_botton" class="ftx-02"><?php if($info): echo (count($info)); else: ?>0<?php endif; ?></if></span>
 						个收货地址，最多可创建
 						<span class="ftx-02">20</span>
 						个
@@ -701,8 +703,7 @@
 </div>
   <iframe style="width: 100%; height: 1086px;" class="thickframe" id="" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
   <div style="width: 100%; height: 1086px;" class="thickdiv" id=""></div>
-  <div style="left: 246.5px; top: 126px; width: 762px; height: 542px;" class="thickbox"
-       id="">
+  <div style="left: 246.5px; top: 126px; width: 762px; height: 542px;" class="thickbox" id="">
     <div style="width: 760px;" class="thickwrap">
       <div class="thicktitle" id="" style="width:740">
           <span>
@@ -748,17 +749,17 @@
                           <?php echo ($vo['region_name']); ?>
                         </option><?php endforeach; endif; else: echo "" ;endif; ?>
                     </select>
-                    <select id="cityDiv" class="sele" onchange="loadCounty()">
+                    <select id="cityDiv" class="sele">
                       <option value="0">
                         请选择
                       </option>
                     </select>
-                    <select id="countyDiv" class="sele" onchange="loadTown()">
+                    <select id="countyDiv" class="sele" >
                       <option value="0">
                         请选择
                       </option>
                     </select>
-                    <select id="townDiv" class="sele hide" onchange="fillTownName()">
+                    <select id="townDiv" class="sele hide">
                       <option>
                         请选择
                       </option>
@@ -779,8 +780,7 @@
                   <div class="fl">
                       <span style="float: left; margin-right: 5px; line-height: 32px;" id="areaName">
                       </span>
-                    <input value="" id="consigneeAddress" class="text text1" onblur="checkConsigneeAddress()"
-                           type="text">
+                    <input value="" id="consigneeAddress" class="text text1" type="text">
                   </div>
                     <span class="error-msg" id="consigneeAddressNote">
                     </span>
@@ -851,11 +851,12 @@
       </a>
     </div>
   </div>
+  <div id="ccc" style="display: none"></div>
 </body>
 </html>
 <script>
   $(function(){
-    error = 1;
+     var error = 1;
     //新增收货地址
     $('.add-btn').click(function () {
       $('.thickframe').show();
@@ -877,12 +878,23 @@
       var $val = $(this).val();
       if($val.length==0){
         $('#consigneeNameNote').text('请填写收货人').show();
+        error = 1;
+      }else{
+        error = 0;
       }
     });
-    //省市联动
+    //省市联动-添加城市
     $('#provinceDiv').change(function(){
         var val = $(this).val();
-        if(val!=0){//
+        //清空option的值,以防重复添加
+        $('#cityDiv').children('option').remove();
+        $('#cityDiv').append("<option value='0'>请选择</option>");
+        if(val!=0){ //不是选中请选着的时候
+          //把选中的省份写到容器里面
+          var $cont = $(this).children('option:selected').text();
+          var $t_val = $('#areaName').text();
+          var $tmp = $t_val + $cont ;
+          $('#areaName').text($tmp);
           $.ajax({
             url:'/index.php/Home/Member/linkage',
             type:'post',
@@ -892,10 +904,162 @@
                   $('#cityDiv').append($msg);
                 }else{
                   alert('添加城市失败');
+                  $('#areaName').text('');
                 }
             }
           });
+        }else{
+          $('#areaName').text('');
         }
     });
+    //省市联动-地区
+    $('#cityDiv').change(function(){
+      var $val = $(this).val();
+      //清空地区下拉菜单，防止重复地区
+      $('#countyDiv').children('option').remove();
+      $('#countyDiv').append("<option value='0'>请选择</option>");
+      $('#areaName').text($tmp);
+
+      if($val!='0'){//防止选中请选择
+        var $cont = $(this).children('option:selected').text();
+        var $t_val = $('#areaName').text();
+        var $tmp = $t_val + $cont ;
+        $('#areaName').text($tmp);
+        $.ajax({
+          url:'/index.php/Home/Member/county',
+          type:'post',
+          data:{county:$val},
+          success: function ($msg) {
+            if($msg){
+              $('#countyDiv').append($msg);
+            }else{
+              alert('添加地区失败');
+              $('#areaName').text('');
+            }
+          }
+        });
+      }else{
+        $('#areaName').text('');
+      }
+    });
+  //省市联动-地区
+    $('#countyDiv').change(function(){
+       var $val = $('#countyDiv').val();//获得当前表单的选中值
+       if($val!='0'){
+         var $cont = $(this).children('option:selected').text();
+         var $t_val = $('#areaName').text();
+         var $tmp = $t_val + $cont ;
+         $('#areaName').text($tmp);
+       }else{
+         $('#areaName').text('');
+       }
+    });
+
+    //收货人地址详情
+    $('#consigneeAddress').blur(function(){
+      if($(this).val().length==0){
+        $('#consigneeAddressNote').text('请您填写收货人详细地址').show();
+        error = 1;
+      }else{
+        $('#consigneeAddressNote').text('').hide();
+        error = 0;
+      }
+    });
+    //收货人手机或者固定电话
+    $('#consigneeMobile').blur(function(){
+      if($(this).val().length==0){//手机没有填写
+        if($('#consigneePhone').val().length==0){//固话没填写
+          $('#consigneeMobileNote').text('请您填写联系电话').show();
+          error = 1;
+        }else{//固话有填写
+          $('#consigneeMobileNote').text('').hide();//
+          error = 0;
+        }
+      }else{//手机填写了
+        $('#consigneeMobileNote').text('').hide();
+        error = 0;
+      }
+    });
+    //检测固话
+    $('#consigneePhone').blur(function () {
+      if($(this).val().length==0){//固话没有填写
+        if($('#consigneeMobile').val().length==0){//手机没填写
+          $('#consigneeMobileNote').text('请您填写联系电话').show();
+          error = 1;
+        }else{//手机有填写
+          $('#consigneeMobileNote').text('').hide();//
+          error = 0;
+        }
+      }else{//固话填写了
+        $('#consigneeMobileNote').text('').hide();
+        error = 0;
+      }
+    });
+    //检测收货别名
+    $('#consigneeAlias').blur(function () {
+      if($(this).val().length==0){//没有填写别名
+        $('#consigneeAliasNote').text('请填写别名').show();//
+        error =1;
+      }else{//填写了别名
+        $('#consigneeAliasNote').text('').hide();
+        error = 0;
+      }
+    });
+
+    //点击保存收货
+    $('.save-btn').click(function () {
+      if(!error){//没有错误
+        //收集表单信息
+        var consigneeName = $('#consigneeName').val();//收货人
+        var provinceDiv = $('#provinceDiv').val();//省份
+        var cityDiv = $('#cityDiv').val();//城市
+        var countyDiv = $('#countyDiv').val(); //地区
+        var consigneeAddress = $('#consigneeAddress').val();//街道
+        var Mobile = $('#consigneeMobile').val();//手机电话
+        var Phone = $('#consigneePhone').val(); //固话
+        var Alias = $('#consigneeAlias').val(); //别名
+        $.ajax({
+          url:"/index.php/Home/Member/actMyAddr",
+          type:"post",
+          data:{
+            'name':consigneeName,
+            'province':provinceDiv,
+            'city':cityDiv,
+            'county':countyDiv,
+            'street':consigneeAddress,
+            'Mobile':Mobile,
+            'Phone':Phone,
+            'Alias':Alias,
+            'uid': "<?php echo ($_SESSION['login_info']['uid']); ?>"
+          },
+          success:function($msg){
+            if($msg=='1'){
+              window.location.href = "/index.php/Home/Member/myAddr/uid/<?php echo ($_SESSION['login_info']['uid']); ?>";
+            }else{
+              alert('添加失败')
+            }
+          }
+        });
+      }else{
+        return false;
+      }
+    });
+    $('.del-btn').click(function(){
+      var $id = $(this).attr('id');
+      $('#'+$id).remove();
+      $.ajax({
+        url:"/index.php/Home/Member/deteleAddr",
+        type:'post',
+        data:{'id':$id,'uid':"<?php echo ($_SESSION['login_info']['uid']); ?>"},
+        success:function($msg){
+          if($msg=='2'){
+            alert('删除失败');
+            window.location.href='/index.php/Home/Index/index';
+          }
+        }
+      })
+    });
+
+
   });
 </script>

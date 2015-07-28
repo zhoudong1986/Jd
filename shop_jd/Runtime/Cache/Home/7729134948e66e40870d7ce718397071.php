@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>京东网上商城-综合网购首选（JD.COM）-正品低价、品质保障、货到付款、配送及时、放心服务、轻松购物！</title>
   <link rel="stylesheet" href="/shop_jd/Home/Public/css/index.css"/>
+  <script>
+    var $url = "/index.php/Home/Common/getMsg";
+  </script>
   <script language="JavaScript" src="/shop_jd/Home/Public/js/jquery-1.10.2.min.js"></script>
   <script language="JavaScript" src="/shop_jd/Home/Public/js/common.js"></script>
   <script language="JavaScript" src="/shop_jd/Home/Public/js/index.js"></script>
@@ -63,7 +66,7 @@
     <ul class="rightBox">
       <li class="login"><?php if($_SESSION['login_info']['isLogin']){echo "<a href='/index.php/Home/Member/home/uid/".$_SESSION['login_info']['uid']."'>".$_SESSION['login_info']['user_name']."</a>"."&nbsp;&nbsp;<a href='/index.php/Home/Login/logOut'>退出</a>";}else{ echo '<a href="/index.php/Home/Login/login">您好，请登陆</a>';} ?>&nbsp;&nbsp;<a class="please" href="/index.php/Home/Index/register">免费注册</a></li>
       <li class="separate"></li>
-      <li class="myOrder"><a href="__MODULE/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
+      <li class="myOrder"><a href="/index.php/Home/Member/myOrder/uid/<?php echo ($_SESSION['login_info']['uid']); ?>">我的订单</a></li>
       <li class="separate"></li>
       <li class="myJd">
         <a href="" class="jd">我的京东</a>
@@ -3480,8 +3483,7 @@
     </div>
   <!--手机结束-->
   <!--页脚-->
-
-<div id="footBox">
+  <div id="footBox">
   <div class="items">
     <div class="imgs">
       <img src="/shop_jd/Home/Public/images/service_items_1.png" alt=""/>
@@ -3544,34 +3546,33 @@
   </div>
 </div>
 
-  <div class="w">
-    <div clstag="h|keycount|2015|33a" id="footer-2014">
-      <div class="links">
-        <a rel="nofollow" target="_blank" href="http://www.jd.com/intro/about.aspx">关于我们</a>|<a rel="nofollow" target="_blank" href="http://www.jd.com/contact/">联系我们</a>|<a rel="nofollow" target="_blank" href="http://www.jd.com/contact/joinin.aspx">商家入驻</a>|<a rel="nofollow" target="_blank" href="http://jzt.jd.com">营销中心</a>|<a rel="nofollow" target="_blank" href="http://app.jd.com/">手机京东</a>|<a target="_blank" href="http://club.jd.com/links.aspx">友情链接</a>|<a target="_blank" href="http://media.jd.com/">销售联盟</a>|<a href="http://club.jd.com/" target="_blank">京东社区</a>|<a href="http://gongyi.jd.com" target="_blank">京东公益</a>|<a href="http://en.jd.com/" target="_blank">English Site</a>|<a href="http://help.en.jd.com/help/question-46.html" target="_blank">Contact Us</a>
-      </div>
-      <div class="copyright">北京市公安局朝阳分局备案编号110105014669&nbsp;&nbsp;|&nbsp;&nbsp;京ICP证070359号&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a target="_blank" href="http://img14.360buyimg.com/da/jfs/t256/349/769670066/270505/3b03e0bb/53f16c24N7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>&nbsp;&nbsp;|&nbsp;&nbsp;新出发京零&nbsp;字第大120007号<br><a rel="nofollow" href="http://misc.360buyimg.com/skin/df/i/com/f_music.jpg" target="_blank">音像制品经营许可证苏宿批005号</a>&nbsp;&nbsp;|&nbsp;&nbsp;出版物经营许可证编号新出发(苏)批字第N-012号&nbsp;&nbsp;|&nbsp;&nbsp;互联网出版许可证编号新出网证(京)字150号<br><a href="http://misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a>&nbsp;&nbsp;违法和不良信息举报电话：4006561155&nbsp;&nbsp;Copyright&nbsp;©&nbsp;2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有<br>京东旗下网站：<a target="_blank" href="http://www.360top.com/">360TOP</a>&nbsp;&nbsp;<a href="http://www.paipai.com/" target="_blank">拍拍网</a>&nbsp;&nbsp;<a href="https://www.wangyin.com/" target="_blank">网银在线</a>
-      </div>
-      <div class="authentication">
-        <a rel="nofollow" target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
-          <img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871eNa9a7067e.png" class="err-product" height="32" width="103">
-        </a>
+<div class="w">
+  <div clstag="h|keycount|2015|33a" id="footer-2014">
+    <div class="links">
+      <a rel="nofollow" target="_blank" href="http://www.jd.com/intro/about.aspx">关于我们</a>|<a rel="nofollow" target="_blank" href="http://www.jd.com/contact/">联系我们</a>|<a rel="nofollow" target="_blank" href="http://www.jd.com/contact/joinin.aspx">商家入驻</a>|<a rel="nofollow" target="_blank" href="http://jzt.jd.com">营销中心</a>|<a rel="nofollow" target="_blank" href="http://app.jd.com/">手机京东</a>|<a target="_blank" href="http://club.jd.com/links.aspx">友情链接</a>|<a target="_blank" href="http://media.jd.com/">销售联盟</a>|<a href="http://club.jd.com/" target="_blank">京东社区</a>|<a href="http://gongyi.jd.com" target="_blank">京东公益</a>|<a href="http://en.jd.com/" target="_blank">English Site</a>|<a href="http://help.en.jd.com/help/question-46.html" target="_blank">Contact Us</a>
+    </div>
+    <div class="copyright">北京市公安局朝阳分局备案编号110105014669&nbsp;&nbsp;|&nbsp;&nbsp;京ICP证070359号&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a target="_blank" href="http://img14.360buyimg.com/da/jfs/t256/349/769670066/270505/3b03e0bb/53f16c24N7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>&nbsp;&nbsp;|&nbsp;&nbsp;新出发京零&nbsp;字第大120007号<br><a rel="nofollow" href="http://misc.360buyimg.com/skin/df/i/com/f_music.jpg" target="_blank">音像制品经营许可证苏宿批005号</a>&nbsp;&nbsp;|&nbsp;&nbsp;出版物经营许可证编号新出发(苏)批字第N-012号&nbsp;&nbsp;|&nbsp;&nbsp;互联网出版许可证编号新出网证(京)字150号<br><a href="http://misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a>&nbsp;&nbsp;违法和不良信息举报电话：4006561155&nbsp;&nbsp;Copyright&nbsp;©&nbsp;2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有<br>京东旗下网站：<a target="_blank" href="http://www.360top.com/">360TOP</a>&nbsp;&nbsp;<a href="http://www.paipai.com/" target="_blank">拍拍网</a>&nbsp;&nbsp;<a href="https://www.wangyin.com/" target="_blank">网银在线</a>
+    </div>
+    <div class="authentication">
+      <a rel="nofollow" target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
+        <img alt="经营性网站备案中心" src="/shop_jd/Home/Public/images/54b8871eNa9a7067e.png" class="err-product" height="32" width="103">
+      </a>
 
-        <a rel="nofollow" target="_blank" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
-          <img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dNe37a9860.png" class="err-product" border="true" height="32" width="103">
-        </a>
-        <a rel="nofollow" target="_blank" href="http://www.bj.cyberpolice.cn/index.do">
-          <img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bN694454a5.png" class="err-product" height="32" width="103">
-        </a>
-        <a rel="nofollow" target="_blank" href="https://search.szfw.org/cert/l/CX20120111001803001836">
-          <img src="/shop_jd/Home/Public/images/54b8875fNad1e0c4c.png" class="err-product" height="32" width="103">
-        </a>
-        <a target="_blank" href="http://jubao.china.cn:13225/reportform.do">
-          <img src="/shop_jd/Home/Public/images/54b8863dN8d2c61ec.png" class="err-product" height="32" width="185">
-        </a>
-      </div>
+      <a rel="nofollow" target="_blank" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
+        <img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" alt="可信网站" src="/shop_jd/Home/Public/images/54b8872dNe37a9860.png" class="err-product" border="true" height="32" width="103">
+      </a>
+      <a rel="nofollow" target="_blank" href="http://www.bj.cyberpolice.cn/index.do">
+        <img alt="朝阳网络警察" src="/shop_jd/Home/Public/images/54b8874bN694454a5.png" class="err-product" height="32" width="103">
+      </a>
+      <a rel="nofollow" target="_blank" href="https://search.szfw.org/cert/l/CX20120111001803001836">
+        <img src="/shop_jd/Home/Public/images/54b8875fNad1e0c4c.png" class="err-product" height="32" width="103">
+      </a>
+      <a target="_blank" href="http://jubao.china.cn:13225/reportform.do">
+        <img src="/shop_jd/Home/Public/images/54b8863dN8d2c61ec.png" class="err-product" height="32" width="185">
+      </a>
     </div>
   </div>
-<!--定位框结束-->
+</div>
 </body>
 </html>

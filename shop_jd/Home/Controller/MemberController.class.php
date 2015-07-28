@@ -343,7 +343,7 @@ class MemberController extends CommonController {
       $uid = I('uid');
       if($uid){
         //先去查询当前用于的收货地址信息
-        $info = M('buy_address')->where(array('user_id'=>$uid))->select();
+        $info = M('buy_address')->where(array('user_id'=>$uid))->order('address_id ASC')->select();
         $this->assign('info',$info);
         //去省市表查询出省份
         $province = M('region')->where("parent_id='0'")->field('region_name,region_id')->select();
@@ -353,11 +353,80 @@ class MemberController extends CommonController {
         $this->redirect('Index/index','',0,'');
       }
   }
-  //省市联动
+  //省市联动-动态添加城市
   public function linkage(){
    $needCity = I('needCity'); //省份id
     //根据省份ID去查城市id
    $result =  M('region')->where("parent_id='$needCity' AND region_type='2'")->field('region_name,region_id')->select();
-    dump($result);
+    if($result){
+      //遍历城市数组组装html
+      $html = '';
+      foreach($result as $k=>$v){
+        $html.='<option value="'.$v['region_id'].'">'.$v['region_name'].'</option>';
+      }
+      $this->ajaxReturn($html);
+    }else{
+      $this->ajaxReturn(0);
+    }
   }
+
+  //省市联动-动态添加地区
+  public function county(){
+    $county = I('county'); //城市id
+    //根据省份ID去查城市id
+    $result =  M('region')->where("parent_id='$county' AND region_type='3'")->field('region_name,region_id')->select();
+    if($result){
+      //遍历城市数组组装html
+      $html = '';
+      foreach($result as $k=>$v){
+        $html.='<option value="'.$v['region_id'].'">'.$v['region_name'].'</option>';
+      }
+      $this->ajaxReturn($html);
+    }else{
+      $this->ajaxReturn(0);
+    }
+  }
+
+  //处理保存我的收货地址
+  public function actMyAddr(){
+    $uid = I('uid');
+    if($uid){
+      //组装写进数据库数组
+      $data  = array(
+        'consignee'=>I('name'),
+        'province'=>I('province'),
+        'city'=>I('city'),
+        'district'=>I('county'),
+        'street'=>I('street'),
+        'mobile'=>I('Mobile'),
+        'telephone'=>I('Phone'),
+        'alias'=>I('Alias'),
+        'user_id'=>$uid
+      );
+      if(M('buy_address')->add($data)){//插入数据成功
+        $this->ajaxReturn('1');
+      }else{//插入数据失败
+        $this->ajaxReturn('2');
+      }
+    }else{
+      $this->redirect('Index/index','',0,'');
+    }
+  }
+
+  //删除收货地址
+  public function deteleAddr(){
+  $uid = I('uid');
+  $id = I('id');
+  $new = substr($id,strpos($id,'-')+1);
+  if($uid){
+    if(M('buy_address')->where(array('user_id'=>$uid,'address_id'=>$new))->delete()){
+      $this->ajaxReturn('1');
+    }else{
+      $this->ajaxReturn('2');
+    }
+  }else{
+    $this->redirect('Index/index','',0,'');
+  }
+}
+
 }

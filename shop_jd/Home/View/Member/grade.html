@@ -7,6 +7,9 @@
   </title>
   <link rel="stylesheet" type="text/css" href="__CSS__/grade.css" media="all">
   <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
+  <script>
+    var $url = "__MODULE__/Common/getMsg";
+  </script>
   <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
   <script language="JavaScript" src="__JS__/common.js"></script>
 </head>
@@ -39,7 +42,7 @@
               <a href="__MODULE__/Member/grade/uid/<{$_SESSION['login_info']['uid']}>" target="_self">我的级别</a>
             </dd>
             <dd class="fore1_5" id="_MYJD_comments">
-              <a clstag="homepage|keycount|home2013|homeadd" href="http://easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
+              <a href="__MODULE__/Member/myAddr/uid/<{$_SESSION['login_info']['uid']}>" target="_self">收货地址</a>
             </dd>
           </dl>
         </div>

@@ -46,3 +46,44 @@ function convertAddr($int){
     return false;
   }
 }
+
+/**用户消息推送
+ * @param [int] $uid [用户ID]
+ * @param [int] $type [消息类型：1、社区提醒 2、系统通知 3、京东公告]
+ */
+function set_msg($uid,$type=1){
+//  $name = '';
+//  switch($type){
+//    case 1:
+//      $name = 'community';
+//      break;
+//    case 2:
+//      $name = 'system';
+//      break;
+//    case 3:
+//      $name = 'notice';
+//      break;
+//  }
+  //判断该用户ID是否存在缓存中
+  if(S('userMsg'.$uid)){
+    //取出该消息数组
+    $data = S('userMsg'.$uid);
+    $data['total']++; //消息数目+1
+    $data['status']=1; //消息状态为没推送
+    S('userMsg'.$uid,$data,0);//覆盖原消息数组
+  }else{//客户在内存中没有形成缓存
+//    $data = array(
+//      'community'=>array('total'=>0,'status'=>0), //社区提醒
+//      'system'=>array('total'=>0,'status'=>0), //系统通知
+//      'notice'=>array('total'=>0,'status'=>0) //京东公告
+//    );
+    $data= array(
+        'total'=>0,
+        'status'=>0
+    );
+    $data['total']++; //消息数目+1
+    $data['status']=1; //消息状态为没推送
+    S('userMsg'.$uid,$data,0); //形成缓存数组
+  }
+}
+

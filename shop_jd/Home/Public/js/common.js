@@ -4,6 +4,25 @@
  */
 
 $(function(){
+
+  //消息提示
+  function news($json){
+      var num = $json.total;
+    $('#nav .navitems .myjd-info').find('i').text(num).show();
+    $('#nav .navitems .dl .dd').find('b').text('('+num+')').show();
+  }
+
+  //异步轮询函数
+  function get_Msg($url){
+    $.getJSON($url,function(data){
+      if(data.status){
+        news({'total':data.total});
+      }
+    });
+    setTimeout(function(){
+      get_Msg($url);
+    },2000)
+  }
   /*
    * 头部公共部分JS
    * 2015-7-2 12:10
@@ -108,4 +127,25 @@ $(function(){
     $(this).find('.dd').hide();
     $(this).find('.outline').hide();
   });
+
+  //个人中心导航
+  //账户设置
+  $('.navitems').find('div.dl').mouseenter(function(){
+    $(this).addClass('hover');
+  });
+  $('.navitems').find('div.dl').mouseleave(function(){
+    $(this).removeClass('hover');
+  });
+  //社区
+  $('.navitems').find('div.myjd-info').mouseenter(function(){
+    //$('.navitems .myjd-info i').hide();
+    $(this).addClass('hover');
+  });
+  $('.navitems').find('div.myjd-info').mouseleave(function(){
+    //$('.navitems .myjd-info i').show();
+    $(this).removeClass('hover');
+  });
+
+    get_Msg($url);
+
 });
