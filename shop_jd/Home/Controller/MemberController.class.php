@@ -429,4 +429,55 @@ class MemberController extends CommonController {
   }
 }
 
+  //消息精灵
+  public function historyMsg(){
+    $uid = I('uid');
+    $read = I('read','');
+    if($uid){
+      //清空内存中的消息轮播
+      S('userMsg'.$uid,null);
+      //根据条件去数据库查询出来消息
+      if($read){
+        $info = M('letter')->table(array('jd_user'=>'u','jd_letter'=>'l'))->where("l.user_id='$uid' AND l.from_id=u.user_id AND l.status='1'")->field('l.letter_id,l.content,u.user_name,l.status,l.time,l.type,l.status')->order('l.time DESC')->select();
+        $this ->assign('flg',1);
+      }else{
+        $info = M('letter')->table(array('jd_user'=>'u','jd_letter'=>'l'))->where("l.user_id='$uid' AND l.from_id=u.user_id")->field('l.letter_id,l.content,u.user_name,l.status,l.time,l.type,l.status')->order('l.time DESC')->select();
+      }
+      $this->assign('info',$info);
+//      dump($info);
+//      die;
+      $this->assign('info',$info);
+      $this->display();
+    }else{
+      $this->redirect('Index/index','',0,'');
+    }
+  }
+  //标志为已读
+  public function readed(){
+    $readArr = I('readArr');
+    if(!empty($readArr)){//前台有数据传过来
+      $inArr = implode(',',$readArr);
+      $data = array(
+        'status'=>'0'
+      );
+      if(M('letter')->where("letter_id in($inArr)")->save($data)){
+        $this->ajaxReturn('1');
+      }
+    }else{
+      $this->ajaxReturn('2');
+    }
+  }
+
+  //删除指定ID的消息
+  public function deleteLetter(){
+    $deleteArr = I('deleteArr');
+    if(!empty($deleteArr)){//前台有数据传过来
+      $inArr = implode(',',$deleteArr);
+      if(M('letter')->where("letter_id in($inArr)")->delete()){
+        $this->ajaxReturn('1');
+      }
+    }else{
+      $this->ajaxReturn('2');
+    }
+  }
 }

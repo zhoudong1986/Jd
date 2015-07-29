@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="edge">
+  <title>
+    京东在线客服
+  </title>
+  <link rel="stylesheet" type="text/css" href="__CSS__/custorm.css" media="all">
+  <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+<div id="main-win" style="position: absolute; top: 0px; width: 100%; height: 100%;">
+  <div id="win" style="position: absolute; top: 0px; height: 100%; width: 100%;">
+    <!-- 【建议】设置最小高度和最小宽度 -->
+    <div class="im-wrap">
+      <!-- im头部 -->
+      <div class="im-header">
+        <a href="http://www.jd.com/" class="im-logo" target="_top" title="JD·京东">
+          <img src="__IMAGE__/im-web-logo.png" id="im-logo" title="JD·京东">
+        </a>
+            <span class="im-split-line">
+            </span>
+            <span class="im-chat-object">
+              京东在线客服
+            </span>
+        <a href="javascript:;" class="im-go-jimi" title="切换到jimi智能客服机器人" style="display: none;">
+        </a>
+        <div class="im-btn-area" id="win_title" style="display: none;">
+          <a href="javascript:;" id="j_chatMax" class="im-btn-max" title="最大化" style="display: block;">
+          </a>
+          <a href="javascript:;" id="j_chatRestore" class="im-btn-min" title="还原"
+             style="display: none;">
+          </a>
+          <a href="javascript:;" id="j_chatClose" class="im-btn-close" title="关闭">
+          </a>
+        </div>
+      </div>
+      <!-- im主题内容 -->
+      <div class="im-content">
+        <div class="im-main-content" name="chooseDiv">
+          <div class="im-choose-type-content">
+            <!-- 蓝色 提示信息框 class im-msg-notice -->
+            <div class="im-msg im-msg-notice">
+              <i class="im-icon-notice">
+              </i>
+              <p>
+                <{$info['user_name']}>， 欢迎使用在线客服！
+                    <span class="im-txt-light">
+                    </span>
+              </p>
+              <p>
+                    <span class="im-txt-light">
+                      温馨提示：如果您对商品规格、介绍等有疑问，可以在商品详情页点击“在线客服”进行咨询，或者在商品详情页“商品咨询”处发起咨询，会得到及时专业的回复！
+                    </span>
+              </p>
+                  <span class="im-msg-tl">
+                  </span>
+                  <span class="im-msg-tr">
+                  </span>
+                  <span class="im-msg-bl">
+                  </span>
+                  <span class="im-msg-br">
+                  </span>
+            </div>
+            <div class="im-choose-type-area">
+              <p class="im-txt-light">
+                请选择您需要咨询的业务：
+              </p>
+              <ul class="im-type-list">
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    智能客服机器人
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a href="javascript:;" class="im-item-content" style="background: transparent url('__IMAGE__/jimi.png') no-repeat scroll 0% 0%; height: 98px; width: 44px; margin: 0px 25px;">
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a href="javascript:;" class="im-item-content">
+                        不排队，无等待
+                      </a>
+                    </li>
+                    <li class="im-item" style="width: 160px;">
+                      <a href="javascript:;" class="im-item-content" style="margin-right: 10px; margin-left: -10px;">
+                        24小时竭诚为您服务
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult" value="4">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    订单服务
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        订单咨询
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        订单支付与查询
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        配送与催促
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        京豆/优惠券
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a id="q1" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " secop="1" value="1689">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    售后业务
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        返修退换货
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        售后政策
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="1" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " secop="3" value="4447">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    账户服务
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        帐号咨询
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        密码找回
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        开发票/增值发票
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="2" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " value="1691">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    特色业务
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        夺宝岛
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        大家电服务
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="3" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " value="1693">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    意见与建议
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        网页信息反馈
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        服务政策咨询
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        服务质量反馈
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        其他意见建议
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="4" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " value="1694">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    虚拟商品
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        团购
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        票务/彩票
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        话费充值
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        电子书
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="5" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " secop="1" value="1692">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+                <li style="height: 256px;" class="im-type-item">
+                  <h3 class="im-type-title">
+                    乡村推广员招募
+                  </h3>
+                  <ul class="im-sub-type-list">
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        推广员咨询
+                      </a>
+                    </li>
+                    <li class="im-item">
+                      <a tabindex="-1" href="javascript:;" class="im-item-content">
+                        推广员申请
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="im-btn-area">
+                    <a tabindex="6" href="javascript:;" class="im-btn im-btn-start">
+                          <span class="im-txt j_consult " value="3700">
+                            开始咨询
+                          </span>
+                          <span class="im-btn-l">
+                          </span>
+                          <span class="im-btn-r">
+                          </span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div style="height: 200px;">
+            </div>
+            <div style="clear: left;">
+              <div style="overflow: hidden; margin: 0px auto;" id="sspid8369811">
+                <div clstag="bzzxad|keycount|290100|bzzxad1">
+                  <img id="tracker_banner8854504a-f04b-41ba-ba9c-b0fccf08f9ae" src="np"
+                       style="position: absolute; top: 0px; left: 0px;" border="0" height="0"
+                       width="0">
+                  <div id="jd_banner8854504a-f04b-41ba-ba9c-b0fccf08f9ae" style="width: 990px; height: 150px; position: relative;">
+                    <a id="jdad_8854504a-f04b-41ba-ba9c-b0fccf08f9ae" href="http://www.jd.com/"
+                       target="_top" style="display: none; position: absolute; z-index: 3; top: 132px; right: 0px; width: 75px; height: 18px; background: transparent url('rbehvfjyrdaiaaaaaaahorfcogsaaecrwp_uyqaaae5174.png') repeat scroll 0% 0%;">
+                    </a>
+                    <div id="jd_small8854504a-f04b-41ba-ba9c-b0fccf08f9ae" style="display: block; position: absolute; z-index: 3; top: 132px; right: 0px; width: 18px; height: 18px; background: transparent url('rbehwljyraeiaaaaaaacetyayqwaaecuwp__w4aaaks951.png') repeat scroll 0% 0%;">
+                    </div>
+                    <div style="position: absolute; top: 0px; left: 0px; width: 990px; height: 150px;">
+                      <a href="http://ccc.x.jd.com/dsp/nc?ext=Y2xpY2sueC5qZC5jb20vSmRDbGljay8/eHVpZD01MjAwNyZ4c2l0ZWlkPTQ2NjkyMDFfNTMmdG89aHR0cDovL3NhbGUuamQuY29tL2FjdC9OTVVhZmRCaUZ6Lmh0bWw=&amp;log=tweuo+Wzxp2bpoXItfRC1dX+N7KDbn8H3ZnYodS5mKNYFJaGdYR4TEulC1FK81lEDh7Dk0Z0x08ZX444J3f8bxOTMINjGvpdL60/fR9Lz1xlL86aJNyqAdo2E9LrHnrbjFqvevFJxD2S6B/IRfeq1Apq5xOG4nku0Vbj5HbTeEyxRF0QZVsnVg419950U8Q1HB4c2UVT7r66eNzmpv/FgeXr/678xowuovE373N/4YUisa9c1d5PcktT5WAzEEdRopWs99cwCRG6cmNjGCn48xNGnjuPWe5SPJPK5nOxeEy0AYeA48nB0fTVdeXjE1RM+0ljyn1UpRnEsjTGsKM/wY/qzZaxBWFNiFptBNynfW+x41rvZNxdVSw0Ho4/WdmmNMrNPO5NRZ5CNqBESzLfHg==&amp;v=404"
+                         target="_top" onclick="JA.tracker.adclick('87c2821ebf3efa62%5ev2.8%5eSWC%5e53%5e%5e735896%5e%5e4669201%5ehttp%3a%2f%2fsale.jd.com%2fact%2fNMUafdBiFz.html%5e8854504a-f04b-41ba-ba9c-b0fccf08f9ae%5e%5egdhxbxqd%5e0%5e')">
+                        <img src="__IMAGE__/55b5963en666aeaba.jpg" border="0" height="150" width="990">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="im-content" name="chatDiv" style="display: none;">
+      <div class="im-main-content">
+        <div class="im-chat-window">
+          <!-- -- scrollDiv 消息渲染区域 -- -->
+          <div class="im-chat-list" id="scrollDiv" style="height: 304px;">
+          </div>
+          <div class="im-edit-area">
+            <div class="im-edit-toolbar">
+              <a href="javascript:;" class="im-icon-word" title="设置字体" id="j_font">
+              </a>
+              <a href="javascript:;" class="im-icon-face" title="选择表情" id="expressionButton">
+              </a>
+                  <span style="position: relative; z-index: 1;" class="im-icon-pic" title="贴图">
+                    <span class="im-txt" id="sendImageButton">
+                    </span>
+                  </span>
+              <a href="javascript:;" class="im-icon-bell" title="震客服一下" id="actionVibrationButton">
+              </a>
+              <a href="javascript:;" class="im-recommend-situation" id="degreeButton">
+                <i class="im-icon-hart">
+                </i>
+                    <span class="im-txt">
+                      满意度评价
+                    </span>
+              </a>
+              <!-- 上传文件 图片 -->
+              <div style="position: absolute; left: 0px; right: 0px; z-index: 99; bottom: 106px; height: 0px;"
+                   class="im-upload-content" id="fsUploadProgress">
+              </div>
+              <!-- 字体弹出层 -->
+              <div class="im-pop-word j_popWord" style="display: none;">
+                <select class="t_inp" name="text_in_font_type" id="text_in_font_type">
+                  <option value="宋体">
+                    宋体
+                  </option>
+                  <option value="黑体">
+                    黑体
+                  </option>
+                  <option value="仿宋">
+                    仿宋
+                  </option>
+                  <option value="楷体">
+                    楷体
+                  </option>
+                  <option value="隶书">
+                    隶书
+                  </option>
+                  <option value="幼圆">
+                    幼圆
+                  </option>
+                </select>
+                <select class="h_inp" name="text_in_font_size" id="text_in_font_size">
+                  <option value="14pt">
+                    14
+                  </option>
+                  <option value="16pt">
+                    16
+                  </option>
+                  <option value="18pt">
+                    18
+                  </option>
+                  <option value="20pt">
+                    20
+                  </option>
+                  <option value="24pt">
+                    24
+                  </option>
+                  <option value="28pt">
+                    28
+                  </option>
+                  <option value="32pt">
+                    32
+                  </option>
+                  <option value="36pt">
+                    36
+                  </option>
+                  <option value="40pt">
+                    40
+                  </option>
+                  <option value="42pt">
+                    42
+                  </option>
+                  <option value="46pt">
+                    46
+                  </option>
+                </select>
+                <!-- 高亮加class im-icon-color-hover -->
+                <a href="javascript:;" class="im-icon-color im-icon-color-hover" title="设置颜色"
+                   id="colorButton">
+                </a>
+                <a href="javascript:;" class="im-icon-close" title="关闭" id="j_fontClose">
+                </a>
+                <!-- 选择颜色样式pop -->
+                <div class="im-pop-color" style="bottom: 32px; left: 160px;" id="colorPanel">
+                  <a href="#" class="im-pop-close im-icon-close " id="j_colorClose">
+                  </a>
+                  <table nan<tr="" border="0" cellpadding="0" cellspacing="0" height="30"
+                  width="253">
+                  <tbody>
+                  <tr>
+                    <td colspan="21">
+                      <table style="border-collapse: collapse;" border="0" cellpadding="0" cellspacing="1">
+                        <tbody>
+                        <tr>
+                          <td width="3">
+                          </td>
+                          <td>
+                            <input value="" id="DisColor" name="DisColor" size="6" disabled="" style="border: 1px solid rgb(0, 0, 0); background-color: rgb(0, 0, 0);"
+                                   type="text">
+                          </td>
+                          <td width="3">
+                          </td>
+                          <td>
+                            <input name="HexColor" size="7" id="HexColor" style="border: 1px inset; font-family: Arial;"
+                                   value="#000000" type="text">
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <table style="border-collapse: collapse;" id="jdcolor_body_table" border="1"
+                         bordercolor="000000" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 0);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 51);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 102);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 153);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 204);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(51, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(102, 255, 255);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 0);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 51);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 51);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 102);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 102);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 153);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 153);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 204);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 204);" width="11">
+                      </td>
+                    </tr>
+                    <tr height="12">
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(0, 0, 0);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(153, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(204, 255, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 0, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 51, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 102, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 153, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 204, 255);" width="11">
+                      </td>
+                      <td style="background-color: rgb(255, 255, 255);" width="11">
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- 表情弹出层 -->
+              <div class="im-pop-face" id="j_popFace" style="display: none;">
+                <table style="display: table;" class="im-table-face" type="classic" cellpadding="0"
+                       cellspacing="0">
+                  <tbody>
+                  <tr>
+                    <td>
+                            <span id="_aixin_" class="im-face-item-classic" style="background-position: 0px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_anwei_" class="im-face-item-classic" style="background-position: -38px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_bishi_" class="im-face-item-classic" style="background-position: -75px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_daku_" class="im-face-item-classic" style="background-position: -114px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_deyi_" class="im-face-item-classic" style="background-position: -152px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_dangao_" class="im-face-item-classic" style="background-position: -190px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_feiwen_" class="im-face-item-classic" style="background-position: -228px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_fennu_" class="im-face-item-classic" style="background-position: -266px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_guzhang_" class="im-face-item-classic" style="background-position: -304px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_guilian_" class="im-face-item-classic" style="background-position: -342px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_haixiu_" class="im-face-item-classic" style="background-position: -380px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_liuhan_" class="im-face-item-classic" style="background-position: -418px 0px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_heixian_" class="im-face-item-classic" style="background-position: 0px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_aoman_" class="im-face-item-classic" style="background-position: -38px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_jianxiao_" class="im-face-item-classic" style="background-position: -75px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_jingya_" class="im-face-item-classic" style="background-position: -114px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kelian_" class="im-face-item-classic" style="background-position: -152px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kuku_" class="im-face-item-classic" style="background-position: -190px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_liwu_" class="im-face-item-classic" style="background-position: -228px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_hanxiao_" class="im-face-item-classic" style="background-position: -266px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_huaduo_" class="im-face-item-classic" style="background-position: -304px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_xiangwen_" class="im-face-item-classic" style="background-position: -342px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_sese_" class="im-face-item-classic" style="background-position: -380px -37px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_shengbing_" class="im-face-item-classic" style="background-position: -418px -37px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_shuaiyang_" class="im-face-item-classic" style="background-position: 0px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_keshui_" class="im-face-item-classic" style="background-position: -38px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_tanqi_" class="im-face-item-classic" style="background-position: -75px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_touxiao_" class="im-face-item-classic" style="background-position: -114px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_outu_" class="im-face-item-classic" style="background-position: -152px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_tiaopi_" class="im-face-item-classic" style="background-position: -190px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_weixiao_" class="im-face-item-classic" style="background-position: -228px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_beishang_" class="im-face-item-classic" style="background-position: -266px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_woshou_" class="im-face-item-classic" style="background-position: -304px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_wenhao_" class="im-face-item-classic" style="background-position: -342px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_yinxian_" class="im-face-item-classic" style="background-position: -380px -76px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_yongbao_" class="im-face-item-classic" style="background-position: -418px -76px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_xuanyun_" class="im-face-item-classic" style="background-position: 0px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_baibai_" class="im-face-item-classic" style="background-position: -38px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_henbang_" class="im-face-item-classic" style="background-position: -75px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_zhuakuang_" class="im-face-item-classic" style="background-position: -114px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_baiyan_" class="im-face-item-classic" style="background-position: -152px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_bizui_" class="im-face-item-classic" style="background-position: -190px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_dabing_" class="im-face-item-classic" style="background-position: -228px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_dengpao_" class="im-face-item-classic" style="background-position: -266px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_dianhua_" class="im-face-item-classic" style="background-position: -304px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_fadai_" class="im-face-item-classic" style="background-position: -342px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_fankun_" class="im-face-item-classic" style="background-position: -380px -114px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_feiniao_" class="im-face-item-classic" style="background-position: -418px -114px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_fendou_" class="im-face-item-classic" style="background-position: 0px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_fengkuang_" class="im-face-item-classic" style="background-position: -38px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_ganga_" class="im-face-item-classic" style="background-position: -75px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_gaoxing_" class="im-face-item-classic" style="background-position: -114px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_jida_" class="im-face-item-classic" style="background-position: -152px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_jie_" class="im-face-item-classic" style="background-position: -190px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_jingkong_" class="im-face-item-classic" style="background-position: -228px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kafei_" class="im-face-item-classic" style="background-position: -266px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_keai_" class="im-face-item-classic" style="background-position: -304px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kele_" class="im-face-item-classic" style="background-position: -342px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kouzhao_" class="im-face-item-classic" style="background-position: -380px -152px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_kulou_" class="im-face-item-classic" style="background-position: -418px -152px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_liulei_" class="im-face-item-classic" style="background-position: 0px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_mifan_" class="im-face-item-classic" style="background-position: -38px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_ningmeng_" class="im-face-item-classic" style="background-position: -75px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_nuhuo_" class="im-face-item-classic" style="background-position: -114px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_peizui_" class="im-face-item-classic" style="background-position: -152px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_shengli_" class="im-face-item-classic" style="background-position: -190px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_shijian_" class="im-face-item-classic" style="background-position: -228px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_taiyang_" class="im-face-item-classic" style="background-position: -266px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_zhouma_" class="im-face-item-classic" style="background-position: -304px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_zhuzhu_" class="im-face-item-classic" style="background-position: -342px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_zuqiu_" class="im-face-item-classic" style="background-position: -380px -189px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_zhenjing_" class="im-face-item-classic" style="background-position: -418px -189px;">
+                            </span>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <table style="display: none;" class="im-table-face" type="dongdong" cellpadding="0"
+                       cellspacing="0">
+                  <tbody>
+                  <tr>
+                    <td>
+                            <span id="_b01_" class="im-face-item-dongdong" style="background-position: 0px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b02_" class="im-face-item-dongdong" style="background-position: -76px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b03_" class="im-face-item-dongdong" style="background-position: -156px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b04_" class="im-face-item-dongdong" style="background-position: -235px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b05_" class="im-face-item-dongdong" style="background-position: -313px 0px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b06_" class="im-face-item-dongdong" style="background-position: -393px -1px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_b07_" class="im-face-item-dongdong" style="background-position: 0px -79px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b08_" class="im-face-item-dongdong" style="background-position: -76px -79px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b09_" class="im-face-item-dongdong" style="background-position: -156px -79px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b10_" class="im-face-item-dongdong" style="background-position: -235px -79px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b11_" class="im-face-item-dongdong" style="background-position: -313px -79px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b12_" class="im-face-item-dongdong" style="background-position: -393px -79px;">
+                            </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                            <span id="_b13_" class="im-face-item-dongdong" style="background-position: 0px -160px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b14_" class="im-face-item-dongdong" style="background-position: -76px -160px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b15_" class="im-face-item-dongdong" style="background-position: -156px -160px;">
+                            </span>
+                    </td>
+                    <td>
+                            <span id="_b16_" class="im-face-item-dongdong" style="background-position: -235px -160px;">
+                            </span>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <div id="__view_div__" style="display: none;">
+                </div>
+                <div class="im-face-tab">
+                  <a href="javascript:void(0)" class="im-face-switch-tab current" type="classic">
+                    经典
+                  </a>
+                  <a href="javascript:void(0)" class="im-face-switch-tab" type="dongdong">
+                    咚咚
+                  </a>
+                </div>
+              </div>
+              <!-- 评价弹出层 -->
+              <div class="im-pop-recommend j_recommend" style="left: 216px; top: -212px; display: none;">
+                <p>
+                  您对当前客服人员服务满意吗？
+                </p>
+                <p>
+                  <label style="margin-right: 11px;">
+                    <input name="degree" value="100" id="degree100" type="radio">
+                    非常满意
+                  </label>
+                  <label style="margin-right: 11px;">
+                    <input name="degree" value="75" id="degree75" type="radio">
+                    满意
+                  </label>
+                  <label style="margin-right: 11px;">
+                    <input name="degree" value="50" id="degree50" type="radio">
+                    一般
+                  </label>
+                  <label style="margin-right: 11px;">
+                    <input name="degree" value="25" id="degree25" type="radio">
+                    不满意
+                  </label>
+                  <label style="margin-right: 11px;">
+                    <input name="degree" value="0" id="degree0" type="radio">
+                    非常不满意
+                  </label>
+                </p>
+                <div style="display: none;" class="degreeeq50">
+                  <p>
+                    您的问题解决了吗？
+                  </p>
+                  <p>
+                    <input name="sloveQ" value="1" type="radio">
+                    解决了
+                    <input name="sloveQ" value="-1" type="radio">
+                    没解决
+                  </p>
+                </div>
+                <div style="display: none;" class="degreelt50">
+                  <p>
+                    您不满意的原因是？
+                  </p>
+                  <p class="evaq_list">
+                    <input value="2" type="checkbox">
+                    问题没得到解决
+                    <input value="3" type="checkbox">
+                    对客服态度不满意
+                    <input value="5" type="checkbox">
+                    客服对业务不熟悉
+                  </p>
+                </div>
+                <div class="im-recommend-edit-area">
+                      <textarea class="im-edit-ipt" id="degreeText">
+                      </textarea>
+                  <div class="im-edit-tip" id="degreeNum">
+                    还可以输入
+                        <span class="im-txt-num">
+                          256
+                        </span>
+                    字
+                  </div>
+                </div>
+                <div class="im-btn-area">
+                  <a outline="none" hidefocus="true" href="javascript:;" class="im-btn im-btn-submit"
+                     id="submitDegreeButton">
+                        <span class="im-txt">
+                          提交
+                        </span>
+                        <span class="im-btn-l">
+                        </span>
+                        <span class="im-btn-r">
+                        </span>
+                  </a>
+                </div>
+                <div class="degree-tip" style="color: red; display: none;">
+                  请您对当前客服的服务做一个评价
+                </div>
+              </div>
+              <div style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; overflow: hidden; z-index: 0;"
+                   class="moxie-shim moxie-shim-html5" id="html5_19r9tivkf3jbluseb41dapj4s3_container">
+                <input id="html5_19r9tivkf3jbluseb41dapj4s3" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+                       multiple="" accept="image/jpeg,image/gif,image/png,image/bmp" type="file">
+              </div>
+            </div>
+            <div class="im-edit-ipt-area">
+              <div hidefocus="true" id="text_in" class="im-edit-ipt" style="overflow-y: auto; font-weight: normal; font-size: 12px; overflow-x: hidden; word-break: break-all; font-style: normal; outline: medium none;"
+                   contenteditable="true">
+              </div>
+            </div>
+            <div class="im-edit-btn-area">
+              <div class="im-link-area">
+              </div>
+              <div class="im-btn-send-area" title="按Enter键发送,按Ctrl+Enter键换行">
+                <a href="javascript:;" class="im-btn im-btn-send" id="sendMsg">
+                      <span class="im-txt">
+                        发送
+                      </span>
+                      <span class="im-btn-l">
+                      </span>
+                </a>
+                <a href="javascript:;" class="im-btn im-btn-send-set" title="发送设置" id="change">
+                  <i class="im-icon-arrow-down">
+                  </i>
+                      <span class="im-btn-r">
+                      </span>
+                </a>
+                <!-- 编辑发送浮层 -->
+                <div class="im-pop-send-set cbut" style="position: absolute; top: 0px; right: -250px; display: none;">
+                  <ul class="im-send-set-list">
+                    <!-- 当前高亮加class current -->
+                    <li class="im-item current" id="hotkey1">
+                      <a href="javascript:;" class="im-item-content">
+                        <i class="im-icon-right">
+                        </i>
+                            <span class="im-txt">
+                              按Enter键发送消息，Ctrl+Enter换行
+                            </span>
+                      </a>
+                    </li>
+                    <li class="im-item" id="hotkey2">
+                      <a href="javascript:;" class="im-item-content">
+                        <i class="im-icon-right">
+                        </i>
+                            <span class="im-txt">
+                              按Ctrl+Enter键发送消息，Enter换行
+                            </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="javascript:;" class="im-btn im-btn-close" id="talk_c">
+                    <span class="im-txt">
+                      结束对话
+                    </span>
+                    <span class="im-btn-l">
+                    </span>
+                    <span class="im-btn-r">
+                    </span>
+              </a>
+              <div class="im-edit-tip" id="chat_count">
+                还可以输入
+                    <span class="im-word-num">
+                      360
+                    </span>
+                字
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="im-right-sidebar">
+          <div class="im-service">
+            <ul class="im-tab">
+              <li style="display: list-item;" class="im-item current">
+                <div class="im-item-content" style="width: 70px;">
+                  常见问题
+                </div>
+              </li>
+              <li style="display: list-item;" class="im-item">
+                <div class="im-item-content" style="width: 99px;">
+                  最近的订单
+                      <span class="im-tag im-tag-green" style="display: none;">
+                        <span class="im-txt" id="j_orderTotalNum">
+                          0
+                        </span>
+                        <span class="im-tag-l">
+                        </span>
+                        <span class="im-tag-r">
+                        </span>
+                      </span>
+                </div>
+              </li>
+              <li style="display: list-item;" class="im-item">
+                <div class="im-item-content" style="width: 119px;">
+                  最近的返修/退换
+                  <a href="http://help.jd.com/" class="im-icon-more" title="更多" target="_top">
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <div class="im-tab-contents">
+              <!-- 常见问题 -->
+              <div class="im-tab-content" style="overflow: auto;">
+                <ul class="im-question-list">
+                </ul>
+              </div>
+              <!-- 最近的订单 -->
+              <div class="im-tab-content" style="display: none;">
+                <div class="im-order-info no-order" style="display: none;">
+                  <p class="im-txt-lighter im-txt-center">
+                    暂无数据
+                  </p>
+                </div>
+                <div class="im-order-info orders" style="display: none;">
+                  <div class="im-order-info-more">
+                    <div class="im-pagination">
+                      <a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_prevBtn">
+                            <span class="im-txt">
+                              上页
+                            </span>
+                            <span class="im-btn-l">
+                            </span>
+                            <span class="im-btn-r">
+                            </span>
+                      </a>
+                          <span class="im-item im-txt" id="j_orderNum">
+                            1/5
+                          </span>
+                      <a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_nextBtn">
+                            <span class="im-txt">
+                              下页
+                            </span>
+                            <span class="im-btn-l">
+                            </span>
+                            <span class="im-btn-r">
+                            </span>
+                      </a>
+                    </div>
+                    <a href="http://jd2008.jd.com/JdHome/OrderList.aspx" class="im-read-more im-txt-link"
+                       target="blank">
+                      查看更多&gt;&gt;
+                    </a>
+                  </div>
+                  <div class="im-blue-box im-order-detail">
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        订单状态：
+                      </div>
+                      <div class="im-label-content" id="j_orderState">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        订单编号：
+                      </div>
+                      <div class="im-label-content" id="j_orderId">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        订单金额：
+                      </div>
+                      <div class="im-label-content" id="j_shouldPay">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        支付方式：
+                      </div>
+                      <div class="im-label-content" id="j_paymentTypeName">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        收货人：
+                      </div>
+                      <div class="im-label-content" id="j_customerName">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        下单时间：
+                      </div>
+                      <div class="im-label-content" id="j_dateSubmit">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        下单商品：
+                      </div>
+                      <div class="im-label-content">
+                        <ul class="im-order-pics" id="j_wareImgUrl">
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="im-blue-box im-order-detail" style="display: none;">
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        送货方式：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        承运人：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        运货单号：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                    <hr class="im-item-group-line">
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        支付方式：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        收货人：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        下单时间：
+                      </div>
+                      <div class="im-label-content">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 最近的返修/退换货 -->
+              <div style="display: none;" class="im-tab-content">
+                <div class="im-order-info no-reqairs" style="display: none;">
+                  <p class="im-txt-lighter im-txt-center">
+                    暂无数据
+                  </p>
+                </div>
+                <div class="im-order-info reqairs" style="display: none;">
+                  <div class="im-order-info-more">
+                    <div class="im-pagination">
+                      <a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_repairPrevBtn">
+                            <span class="im-txt">
+                              上页
+                            </span>
+                            <span class="im-btn-l">
+                            </span>
+                            <span class="im-btn-r">
+                            </span>
+                      </a>
+                          <span class="im-item im-txt" id="j_repairNum">
+                            1/5
+                          </span>
+                      <a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_repairNextBtn">
+                            <span class="im-txt">
+                              下页
+                            </span>
+                            <span class="im-btn-l">
+                            </span>
+                            <span class="im-btn-r">
+                            </span>
+                      </a>
+                    </div>
+                    <a href="http://myjd.jd.com/repair/repairs.action" class="im-read-more im-txt-link"
+                       target="blank">
+                      查看订单&gt;&gt;
+                    </a>
+                  </div>
+                  <div class="im-blue-box im-order-detail">
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        编号：
+                      </div>
+                      <div class="im-label-content" id="j_repairId">
+                        107636789
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        当前状态：
+                      </div>
+                      <div class="im-label-content" id="j_repairStatus">
+                        等待客户确认
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        申请时间：
+                      </div>
+                      <div class="im-label-content" id="j_repairTime">
+                        2013-03-19
+                      </div>
+                    </div>
+                    <div class="im-item-group">
+                      <div class="im-label im-txt-light">
+                        商品名称：
+                      </div>
+                      <div class="im-label-content" id="j_repairWareName">
+                        美国宝丽来Polaroid合金系列男士半框架拉斯框架 67731 GUC
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="im-shortcut">
+            <div class="im-title">
+              快捷工具
+            </div>
+            <ul class="im-shortcut-list">
+              <li style="display: list-item;" class="im-item">
+                <a href="http://myjd.jd.com/repair/orderlist.action" class="im-item-content"
+                   target="_top">
+                  <i class="im-icon-service im-icon-service-1">
+                  </i>
+                      <span class="im-txt-link">
+                        返修/退换货
+                      </span>
+                </a>
+              </li>
+              <li style="display: list-item;" class="im-item">
+                <a href="http://jiabao.jd.com/protecting" class="im-item-content" target="_top">
+                  <i class="im-icon-service im-icon-service-2">
+                  </i>
+                      <span class="im-txt-link">
+                        价保申请
+                      </span>
+                </a>
+              </li>
+              <li style="display: list-item;" class="im-item">
+                <a href="http://chat.jd.com/index.action?brandName=%25E4%25BA%25AC%25E4%25B8%259C%25E7%25A4%25BC%25E5%2593%2581%25E5%258D%25A1&amp;code=1&amp;classify=6980"
+                   class="im-item-content" target="_top">
+                  <i class="im-icon-service im-icon-service-5">
+                  </i>
+                      <span class="im-txt-link">
+                        京东卡
+                      </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thickArea" style="display: none;">
+  </div>
+  <div id="jquery_jplayer_1" style="height: 0px; background-color: rgb(0, 0, 0);">
+    <img style="width: 1280px; height: 0px; display: none;" id="jp_poster_0">
+    <audio src="/img/BELL7.m4a" preload="metadata" id="jp_audio_0">
+    </audio>
+  </div>
+</div>
+<div class="choose-order" style="top: 0px; left: 0px; display: none;">
+  <div class="thickbox im-pop-choose-order" style="width: 680px; left: 30%; top: 20%; z-index: 1000000;"
+       id="guangInterestedPerson">
+    <h4 class="thicktitle">
+          <span class="">
+            请选择您要咨询的订单
+          </span>
+          <span title="关闭" class="im-icon-close thickclose J-close">
+          </span>
+    </h4>
+    <div class="content" style="overflow: hidden;">
+      <div class="im-order-list">
+        <table style="display: table;" class="im-order-table">
+          <tbody>
+          <tr style="display: none;" id="tempOrder">
+            <td width="90">
+              <p class="im-order-type">
+                普通订单
+              </p>
+              <p class="im-order-num">
+                <a href="javascript:;" class="im-txt-link">
+                </a>
+              </p>
+              <p class="im-txt-lighter">
+                （子订单）
+              </p>
+            </td>
+            <td class="products" width="240">
+              <a class="im-pic" href="javascript:;" title="">
+                <img src="__IMAGE__/custom.action">
+              </a>
+              <a class="im-pic" href="javascript:;" title="">
+                <img src="__IMAGE__/custom.action">
+              </a>
+            </td>
+            <td width="80">
+              <p class="im-txt-lighter dateSubmit">
+              </p>
+              <!-- p class="im-txt-lighter"></p -->
+            </td>
+            <td widthh="80">
+              <p class="im-txt-lighter orderStatus">
+              </p>
+            </td>
+            <td>
+              <a href="javascript:;" class="im-btn im-btn-talk">
+                      <span class="im-txt j_consultOrder">
+                        开始咨询
+                      </span>
+                      <span class="im-btn-l">
+                      </span>
+                      <span class="im-btn-r">
+                      </span>
+              </a>
+            </td>
+          </tr>
+          <tr style="display: table-row;" id="order_9755310702">
+            <td width="90">
+              <p class="im-order-type">
+                普通订单
+              </p>
+              <p class="im-order-num">
+                <a href="javascript:;" class="im-txt-link">
+                  9755310702
+                </a>
+              </p>
+              <p class="im-txt-lighter">
+                （子订单）
+              </p>
+            </td>
+            <td class="products" width="240">
+              <a href="http://www.jd.com/product/1499247677.html" target="_top" title="耐克Nike Air Max90 女子气垫跑鞋 休闲鞋724882 443817 树莓红443817-600  37.5码/5Y">
+                <img src="__IMAGE__/5584fec1ndffff235.jpg" height="50px">
+              </a>
+              <a href="http://www.jd.com/product/1530969004.html" target="_top" title="加一尚品女式内裤 春夏莫代尔低腰平角打底裤女内裤防走光安全裤 P08 三条装 混色 155/85  S">
+                <img src="__IMAGE__/55656890n371f50dc.jpg" height="50px">
+              </a>
+              <a href="http://www.jd.com/product/1153740.html" target="_top" title="乐心（LIFESENSE） Mambo 运动手环 智能手环 计步器 微信朋友圈运动PK 微信互联 ">
+                <img src="__IMAGE__/53a4097cn8308d4ec.jpg" height="50px">
+              </a>
+            </td>
+            <td width="80">
+              <p class="im-txt-lighter dateSubmit">
+                2015-07-19 10:48:54
+              </p>
+              <!-- p class="im-txt-lighter"></p -->
+            </td>
+            <td widthh="80">
+              <p class="im-txt-lighter orderStatus">
+                已取消
+              </p>
+            </td>
+            <td>
+              <a ordervalue="9755310702" href="javascript:;" class="im-btn im-btn-talk">
+                      <span class="im-txt j_consultOrder">
+                        开始咨询
+                      </span>
+                      <span class="im-btn-l">
+                      </span>
+                      <span class="im-btn-r">
+                      </span>
+              </a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="im-pop-footer">
+        <label>
+          您也可以输入订单号：
+          <input value="" style="border-color: rgb(170, 170, 170) rgb(221, 221, 221) rgb(221, 221, 221) rgb(170, 170, 170);"
+                 class="im-ipt" placeholder="(选填)" maxlength="20" type="text">
+        </label>
+        <a href="javascript:;" class="im-btn im-btn-talk" id="orderBut">
+              <span class="im-txt j_consultOrder" ordertype="orderInpBtn">
+                开始咨询
+              </span>
+              <span class="im-btn-l">
+              </span>
+              <span class="im-btn-r">
+              </span>
+        </a>
+            <span id="order_msg" style="color: red;">
+            </span>
+      </div>
+      <div class="im-msg-wrap">
+        <div class="im-msg im-msg-notice" logictype="serving" showtype="only">
+          <i class="im-icon-notice2">
+          </i>
+          <p>
+            订单号为9位以上阿拉伯数字
+          </p>
+              <span class="im-msg-tl">
+              </span>
+              <span class="im-msg-tr">
+              </span>
+              <span class="im-msg-bl">
+              </span>
+              <span class="im-msg-br">
+              </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="im-pop-mask" style="position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.3);">
+  </div>
+</div>
+<div id="commodity_container">
+</div>
+<iframe src="index_1.html" id="maskLayer" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: transparent; opacity: 0; display: none;">
+</iframe>
+<div style="position: fixed; right: 20px; bottom: 0px; z-index: 99;" xmlns="joy"
+     id="joy-toobar" class="_show_bar_yqg_show_tb">
+  <div class="wrapper">
+    <div id="main-box-msg" class="main-box" style="display: none;">
+      <div class="m-banner">
+        <h3>
+          下午好，主人！
+        </h3>
+        <h5>
+          午茶时间，喝杯水，活动活动颈椎
+        </h5>
+        <a class="min-icon a-pointer" title="最小化" onclick="toolbarMinimize_message();">
+          最小化
+        </a>
+      </div>
+      <div class="m-msgbar">
+            <span>
+              最近0条消息
+              <a class="a-pointer a-color" onclick="readAll();">
+                [全部标记为已读]
+              </a>
+            </span>
+            <span class="go-center-a">
+              <a target="_top" href="http://joycenter.jd.com/msgCenter/queryHistoryMessage.action">
+                去消息中心&gt;&gt;
+              </a>
+            </span>
+      </div>
+      <div style="height: 205px; margin-top: 130px; margin-left: 120px;">
+        您还没有收到消息哦~~
+      </div>
+    </div>
+    <div id="main-box-promo" class="main-box" style="display: none; height: 483px;">
+    </div>
+    <div id="main-box-guang" class="main-box" style="display: none;">
+      <div class="guang">
+        <div class="w-toolbar">
+          <div class="tool-tabs-content" style="" data-widget="tab-content" id="shopping-list">
+            <div class="bang-index-search">
+              <div class="bang-index-loading guang-loading">
+                <img src="__IMAGE__/loading.gif">
+                <p>
+                  加载中
+                </p>
+              </div>
+              <div class="bang-hot-topic-region">
+                <div class="hot-topic">
+                  热门话题
+                </div>
+                <ul class="search-hot-topic-list">
+                </ul>
+                <div class="hot-topic">
+                  最近联系人
+                </div>
+                <ul class="search-recent-contacts-list">
+                </ul>
+              </div>
+              <div class="search-result-region">
+                <ul class="search-result-list">
+                </ul>
+              </div>
+            </div>
+            <div class="bang-banner">
+              <div class="user-img">
+                <img id="bang-user-img" src="__IMAGE__/default-user-60-60.png" class="user-img-1"
+                     onerror="YiQiGuang.Util.errorImg(this);" height="60" width="60">
+              </div>
+              <h3 id="bang-user-nick">
+                女菀
+              </h3>
+              <h5 id="bang-user-addr">
+                北京 朝阳区
+              </h5>
+              <a onclick="toolbarMinimize_message();" class="guang-icon-min a-pointer"
+                 title="最小化">
+              </a>
+            </div>
+            <div class="bang-msgbar">
+              <input value="搜索：话题、联系人" class="placeholder" ued_placeholder="搜索：话题、联系人"
+                     type="text">
+              <i class="bang-search-btn">
+              </i>
+                  <span class="bang-search-close-btn">
+                  </span>
+            </div>
+            <div class="bang-tab">
+              <ul>
+                <li class="current" id="topic">
+                  <div>
+                    <i>
+                      #话题
+                    </i>
+                  </div>
+                  <i class="bang-tab-tip">
+                    ●
+                  </i>
+                </li>
+                <li id="contact">
+                  <div>
+                    <i class="bang-tab-messager">
+                    </i>
+                    <i class="bang-tab-name">
+                      联系人
+                    </i>
+                  </div>
+                  <i class="bang-tab-tip">
+                    ●
+                  </i>
+                </li>
+                <li id="team">
+                  <div>
+                    <i class="bang-tab-team">
+                    </i>
+                    <i class="bang-tab-name">
+                      小队
+                    </i>
+                  </div>
+                  <i class="bang-tab-tip">
+                    ●
+                  </i>
+                </li>
+                <li id="recent">
+                  <div>
+                    <i class="bang-tab-last">
+                    </i>
+                    <i class="bang-tab-name">
+                      最近
+                    </i>
+                  </div>
+                  <i class="bang-tab-tip">
+                    ●
+                  </i>
+                </li>
+              </ul>
+            </div>
+            <div class="tool-content j_toolContent">
+              <ul class="accoradion tool-list">
+                <!-- 话题列表 -->
+                <li class="accoradion-item j_topicList">
+                  <div id="bang-topic-list" class="bang-msg">
+                    <div class="bang-hot-msglist" style="margin-left: 4px;">
+                      <div style="font-family: SimSun; font-size: 12px;">
+                        <i class="bang-hot-title_1">
+                        </i>
+                        <i style="margin: 10px 0px 3px; display: inline-block; vertical-align: middle;">
+                          大家一起来讨论：聊购物，问问题，一起来讨论吧！
+                        </i>
+                      </div>
+                      <ul>
+                        <li class="bang-hot-topic-5052 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5052);">
+                          <p class="txt-top">
+                            售前咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                        <li class="bang-hot-topic-5053 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5053);">
+                          <p class="txt-top">
+                            商品咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li class="bang-hot-topic-5124 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5124);">
+                          <p class="txt-top">
+                            配送咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                        <li class="bang-hot-topic-5055 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5055);">
+                          <p class="txt-top">
+                            订单咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li class="bang-hot-topic-5054 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5054);">
+                          <p class="txt-top">
+                            退换货咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                        <li class="bang-hot-topic-5056 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5056);">
+                          <p class="txt-top">
+                            售后咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li class="bang-hot-topic-5127 bang-hot-msg-3 " onclick="SP.Global.beginTopicChat(5127);">
+                          <p class="txt-top">
+                            发票咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip3">
+                            ●
+                          </i>
+                        </li>
+                        <li class="bang-hot-topic-5060 bang-hot-msg-2 " onclick="SP.Global.beginTopicChat(5060);">
+                          <p class="txt-top">
+                            促销活动咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip2">
+                            ●
+                          </i>
+                        </li>
+                        <li class="bang-hot-topic-5129 bang-hot-msg-3 " onclick="SP.Global.beginTopicChat(5129);">
+                          <p class="txt-top">
+                            退款咨询
+                          </p>
+                          <p class="txt-top detail_1">
+                            点击进入群聊
+                          </p>
+                          <i class="bang-tab-tip bang-tab-tip3">
+                            ●
+                          </i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- 在线客服 -->
+                <li class="accoradion-item j_serviceList hide">
+                  <div class="header" title="在线客服">
+                    <a class="a-pointer icon-fold" title="收起">
+                    </a>
+                        <span class="header-label">
+                          在线客服
+                        </span>
+                  </div>
+                  <div style="height: 0px; opacity: 0; display: none;" class="service-loading guang-loading">
+                    <img src="__IMAGE__/loading.gif">
+                    <p>
+                      加载中
+                    </p>
+                  </div>
+                  <ul class="list-content tool-service">
+                  </ul>
+                </li>
+                <!-- 联系人 -->
+                <li class="accoradion-item j_contactList hide">
+                  <div class="header" title="联系人">
+                    <!-- 若展开用class icon-unfold;若折叠用class icon-fold -->
+                    <a class="a-pointer icon-fold" title="收起">
+                    </a>
+                        <span class="header-label">
+                          联系人(0/0)
+                        </span>
+                    <a class="add-item contact-search a-pointer" title="找人">
+                      <i class="icon-user">
+                      </i>
+                          <span class="add-item-label">
+                            找人
+                          </span>
+                    </a>
+                  </div>
+                  <div style="height: 0px; opacity: 0; display: none;" class="contact-loading guang-loading">
+                    <img src="__IMAGE__/loading.gif">
+                    <p>
+                      加载中
+                    </p>
+                  </div>
+                  <ul class="list-content tool-contact">
+                    <li class="list-item-error">
+                      尚未关注任何人
+                    </li>
+                    <li class="break-line hide">
+                    </li>
+                    <li class="list-item-add">
+                      <a class="add-more a-pointer">
+                        <i class="icon-user">
+                        </i>
+                            <span class="add-more-label contact-search">
+                              寻找感兴趣的人
+                            </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- 小队 -->
+                <li class="accoradion-item j_teamList hide">
+                  <div class="header" title="小队">
+                    <a class="a-pointer icon-fold" title="收起">
+                    </a>
+                        <span class="header-label j_myTeamNumber">
+                          小队(0)
+                        </span>
+                    <a class="add-item team-create a-pointer" title="创建小队">
+                      <i class="icon-add">
+                      </i>
+                          <span class="add-item-label">
+                            创建
+                          </span>
+                    </a>
+                  </div>
+                  <div style="height: 0px; opacity: 0; display: none;" class="team-loading guang-loading">
+                    <img src="__IMAGE__/loading.gif">
+                    <p>
+                      加载中
+                    </p>
+                  </div>
+                  <ul class="list-content tool-team">
+                    <li class="list-item-add team-create">
+                      <a class="add-more a-pointer">
+                        <i class="icon-add">
+                        </i>
+                            <span class="add-more-label">
+                              创建小队
+                            </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- 最近联系人 -->
+                <li class="accoradion-item j_recentList hide">
+                  <div class="recent-loading guang-loading">
+                    <img src="__IMAGE__/loading.gif">
+                    <p>
+                      加载中
+                    </p>
+                  </div>
+                  <h4 style="display: none; text-align: center; margin-top: 130px;">
+                  </h4>
+                  <ul class="list-content tool-recent">
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main-box-zuji" class="main-box " style="display: none;">
+      <ul class="m-topnav">
+        <li>
+          <a id="recent-id" class="a-pointer" onclick="recentGoodsRequest();">
+            最近浏览的商品
+          </a>
+        </li>
+        <li>
+          <a id="interest-id" class="current a-pointer" onclick="interestGoodsRequest();">
+            您可能感兴趣的商品
+          </a>
+        </li>
+        <li class="min-icon">
+          <a title="最小化" class="a-pointer" onclick="toolbarMinimize();">
+            —
+          </a>
+        </li>
+      </ul>
+      <div class="interest_loading" style="height: 290px;">
+      </div>
+    </div>
+    <div id="main-box-setting" class="main-box" style="display: none;">
+      <ul class="m-topnav">
+        <li>
+          <strong>
+            设置
+          </strong>
+        </li>
+        <li class="min-icon">
+          <a class="a-pointer" title="最小化" onclick="toolbarMinimize();">
+            —
+          </a>
+        </li>
+      </ul>
+      <div class="setting-box">
+        <form action="http://chat7.jd.com/jdchat/custom.action?entry=jd_fwztc"
+              class="setting-form">
+          <h3>
+            消息提醒
+          </h3>
+          <ul class="fn-clear" id="setting-unsubscribe">
+            <li>
+              <input id="template_22" checked="checked" name="unsubscribe" value="22"
+                     type="checkbox">
+              <label>
+                活动-礼包
+              </label>
+            </li>
+            <li>
+              <input id="template_12" checked="checked" name="unsubscribe" value="12"
+                     type="checkbox">
+              <label>
+                优惠券到账
+              </label>
+            </li>
+            <li>
+              <input id="template_20" checked="checked" name="unsubscribe" value="20"
+                     type="checkbox">
+              <label>
+                活动-提醒
+              </label>
+            </li>
+            <li>
+              <input id="template_6" checked="checked" name="unsubscribe" value="6"
+                     type="checkbox">
+              <label>
+                社区-讨论
+              </label>
+            </li>
+            <li>
+              <input id="template_27" checked="checked" name="unsubscribe" value="27"
+                     type="checkbox">
+              <label>
+                购物送京豆
+              </label>
+            </li>
+            <li>
+              <input id="template_13" checked="checked" name="unsubscribe" value="13"
+                     type="checkbox">
+              <label>
+                优惠券过期
+              </label>
+            </li>
+            <li>
+              <input id="template_19" checked="checked" name="unsubscribe" value="19"
+                     type="checkbox">
+              <label>
+                游戏-主题
+              </label>
+            </li>
+            <li>
+              <input id="template_5" checked="checked" name="unsubscribe" value="5"
+                     type="checkbox">
+              <label>
+                咚咚-提示
+              </label>
+            </li>
+            <li>
+              <input id="template_18" checked="checked" name="unsubscribe" value="18"
+                     type="checkbox">
+              <label>
+                活动-关注
+              </label>
+            </li>
+            <li>
+              <input id="template_25" checked="checked" name="unsubscribe" value="25"
+                     type="checkbox">
+              <label>
+                外部系统通知
+              </label>
+            </li>
+            <li>
+              <input id="template_7" checked="checked" name="unsubscribe" value="7"
+                     type="checkbox">
+              <label>
+                商品-评价
+              </label>
+            </li>
+            <li>
+              <input id="template_8" checked="checked" name="unsubscribe" value="8"
+                     type="checkbox">
+              <label>
+                社区-评价
+              </label>
+            </li>
+            <li>
+              <input id="template_26" checked="checked" name="unsubscribe" value="26"
+                     type="checkbox">
+              <label>
+                付费会员
+              </label>
+            </li>
+            <li>
+              <input id="template_17" checked="checked" name="unsubscribe" value="17"
+                     type="checkbox">
+              <label>
+                会员俱乐部
+              </label>
+            </li>
+            <li>
+              <input id="template_9" checked="checked" name="unsubscribe" value="9"
+                     type="checkbox">
+              <label>
+                社区-咨询
+              </label>
+            </li>
+            <li>
+              <input id="template_2" checked="checked" name="unsubscribe" value="2"
+                     type="checkbox">
+              <label>
+                关注-降价
+              </label>
+            </li>
+            <li>
+              <input id="template_30" checked="checked" name="unsubscribe" value="30"
+                     type="checkbox">
+              <label>
+                活动开始提醒
+              </label>
+            </li>
+            <li>
+              <input id="template_10" checked="checked" name="unsubscribe" value="10"
+                     type="checkbox">
+              <label>
+                社区-圈子
+              </label>
+            </li>
+            <li>
+              <input id="template_23" checked="checked" name="unsubscribe" value="23"
+                     type="checkbox">
+              <label>
+                在线调研
+              </label>
+            </li>
+            <li>
+              <input id="template_16" checked="checked" name="unsubscribe" value="16"
+                     type="checkbox">
+              <label>
+                商品-取件
+              </label>
+            </li>
+            <li>
+              <input id="template_15" checked="checked" name="unsubscribe" value="15"
+                     type="checkbox">
+              <label>
+                关注-提醒
+              </label>
+            </li>
+            <li>
+              <input id="template_1" checked="checked" name="unsubscribe" value="1"
+                     type="checkbox">
+              <label>
+                关注-到货
+              </label>
+            </li>
+            <li>
+              <input id="template_24" checked="checked" name="unsubscribe" value="24"
+                     type="checkbox">
+              <label>
+                京友邦
+              </label>
+            </li>
+            <li>
+              <input id="template_14" checked="checked" name="unsubscribe" value="14"
+                     type="checkbox">
+              <label>
+                购物车唤醒
+              </label>
+            </li>
+            <li>
+              <input id="template_11" checked="checked" name="unsubscribe" value="11"
+                     type="checkbox">
+              <label>
+                市场-公告
+              </label>
+            </li>
+            <li>
+              <input id="template_4" checked="checked" name="unsubscribe" value="4"
+                     type="checkbox">
+              <label>
+                消息-公告
+              </label>
+            </li>
+          </ul>
+          <h3>
+            一起逛设置
+          </h3>
+          <p style="float: right; margin: -35px 10px 0px 0px;">
+            <a href="http://surveys.jd.com/index.php?r=survey/index/sid/66483/lang/zh-Hans"
+               target="_top">
+              我要反馈问题
+            </a>
+          </p>
+          <ul class="guang-setting fn-clear" id="setting-guangseting">
+            <li>
+              <input checked="checked" id="chatPrivacy" name="guangseting" type="checkbox">
+              <label for="liaotian">
+                接受陌生人聊天消息
+              </label>
+            </li>
+            <li>
+              <input checked="checked" id="invitePrivacy" name="guangseting" type="checkbox">
+              <label for="xiaodui">
+                接受陌生人小队邀请
+              </label>
+            </li>
+          </ul>
+          <h3>
+            工具条设置
+            <input class="guang-submit-btn a-pointer" onclick="submitSetting();" value="提交"
+                   type="button">
+          </h3>
+          <ul class="fn-clear" id="setting-unfold">
+            <li>
+              <input checked="checked" id="zhankai" name="toolbar-setting" value="1"
+                     type="radio">
+              <label for="zhankai">
+                默认展开
+              </label>
+            </li>
+            <li>
+              <input id="shouqi" name="toolbar-setting" value="0" type="radio">
+              <label for="shouqi">
+                默认收起
+              </label>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+    <!--<div style="width: 70px;" class="nav-bar-par">-->
+      <!--<div style="width: 70px;" class="nav-bar fn-clear">-->
+        <!--<ul style="display: none;" class="fn-clear">-->
+          <!--<li class="" iddata="msg">-->
+            <!--<a class="toolbar-msg i-msg a-pointer _base_yqg_msg_button" style="" clstag="shangpin|keycount|item|btmbarinfo">-->
+              <!--消息-->
+            <!--</a>-->
+                <!--<span style="display: none;" class="n-tips">-->
+                  <!--<span id="n-tips-msg">-->
+                    <!--0-->
+                  <!--</span>-->
+                <!--</span>-->
+          <!--</li>-->
+          <!--<li iddata="promo">-->
+            <!--<a class="i-promo a-pointer _base_yqg_sale" style="" clstag="shangpin|keycount|item|btmbarhuodong">-->
+              <!--值得买-->
+            <!--</a>-->
+                <!--<span class="n-tips" style="display: block;">-->
+                  <!--<span id="n-tips-promo">-->
+                    <!--new-->
+                  <!--</span>-->
+                <!--</span>-->
+          <!--</li>-->
+          <!--<li class="" iddata="guang" style="">-->
+            <!--<a class="toolbar-guang i-guang a-pointer _base_ygg_yqb" style="" clstag="shangpin|keycount|item|btmbarguang">-->
+                  <!--<span class="group-tip-border2" style="">-->
+                    <!--一起帮-->
+                  <!--</span>-->
+            <!--</a>-->
+                <!--<span class="n-tips">-->
+                  <!--<span id="n-tips-guang">-->
+                  <!--</span>-->
+                <!--</span>-->
+          <!--</li>-->
+          <!--<li iddata="zuji">-->
+            <!--<a class="toolbar-zuji i-zuji a-pointer _base_yqg_foot_button" style=""-->
+               <!--clstag="shangpin|keycount|item|btmbarzuji">-->
+              <!--足迹-->
+            <!--</a>-->
+          <!--</li>-->
+          <!--<li class="" iddata="setting" style="">-->
+            <!--<a class="toolbar-setting i-setting a-pointer _base_yqg_setting_buto"-->
+               <!--clstag="shangpin|keycount|item|btmbarsetting" style="">-->
+              <!--设置-->
+            <!--</a>-->
+          <!--</li>-->
+        <!--</ul>-->
+        <!--<a class="n-arrow a-pointer _base_ygg_pack_up n-arrow-up" title="展开" clstag="shangpin|keycount|item|btmbarhide">-->
+          <!--收起-->
+        <!--</a>-->
+      <!--</div>-->
+    <!--</div>-->
+  </div>
+</div>
+<!--<div style="right: 35px;" class="logo _show_bar_yqg_show_tb _base_ygg_pack_up collapse-nav-bar"-->
+     <!--title="展开">-->
+      <!--<span style="display: none;" class="n-tips n-logo-tips">-->
+        <!--<span id="n-tips-dog">-->
+          <!--0-->
+        <!--</span>-->
+      <!--</span>-->
+<!--</div>-->
+<div style="bottom: 2px; right: 123px; height: 480px; width: 520px; z-index: 999998; left: -50000px;"
+     id="tabView_subWin" class="w-multi-window">
+  <div id="tabView_container" class="guang-window-container">
+    <div id="tabView_topRegion" class="guang-window-top">
+      <div id="tabView_tabRegion" class="guang-window-tab">
+        <a id="tabView_prevTabBtn" class="guang-tab-prev a-pointer">
+          <i class="guang-icon-prev">
+          </i>
+              <span class="tab-label">
+              </span>
+        </a>
+        <div id="tabView_tabListRegion" class="tab-list">
+          <ul id="tabView_tabContentRegion" class="tab-list-content">
+          </ul>
+        </div>
+        <a id="tabView_nextTabBtn" class="guang-tab-next a-pointer">
+              <span class="tab-label">
+              </span>
+          <i class="guang-icon-next">
+          </i>
+        </a>
+      </div>
+      <div id="tabView_tabBtnRegion" class="guang-window-btn">
+        <a id="tabView_minimizeBtn" class="guang-icon-min-window a-pointer" title="最小化">
+        </a>
+        <a id="tabView_closeBtn" class="guang-icon-close-window a-pointer" title="关闭">
+        </a>
+      </div>
+    </div>
+    <div id="tabView_contentRegion" class="window-content _base_yqg_goods_adviso">
+    </div>
+  </div>
+</div>
+<div style="display: none; right: 123px;" class="chat-window-min" title="恢复">
+  <div class="chat-info">
+    共0组对话
+  </div>
+</div>
+<div class="w-pop w-pop-attention hide" style="top: 0px; left: 0px; z-index: 10000003;">
+  <div class="u-info">
+    <a class="w-pop-attention-u-pic-a" target="_blank">
+      <div class="u-pic">
+        <img onerror="YiQiGuang.Util.errorImg(this);">
+      </div>
+    </a>
+    <div class="u-info-desc">
+      <a class="w-pop-attention-u-name-a" target="_blank">
+        <p class="u-name">
+              <span class="u-name-txt" title="">
+              </span>
+          <i class="icon-level-gold">
+          </i>
+        </p>
+      </a>
+      <p class="u-addr">
+        <i class="icon-girl">
+        </i>
+        &nbsp;
+        <i class="icon-address">
+        </i>
+      </p>
+    </div>
+  </div>
+  <div class="w-pop-footer">
+    <a class="w-btn-attention a-pointer" title="关注TA，聊天更快捷">
+      <i class="icon-add2">
+      </i>
+      加关注
+    </a>
+    <div class="w-btn-gray">
+      <a class="attention-ok a-pointer">
+        <i class="icon-right">
+        </i>
+        已关注
+      </a>
+      <label>
+        |
+      </label>
+      <a class="attention-cancel a-pointer">
+        取消
+      </a>
+    </div>
+    <a class="w-btn-kick a-pointer">
+      踢出小队
+    </a>
+  </div>
+</div>
+<div class="w-tips">
+      <span class="t-arrow t-arrow-r">
+      </span>
+  <a msgtype="" chattype="" class="t-close a-pointer">
+    关闭
+  </a>
+  <div class="tips-cont fn-clear">
+    <a class="img-wrap a-pointer">
+      <img onerror="YiQiGuang.Util.errorImg(this);">
+    </a>
+    <div class="r-cont">
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script>
+  $(function () {
+    //您要资讯的单子提示框
+    $('#q1').click(function(){
+      $('.choose-order').show();
+    });
+    //点击关闭您要资讯的单子提示框
+    $('.J-close').click(function(){
+      $('.choose-order').hide();
+    });
+    //点击内置开始资讯按钮
+    $('#orderBut').click(function(){
+      var $val = $('.im-ipt').val();
+      if($val.length>0){//查询框有输入值
+        window.location.href = "__MODULE__/Custorm/talk/uid/<{$_SESSION['login_info']['uid']}>/orderid/"+$val;
+      }else{
+        window.location.href = "__MODULE__/Custorm/talk/uid/<{$_SESSION['login_info']['uid']}>";
+      }
+    });
+  })
+</script>

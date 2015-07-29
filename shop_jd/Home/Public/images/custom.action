@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+		<meta http-equiv="X-UA-Compatible" content="edge" />
+		<title>京东在线客服</title>
+		
+		<link rel="stylesheet" type="text/css"  href="http://misc.360buyimg.com/chat/im1/df/style.s.css" />
+		<link rel="stylesheet" href="http://static.360buyimg.com/im/dist/20150428/skin-min.css" />
+		<style>
+			html{width:100%;height:100%;}
+			body{width:100%;height:100%;overflow:hidden;}
+		</style>
+		
+		<script>
+			var jdchat_token = new String("12");
+			var entrance = "31";
+			var JSessionId = '$sessionId';
+			var pin_vm = '18820147760_p';
+			var pamsUid_vm = '5430f9a4-9a84-4dee-a745-dea23cf7af0a';
+			var showJimi_vm = 'show';
+			var toJimi3 = '';
+			var toJimi12 = '';
+		</script>
+	</head>
+	<body>		
+		<div id="main-win" style="position: absolute;top:0;width: 100%;height: 100%;">
+		<div id="win" style="position: absolute;top:0;height: 100%; width:100%;">
+		<!-- 【建议】设置最小高度和最小宽度 -->
+		<div class="im-wrap" >
+			<!-- im头部 -->
+			<div class="im-header">
+				<a href="http://www.jd.com" class="im-logo" target="_blank" title="JD·京东">
+					<img src="http://static.360buyimg.com/im/img/im-web-logo.png" id='im-logo' title="JD·京东">
+				</a>
+				<span class="im-split-line"></span>
+				<span class="im-chat-object">京东在线客服</span>
+								<a href="javascript:;" class="im-go-jimi" title="切换到jimi智能客服机器人" style='display:none;'></a> 				<div class="im-btn-area" id="win_title" style="display:none;">
+                 <a href="javascript:;" id="j_chatMax" class="im-btn-max" title="最大化" style="display: block;"></a>
+                 <a href="javascript:;" id="j_chatRestore" class="im-btn-min" title="还原" style="display: none;"></a>
+                 <a href="javascript:;" id="j_chatClose" class="im-btn-close" title="关闭"></a>
+            </div>
+			</div>
+			
+			<!-- im主题内容 -->
+			<div class="im-content" >
+				<div class="im-main-content" name='chooseDiv'>
+					<div class="im-choose-type-content">						
+												<!-- 蓝色 提示信息框 class im-msg-notice -->
+						<div class="im-msg im-msg-notice">
+							<i class="im-icon-notice"></i>
+							<p>18820147760_p， 欢迎使用在线客服！<span class="im-txt-light"></span></p>
+							<p><span class="im-txt-light">
+																			温馨提示：如果您对商品规格、介绍等有疑问，可以在商品详情页点击“在线客服”进行咨询，或者在商品详情页“商品咨询”处发起咨询，会得到及时专业的回复！
+																</span>
+							</p>
+							<span class="im-msg-tl"></span>
+							<span class="im-msg-tr"></span>
+							<span class="im-msg-bl"></span>
+							<span class="im-msg-br"></span>
+						</div>
+						<div class="im-choose-type-area">
+                            							<p class="im-txt-light">请选择您需要咨询的业务：</p>
+							<ul class="im-type-list">
+                                    
+																<li class="im-type-item">
+											<h3 class="im-type-title">订单服务</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">订单咨询</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">订单支付与查询</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">配送与催促</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">京豆/优惠券</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   secop="1"  value="1689">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">售后业务</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">返修退换货</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">售后政策</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   secop="3"  value="4447">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">账户服务</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">帐号咨询</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">密码找回</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">开发票/增值发票</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   value="1691">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">特色业务</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">夺宝岛</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">大家电服务</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   value="1693">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">意见与建议</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">网页信息反馈</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">服务政策咨询</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">服务质量反馈</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">其他意见建议</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   value="1694">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">虚拟商品</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">团购</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">票务/彩票</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">话费充值</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">电子书</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   secop="1"  value="1692">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    																<li class="im-type-item">
+											<h3 class="im-type-title">乡村推广员招募</h3>
+											<ul class="im-sub-type-list">
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">推广员咨询</a>
+												   </li>
+																								   <li class="im-item">
+													   <a href="javascript:;" class="im-item-content">推广员申请</a>
+												   </li>
+																							</ul>
+											<div class="im-btn-area">
+												<a href="javascript:;" class="im-btn im-btn-start   ">
+													<span class="im-txt j_consult "   value="3700">开始咨询</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+										</li>
+    							    						</ul>
+                            						</div>
+						<div style="height:200px;"></div>
+                        <div style="clear: left">
+						
+                            <script type="text/javascript">
+                                jd_ad_client = 53; //广告位id
+                                jd_ad_width =  990;  //广告位宽度
+                                jd_ad_height = 150; //广告位高度
+                                jd_ad_type = 8; //广告类型 所有图片广告均为8
+                                jd_ad_spread = 1; //1位站内广告
+                                jd_ad_num = 1; // 出广告图片的数量
+                            </script>
+                            <script type="text/javascript" src="http://static.360buyimg.com/dsp/ssp.js"></script>
+                        </div>
+                        					</div>
+				</div>
+			</div>
+			
+			</div>
+			<div class="im-content" name='chatDiv' style="display:none" >
+				<div class="im-main-content">
+					<div class="im-chat-window">
+						
+
+						<! -- scrollDiv 消息渲染区域 -- >
+						<div class="im-chat-list"  id="scrollDiv" style="height: 304px;">
+						</div>
+						<div class="im-edit-area">
+							<div class="im-edit-toolbar">
+								<a href="javascript:;" class="im-icon-word" title="设置字体" id="j_font"></a>
+								<a href="javascript:;" class="im-icon-face" title="选择表情" id="expressionButton"></a>
+								<span class="im-icon-pic" title="贴图" >
+									<span class="im-txt" id="sendImageButton"></span>									
+								</span>
+								<a href="javascript:;" class="im-icon-bell" title="震客服一下" id="actionVibrationButton"></a>
+								<a href="javascript:;" class="im-recommend-situation" id="degreeButton">
+									<i class="im-icon-hart"></i>
+									<span class="im-txt">满意度评价</span>
+								</a>
+								<!-- 上传文件 图片 -->
+								<div class="im-upload-content" style=" position: absolute; left: 0px; right:0; z-index: 99; bottom: 62px;height:0px" id="fsUploadProgress"></div>								
+								<!-- 字体弹出层 -->
+								<div class="im-pop-word j_popWord" style="display:none">
+			                        <select class="t_inp" name="text_in_font_type" id="text_in_font_type">			                        	
+			                        </select>
+				                    <select class="h_inp" name="text_in_font_size" id="text_in_font_size">				                       
+				                    </select>
+				                    
+				                    <!-- 高亮加class im-icon-color-hover -->
+				                    <a href="javascript:;" class="im-icon-color im-icon-color-hover" title="设置颜色" id="colorButton"> </a>
+				                    <a href="javascript:;" class="im-icon-close" title="关闭" id="j_fontClose"></a>
+				                    <!-- 选择颜色样式pop -->
+				                    <div class="im-pop-color" style="bottom: 32px; left: 160px;" id="colorPanel">		                    	
+				                   	</div>
+		                    	</div>
+								<!-- 表情弹出层 -->
+								<div class="im-pop-face" id="j_popFace" style="top: -130px; left: 41px;display:none">
+								</div>
+								<!-- 评价弹出层 -->
+								<div class="im-pop-recommend j_recommend"  style="left: 216px; top: -212px;display:none">
+									<p>您对当前客服人员服务满意吗？</p>
+									<p>
+										<label style="margin-right:11px;"><input type="radio" name="degree" value="100" id="degree100">非常满意</label>
+										<label style="margin-right:11px;"><input type="radio" name="degree" value="75" id="degree75">满意</label>
+										<label style="margin-right:11px;"><input type="radio" name="degree" value="50" id="degree50">一般</label>
+										<label style="margin-right:11px;"><input type="radio" name="degree" value="25" id="degree25">不满意</label>
+										<label style="margin-right:11px;"><input type="radio" name="degree" value="0" id="degree0">非常不满意</label>
+									</p>
+									<div style="display:none" class="degreeeq50">
+										<p>您的问题解决了吗？</p>
+										<p>
+											<input type="radio" name="sloveQ" value="1" />解决了
+											<input type="radio" name="sloveQ" value="-1" />没解决
+										</p>
+									</div>
+									<div style="display:none" class="degreelt50">
+										<p>您不满意的原因是？</p>
+										<p class="evaq_list">
+											<input type="checkbox" value="2" />问题没有得到解决
+										    <input type="checkbox" value="3" />对客服态度不满意
+											<input type="checkbox" value="5" />客服对业务不熟悉
+										</p>
+									</div>
+									<div class="im-recommend-edit-area">
+										<textarea class="im-edit-ipt" id="degreeText"></textarea>
+										<div class="im-edit-tip" id="degreeNum">还可以输入<span class="im-txt-num">256</span>字</div>
+									</div>
+									<div class="im-btn-area">
+										<a href="javascript:;" class="im-btn im-btn-submit" id="submitDegreeButton">
+											<span class="im-txt">提交</span>
+											<span class="im-btn-l"></span>
+											<span class="im-btn-r"></span>
+										</a>
+									</div>
+									<div class="degree-tip" style="color:red;display:none">请您对当前客服的服务做一个评价</div>
+								</div>
+							</div>
+							<div class="im-edit-ipt-area">
+								<div id="text_in" class="im-edit-ipt" style="OVERFLOW-Y: auto;  FONT-WEIGHT: normal; FONT-SIZE: 12px; OVERFLOW-X: hidden; WORD-BREAK: break-all; FONT-STYLE: normal;  " contenteditable="true"></div>
+							
+								
+							</div>
+							<div class="im-edit-btn-area">
+								<div class="im-link-area"></div>
+								<div class="im-btn-send-area" title="按Enter键发送,按Ctrl+Enter键换行">
+									<a href="javascript:;" class="im-btn im-btn-send" id="sendMsg">
+										<span class="im-txt" >发送</span>
+										<span class="im-btn-l"></span>
+									</a>
+									<a href="javascript:;" class="im-btn im-btn-send-set" title="发送设置" id="change">
+										<i class="im-icon-arrow-down"></i>
+										<span class="im-btn-r"></span>
+									</a>
+									<!-- 编辑发送浮层 -->
+									<div class="im-pop-send-set cbut" style="position: absolute; top: 0; right: -250px;display:none;">
+			                        	<ul class="im-send-set-list">
+			                        		<!-- 当前高亮加class current -->
+			                        		<li class="im-item current" id="hotkey1">
+			                        			<a href="javascript:;" class="im-item-content">
+			                        				<i class="im-icon-right"></i>
+			                        				<span class="im-txt">按Enter键发送消息，Ctrl+Enter换行</span>
+			                        			</a>
+			                        		</li>
+			                        		<li class="im-item" id="hotkey2">
+			                        			<a href="javascript:;" class="im-item-content">
+			                        				<i class="im-icon-right"></i>
+			                        				<span class="im-txt">按Ctrl+Enter键发送消息，Enter换行</span>
+			                        			</a>
+			                        		</li>
+			                        	</ul>
+			                        </div>
+								</div>
+								<a href="javascript:;" class="im-btn im-btn-close" id="talk_c">
+									<span class="im-txt">结束对话</span>
+									<span class="im-btn-l"></span>
+									<span class="im-btn-r"></span>
+								</a>
+								<div class="im-edit-tip" id="chat_count">还可以输入<span class="im-word-num">360</span>字</div>
+							</div>
+						</div>
+					</div>
+					<div class="im-right-sidebar">
+						<div class="im-service">
+							<ul class="im-tab">
+								<li class="im-item">
+									<div class="im-item-content" style="width: 70px;">咨询订单</div>
+								</li>
+								<li class="im-item">
+									<div class="im-item-content" style="width: 70px;">常见问题</div>
+								</li>
+								<li class="im-item">
+									<div class="im-item-content" style="width: 99px;">最近的订单<span class="im-tag im-tag-green" style="display:none"><span class="im-txt" id="j_orderTotalNum">0</span><span class="im-tag-l"></span><span class="im-tag-r"></span></span></div>
+								</li>
+								<li class="im-item">
+									<div class="im-item-content" style="width: 119px;">最近的返修/退换<a href="http://help.jd.com/" class="im-icon-more" title="更多" target="_blank"></a></div>
+								</li>
+							</ul>
+							<div class="im-tab-contents">
+								<div class="im-tab-content" style="display:none;">
+									<div class="im-blue-box" style="display:none; margin:12px;">
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单状态：</div>
+												<div class="im-label-content" id="c_orderState"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单编号：</div>
+												<div class="im-label-content" id="c_orderId"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单金额：</div>
+												<div class="im-label-content" id="c_shouldPay"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">支付方式：</div>
+												<div class="im-label-content" id="c_paymentTypeName"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">收货人：</div>
+												<div class="im-label-content" id="c_customerName"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">下单时间：</div>
+												<div class="im-label-content" id="c_dateSubmit"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">下单商品：</div>
+												<div class="im-label-content">
+													<ul class="im-order-pics" id="c_wareImgUrl">														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div id='c-order-track' class='im-blue-box' style='display:none; margin:12px;'>
+										</div>
+								</div>
+								<!-- 常见问题 -->
+								<div class="im-tab-content" style="display: none;overflow:auto;">									
+									<ul class="im-question-list">
+																				
+									</ul>
+								</div>
+								
+								<!-- 最近的订单 -->
+								<div class="im-tab-content" style="display: none;">
+								<div class="im-order-info no-order" style="display:none"><p class="im-txt-lighter im-txt-center">暂无数据</p></div>
+									<div class="im-order-info orders" style="display:none">
+										<div class="im-order-info-more">
+											<div class="im-pagination">
+												<a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_prevBtn">
+													<span class="im-txt">上页</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+												<span class="im-item im-txt" id="j_orderNum">1/5</span>
+												<a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_nextBtn">
+													<span class="im-txt">下页</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+											<a href="http://jd2008.jd.com/JdHome/OrderList.aspx" class="im-read-more im-txt-link" target="blank">查看更多>></a>
+										</div>
+										
+										<div class="im-blue-box im-order-detail">
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单状态：</div>
+												<div class="im-label-content" id="j_orderState"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单编号：</div>
+												<div class="im-label-content" id="j_orderId"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">订单金额：</div>
+												<div class="im-label-content" id="j_shouldPay"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">支付方式：</div>
+												<div class="im-label-content" id="j_paymentTypeName"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">收货人：</div>
+												<div class="im-label-content" id="j_customerName"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">下单时间：</div>
+												<div class="im-label-content" id="j_dateSubmit"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">下单商品：</div>
+												<div class="im-label-content">
+													<ul class="im-order-pics" id="j_wareImgUrl">														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="im-blue-box im-order-detail" style="display:none">
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">送货方式：</div>
+												<div class="im-label-content"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">承运人：</div>
+												<div class="im-label-content"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">运货单号：</div>
+												<div class="im-label-content"></div>
+											</div>
+											<hr class="im-item-group-line">
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">支付方式：</div>
+												<div class="im-label-content"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">收货人：</div>
+												<div class="im-label-content"></div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">下单时间：</div>
+												<div class="im-label-content"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 最近的返修/退换货 -->
+								<div class="im-tab-content">
+									<div class="im-order-info no-reqairs" style="display:none"><p class="im-txt-lighter im-txt-center">暂无数据</p></div>
+									<div class="im-order-info reqairs" style="display:none">
+										<div class="im-order-info-more">
+											<div class="im-pagination">
+												<a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_repairPrevBtn">
+													<span class="im-txt">上页</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+												<span class="im-item im-txt" id="j_repairNum">1/5</span>
+												<a href="javascript:;" class="im-item im-btn im-btn-gray" id="j_repairNextBtn">
+													<span class="im-txt">下页</span>
+													<span class="im-btn-l"></span>
+													<span class="im-btn-r"></span>
+												</a>
+											</div>
+											<a href="http://myjd.jd.com/repair/repairs.action" class="im-read-more im-txt-link" target="blank">查看订单>></a>
+										</div>
+										
+										<div class="im-blue-box im-order-detail">
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">编号：</div>
+												<div class="im-label-content" id="j_repairId">107636789</div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">当前状态：</div>
+												<div class="im-label-content" id="j_repairStatus">等待客户确认</div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">申请时间：</div>
+												<div class="im-label-content" id="j_repairTime">2013-03-19</div>
+											</div>
+											<div class="im-item-group">
+												<div class="im-label im-txt-light">商品名称：</div>
+												<div class="im-label-content" id="j_repairWareName">美国宝丽来Polaroid合金系列男士半框架拉斯框架 67731 GUC</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="im-shortcut">
+							<div class="im-title">快捷工具</div>
+							<ul class="im-shortcut-list">
+								<li class="im-item">
+									<a href="http://myjd.jd.com/repair/orderlist.action" class="im-item-content" target="_blank">
+										<i class="im-icon-service im-icon-service-1"></i>
+										<span class="im-txt-link">返修/退换货</span>
+									</a>
+								</li>
+								<li class="im-item">
+									<a href="http://jiabao.jd.com/protecting" class="im-item-content" target="_blank">
+										<i class="im-icon-service im-icon-service-2"></i>
+										<span class="im-txt-link">保价申请</span>
+									</a>
+								</li>
+								<li class="im-item">
+									<a href="http://chat.jd.com/index.action?brandName=%25E4%25BA%25AC%25E4%25B8%259C%25E7%25A4%25BC%25E5%2593%2581%25E5%258D%25A1&code=1&classify=6980" class="im-item-content" target="_blank">
+										<i class="im-icon-service im-icon-service-5"></i>
+										<span class="im-txt-link">京东卡</span>
+									</a>
+								</li>
+															</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="thickArea" style="display:none;"></div>
+		<div id="jquery_jplayer_1" style="width:1;height:0" ></div>
+		</div>
+
+
+		<div class="choose-order" style="display:none;position:absolue;top:0px; left:0px;">
+					<div class="thickbox im-pop-choose-order" style="width: 680px; left: 30%; top: 20%; z-index: 1000000;" id="guangInterestedPerson">
+				<h4 class="thicktitle">
+					<span class="">请选择您要咨询的订单</span>
+					<span title="关闭" class="im-icon-close thickclose J-close"></span>
+				</h4>
+				<div class="content" style="overflow: hidden;">
+					<div class="im-order-list">					
+						<table class="im-order-table">
+		            		<tbody><tr id="tempOrder">
+		            			<td width="90">
+		            				<p class="im-order-type">普通订单</p>
+		            				<p class="im-order-num"><a href="javascript:;" class="im-txt-link"></a></p>
+		            				<p class="im-txt-lighter">（子订单）</p>
+		            			</td>
+		            			<td width="240" class="products">
+		            				<a class="im-pic" href="javascript:;" title=""><img src=""></a>
+		            				<a class="im-pic" href="javascript:;" title=""><img src=""></a>
+		            			</td>
+		            			<td width="80">
+		            				<p class="im-txt-lighter dateSubmit"></p>
+		            				<!-- p class="im-txt-lighter"></p -->
+		            			</td>		
+		            			<td widthh="80">
+		            				<p class="im-txt-lighter orderStatus"></p>
+		            			</td>
+		            			<td>
+		            				<a href="javascript:;" class="im-btn im-btn-talk">
+										<span class="im-txt j_consultOrder">开始咨询</span>
+										<span class="im-btn-l"></span>
+										<span class="im-btn-r"></span>
+									</a>
+		            			</td>
+		            		</tr>	            	
+	            	</tbody></table>
+					</div>
+	            	<div class="im-pop-footer">
+	            		<label>您也可以输入订单号：<input class="im-ipt" type="text" placeholder="(选填)" maxlength="20"></label>
+	            		<a href="javascript:;" class="im-btn im-btn-talk">
+							<span class="im-txt j_consultOrder" orderType="orderInpBtn">开始咨询</span>
+							<span class="im-btn-l"></span>
+							<span class="im-btn-r"></span>
+						</a>
+						<span id="order_msg" style="color:red;"></span>
+	            	</div>
+					<div class="im-msg-wrap"></div>
+				</div>
+			</div>
+			<div class="im-pop-mask" style="position: absolute; top:0; bottom: 0;left: 0; right: 0; background-color: rgba(0, 0, 0, .3)"></div>
+		</div>
+		<div id="commodity_container">
+
+		</div>
+           <iframe id="maskLayer" style="display:none;position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+	</body>
+	<script type='text/javascript'>
+	 (function(){
+	    if(navigator.userAgent.indexOf("MSIE 6.0") >0 ){
+		var logo = document.getElementById("im-logo");
+		if(!logo){
+			return;
+		}
+		logo.style.display='none';
+		logo.parentNode.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+logo.src+"'," + "enable=true, sizingMethod='auto')";
+	}
+})();
+	</script>
+	<script type="text/javascript" charset="utf-8" src="http://static.360buyimg.com/im/dist/20150428/jdchat_jd-min.js"></script>
+    <script type="text/javascript" src="http://misc.360buyimg.com/lib/js/2012/base-v1.js"></script>
+    <script type="text/javascript" src="http://misc.360buyimg.com/lib/js/2012/lib-v1.js"></script>
+    <script type="text/javascript">
+	 (function() {
+	        var ja = document.createElement('script');
+	        ja.type = 'text/javascript';
+	        ja.async = true;
+	        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : 'http://csc') + '.jd.com/wl.js';
+	        var s = document.getElementsByTagName('script')[0];
+	        s.parentNode.insertBefore(ja, s);
+	    })();
+	</script>
+</html>
+
+
+ 

@@ -146,6 +146,6 @@ $(function(){
     $(this).removeClass('hover');
   });
 
-    get_Msg($url);
+    //get_Msg($url);
 
 });

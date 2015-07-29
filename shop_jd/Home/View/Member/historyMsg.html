@@ -1,0 +1,622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>
+    我的京东-我的消息
+  </title>
+  <link rel="stylesheet" type="text/css" href="__CSS__/historyMsg.css" media="all">
+  <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
+  <script>
+    var $url = "__MODULE__/Common/getMsg";
+  </script>
+  <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
+  <script language="JavaScript" src="__JS__/common.js"></script>
+</head>
+<body myjd="_MYJD_joy">
+<include file="Public:header"/>
+<div id="o-header-2013">
+  <div id="header-2013" style="display: none;">
+  </div>
+</div>
+<include file="Public:nav"/>
+<!-- header end -->
+<div id="container">
+  <div class="w">
+    <div id="content">
+      <div id="sub">
+        <div id="menu">
+          <dl class="fore1">
+            <dt id="_MYJD_setting">
+              社区
+            </dt>
+            <dd class="fore1_1 curr" id="_MYJD_joy">
+              <a clstag="homepage|keycount|home2013|Homemsg" href="__MODULE__/Member/historyMsg/uid/<{$_SESSION['login_info']['uid']}>"
+                 target="_self">
+                消息精灵
+              </a>
+            </dd>
+            <!--<dd class="fore1_2" id="_MYJD_activities">-->
+              <!--<a clstag="homepage|keycount|home2013|Homeclub" href="http://luck.jd.com/myjd/myJoinActivity.html"-->
+                 <!--target="_self">-->
+                <!--我的活动-->
+              <!--</a>-->
+            <!--</dd>-->
+            <!--<dd class="fore1_3" id="_MYJD_circle">-->
+              <!--<a clstag="homepage|keycount|home2013|Homejoincircle" href="http://group.jd.com/circle/myjoincircle.htm"-->
+                 <!--target="_self">-->
+                <!--我的圈子-->
+              <!--</a>-->
+              <!--&nbsp;-->
+              <!--<img src="__IMAGE__/myjd-new-ico.png" height="11" width="24">-->
+            <!--</dd>-->
+            <!--<dd class="fore1_4" id="_MYJD_mycollect">-->
+              <!--<a clstag="homepage|keycount|home2013|Homethread" href="http://group.jd.com/thread/mythread.htm"-->
+                 <!--target="_self">-->
+                <!--我的帖子-->
+              <!--</a>-->
+              <!--&nbsp;-->
+              <!--<img src="__IMAGE__/myjd-new-ico.png" height="11" width="24">-->
+            <!--</dd>-->
+          </dl>
+        </div>
+        <div id="menu-ads">
+          <div>
+            <a href="http://c.nfa.jd.com/adclick?keyStr=z5AXFoIimt1jiDK32+w4mZYsU2J35VXuTltSWhYSnymMImvln2Js0HU3q+mnlAr0LpeSNpALCbss46Fg5S8sQYb7iog8VJRd/DurbeYQwISZI7p/OOlX6LABVlykvJwqJOjcdfYtg4LR/8nWWAGIVoNyWeGqd+Q7wP6xUaN8n11WkEWpXi1QspDG2bIfft81gWM2OrW1TfnD3oIuvOCpB0KHfimMQj3Iw4V9UaLhib1ll/LIATEUbAn/s32Kw4IT+2H9P9ZloUHfxMDj1t98jemO+qRFI51oV5yjVXWSb1Vwmcnz+LjKmIEN7/uZJP43Dti/UNGXO9rUg+5WktSX8KghgkpMFgdFGRP3JZtfl3w=&amp;cv=2.0&amp;url=http://wan.jd.com/yeyou/play.html?gameId=86&amp;gateWayId=s129"
+               target="_top">
+              <img alt=""  src="__IMAGE__/55399ba2n6c0b842e.gif" height="70"
+                   width="90">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--注意！消息精灵html部分-->
+      <div id="main">
+        <div class="mod-main mod-comm message-box">
+          <form action="http://joycenter.jd.com/msgCenter/queryHistoryMessage.action?t=1438043729050"
+                id="queryHistoryMsgFrom" method="post">
+            <div class="mt mb10">
+              <ul class="extra-l">
+                <input id="msgType" name="msgType" value="0" type="hidden">
+                <input id="unreadOnly" name="unreadOnly" value="0" type="hidden">
+                <input id="page" name="page" value="1" type="hidden">
+                <input id="ids" value="" type="hidden">
+                <li class="fore-1">
+                  <a id="msgType0" class="curr" href="javascript:void(0)" onclick="queryHistoryMsg(0)">
+                    所有消息
+                  </a>
+                </li>
+                <li class="fore-2">
+                  <a id="msgType1" href="javascript:void(0)" onclick="queryHistoryMsg(1)">
+                    系统通知
+                  </a>
+                </li>
+                <li class="fore-3">
+                  <a id="msgType2" href="javascript:void(0)" onclick="queryHistoryMsg(2)">
+                    社区提醒
+                  </a>
+                </li>
+                <li class="fore-4">
+                  <a id="msgType3" class="last" href="javascript:void(0)" onclick="queryHistoryMsg(3)">
+                    京东公告
+                  </a>
+                </li>
+              </ul>
+              <div class="extra-r">
+                <input class="jdcheckbox" name="" id="for-unread" type="checkbox">
+                <label for="for-unread">
+                  只显示未读消息
+                </label>
+                <!--<a href="javascript:void(0)" id="setBtn" class="ml10 ftx05" style="margin-left: 20px;">-->
+                  <!--设置-->
+                <!--</a>-->
+              </div>
+            </div>
+          </form>
+          <div class="mc">
+            <if condition="$info">
+              <div class="list-wrap">
+                <volist name="info" id="v">
+                  <div class="imsg-list">
+                    <h4 class="time-tamp">
+                      <{$v['time']|date=m月d日,###}>
+                    </h4>
+                    <ul>
+                      <li class="first-item fn-clear">
+                        <span class="time">
+                          <{$v['time']|date=H：s,###}>
+                        </span>
+                        <div class="msg-cont">
+                          <input name="cc" value="<{$v['letter_id']}>" type="checkbox">
+                          <input id="idstmp" value="" type="hidden">
+                          <if condition="$v['status']">
+                            <span class="readed-icon read-icon" id="<{$v['letter_id']}>">未读</span>
+                            <else/>
+                            <span class="readed-icon" id="<{$v['letter_id']}>">已读</span>
+                          </if>
+                          <p class="msg-read3">
+                            <a href="http://me.jd.com/10681026.html" target="_top">
+                              <{$v['user_name']}>
+                            </a>
+                            在评价中回复了您。 &nbsp;&nbsp;
+                            <a href="http://club.jd.com/repay/1231661_a4c40a23-f28d-4788-8ba3-9ad2baf69c5c_1.html">
+                              查看详情&gt;
+                            </a>
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </volist>
+                <div class="imsg-page clearfix">
+                  <ul class="ipage-util">
+                    <li>
+                      <input name="" id="i-allselect" type="checkbox">
+                      <label for="i-allselect">
+                        全选本页
+                      </label>
+                    </li>
+                    <li>
+                      <a class="ilong-btn" href="javascript:void(0)">
+                        标记为已读
+                      </a>
+                    </li>
+                    <li>
+                      <a class="ishort-btn" href="javascript:void(0)">
+                        删除
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="pagin pagin-m fr">
+                      <span class="text">
+                        <i class="ftx-01">
+                          1
+                        </i>
+                        /1
+                      </span>
+                      <span class="next-disabled">
+                        下一页
+                      </span>
+                  </div>
+                </div>
+              </div>
+              <else/>
+              <div class="list-wrap">
+                <div style="height: 40px;text-align: center">
+                  您还没有收到消息哦~~
+                </div>
+              </div>
+            </if>
+
+
+            <div class="msg-dialog" id="msg-dialog" style="position: absolute; top: 200px; left: 400px; z-index: 10; display: none; width: 615px;">
+              <div class="msg-dialog-title">
+                设置消息提醒
+                <a href="javascript:void(0)" class="close-btn" id="close-btn" title="关闭">
+                  关闭
+                </a>
+              </div>
+              <div class="msg-dialog-cont msg-setting-dialog">
+                <form action="http://joycenter.jd.com/msgCenter/queryHistoryMessage.action?t=1438043729050"
+                      class="setting-form">
+                  <ul class="fn-clear" id="setting-dialog">
+                    <li style="width: 125px;">
+                      <input id="set22" checked="checked" value="22" type="checkbox">
+                      <label for="set22">
+                        活动-礼包
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set12" checked="checked" value="12" type="checkbox">
+                      <label for="set12">
+                        优惠券到账
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set20" checked="checked" value="20" type="checkbox">
+                      <label for="set20">
+                        活动-提醒
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set6" checked="checked" value="6" type="checkbox">
+                      <label for="set6">
+                        社区-讨论
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set27" checked="checked" value="27" type="checkbox">
+                      <label for="set27">
+                        购物送京豆
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set13" checked="checked" value="13" type="checkbox">
+                      <label for="set13">
+                        优惠券过期
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set19" checked="checked" value="19" type="checkbox">
+                      <label for="set19">
+                        游戏-主题
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set5" checked="checked" value="5" type="checkbox">
+                      <label for="set5">
+                        咚咚-提示
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set18" checked="checked" value="18" type="checkbox">
+                      <label for="set18">
+                        活动-关注
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set25" checked="checked" value="25" type="checkbox">
+                      <label for="set25">
+                        外部系统通知
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set7" checked="checked" value="7" type="checkbox">
+                      <label for="set7">
+                        商品-评价
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set8" checked="checked" value="8" type="checkbox">
+                      <label for="set8">
+                        社区-评价
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set26" checked="checked" value="26" type="checkbox">
+                      <label for="set26">
+                        付费会员
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set17" checked="checked" value="17" type="checkbox">
+                      <label for="set17">
+                        会员俱乐部
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set9" checked="checked" value="9" type="checkbox">
+                      <label for="set9">
+                        社区-咨询
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set2" checked="checked" value="2" type="checkbox">
+                      <label for="set2">
+                        关注-降价
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set30" checked="checked" value="30" type="checkbox">
+                      <label for="set30">
+                        活动开始提醒
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set10" checked="checked" value="10" type="checkbox">
+                      <label for="set10">
+                        社区-圈子
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set23" checked="checked" value="23" type="checkbox">
+                      <label for="set23">
+                        在线调研
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set16" checked="checked" value="16" type="checkbox">
+                      <label for="set16">
+                        商品-取件
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set15" checked="checked" value="15" type="checkbox">
+                      <label for="set15">
+                        关注-提醒
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set1" checked="checked" value="1" type="checkbox">
+                      <label for="set1">
+                        关注-到货
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set24" checked="checked" value="24" type="checkbox">
+                      <label for="set24">
+                        京友邦
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set14" checked="checked" value="14" type="checkbox">
+                      <label for="set14">
+                        购物车唤醒
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set11" checked="checked" value="11" type="checkbox">
+                      <label for="set11">
+                        市场-公告
+                      </label>
+                    </li>
+                    <li style="width: 125px;">
+                      <input id="set4" checked="checked" value="4" type="checkbox">
+                      <label for="set4">
+                        消息-公告
+                      </label>
+                    </li>
+                  </ul>
+                </form>
+                <input id="setsubmit-btn" class="submit-btn-center" value="提交" type="button">
+              </div>
+            </div>
+          </div>
+        </div>
+            <span class="clr">
+            </span>
+      </div>
+    </div>
+  </div>
+  <div id="service-2014">
+    <div class="w">
+      <dl class="fore1">
+        <dt>
+          购物指南
+        </dt>
+        <dd>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-29.html">
+              购物流程
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-151.html">
+              会员介绍
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-297.html">
+              生活旅行/团购
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue.html">
+              常见问题
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-136.html">
+              大家电
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/index.html">
+              联系客服
+            </a>
+          </div>
+        </dd>
+      </dl>
+      <dl class="fore2">
+        <dt>
+          配送方式
+        </dt>
+        <dd>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81-100.html">
+              上门自提
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81.html">
+              211限时达
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/103-983.html">
+              配送服务查询
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/109-188.html">
+              配送费收取标准
+            </a>
+          </div>
+          <div>
+            <a target="_top" href="http://en.jd.com/chinese.html">
+              海外配送
+            </a>
+          </div>
+        </dd>
+      </dl>
+      <dl class="fore3">
+        <dt>
+          支付方式
+        </dt>
+        <dd>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-172.html">
+              货到付款
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-173.html">
+              在线支付
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-176.html">
+              分期付款
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-174.html">
+              邮局汇款
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-175.html">
+              公司转账
+            </a>
+          </div>
+        </dd>
+      </dl>
+      <dl class="fore4">
+        <dt>
+          售后服务
+        </dt>
+        <dd>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/321-981.html">
+              售后政策
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-132.html">
+              价格保护
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/130-978.html">
+              退款说明
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://myjd.jd.com/repair/repairs.action">
+              返修/退换货
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-50.html">
+              取消订单
+            </a>
+          </div>
+        </dd>
+      </dl>
+      <dl class="fore5">
+        <dt>
+          特色服务
+        </dt>
+        <dd>
+          <div>
+            <a target="_top" href="http://help.jd.com/user/issue/list-133.html">
+              夺宝岛
+            </a>
+          </div>
+          <div>
+            <a target="_top" href="http://help.jd.com/user/issue/list-134.html">
+              DIY装机
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://fuwu.jd.com/">
+              延保服务
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://giftcard.jd.com/market/index.action">
+              京东E卡
+            </a>
+          </div>
+          <div>
+            <a rel="nofollow" target="_top" href="http://mobile.jd.com/">
+              京东通信
+            </a>
+          </div>
+        </dd>
+      </dl>
+          <span class="clr">
+          </span>
+    </div>
+  </div>
+  <!-- service end -->
+  <div class="w">
+    <include file="Public:foot3"/>
+  </div>
+  <!-- footer end -->
+  <!--注意！消息精灵html部分-->
+</div>
+</body>
+</html>
+<script>
+  $(function () {
+    var readArr = [];
+    var deleteArr = [];
+    //全选本页
+    $('#i-allselect').click(function () {
+      $('input[name="cc"]').each(function(i){
+        this.checked = !this.checked;
+      });
+    });
+    //全部标志为已读
+    $('.ilong-btn').click(function () {
+      $('input[name="cc"]').each(function(i){
+        if(this.checked == true && $(this).siblings('span').attr('class')!='readed-icon'){
+          readArr.push(this.value);
+        }
+      });
+      $.ajax({
+        url:'__MODULE__/Member/readed',
+        type:'post',
+        data:{'readArr':readArr},
+        success:function($msg){
+          if($msg=='1'){
+            $('input[name="cc"]').each(function(i){
+              if(this.checked == true ){
+                $(this).siblings('span').attr('class','readed-icon');
+              }
+            });
+          }else{
+            alert('标记失败');
+          }
+        }
+      });
+    });
+    //删除
+    $('.ishort-btn').click(function(){
+      $('input[name="cc"]').each(function(i){
+        if(this.checked == true){
+          deleteArr.push(this.value);
+        }
+      });
+      //去后台删除
+      $.ajax({
+        url:'__MODULE__/Member/deleteLetter',
+        type:'post',
+        data:{'deleteArr':deleteArr},
+        success:function($msg){
+          if($msg=='1'){
+            window.location.href = "__MODULE__/Member/historyMsg/uid/<{$_SESSION['login_info']['uid']}>";
+          }else{
+            alert('删除失败');
+          }
+        }
+      });
+    });
+
+    //只显示未读信息
+    $('.jdcheckbox').click(function () {
+      window.location.href = "__MODULE__/Member/historyMsg/uid/<{$_SESSION['login_info']['uid']}>/read/1";
+    });
+
+    //根据后台传过来的标志位确定是否选中只显示未读信息
+    var a = <{$flg}>;
+    if(a){
+      $('.jdcheckbox').attr('checked',true);
+    }
+    //全部信息
+    $('#msgType0').click(function () {
+      window.location.href = "__MODULE__/Member/historyMsg/uid/<{$_SESSION['login_info']['uid']}>";
+    })
+  });
+</script>

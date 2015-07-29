@@ -24,7 +24,6 @@ class CommonController extends Controller{
     if($msg){//在内存中有推送消息的时候才处理
         if($msg['status']){
           $sum = $msg['total'];
-          $msg['status']=0;
           S('userMsg'.$uid,$msg,0);
           echo json_encode(array(
               'status'=>1,
