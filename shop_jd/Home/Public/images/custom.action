@@ -17,8 +17,8 @@
 			var jdchat_token = new String("12");
 			var entrance = "31";
 			var JSessionId = '$sessionId';
-			var pin_vm = '18820147760_p';
-			var pamsUid_vm = '5430f9a4-9a84-4dee-a745-dea23cf7af0a';
+			var pin_vm = '18850313139_p';
+			var pamsUid_vm = 'b950f1e7-c2f2-49ba-aa4b-8baa3e9bf443';
 			var showJimi_vm = 'show';
 			var toJimi3 = '';
 			var toJimi12 = '';
@@ -50,7 +50,7 @@
 												<!-- 蓝色 提示信息框 class im-msg-notice -->
 						<div class="im-msg im-msg-notice">
 							<i class="im-icon-notice"></i>
-							<p>18820147760_p， 欢迎使用在线客服！<span class="im-txt-light"></span></p>
+							<p>18850313139_p， 欢迎使用在线客服！<span class="im-txt-light"></span></p>
 							<p><span class="im-txt-light">
 																			温馨提示：如果您对商品规格、介绍等有疑问，可以在商品详情页点击“在线客服”进行咨询，或者在商品详情页“商品咨询”处发起咨询，会得到及时专业的回复！
 																</span>
