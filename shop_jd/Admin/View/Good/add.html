@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  </style>
+  </head>
+
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">商品管理</a>
+    </li>
+    <li class="active">添加商品</li>
+  </ol>
+
+
+  <div class="container-fluid">
+    <div class="panel">
+      <div class="panel-heading panel-default">
+        <nav class="navbar navbar-primary">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a  class="navbar-brand">
+                <span class="glyphicon glyphicon-pencil"></span>
+                &nbsp;&nbsp;填写商品信息
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="panel-body ">
+        <form id="forms" action="__CONTROLLER__/doAdd" class="form-horizontal" method="post" enctype="multipart/form-data"  onsubmit='return false'>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">选择商品属性</h4>
+      </div>
+      <div id="attrM" class="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" id="sure" data-dismiss="modal">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+          <div id="bor" class="form-group">
+            <label for="name" class="control-label col-sm-2 col-sm-offset-2">商品名称:</label>
+            <div class="col-sm-3">
+              <input type="text" id="name" name="name" class="form-control" value=""></div>
+          </div>
+          <div class="form-group">
+            <label for="type" class="control-label col-sm-2 col-sm-offset-2">商品属性所属分类:</label>
+            <div class="col-sm-3">
+              <select name="type" id="type" class="form-control">
+                <option value="0">请选择</option>
+                <volist name="cate" id="c">
+                  <option value="<{$c['cat_id']}>
+                    "
+                    <{$c['is_show']}>
+                      <{$c['disabled']}>
+                        >
+                        <{$c['cat_name']}></option>
+                      </volist>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="brand" class="control-label col-sm-2 col-sm-offset-2">商品所属品牌:</label>
+                  <div class="col-sm-3">
+                    <select name="brand" id="brand" class="form-control">
+                      <option value="0">请选择分类</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label  class="control-label col-sm-2 col-sm-offset-2">属性:</label>
+                  <div class="col-sm-3">
+                    <label for=""><select  id="attr" class="form-control">
+                      <option value="0">请选择</option>
+                    </select></label>
+                  </div>
+                </div>
+                <div id="bor" class="form-group">
+                  <label for="price" class="control-label col-sm-2 col-sm-offset-2">商品市场价:</label>
+                  <div class="col-sm-3">
+                    <input type="text" id="price" name="price" class="form-control" value=""></div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2 col-sm-offset-2">
+                    上架状态:
+                    <input type="radio" name="onsale" value="1" checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="onsale" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <label  class="control-label col-sm-2">
+                    是否新品:
+                    <input type="radio" name="new" value="1" checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="new" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <label  class="control-label col-sm-2">
+                    是否精品:
+                    <input type="radio" name="best" value="1">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="best" value="0" checked>
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label  class="control-label col-sm-2 col-sm-offset-2">
+                    是否热卖:
+                    <input type="radio" name="hot" value="1">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="hot" checked value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <label  class="control-label col-sm-2">
+                    是否促销:
+                    <input type="radio" name="promote" value="1" >
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="promote" checked value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label for="photo" class="control-label col-sm-2 col-sm-offset-2">商品图片:</label>
+                  <div class="col-sm-5">
+                    <input type="file" id="photo" name="pic[]"></div>
+                </div>
+                <div class="form-group">
+                  <label for="pho" class="control-label col-sm-2 col-sm-offset-2">商品放大镜图片:</label>
+                  <div class="col-sm-5">
+                    <input type="file" id="pho" name="pic[]"></div>
+                </div>
+                <div class="form-group">
+                  <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品简单描述:</label>
+                  <div class="col-sm-5">
+                    <textarea name="desc" id="d" cols="30" rows="5" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-4 col-sm-5">
+                    <button class="btn btn-success btn-lg" id="submit">添加</button>
+                    <a href="__CONTROLLER__/index" class="btn btn-danger btn-lg">返回</a>
+                  </div>
+                </div>
+                <div class="hide" id="fina">
+                  <p>a</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+          <!-- jQuery -->
+          <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+          <script>
+    $(function(){
+      $('input').focus(function(){
+        $(this).parent('div').parent('div').removeClass('has-error');
+      });
+      $('#brand').change(function(){
+        var $brand_id = $('#brand').val();
+        var $type = $('#type').val();
+        $.post(
+          "<{:U('attr')}>",
+          {'brand_id':$brand_id,'type':$type},
+          function($msg){
+            if(!$msg){
+              alert('获取属性失败');
+              location.href = '<{:U("add")}>';
+            }else{
+              $('#attr').attr('data-toggle','modal');
+              $('#attr').attr('data-target','#myModal');
+              $('#attrM').html($msg);
+            }
+          }
+          );
+
+      });
+      $('#sure').click(function(){
+        $('#fina').children('p').html('b');
+        $('#attrM').children('div').children('select').each(function(){
+          $('#fina').append('<input type="hidden" value="'+$(this).val()+'" name="'+$(this).attr('attr_name')+'"/>');
+        });
+
+      });
+      $('#submit').click(function(){
+        var $name = $('#name').val();
+        var $price = $('#price').val();
+        var $photo = $('#photo').val();
+        var $pho = $('#pho').val();
+        var $type = $('#type').val();
+        var $brand = $('#brand').val();
+        var $fina = $('#fina').children('p').html();
+        if($fina == 'a'){
+          alert('请选择商品属性');
+          return false;
+        }
+        if($name == ''){
+          $('#name').parent('div').parent('div').addClass('has-error');
+          return false;
+        }
+        if($type == '0'){
+          alert('请选择商品分类');
+          return false;
+        }
+        if($brand == '0'){
+          alert('请选择商品品牌');
+          return false;
+        }
+        if(isNaN($price)){
+          alert('请输入正确的价格');
+          $('#price').parent('div').parent('div').addClass('has-error');
+          return false;
+        }
+        if($photo == '' || $pho == ''){
+          alert('请选择商品图片');
+          return false;
+        }
+        $('#forms').removeAttr('onsubmit');
+      });
+      $('#type').change(function(){
+          var $val = $(this).val();
+          var brand = document.getElementById('brand');
+          $.post(
+            '<{:U("type")}>',
+            {'type_id':$val},
+            function($msg){
+              if(!$msg){
+                alert('该分类还未有品牌,请前去添加');
+              }else{
+                brand.options.length = 0;
+                brand.options.add(new Option('请选择',0));
+                $.each($msg,function(n,val){
+                  brand.options.add(new Option(val,n));
+                });
+              }
+            }
+            );
+      });
+    })
+    </script>
+
+</body>
+        </html>

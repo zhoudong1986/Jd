@@ -30,7 +30,7 @@ class UserController extends CommonController {
     	// 实例化第三方分页类
     	$p = new \Page($page);
     	// 查询符合条件的数据
-    	$data = M()->table(array('jd_user'=>'u','jd_address'=>'a'))->field('u.user_id,u.user_name,u.level,u.status,a.pic')->where($where)->limit($p->pagerows(),$p->maxrows())->select();
+    	$data = M()->table(array('jd_user'=>'u','jd_user_details'=>'a'))->field('u.user_id,u.user_name,u.level,u.status,a.pic')->where($where)->limit($p->pagerows(),$p->maxrows())->select();
     	// 分配变量
     	$this->assign('users',$data);
     	$this->assign('pageNav',$p->get_page());
@@ -106,7 +106,7 @@ class UserController extends CommonController {
     	// 接收id
     	$id = I('get.id');
     	// 查询数据
-        $userInfo = M()->table(array('jd_user'=>'u','jd_address'=>'a'))->where("u.user_id = a.user_id AND u.user_id=".$id)->field('u.user_name,u.level,u.status,a.email')->select();
+        $userInfo = M()->table(array('jd_user'=>'u','jd_user_details'=>'a'))->where("u.user_id = a.user_id AND u.user_id=".$id)->field('u.user_name,u.level,u.status,a.email')->select();
     	if(!$userInfo){//查询失败
     		$this->error('系统繁忙,请稍后再试');
     		return false;
@@ -162,7 +162,7 @@ class UserController extends CommonController {
             // 接收id
             $id = I('id');
             // 实例化model类
-            $address = M('address');
+            $address = M('user_details');
             // 更新信息
             $data = array('pic'=>$file);
             // 条件

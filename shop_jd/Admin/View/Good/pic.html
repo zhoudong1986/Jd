@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">商品管理</a>
+    </li>
+    <li>
+      <a href="#"><{$name}></a>
+    </li>
+    <li class="active" id="my">图片管理</li>
+  </ol>
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">
+          <span class="glyphicon glyphicon-th-list"></span>
+          &nbsp;&nbsp;图片管理
+          <button id="add1" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加封面图</button>&nbsp;&nbsp;<button id="add2" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加大图</button>&nbsp;&nbsp;<button id="del" class="btn btn-danger" type="button"><span class="glyphicon glyphicon-trash"></span>删除</button>&nbsp;&nbsp;<button id="cha" style="display:none" class="btn btn-danger" type="button">取消</button>&nbsp;&nbsp;<button id="sureDel" style="display:none" class=" btn btn-success" type="button">确定</button>
+          <form action="__CONTROLLER__/upload" id="myform"  method="post" enctype="multipart/form-data" style="display:none"><input type="file"  name="pictuer[]" id="jia"><input type="file" id="jiajia" name="pictuer[]"><input type="hidden" name="id" value="<{$id}>"></form>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <form action="__CONTROLLER__/doPic" id="delForm" method="post">
+    <volist name="pic" id="p">
+      <input type="checkbox" style="display:none" name="i[]" value="<{$p['img_id']}>">
+      <img src="<{$p['img_url']}>"width="200px" height="200px"  alt="">
+      <img src="<{$p['imgBig']}>" width="500px" height="600px" alt="" style="display:none">&nbsp;&nbsp;&nbsp;&nbsp;
+    </volist>
+    <div><{$page}></div>
+  </form>
+  <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+              <script src="__ADMINPUBLIC__/js/layer/layer.js"></script>
+              <!-- jQuery -->
+              <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+<script>
+  $(function(){
+    $('#del').click(function(){
+      $(this).toggle();
+      $('#cha').toggle();
+      $('#sureDel').toggle();
+      $('#delForm').children('input').toggle();
+    });
+    $('#cha').click(function(){
+      $(this).toggle();
+      $('#sureDel').toggle();
+      $('#delForm').children('input').toggle();
+      $('#del').toggle();
+    });
+    $('#sureDel').click(function(){
+      var $flag = true;
+      var $check = $('input:checkbox[name="i[]"]:checked');
+      $check.each(function(){
+        if($(this).val() != ''){
+          $('#delForm').submit();
+          $flag = false;
+        }
+      });
+      if($flag){
+        alert('请选择要删除的图片');
+      }
+    });
+    $('#add1').click(function(){
+      $('#jia').trigger('click');
+      layer.msg('请选择封面图', {
+        offset: 0,
+        shift: 6
+      });
+      $('#jia').change(function(){
+        if($('#jiajia').val() == ''){
+          layer.msg('请选择大图完成上传', {
+            offset: 0,
+            shift: 6
+          });
+        }else{
+          $('#myform').submit();
+        }
+
+      });
+    
+    });
+    $('#add2').click(function(){
+      $('#jiajia').trigger('click');
+      layer.msg('请选择大图', {
+        offset: 0,
+        shift: 6
+      });
+      $('#jiajia').change(function(){
+        if($('#jia').val() == ''){
+          layer.msg('请选择封面图完成上传', {
+            offset: 0,
+            shift: 6
+          });
+        }else{
+          $('#myform').submit();
+        }
+
+      });
+    });
+    $('form img').click(function(){
+      var $big = $(this).next();
+      layer.open({
+        type: 1,
+        title: false,
+        closeBtn: false,
+        area: ['500px', '600px'],
+        skin: 'layui-layer-nobg', //没有背景色
+        shadeClose: true,
+        content: $big
+      });
+    });
+  })
+</script>
+</body>
+            </html>

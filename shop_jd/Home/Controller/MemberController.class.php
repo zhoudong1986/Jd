@@ -28,6 +28,31 @@ class MemberController extends CommonController {
   public function myOrder(){
     $uid = I('uid');
     if($uid){
+      import('@.Class.Page');
+      $counts = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->where("o.user_id=$uid AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle != 0")->count('o.order_sn');
+      $page = array(
+          'total' => $counts,//总数
+          'url' => !empty($param['url']) ? $param['url'] : '',//URL配置
+          'max' => !empty($param['max']) ? $param['max'] : 1,//每页显示多少条记录
+          'url_model' => 1,//URL模式
+          'ajax' =>  !empty($param['ajax']) ? true : false,//开启ajax分页
+          'out' =>  !empty($param['out']) ? $param['out'] : false,//输出设置
+          'url_suffix' => true,//url后缀
+          'tags' => array('首页','上一页','下一页','尾页'),
+      );
+      //实例化第三方分页类库
+      $p = new \Page($page);
+      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle !=0")->limit($p->pagerows(),$p->maxrows())->select();
+      foreach($info as $k=>&$v){
+        $imgs = M('order_goods')->field('goods_id,goods_img,goods_name')->where(array('order_id'=>$v['order_id']))->select();
+        if($imgs){$v['imgs']=$imgs;}
+      }
+      $this->assign('info',$info);
+      $this->assign('imgs',$imgs);
+      $this->assign('pageNav',$p->get_page()); //分页类页码
+//      dump($info);
+//      dump($w);
+//      die;
       $this->display('order');
     }else{//有没uid就给它去首页
       $this->redirect('Index/index','',0,'');
@@ -478,6 +503,69 @@ class MemberController extends CommonController {
       }
     }else{
       $this->ajaxReturn('2');
+    }
+  }
+
+  //订单详情
+  public function orderDetail(){
+    $uid = I('uid');
+    $order_id = I('order_id');
+    if($uid && $order_id){
+      //查询收货人信息
+      $addinfo = M('buy_address')->where(array('user_id'=>$uid))->field('street,telephone,mobile,consignee')->find();
+      //组合订单详情消息
+      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid AND o.order_id=$order_id AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle !=0")->select();
+      foreach($info as $k=>&$v){
+        $imgs = M('order_goods')->field('goods_id,goods_img,goods_name,shop_price,goods_number')->where("order_id=1")->select();
+        if($imgs){$v['imgs']=$imgs;}
+      }
+//      dump($info[0]);
+//      die;
+      $this->assign('orderID',$order_id);
+      $this->assign('addr',$addinfo);
+      $this->assign('info',$info[0]);
+      $this->display();
+    }else{
+      $this->redirect('Index/index','',0,'');
+    }
+  }
+
+  //处理支付
+  public function payMent(){
+    $uid = I('uid');
+    $order_id = I('order_id');
+    if($uid && $order_id){
+        //将该order_id的状态转为代发货
+      $data = array(
+        'order_status'=>2
+      );
+      if(M('order')->where("order_id={$order_id} AND user_id={$uid}")->save($data)){
+          $this->ajaxReturn('1');
+      }else{
+        $this->ajaxReturn('2');
+      }
+
+    }else{
+      $this->redirect('Index/index','',0,'');
+    }
+  }
+
+  //取消订单
+  public function CancleOrder(){
+    $uid = I('uid');
+    $order_id = I('order_id');
+    if($uid && $order_id){
+        //去数据库把订单状态改为取消
+      $data = array(
+          'order_status'=>5
+      );
+      if(M('order')->where("order_id={$order_id} AND user_id={$uid}")->save($data)){
+        $this->ajaxReturn('1');
+      }else{
+        $this->ajaxReturn('2');
+      }
+    }else{
+      $this->redirect('Index/index','',0,'');
     }
   }
 }

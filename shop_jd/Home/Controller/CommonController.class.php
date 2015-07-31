@@ -14,7 +14,7 @@ class CommonController extends Controller{
     $uid = $_SESSION['login_info']['uid']; //当前用户UID
     $img = M('user_details')->where(array('user_id'=>$uid))->field('pic')->find();//查找用户头像
     $this->assign('pic',ltrim($img['pic'],'.'));
-//    S('kfMsg1','哈哈哈',0);
+//    dump(md5(123456));
 //    die;
   }
 

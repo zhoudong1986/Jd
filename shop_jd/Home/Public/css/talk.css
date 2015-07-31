@@ -486,3 +486,16 @@ body { width: 100%; height: 100%; overflow: hidden; }
 .msg_loading { background: transparent url('../images/loading-jd.gif') no-repeat scroll 0% 0%; width: 140px; height: 215px; margin-top: 150px; margin-left: 140px; }
 .interest_loading { background: transparent url('../images/loading-jd.gif') no-repeat scroll 0% 0%; margin-top: 160px; margin-left: 140px; }
 .setting_loading { background: transparent url('../images/loading-jd.gif') no-repeat scroll 0% 0%; width: 140px; height: 50px; margin-left: 125px; margin-top: 20px; }
+.im-me .im-user-area { position: absolute; right: 15px; margin-left: 10px; width: 46px; }
+.im-me .im-message-detail { margin-right: 60px; }
+.im-me .im-message-detail .im-message-table { float: right; display: inline; }
+.im-me .im-message-detail .lt { width: 10px; height: 6px; background: transparent url('../images/mesbluebglr.png') repeat scroll 0px 0px; }
+.im-me .im-message-detail .tt { height: 6px; background: transparent url('../images/mesbluebgtd.png') repeat scroll 0px 1px; }
+.im-me .im-message-detail .rt { width: 20px; height: 6px; background: transparent url('../images/mesbluebglr.png') repeat scroll -17px 0px; }
+.im-me .im-message-detail .lm { width: 10px; background: transparent url('../images/mesbluebglr.png') repeat-y scroll -38px 0px; }
+.im-me .im-message-detail .rm { width: 20px; background: transparent url('../images/mesbluebglr.png') repeat-y scroll right 0px; }
+.im-me .im-message-detail .rm span { position: absolute; top: 20px; display: inline-block; width: 20px; height: 15px; background: transparent url('../images/mesbluebglr.png') repeat scroll -17px -20px; }
+.im-me .im-message-detail .mm { margin-top: -6px; padding-left: 5px; background: rgb(250, 250, 250) none repeat scroll 0% 0%; word-break: break-all; word-wrap: break-word; }
+.im-me .im-message-detail .lb { width: 10px; height: 12px; background: transparent url('../images/mesbluebglr.png') repeat scroll 0px bottom; }
+.im-me .im-message-detail .bm { height: 12px; background: transparent url('../images/mesbluebgtd.png') repeat scroll 0px bottom; }
+.im-me .im-message-detail .rb { width: 20px; height: 12px; background: transparent url('../images/mesbluebglr.png') repeat scroll -17px bottom; }

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">商品管理</a>
+    </li>
+    <li class="active" id="my">商品列表</li>
+  </ol>
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">
+          <span class="glyphicon glyphicon-th-list"></span>
+          &nbsp;&nbsp;商品列表
+         <button id="add" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加</button>
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form navbar-right" action="__MODULE__/Good/index" role="search" method="get">
+          <div class="form-group">
+            <label for="search" class="control-label">商品名称:</label>
+            <input type="text" id="search" class="form-control" value="<{$search}>" name="search"></div>
+            <input type="submit" class="btn  btn-primary" value="搜索">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <table style="text-align:center"  class="table  table-bordered table-hover table-striped" >
+    <thead align="center">
+      <tr class="info">
+        <td> <strong>商品货号</strong>
+        </td>
+        <td> <strong>商品名称</strong>
+        </td>
+        <td>
+          <strong>商品图片</strong>
+        </td>
+        <td>
+          <strong>商品市场价</strong>
+        </td>
+        <td>
+          <strong>商品概述</strong>
+        </td>
+        <td>
+          <strong>是否上架</strong>
+        </td>
+        <td>
+          <strong>操作</strong>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <volist name="goods" id="g">
+        <tr id="t<{$g['goods_id']}>">
+          <td scope="row">
+            <strong><{$g['goods_sn']}></strong>
+            </td>
+            <td>
+              <{$g['goods_name']}>
+              </td>
+                <td>
+                    <label class=" pointer-events" for="p<{$g['goods_id']}>">
+                      <img src="<{$g['goods_img']}>" width="50px" height="50px" uid="<{$g['goods_id']}>" alt="..." class="img-thumbnail" /></label>
+                  </td>
+                  <td>
+                    <{$g['market_price']}>
+                  </td>
+                  <td>
+                    <if condition="$g['is_hot'] eq '1'">
+                    <a class="btn btn-danger">热销</a>
+                    </if>
+                    <if condition="$g['is_new'] eq '1'">
+                    <a class="btn btn-default">新品</a>
+                    </if>
+                    <if condition="$g['is_best'] eq '1'">
+                    <a class="btn btn-warning">精品</a>
+                    </if>
+                    <if condition="$g['is_promote'] eq '1'">
+                    <a class="btn btn-info">促销</a>
+                    </if>
+                  </td>
+                  <td>
+                    <if condition="$g['is_onsale'] eq '1'">
+                      <button class="btn btn-success " value="0" sid="<{$g['goods_id']}>">
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                      <button class="btn btn-default hide" value="1" sid="<{$g['goods_id']}>">
+                        <span class="glyphicon glyphicon-remove"></span>
+                      </button>
+                      <else />
+                      <button class="btn btn-default" value="1" sid="<{$g['goods_id']}>">
+                        <span class="glyphicon glyphicon-remove"></span>
+                      </button>
+                      <button class="btn btn-success hide" value="0" sid="<{$g['goods_id']}>">
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                    </if>
+                  </td>
+                  <td>
+                    <a href="__MODULE__/Good/getInfo/id/<{$g['goods_id']}>" class="btn btn-info ">
+                      <span class="glyphicon glyphicon-pencil"></span>
+                      详情
+                    </a>
+                    <a href="__MODULE__/Good/pic/id/<{$g['goods_id']}>/name/<{$g['goods_name']}>" class="btn btn-info ">
+                      <span class="glyphicon glyphicon-pencil"></span>
+                      图片管理
+                    </a>
+                      <a href="__MODULE__/Good/del/id/<{$g['goods_id']}>" class="btn btn-danger ">删除</a>
+                    </td>
+                  </tr>
+
+                </volist>
+                <tr>
+                  <td colspan="7" align="right">
+                    <{$page}></td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <iframe name="photo" id="photo" width="600px" class="hide" height="300px" frameborder="0"></iframe>
+
+              <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+              <script src="__ADMINPUBLIC__/js/layer/layer.js"></script>
+              <!-- jQuery -->
+              <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+              <script>
+          $(function(){
+           
+            // 添加商家
+            $('#add').click(function(){
+              location.href = "__CONTROLLER__/add";
+            });
+
+
+            // 状态修改
+            $('tbody button').click(function(){
+              var $s = $(this);
+              var $status = $(this).attr('value');
+              var $id = $(this).attr('sid');
+              $.post(
+                '<{:U("Good/status")}>',
+                {'status':$status,'id':$id},
+                function($msg){
+                  if(!$msg){
+                    alert('系统忙,请稍后再操作');
+                  }else{
+                    $s.toggleClass('hide');
+                    $s.siblings('button').toggleClass('hide');
+                  }
+                }
+                );
+            });
+           
+
+          
+          })
+          </script>
+</body>
+            </html>

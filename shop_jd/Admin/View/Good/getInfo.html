@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">商品管理</a>
+    </li>
+    <li >
+      <a href="#">商品列表</a>
+    </li>
+    <li >
+      <a href="#">
+        <{$g['goods_name']}></a>
+      </li>
+      <li class="active">商品详情</li>
+    </ol>
+    
+    <div class="container-fluid">
+      <div class="panel">
+        <div class="panel-heading panel-default">
+          <nav class="navbar navbar-primary">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a  class="navbar-brand">
+            <span class="glyphicon glyphicon-pencil"></span>
+            &nbsp;&nbsp;个人资料
+          </a>
+        </div>
+      </div>
+    </nav>
+        </div>
+        <div class="panel-body ">
+          <form id="forms" action="__CONTROLLER__/doEdit" class="form-horizontal" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label class="control-label col-sm-2 col-sm-offset-2">商品货号:</label>
+              <div class="col-sm-5">
+                <input type="text" readonly class="form-control" value="<{$g['goods_sn']}>">
+                </div>
+              </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2 col-sm-offset-2">商品名称:</label>
+              <div class="col-sm-5">
+                <input type="text" name="goods_name" class="form-control" value="<{$g['goods_name']}>">
+                </div>
+              </div>
+              <div class="form-group ">
+                <label  class="col-sm-2 col-sm-offset-2 control-label">商品所属分类:</label>
+                <div class="col-sm-5 ">
+                  <input type="text"  class="form-control"readonly value="<{$g['cat_name']}>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">商品所属品牌:</label>
+                <div class="col-sm-5">
+                  <input type="text" readonly class="form-control"  value="<{$g['brand_name']}>"></div>
+              </div>
+               <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">市场价格:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="market_price"  value="<{$g['market_price']}>"></div>
+              </div>
+               <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">店铺价格:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="shop_price"  value="<{$g['shop_price']}>"></div>
+              </div>
+               <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">促销价格:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="promote_price"  value="<{$g['promote_price']}>"></div>
+              </div>
+               <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">库存:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="num"  value="<{$g['goods_number']}>"></div>
+              </div>
+               <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">点击次数:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="count" value="<{$g['click_count']}>"></div>
+              </div>
+              <div class="form-group">
+                <label  class="control-label col-sm-2 col-sm-offset-2">属性:</label>
+                <div class="col-sm-5">
+                  <{$str}>
+              </div>
+            </div>
+              <div class="form-group">
+                  <if condition="$g['is_onsale'] eq 1">
+                  <label class="control-label col-sm-2 col-sm-offset-2">
+                    上架状态:
+                    <input type="radio" name="onsale" value="1" checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="onsale" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <else />
+                  <label class="control-label col-sm-2 col-sm-offset-2">
+                    上架状态:
+                    <input type="radio" name="onsale" value="1" >
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="onsale" value="0" checked>
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  </if>
+                  <if condition="$g['is_new'] eq 1">
+                  <label  class="control-label col-sm-2">
+                    是否新品:
+                    <input type="radio" name="new" value="1" checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="new" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <else />
+                  <label  class="control-label col-sm-2">
+                    是否新品:
+                    <input type="radio" name="new" value="1">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="new" value="0"  checked>
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  </if>
+                  <if condition="$g['is_best'] eq 1">
+                  <label  class="control-label col-sm-2">
+                    是否精品:
+                    <input type="radio" name="best" value="1"  checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="best" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <else />
+                  <label  class="control-label col-sm-2">
+                    是否精品:
+                    <input type="radio" name="best" value="1" checked>
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="best" value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  </if>
+                </div>
+              <div class="form-group">
+                  <if condition="$g['is_hot'] eq 1">
+                  <label  class="control-label col-sm-2 col-sm-offset-2">
+                    是否热卖:
+                    <input type="radio" name="hot" checked  value="1">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="hot"value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <else />
+                  <label  class="control-label col-sm-2 col-sm-offset-2">
+                    是否热卖:
+                    <input type="radio" name="hot" value="1">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="hot" checked value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  </if>
+                  <if condition="$g['is_promote'] eq 1">
+                  <label  class="control-label col-sm-2">
+                    是否促销:
+                    <input type="radio" name="promote" checked  value="1" >
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="promote"value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  <else />
+                  <label  class="control-label col-sm-2">
+                    是否促销:
+                    <input type="radio" name="promote" value="1" >
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <input type="radio" name="promote" checked value="0">
+                    <span class="glyphicon glyphicon-remove"></span>
+                  </label>
+                  </if>
+                </div>
+                <div class="form-group">
+                  <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品简单描述:</label>
+                  <div class="col-sm-5">
+                    <textarea name="brief" id="d" cols="30" rows="2" class="form-control"><{$g['goods_brief']}></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品描述:</label>
+                  <div class="col-sm-5">
+                    <textarea name="desc" id="d" cols="30" rows="5" class="form-control"><{$g['goods_desc']}></textarea>
+                  </div>
+                </div>
+              <div class="form-group">
+              <label class="control-label col-sm-2 col-sm-offset-2">添加时间:</label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" readonly value="<{$g['add_time']|date="Y-m-d H:i:s",###}>">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-5">
+                  <button class="btn btn-success  btn-lg" id="submit">提交</button>
+                  <a href="__CONTROLLER__/index" class="btn btn-danger btn-lg">返回</a>
+                </div>
+              </div>
+              <input type="hidden" name="id" value="<{$g['goods_id']}>">
+              </form>
+          </div>
+
+        </div>
+
+      </div>
+      <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+      <!-- jQuery -->
+      <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+      <script>
+  </script>
+     
+</body>
+    </html>

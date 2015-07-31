@@ -10,9 +10,9 @@
 <body>
   <ol class="breadcrumb">
     <li>
-      <a href="#">商品分类管理</a>
+      <a href="#">商品管理</a>
     </li>
-    <li class="active">添加商品分类</li>
+    <li class="active">添加商品品牌</li>
   </ol>
 
   <div class="container-fluid">
@@ -23,48 +23,63 @@
             <div class="navbar-header">
               <a  class="navbar-brand">
                 <span class="glyphicon glyphicon-pencil"></span>
-                &nbsp;&nbsp;填写商品分类信息
+                &nbsp;&nbsp;填写商品品牌信息
               </a>
             </div>
           </div>
         </nav>
       </div>
       <div class="panel-body ">
-        <form id="forms" action="__CONTROLLER__/doAdd" class="form-horizontal" method="post"  onsubmit='return false'>
+        <form id="forms" action="__CONTROLLER__/doBadd" class="form-horizontal" method="post" enctype="multipart/form-data"  onsubmit='return false'>
           <div id="bor" class="form-group">
-            <label for="name" class="control-label col-sm-2 col-sm-offset-2">商品分类名称:</label>
+            <label for="name" class="control-label col-sm-2 col-sm-offset-2">品牌名称:</label>
             <div class="col-sm-3">
               <input type="text" id="name" name="name" class="form-control" value=""></div>
           </div>
           <div class="form-group">
-            <label for="pa" class="control-label col-sm-2 col-sm-offset-2">商品分类:</label>
+            <label for="type" class="control-label col-sm-2 col-sm-offset-2">品牌所属分类:</label>
             <div class="col-sm-3">
-              <select name="p" id="pa" class="form-control">
-                <option value="0">顶级分类</option>
+              <select name="type" id="type" class="form-control">
                 <volist name="cate" id="c">
-                  <option value="<{$c['path']}><{$c['cat_id']}>" <{$c['is_show']}>>
+                  <option value="<{$c['cat_id']}>" <{$c['is_show']}><{$c['disabled']}>>
                       <{$c['cat_name']}></option>
                     </volist>
                   </select>
                 </div>
               </div>
+          <div  class="form-group">
+            <label for="http" class="control-label col-sm-2 col-sm-offset-2">品牌网址:</label>
+            <div class="col-sm-3">
+              <input type="text" id="http" name="http" class="form-control" value=""></div>
+          </div>
               <div class="form-group">
-                <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品分类描述:</label>
+                <label for="d" class="control-label col-sm-2 col-sm-offset-2">品牌描述:</label>
                 <div class="col-sm-5">
                   <textarea name="desc" id="d" cols="50" rows="5" class="form-control"></textarea>
                 </div>
               </div>
               <div class="form-group">
-                <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品分类状态:</label>
+                <label for="logo"  class="control-label col-sm-2 col-sm-offset-2">品牌logo:</label>
+                <div class="col-sm-5">
+                  <input type="file" name="logo">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品品牌是否显示:</label>
                 <div class="col-sm-5">
                   <label><input type="radio" name="status" value="1" checked><span class="glyphicon glyphicon-ok"></span></label>
                   <label><input type="radio" name="status" value="0"><span class="glyphicon glyphicon-remove"></span></label>
                 </div>
               </div>
               <div class="form-group">
+                <label for="p" class="control-label col-sm-2 col-sm-offset-2">商品品牌排序依据:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="num" id="p" value="1">
+                </div>
+              </div>
+              <div class="form-group">
                 <div class="col-sm-offset-4 col-sm-5">
                   <button class="btn btn-success btn-lg" id="submit">添加</button>
-                  <a href="__CONTROLLER__/index" class="btn btn-danger btn-lg">返回</a>
                 </div>
               </div>
             </div>

@@ -30,7 +30,7 @@ class TypeController extends CommonController {
     	// 实例化第三方分页类
     	$p = new \Page($config);
     	// 查询数据
-    	$typeInfo = $cate->field(array('cat_id','cat_name','parent_id','path','is_show',"concat(path,'-',cat_id)"=>'p'))->where($where)->order('p')->limit($p->pagerows(),$p->maxrows())->select();
+    	$typeInfo = $cate->field(array('cat_id','cat_name','parent_id','path','is_show',"concat(path,cat_id)"=>'p'))->where($where)->order('p')->limit($p->pagerows(),$p->maxrows())->select();
     	if(!$typeInfo){//查询失败
     		$this->error('请求失败,查询不到数据',U('Index/index'));
     	}else{//查询成功
@@ -55,21 +55,21 @@ class TypeController extends CommonController {
     // 添加商品分类页面
     public function add(){
     	// 实例化model类
-    	$category = M('category');
+    	$cate = M('category');
     	// 查询所有商品分类
-    	$cate = $category->field(array('cat_id','is_show','cat_name','path',"concat(path,'-',cat_id)"=>'p'))->order('p')->select();
+    	$c = $cate->field(array('cat_id','is_show','cat_name','path',"concat(path,cat_id)"=>'p'))->order('p')->select();
     	$disabled = array('disabled','');
-		foreach($cate as &$val){
-			$num = substr_count($val['path'],',');
-			$rep = ($num-1)*6;
-			$nb = str_repeat('&nbsp;',$rep);
-			$str = $nb.$val['cat_name'];
-			$val['cat_name'] = $str;
-			$val['is_show'] = $disabled[$val['is_show']];
-		}
-		// 分配变量
-		$this->assign('cate',$cate);
-		$this->display();
+  		foreach($c as &$val){
+  			$num = substr_count($val['path'],',');
+  			$rep = ($num-1)*6;
+  			$nb = str_repeat('&nbsp;',$rep);
+  			$str = $nb.$val['cat_name'];
+  			$val['cat_name'] = $str;
+  			$val['is_show'] = $disabled[$val['is_show']];
+  		}
+  		// 分配变量
+  		$this->assign('cate',$c);
+  		$this->display();
     }
 
     // 添加商品分类、、
@@ -78,6 +78,7 @@ class TypeController extends CommonController {
     	$name = I('post.name');
     	$path = I('post.p');
     	$desc = I('post.desc');
+    	$status = I('post.status');
     	if($path == '0'){
     		$path = '0,';
     		$id = 0;
@@ -95,7 +96,8 @@ class TypeController extends CommonController {
     		'cat_name' => $name,
     		'cat_desc' => $desc,
     		'path' => $path,
-    		'parent_id' => $id
+    		'parent_id' => $id,
+    		'is_show' => $status
     		);
     	// dump($data);die;
     	// 添加商品分类
@@ -147,14 +149,46 @@ class TypeController extends CommonController {
    		// 实例化Model类
    		$cate = M('category');
    		// 查询资料
-   		$typeInfo = $cate->where('cat_id='.$id)->find();
+   		$typeInfo = $cate->where('cat_id='.$id)->field('cat_name,parent_id,path,is_show,cat_desc')->find();
    		if(!$typeInfo){
    			$this->error('请求失败,请稍后再试');
    		}else{
    			// 分配变量
-   			$this->assign('type',$typeInfo);
+   			$this->assign('id',$id);
+   			$this->assign('cate',$typeInfo);
    			$this->display();
    		}
+   	}
+
+   	// 修改商品分类
+   	public function doEdit() {
+   		// 接收信息
+   		$id = I('id');
+   		$name = I('name');
+   		$flag = I('flag');
+   		$Desc = I('Desc');
+   		$oDesc = I('oDesc');
+   		// 判断商品描述是否修改
+   		if($Desc != $oDesc){
+	   		$data = array(
+	   			'cat_id' => $id,
+	   			'cat_name' => $name,
+	   			'cat_desc' => $Desc
+	   			);
+   		}else{
+   			$data = array(
+   				'cat_id' => $id,
+   				'cat_name' => $name
+   				);
+   		}
+   		// 实例化Model类
+   		$cate = M('category');
+		$upResult = $cate->save($data);
+		if(!$upResult){//修改失败
+			$this->error('修改失败');
+		}else{//修改成功
+			$this->success('修改成功',U('index'));
+		}
    	}
 
 }

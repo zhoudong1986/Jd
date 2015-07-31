@@ -340,9 +340,7 @@
             <div style="clear: left;">
               <div style="overflow: hidden; margin: 0px auto;" id="sspid69854883">
                 <div clstag="bzzxad|keycount|290100|bzzxad1">
-                  <img id="tracker_banner23f5790e-cb80-4d69-9acb-2505e8a9937a" src="np"
-                       style="position: absolute; top: 0px; left: 0px;" border="0" height="0"
-                       width="0">
+
                   <div id="jd_banner23f5790e-cb80-4d69-9acb-2505e8a9937a" style="width: 990px; height: 150px; position: relative;">
                     <a id="jdad_23f5790e-cb80-4d69-9acb-2505e8a9937a" href="http://www.jd.com/"
                        target="_top" style="display: none; position: absolute; z-index: 3; top: 132px; right: 0px; width: 75px; height: 18px; background: transparent url('rbehvfjyrdaiaaaaaaahorfcogsaaecrwp_uyqaaae5174.png') repeat scroll 0% 0%;">
@@ -2181,8 +2179,6 @@
   </div>
   <div id="jquery_jplayer_1" style="height: 0px; background-color: rgb(0, 0, 0);">
     <img style="width: 1280px; height: 0px; display: none;" id="jp_poster_0">
-    <audio src="/img/BELL7.m4a" preload="metadata" id="jp_audio_0">
-    </audio>
   </div>
 </div>
 <div class="choose-order" style="top: 0px; left: 0px; display: none;">
@@ -2214,10 +2210,10 @@
             </td>
             <td class="products" width="240">
               <a class="im-pic" href="javascript:;" title="">
-                <img src="custom.action">
+                <!--<img src="custom.action">-->
               </a>
               <a class="im-pic" href="javascript:;" title="">
-                <img src="custom.action">
+                <!--<img src="custom.action">-->
               </a>
             </td>
             <td width="80">
@@ -2801,14 +2797,7 @@
     </div>
   </div>
 </div>
-<div style="right: 35px;" class="logo _show_bar_yqg_show_tb _base_ygg_pack_up collapse-nav-bar"
-     title="展开">
-      <span style="display: none;" class="n-tips n-logo-tips">
-        <span id="n-tips-dog">
-          0
-        </span>
-      </span>
-</div>
+
 <div style="bottom: 2px; right: 123px; height: 480px; width: 520px; z-index: 999998; left: -50000px;"
      id="tabView_subWin" class="w-multi-window">
   <div id="tabView_container" class="guang-window-container">
@@ -2926,11 +2915,12 @@
             $('.im-msg-success').siblings().html('');
             $('#scrollDiv').append($msg);
           }
+        setTimeout(function(){
+          get_talk($uid);
+        },3000);
       }
     });
-    setTimeout(function(){
-      get_talk($uid);
-    },9000)
+
   }
   /**
    * 获得监听列表
