@@ -44,6 +44,7 @@ img.err-product, img.err-poster { background: transparent url('../images/error-j
 .loading-style1 b, .loading-style2 { background: transparent url('../images/loading-jd.gif') no-repeat scroll 50% 50%; }
 .loading-style1 { width: 126px; margin: 0px auto; text-align: center; color: rgb(153, 153, 153); }
 .loading-style1 b { display: block; width: 43px; height: 24px; margin: 0px auto 5px; }
+#o-header-2013{position: relative;z-index:1}
 #shortcut-2013 .fl b, #shortcut-2013 .fr b { background-image: url('../images/20130330a_2.png'); background-repeat: no-repeat; }
 #shortcut-2013, #shortcut-2013 .w { height: 30px; background: rgb(247, 247, 247) none repeat scroll 0% 0%; }
 #shortcut-2013 { width: 100%; border-bottom: 1px solid rgb(238, 238, 238); line-height: 30px; }

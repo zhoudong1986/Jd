@@ -5,7 +5,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+  <script type="text/javascript" charset="utf-8" src="__ADMINPUBLIC__/editor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__ADMINPUBLIC__/editor/ueditor.all.min.js"> </script>
+  </head>
 
 <body>
   <ol class="breadcrumb">
@@ -37,7 +41,12 @@
     </nav>
         </div>
         <div class="panel-body ">
-          <form id="forms" action="__CONTROLLER__/doEdit" class="form-horizontal" method="post" enctype="multipart/form-data">
+          <form id="forms" action="__CONTROLLER__/doEdit" name="myf" class="form-horizontal" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="editor" class="control-label col-sm-2"><button id="t" type="button" class="btn btn-info">修改商品详情</button></label>
+            <textarea style="display:none;height:300px" name="desc" id="editor" cols="500" rows="500"><{$g['goods_desc']}></textarea>
+          </div>
+          <button class="btn btn-success" id="su"  type="button" style="float:right;display:none">确定</button>
             <div class="form-group">
               <label class="control-label col-sm-2 col-sm-offset-2">商品货号:</label>
               <div class="col-sm-5">
@@ -187,12 +196,6 @@
                     <textarea name="brief" id="d" cols="30" rows="2" class="form-control"><{$g['goods_brief']}></textarea>
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="d" class="control-label col-sm-2 col-sm-offset-2">商品描述:</label>
-                  <div class="col-sm-5">
-                    <textarea name="desc" id="d" cols="30" rows="5" class="form-control"><{$g['goods_desc']}></textarea>
-                  </div>
-                </div>
               <div class="form-group">
               <label class="control-label col-sm-2 col-sm-offset-2">添加时间:</label>
               <div class="col-sm-5">
@@ -216,6 +219,17 @@
       <!-- jQuery -->
       <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
       <script>
+      var ue = UE.getEditor('editor');
+    $('#t').click(function(){
+      $('#editor').css('display','block');
+      $('#su').css('display','block');
+      $('#t').parent('label').parent('div').siblings('div').toggleClass('hide');
+    });
+    $('#su').click(function(){
+      $('#editor').css('display','none');
+      $('#su').css('display','none');
+      $('#t').parent('label').parent('div').siblings('div').toggleClass('hide');
+    });
   </script>
      
 </body>

@@ -8,8 +8,7 @@ class GoodController extends CommonController {
         // 引进第三方分页类,格式:  @.Class类名
         import('@.Class.Page');
         // 接收表单传过来的搜索值
-//        $search = empty(I('get.search')) ? '' : I('get.search');
-      $search =I('get.search','');
+        $search = I('get.search');
         // 制作查询条件、
         $where['goods_name'] = array('like','%'.$search.'%');
         // 实例化model类
@@ -68,7 +67,7 @@ class GoodController extends CommonController {
         }
     }
 
-    // 添加商品
+    // 添加商品页面
     public function add(){
         // 实例化Model类
         $cate = M('category');
@@ -108,7 +107,11 @@ class GoodController extends CommonController {
         $info = M()->table($table)->where($where)->field($field)->find();
         // 实例化Model类
         $attr = M('goods_attr');
-        $attrArr = $attr->where('good_id='.$id)->select();
+        $field = array(
+            'attr_name',
+            'group_concat(attr_value separator "、")' => 'attr_value'
+            );
+        $attrArr = $attr->where('good_id='.$id)->field($field)->group('attr_name')->select();
         // 分配变量
         if($info || $attrArr){
             $str = '';
@@ -214,20 +217,22 @@ class GoodController extends CommonController {
         $upload->savePath = 'good/';//设置目录
         $upload->exts = array('jpeg','jpg','png','gif');//上传类型
         // 上传图片
-        $info = $upload->upload();
+        $info = $upload->uploadOne($_FILES['pic']);
         if(!$info){//上传失败
             $this->error($upload->getError());
         }else{
             //组合商品图片名
-            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[0]['savepath'].$info[0]['savename'];//封面图
-            $fd = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[1]['savepath'].$info[1]['savename'];//放大图
+            $fd = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
             // 制作缩略图
-            $sf = 'sf_'.$info[0]['savename'];
+            $sf = 'sf_'.$info['savename'];
+            $mid = 'mid_'.$info['savename'];
             $image = new \Think\Image();
-            $image->open('./shop_jd/Public/Uploads/'.$info[0]['savepath'].$info[0]['savename']);
-            $image->thumb(54,54)->save('./shop_jd/Public/Uploads/'.$info[0]['savepath'].$sf);
-            // 组合缩放图片名
-            $sf = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[0]['savepath'].$sf;
+            $image->open('./shop_jd/Public/Uploads/'.$info['savepath'].$info['savename']);
+            $image->thumb(54,54)->save('./shop_jd/Public/Uploads/'.$info['savepath'].$sf);
+            $image->open('./shop_jd/Public/Uploads/'.$info['savepath'].$info['savename']);
+            $image->thumb(350,350)->save('./shop_jd/Public/Uploads/'.$info['savepath'].$mid);
+            $sf = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$sf;
+            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$mid;
             $id = I('id');
             // 组合添加信息
             $data = array(
@@ -307,6 +312,7 @@ class GoodController extends CommonController {
 
     // 添加商品
     public function doAdd() {
+        // dump(I('post.'));die;
         // 实例化文件上传类
         $upload = new \Think\Upload();
         $upload->maxSize = 3145728;//设置最大值
@@ -314,19 +320,22 @@ class GoodController extends CommonController {
         $upload->savePath = 'good/';//设置目录
         $upload->exts = array('jpeg','jpg','png','gif');//上传类型
         // 上传图片
-        $info = $upload->upload();
+        $info = $upload->uploadOne($_FILES['pic']);
         if(!$info){//上传失败
             $this->error($upload->getError());
         }else{
             //组合商品图片名
-            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[0]['savepath'].$info[0]['savename'];
-            $fd = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[1]['savepath'].$info[1]['savename'];
+            $fd = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$info['savename'];
             // 制作缩略图
-            $sf = 'sf_'.$info[0]['savename'];
+            $sf = 'sf_'.$info['savename'];
+            $mid = 'mid_'.$info['savename'];
             $image = new \Think\Image();
-            $image->open('./shop_jd/Public/Uploads/'.$info[0]['savepath'].$info[0]['savename']);
-            $image->thumb(54,54)->save('./shop_jd/Public/Uploads/'.$info[0]['savepath'].$sf);
-            $sf = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info[0]['savepath'].$sf;
+            $image->open('./shop_jd/Public/Uploads/'.$info['savepath'].$info['savename']);
+            $image->thumb(54,54)->save('./shop_jd/Public/Uploads/'.$info['savepath'].$sf);
+            $image->open('./shop_jd/Public/Uploads/'.$info['savepath'].$info['savename']);
+            $image->thumb(350,350)->save('./shop_jd/Public/Uploads/'.$info['savepath'].$mid);
+            $sf = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$sf;
+            $file = __ROOT__.'/'.APP_NAME.'/Public/Uploads/'.$info['savepath'].$mid;
             // 接收信息
             $name = I('name');
             $cat_id = I('type');
@@ -338,10 +347,13 @@ class GoodController extends CommonController {
             $best = I('best');
             $promote = I('promote');
             $desc = I('desc');
+            $shop_price = I('shop_price');
+            $num = I('num');
+            $editor = I('editor');
             // 实例化Model类
             $good = M('goods');
             $time = time();
-            $sn = date(time()).uniqid();
+            $sn = time().uniqid();
             // 组合商品信息
             $data = array(
                 'goods_sn' => $sn,
@@ -359,8 +371,11 @@ class GoodController extends CommonController {
                 'goods_img' => $file,
                 'goods_thumb' => $sf,
                 'goods_imgBig' => $fd,
+                'shop_price' => $shop_price,
+                'goods_number' => $num,
                 'add_time' => $time,
-                'sellers_id' => 5
+                'sellers_id' => 1,
+                'goods_desc' => $editor
                 );
             // 添加商品
             $addResult = $good->add($data);
@@ -383,18 +398,21 @@ class GoodController extends CommonController {
             $attr = M('goods_attr');
             // 获取属性
             $arr = I('post.');
-            for($i = 0;$i < 10;$i++){
+            for($i = 0;$i < 13;$i++){
                 array_shift($arr);
             }
             foreach($arr as $key=>$val){
-                $addList[] = array(
-                    'attr_name' => $key,
-                    'attr_value' => $val,
-                    'cat_id' => $cat_id,
-                    'brand_id' => $brand_id,
-                    'good_id' => $addResult
-                    );
+                foreach($val as $v){
+                    $addList[] = array(
+                        'attr_name' => $key,
+                        'attr_value' => $v,
+                        'cat_id' => $cat_id,
+                        'brand_id' => $brand_id,
+                        'good_id' => $addResult
+                        );
+                }
             }
+            // dump($addList);die;
             $result = $attr->addAll($addList);
             if(!$result){
                 $this->error('添加失败');
@@ -405,6 +423,7 @@ class GoodController extends CommonController {
 
         }
     }
+
 
     //获取属性
     public function attr() {
@@ -427,12 +446,12 @@ class GoodController extends CommonController {
         }
         foreach($arr as $key=>$va){
 
-            $str .= '<div>'.$key.'<select attr_name="'.$key.'">';
+            $str .= '<div>'.$key.'：';
             foreach($va as $v){
-                $str .='<option value="'.$v.'">'.$v.'</option>';
+                $str .= '<label><input type="checkbox" value="'.$v.'" name="'.$key.'[]">'.$v.'</label>&nbsp;&nbsp;';
                 
             }
-            $str .= '</select></div><br/>';
+            $str .= '</div><br/>';
         }
         if(!$attrResult){//获取失败
             $this->ajaxReturn(0);

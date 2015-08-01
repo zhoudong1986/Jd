@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>后台管理员</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="__ADMINPUBLIC__/css/bootstrap.min.css" rel="stylesheet"></head>
+<body>
+  <ol class="breadcrumb">
+    <li>
+      <a href="#">广告管理</a>
+    </li>
+    <li class="active" id="my">广告列表</li>
+  </ol>
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">
+          <span class="glyphicon glyphicon-th-list"></span>
+          &nbsp;&nbsp;广告列表
+         
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form navbar-right" action="__MODULE__/Ad/index" role="search" method="get">
+          <div class="form-group">
+            <label for="search" class="control-label">广告板块:</label>
+            <input type="text" id="search" class="form-control" value="<{$search}>" name="search"></div>
+            <input type="submit" class="btn  btn-primary" value="搜索">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <table style="text-align:center"  class="table  table-bordered table-hover table-striped" >
+    <thead align="center">
+      <tr class="info">
+        <td> <strong>广告ID</strong>
+        </td>
+        <td>
+          <strong>广告图片</strong>
+        </td>
+        <td>
+          <strong>广告类型</strong>
+        </td>
+        <td> <strong>广告所属板块</strong>
+        </td>
+        <td> <strong>广告位置</strong>
+        </td>
+        <td>
+          <strong>广告地址</strong>
+        </td>
+        <td>
+          <strong>操作</strong>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <volist name="info" id="ad">
+        <tr id="<{$ad['ad_id']}>">
+          <td scope="row">
+            <strong><{$ad['ad_id']}></strong>
+            </td>
+              <td>
+                <form action="__CONTROLLER__/pic" method="post" target="photo" enctype="multipart/form-data">
+                <label>
+                <img onclick="doPic(this);" id="<{$ad['ad_id']}>" src="<{$ad['ad_img']}>" width="50px" height="50px" alt="..." class="img-thumbnail" />
+                <input class="hide" type="file" name="pic">
+                <input type="hidden" name="id" value="<{$ad['ad_id']}>">
+                </label>
+                </form>
+              </td>
+              <td>
+                <eq name="ad.type" value="1">
+                  <button class="btn btn-warning">店铺广告</button>
+                  <else />
+                  <button class="btn btn-info">商品广告</button>
+                </eq>
+              </td>
+                  <td>
+                    <button class="btn btn-default"><span class="glyphicon glyphicon-facetime-video"></span><{$ad['ad_model']}></button>
+                  </td>
+                  <td>
+                   <button class="btn btn-default"><span class="glyphicon glyphicon-facetime-video"></span><{$ad['ad_where']}></button>
+                  </td>
+                  <td>
+                      <{$ad['ad_src']}>
+                    </td>
+                  <td>
+                    <a href="__MODULE__/Ad/del/id/<{$ad['ad_id']}>" class="btn btn-danger ">删除</a>
+                    </td>
+                  </tr>
+
+                </volist>
+                <tr>
+                  <td colspan="7" align="right">
+                    <{$page}></td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <iframe name="photo" id="photo" width="10px" class="hide" height="10px" frameborder="0"></iframe>
+
+              <script src="__ADMINPUBLIC__/js/jquery-1.10.2.min.js"></script>
+              <script src="__ADMINPUBLIC__/js/layer/layer.js"></script>
+              <!-- jQuery -->
+              <script src="__ADMINPUBLIC__/js/bootstrap.min.js"></script>
+              <script>
+              var $time = null;
+              var $pic = '';
+              var $p = '';
+            function doPic(obj){
+              $img = $(obj);
+              var $id = $img.attr('id');
+              $img.next().change(function(){
+                $img.parent('label').parent('form').submit();
+                // 检测是否上传成功
+                $time = setInterval(function(){
+                  $pic = document.getElementById('photo').contentWindow.document.getElementById('pic').value;
+                    if($pic == 'error'){//上传失败,清空时间器
+                      alert('上传失败');
+                      clearTimeout($time);
+                      $time = null;
+                    }else{//上传成功
+                      if($p != $pic){//判断获取到的头像名不是上一次操作得到的头像名(所有头像名都是唯一的)
+                        $img.attr('src',$pic);
+                        $p = $pic;//更新头像名标识
+                        clearTimeout($time);
+                        $time = null;
+                      }
+                    }
+                    return false;
+                },1000);
+              });
+            }
+          </script>
+</body>
+            </html>

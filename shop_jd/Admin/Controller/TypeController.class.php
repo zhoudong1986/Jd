@@ -31,25 +31,20 @@ class TypeController extends CommonController {
     	$p = new \Page($config);
     	// 查询数据
     	$typeInfo = $cate->field(array('cat_id','cat_name','parent_id','path','is_show',"concat(path,cat_id)"=>'p'))->where($where)->order('p')->limit($p->pagerows(),$p->maxrows())->select();
-    	if(!$typeInfo){//查询失败
-    		$this->error('请求失败,查询不到数据',U('Index/index'));
-    	}else{//查询成功
-    		//获取所有父ID
-    		$fidArr = $cate->field('parent_id')->select();
-    		foreach($fidArr as $val){
-    			$fid[] = $val['parent_id'];
-    		}
-    		// 给可删除的类做标识
-    		foreach($typeInfo as &$val){
-    			if(!in_array($val['cat_id'],$fid)){
-    				$val['del'] = 'del';
-    			}
-    		}
-    		// 分配变量
-    		$this->assign('types',$typeInfo);
-    		$this->assign('page',$p->get_page());
-    		$this->display();
-    	}
+  		$fidArr = $cate->field('parent_id')->select();
+  		foreach($fidArr as $val){
+  			$fid[] = $val['parent_id'];
+  		}
+  		// 给可删除的类做标识
+  		foreach($typeInfo as &$val){
+  			if(!in_array($val['cat_id'],$fid)){
+  				$val['del'] = 'del';
+  			}
+  		}
+  		// 分配变量
+  		$this->assign('types',$typeInfo);
+  		$this->assign('page',$p->get_page());
+  		$this->display();
     }
 
     // 添加商品分类页面

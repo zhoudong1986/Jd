@@ -31,6 +31,7 @@ class SellerController extends CommonController {
     	$data = $seller->where($where)->field('sellers_id,sname,level,pic,status')->limit($p->pagerows(),$p->maxrows())->select();
     	// 分配变量
     	$this->assign('sellers',$data);
+        $this->assign('search',$search);
     	$this->assign('page',$p->get_page());
        	$this->display();
     }

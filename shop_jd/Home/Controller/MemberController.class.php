@@ -16,9 +16,25 @@ class MemberController extends CommonController {
         //根据客户ID去查询数据
       $result = M()->table(array('jd_user'=>'user','jd_user_details'=>details))->field('user.user_name,details.email,details.pic,details.sex,details.birthDay,details.name,details.hobbies,details.address,details.id_card,details.marriage,details.educate')->where('details.user_id=user.user_id')->find();
       $account = M()->table(array('jd_user'=>'user','jd_user_account'=>'account'))->field('account.points,account.balance')->where('user.user_id=account.user_id')->find();
+      $status1 = M('order')->field('order_status,order_id')->where("user_id='{$uid}' AND order_status=1")->count('order_id'); //待付款
+      $status2 = M('order')->field('order_status,order_id')->where("user_id='{$uid}' AND order_status=7")->count('order_id'); //待收货
+      $status3 = M('order')->field('order_status,order_id')->where("user_id='{$uid}' AND order_status=8")->count('order_id'); //待自提
+      $status4 = M('order')->field('order_status,order_id')->where("user_id='{$uid}' AND order_status=6")->count('order_id'); //待评价
+      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid")->limit(0,3)->select();
+      foreach($info as $k=>&$v){
+        $imgs = M('order_goods')->field('goods_id,goods_img,goods_name')->where(array('order_id'=>$v['order_id']))->select();
+        if($imgs){$v['imgs']=$imgs;}
+      }
+      $this->assign('info',$info);
+      $this->assign('status1',$status1);
+      $this->assign('status2',$status2);
+      $this->assign('status3',$status3);
+      $this->assign('status4',$status4);
       $this->assign('user_info',$result);
       $this->assign('account',$account);
       $this->assign('uid',$uid);
+//      dump($info);
+//      die;
       $this->display('memCenter');
     }else{
       $this->redirect('Index/index', '', 0, '');
@@ -42,7 +58,8 @@ class MemberController extends CommonController {
       );
       //实例化第三方分页类库
       $p = new \Page($page);
-      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle !=0")->limit($p->pagerows(),$p->maxrows())->select();
+      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid ")->limit($p->pagerows(),$p->maxrows())->select();
+
       foreach($info as $k=>&$v){
         $imgs = M('order_goods')->field('goods_id,goods_img,goods_name')->where(array('order_id'=>$v['order_id']))->select();
         if($imgs){$v['imgs']=$imgs;}
@@ -51,7 +68,6 @@ class MemberController extends CommonController {
       $this->assign('imgs',$imgs);
       $this->assign('pageNav',$p->get_page()); //分页类页码
 //      dump($info);
-//      dump($w);
 //      die;
       $this->display('order');
     }else{//有没uid就给它去首页
@@ -227,8 +243,9 @@ class MemberController extends CommonController {
   //账户安全
   public function safetyCenter(){
     $uid = I('uid');
+
     if($uid){
-      $info = M('user_details')->where(array('uid'=>$uid))->find();
+      $info = M('user_details')->where(array('user_id'=>$uid))->find();
       $emailARR = explode('@',$info['email']);
       $email = substr_replace($emailARR[0],'***','-3','3');
       $tmp = $email.'@'.$emailARR[1];
@@ -514,9 +531,9 @@ class MemberController extends CommonController {
       //查询收货人信息
       $addinfo = M('buy_address')->where(array('user_id'=>$uid))->field('street,telephone,mobile,consignee')->find();
       //组合订单详情消息
-      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id=$uid AND o.order_id=$order_id AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle !=0")->select();
+      $info = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->field('add.consignee,o.order_sn,o.order_amount,o.order_time,o.order_status,p.pay_name,o.order_id,o.order_amount')->where("o.user_id='{$uid}' AND o.order_id='{$order_id}' AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle !=0")->select();
       foreach($info as $k=>&$v){
-        $imgs = M('order_goods')->field('goods_id,goods_img,goods_name,shop_price,goods_number')->where("order_id=1")->select();
+        $imgs = M('order_goods')->field('goods_id,goods_img,goods_name,shop_price,goods_number')->where("order_id={$order_id}")->select();
         if($imgs){$v['imgs']=$imgs;}
       }
 //      dump($info[0]);

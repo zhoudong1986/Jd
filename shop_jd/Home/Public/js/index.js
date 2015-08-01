@@ -79,12 +79,20 @@ $(function(){
   }).click(function(){
     $(this).parent('#banner').fadeOut(300);
   });
+  //购物车事件
   $('.content').hover(function(){
     $(this).css({backgroundColor:'#fff'}).children('.line,.under').show();
+    //去后台获得当前用户购物车的数据
+    $.ajax({
+      url:$url,
+      type:'post',
+      success:function($msg){
+        $('div.under').html('').append($msg);
+      }
+    });
   },function(){
     $(this).css({backgroundColor:'#f9f9f9'}).children('.line,.under').hide();
   });
-
 
   $('.class').children('div').children('div').hover(function(){
     $index = $(this).index();

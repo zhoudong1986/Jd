@@ -72,7 +72,8 @@ img.err-product, img.err-poster { background: transparent url('../images/error-j
 #site-nav .dd .fore3 dd { border-bottom: 0px none; }
 #site-nav .dd .fore3 { padding-bottom: 4px; }
 #site-nav .dd .fore1 div { width: 58px; margin-right: 0px; }
-#header-2013 { height: 60px; padding: 15px 0px; }
+
+#header-2013 { height: 60px; padding: 15px 0px; position: relative;z-index: 1;}
 #logo-2013 { float: left; width: 330px; }
 #logo-2013 a:link b, #logo-2013 a:visited b { top: 12px; left: 168px; width: 100px; height: 38px; cursor: pointer; }
 #logo-2013 a:hover b, #logo-2013 a:active b { display: none; background: rgb(255, 255, 255) url('../images/20130330a_2.png') no-repeat scroll 0px -312px; }

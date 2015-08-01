@@ -22,8 +22,8 @@
         <a class="navbar-brand">
           <span class="glyphicon glyphicon-th-list"></span>
           &nbsp;&nbsp;图片管理
-          <button id="add1" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加封面图</button>&nbsp;&nbsp;<button id="add2" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加大图</button>&nbsp;&nbsp;<button id="del" class="btn btn-danger" type="button"><span class="glyphicon glyphicon-trash"></span>删除</button>&nbsp;&nbsp;<button id="cha" style="display:none" class="btn btn-danger" type="button">取消</button>&nbsp;&nbsp;<button id="sureDel" style="display:none" class=" btn btn-success" type="button">确定</button>
-          <form action="__CONTROLLER__/upload" id="myform"  method="post" enctype="multipart/form-data" style="display:none"><input type="file"  name="pictuer[]" id="jia"><input type="file" id="jiajia" name="pictuer[]"><input type="hidden" name="id" value="<{$id}>"></form>
+          &nbsp;&nbsp;<button id="add2" class="btn btn-default" type="button"><span class="glyphicon glyphicon-plus"></span>添加图片</button>&nbsp;&nbsp;<button id="del" class="btn btn-danger" type="button">删除</button>&nbsp;&nbsp;<button id="cha" style="display:none" class="btn btn-danger" type="button">取消</button>&nbsp;&nbsp;<button id="sureDel" style="display:none" class=" btn btn-success" type="button">确定</button>
+          <form action="__CONTROLLER__/upload" id="myform"  method="post" enctype="multipart/form-data" style="display:none"><input type="file"  name="pictuer[]" id="jia"><input type="file" id="jiajia" name="pic"><input type="hidden" name="id" value="<{$id}>"></form>
         </a>
       </div>
     </div>
@@ -67,41 +67,14 @@
         alert('请选择要删除的图片');
       }
     });
-    $('#add1').click(function(){
-      $('#jia').trigger('click');
-      layer.msg('请选择封面图', {
-        offset: 0,
-        shift: 6
-      });
-      $('#jia').change(function(){
-        if($('#jiajia').val() == ''){
-          layer.msg('请选择大图完成上传', {
-            offset: 0,
-            shift: 6
-          });
-        }else{
-          $('#myform').submit();
-        }
-
-      });
-    
-    });
     $('#add2').click(function(){
       $('#jiajia').trigger('click');
-      layer.msg('请选择大图', {
+      layer.msg('请选择1000x1000大图', {
         offset: 0,
         shift: 6
       });
       $('#jiajia').change(function(){
-        if($('#jia').val() == ''){
-          layer.msg('请选择封面图完成上传', {
-            offset: 0,
-            shift: 6
-          });
-        }else{
           $('#myform').submit();
-        }
-
       });
     });
     $('form img').click(function(){

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>订单结算页 -京东商城</title>
+  <!--结算页面样式-->
+  <link rel="stylesheet" type="text/css" href="__CSS__/jiesuan.css" media="all">
+  <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all">
+  <script  src="__JS__/jquery-1.10.2.min.js"></script>
+  <script language="JavaScript" src="__JS__/common.js"></script>
+  
+</head>
+
+<body id="mainframe">
+  <include file="Public:header"/>
+  <div id="o-header-2013">
+    <div id="header-2013" style="display: none;"></div>
+  </div>
+  <!--shortcut end-->
+  <div class="w w1 header clearfix">
+    <div id="logo">
+      <a href="http://www.jd.com/" class="link1" target="_top">
+        <img src="__IMAGE__/logo-201305.png" alt="京东商城"></a>
+      <a href="#none" class="link2"> <b></b>
+        "结算页"
+      </a>
+    </div>
+    <div class="stepflex" id="#sflex03">
+      <dl class="first done">
+        <dt class="s-num">1</dt>
+        <dd class="s-text">
+          1.我的购物车
+          <s></s> <b></b>
+        </dd>
+      </dl>
+      <dl class="normal doing">
+        <dt class="s-num">2</dt>
+        <dd class="s-text">
+          2.填写核对订单信息
+          <s></s>
+          <b></b>
+        </dd>
+      </dl>
+      <dl class="normal last">
+        <dt class="s-num">3</dt>
+        <dd class="s-text">
+          3.成功提交订单
+          <s></s>
+          <b></b>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <!-- main -->
+  <div id="container">
+    <div id="content" class="w">
+      <div class="m">
+        <div class="checkout-tit">
+          <span class="tit-txt">填写并核对订单信息</span>
+        </div>
+        <div class="mc">
+          <div class="checkout-steps">
+            <!-- /widget/consignee-step/consignee-step.tpl -->
+            <div class="step-tit">
+              <h3>收货人信息</h3>
+              <div class="extra-r">
+                <a href="#none" class="ftx-05" onclick="use_NewConsignee()">新增收货地址</a>
+              </div>
+            </div>
+            <div class="step-cont">
+              <div id="consignee-addr" class="consignee-addr">
+                <div class="consignee-cont ui-switchable-panel-body" style="position: relative; height: auto;"
+                   id="consignee1">
+                  <ul class="ui-switchable-panel-main" style="top: 0px; position: relative;"
+                    id="consignee-list">
+                    <volist name="address" id="addre">
+                    <li  name="<{$addre['address_id']}>" onclick="doAddress(this);return false;">
+                      <a style="" href="#" onclick="return false;">
+                        <span><{$addre['consignee']}></span>
+                        <span><{$addre['street']}></span>
+                        <span>
+                        <?php
+                        echo str_replace(substr($addre['mobile'],3,4),'****',$addre['mobile']);
+                        ?>
+                        </span>
+                      </a>
+                    </li>
+                    </volist>
+                  </ul>
+                </div>
+              </div>
+              <div class="addr-switch switch-on hide" id="consigneeItemAllClick" onclick="show_ConsigneeAll()">
+                <span>更多地址</span>
+                <b></b>
+              </div>
+              <div class="addr-switch switch-off" id="consigneeItemHideClick" onclick="hide_ConsigneeAll()">
+                <span> &nbsp;&nbsp;&nbsp;收起地址</span>
+                <b></b>
+              </div>
+              <input id="consigneeList_giftSenderConsigneeMobile" value="" type="hidden">
+              <input id="consigneeList_giftSenderConsigneeName" value="" type="hidden"></div>
+            <!--/ /widget/consignee-step/consignee-step.tpl -->
+            <div class="hr"></div>
+            <!--/ /widget/shopping-list/shopping-list.tpl -->
+            <div id="shipAndSkuInfo">
+              <div id="payShipAndSkuInfo">
+                <div class="step-tit">
+                  <h3>支付方式</h3>
+                </div>
+                <div class="step-cont">
+                  <div class="payment-list" id="">
+                    <div class="list-cont">
+                      <ul id="payment-list">
+                        <input id="instalmentPlan" value="" type="hidden">
+                        <volist name="pay" id="pays">
+                        <li style="cursor: pointer;" onclick="doPay(this)" name="<{$pays['pay_id']}>">
+                          <div class="payment-item  online-payment">
+                            <{$pays['pay_name']}>
+                        </div>
+                      </li>
+                      </volist>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <!--/ /widget/payment-step/payment-step.tpl -->
+    <div class="step-tit">
+      <h3>送货清单</h3>
+      <div class="extra-r">
+        <a href="http://cart.jd.com/cart/cart.html" id="cartRetureUrl" class="return-edit ftx-05">返回修改购物车</a>
+      </div>
+    </div>
+    <div class="step-cont" id="skuPayAndShipment-cont">
+      <!--添加商品清单 zhuqingjie -->
+      <?php $num = 0;$total = 0;$count = count($cart);$j=0;?>
+     <foreach name="cart" item="cars" key="sname">
+        <div class="shopping-lists" id="shopping-lists">
+          <!--单组商品循环公共函数-->
+          <!--定义大商品清单LIST-->
+          <div class="shopping-list ABTest">
+            <div class="goods-list">
+              <!--购物车单品商品-->
+              <!--一般套装商品-->
+              <!--满返套装商品-->
+              <!--满赠套装商品-->
+              <!--配送方式-->
+              <div class="goods-tit">
+                <h4 class="vendor_name_h" id="0">商家：<{$sname}></h4>
+              </div>
+              <!--单品开始-->
+              <volist name="cars" id="car">
+              <div class="goods-items">
+                <div class="goods-item goods-item-extra">
+                  <div class="p-img">
+                    <a target="_top" href="http://item.jd.com/1260571.html">
+                      <img width="80px" height="80px" src="<{$car.goods_img}>" alt=""></a>
+                  </div>
+                  <div class="goods-msg">
+                    <div class="goods-msg-gel">
+                      <div class="p-name">
+                        <a href="http://item.jd.com/1260571.html" target="_top"><{$car.goods_name}></a>
+                      </div>
+                      <div class="p-price">
+                        <!--增加预售金额显示 begin 预售分阶段支付类型（1：一阶梯全款支付；2：一阶梯定金支付(全款或定金可选)；3：三阶梯仅定金支付）
+                                  --> <strong class="jd-price"><{$car.goods_price}></strong>
+                        <!--增加预售金额显示 end-->
+                        <span class="p-num">x<{$car.goods_number}></span>
+                        <?php
+                          $num += $car['goods_number'];
+                          $total += $car['subtotal'];
+                        ?>
+                        <span class="p-state" skuid="1260571">有货</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div> <i class="p-icon p-icon-w"></i>
+                    <span class="ftx-04">7天无理由退货</span>
+                  </div>
+                  <div class="clr"></div>
+                  
+                  <!-- 延保显示 --> </div>
+              </div>
+              </volist>
+              <!--满赠套装结束--> </div>
+            <!--goods-list 结束-->
+            <div class="dis-modes">
+              <div class="mode-item mode-tab">
+                <div class="mode-item-tit">
+                  <h4>配送方式</h4>
+                </div>
+                <div class="mode-tab-nav">
+                  <ul  num="<{$j}>">
+                  <volist name="ship" id="ships">
+                    <li onclick="doShip(this);" name="<{$ships['shipping_id']}>" style="margin-bottom: 10px">
+                      <span id="jdShip-span-tip" class="m-txt">
+                        <{$ships.shipping_name}>
+                      </span>
+                      <b></b>
+                    </li>
+                  </volist>
+                </ul>
+              </div>
+              <!--非大件对应商品清单结束--> </div>
+              <div class="freight-cont">
+                      <strong class="ftx-01" style="color: rgb(102, 102, 102);" freightbyvenderid="0"
+                              popjdshipment="false">
+                        免运费
+                      </strong>
+                    </div>
+          <div class="clr"></div>
+</div>
+</div>
+<?php $j++;?>
+      </foreach>
+<!--添加商品清单结束-->
+<!--添加备注信息-->
+<div style="display: block;" class="order-remarks hide" id="orderRemarkItem">
+<div class="remark-tit">添加订单备注</div>
+<div id="remarkId" style="margin-bottom: 7px;">
+  <div class="form remark-cont">
+    <input value="限45个字" style="color: rgb(204, 204, 204);" id="remarkText"
+                       maxlength="45" size="15" class="itxt itxt01" placeholder="限45个字" onblur="if(this.value==''||this.value=='限45个字'){this.value='限45个字';this.style.color='#cccccc'}"
+                       onfocus="if(this.value=='限45个字') {this.value='';};this.style.color='#000000';"
+                       type="text">
+    <span class="ftx-03 ml10">&nbsp;&nbsp;提示：请勿填写有关支付、收货、发票方面的信息</span>
+  </div>
+</div>
+</div>
+<div class="hr"></div>
+  <div class="toggle-wrap hide" id="jdBalance">
+    <div class="cbox">
+      <div class="inner">
+        <div class="form">
+          <input disabled="disabled" id="selectOrderBalance" class="jdcheckbox"
+                             value="" onclick="useOrCancelBalance(this)" type="checkbox">
+          <label id="canUsedBalanceId" for="selectOrderBalance" value="0.00">使用余额（账户当前余额：0.00元）</label>
+        </div>
+        <div class="ftx01 safeLpkPart hide" id="safeBalancePart">
+          为保障您的账户资金安全，余额暂不可用，请先
+          <a target="_top" href="http://safe.jd.com/user/paymentpassword/safetyCenter.action">[开启支付密码]</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 余额支付结束 -->
+<!-- 支付密码 -->
+<div class="pay-password" id="paypasswordPanel" style="display: none;">
+  <span class="label">支付密码：</span>
+  <div class="fl">
+    <input class="textbox1" id="txt_paypassword" type="password">
+    <span class="forgot-password">
+      <a target="_top" href="http://safe.jd.com/user/paymentpassword/getBackPassword.action">忘记支付密码？</a>
+    </span>
+  </div>
+</div>
+<!-- 支付密码 -->
+</div>
+<!--/ /widget/order-coupon/order-coupon.tpl -->
+</div>
+</div>
+</div>
+<!-- /widget/order-summary/order-summary.tpl -->
+<div class="order-summary">
+<!-- 预售 计算支付展现方式 begin -->
+<div class="statistic fr">
+<div class="list">
+<span> <em class="ftx-01"><{$num}></em>
+件商品，总商品金额：
+</span>
+<em class="price" id="warePriceId" v="2785">￥<{$total}></em>
+</div>
+<div class="list">
+<span>运费：</span>
+<em class="price" id="freightPriceId"><font color="#000000">￥0.00</font></em> 
+</div>
+<div class="list" id="showCouponPrice" style="display: none;">
+<span>商品优惠：</span>
+<em class="price" id="couponPriceId">-￥0.00</em>
+</div>
+<div class="list" id="showFreeFreight" style="display: none;">
+<span>运费优惠：</span>
+<em class="price" id="freeFreightPriceId">-￥0.00</em>
+</div>
+<div class="list" id="showGiftCardPrice" style="display: none;">
+<span>京东卡/E卡：</span>
+<em class="price" id="giftCardPriceId">-￥0.00</em>
+</div>
+<div class="list" id="showUsedJdBean" style="display: none;">
+<span>京豆：</span>
+<em class="price" id="usedJdBeanId">-￥0.00</em>
+</div>
+<div class="list" id="showUsedOrderBalance" style="display: none;">
+<span>余额：</span>
+<em class="price" id="usedBalanceId">-￥0.00</em>
+</div>
+<div class="list" id="showPeriodFee" style="display: none;">
+<span>分期手续费(由分期银行收取)：</span>
+<em class="price" id="periodFee">￥0.00</em>
+</div>
+<div class="list">
+<span>应付总额：</span>
+<em class="price" id="sumPayPriceId">￥<{$total}></em>
+</div>
+</div>
+<div class="clr"></div>
+</div>
+<!--/ /widget/order-summary/order-summary.tpl -->
+<div class="hr"></div>
+<!-- /widget/checkout-floatbar/checkout-floatbar.tpl -->
+<div class="trade-foot"  style="margin-left:-20px">
+<div id="checkout-floatbar" class="group">
+<div class="ui-ceilinglamp checkout-buttons ui-ceilinglamp-current">
+<div class="sticky-placeholder hide" style="display: none;"></div>
+<div class="sticky-wrap">
+<div class="inner">
+  <button type="submit" class="checkout-submit btn-1" id="order-submit"
+                      onclick="tjdd();">
+    提交订单
+    <b></b>
+  </button>
+  <span class="total">
+    应付总额：
+    <strong id="payPriceId"><{$total}></strong>
+    <label class="noShowMoney hide" id="giftBuyHidePriceDiv">
+      <input id="giftBuyHidePrice" checked="checked" type="checkbox">隐藏礼品价格</label>
+  </span>
+  <span id="checkCodeDiv"></span>
+  <div class="checkout-submit-tip" id="changeAreaAndPrice" style="display: none;">由于价格可能发生变化，请核对后再提交订单</div>
+  <!--div style="display:none" id="factoryShipCodShowDivBottom" class="dispatching">部分商品货到付款方式：先由京东配送“提货单”并收款，然后厂商发货。</div-->
+</div>
+<span id="submit_message" style="display: none;" class="submit-error"></span>
+<div class="submit-check-info" id="submit_check_info_message" style="display: none;"></div>
+</div>
+</div>
+</div>
+<div class="consignee-foot">
+<p>寄送地址：<{$address[0]['street']}></p>
+<p>收货人：<{$address[0]['consignee']}> 　<{$address[0]['mobile']}></p>
+</div>
+</div>
+<!--/ /widget/checkout-floatbar/checkout-floatbar.tpl -->
+<!-- /widget/backpanel/backpanel.tpl -->
+<div id="backpanel">
+<div style="right: 96.5px;" id="backpanel-inner" class="hide">
+<div class="bp-item bp-item-survey">
+<a href="http://surveys.jd.com/index.php?r=survey/index/sid/416587/lang/zh-Hans"
+             class="survey" target="_top">我要反馈</a>
+</div>
+<div class="bp-item bp-item-backtop" data-top="0">
+<a href="#none" class="backtop" target="_self">返回顶部</a>
+</div>
+</div>
+</div>
+<!--/ /widget/backpanel/backpanel.tpl -->
+</div>
+</div>
+<!-- /main -->
+<!-- /widget/footer/footer.tpl -->
+<!-- footer -->
+<div id="service-2014">
+<div class="w">
+<dl class="fore1">
+<dt>购物指南</dt>
+<dd>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-29.html">购物流程</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-151.html">会员介绍</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-297.html">生活旅行/团购</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue.html">常见问题</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-136.html">大家电</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/index.html">联系客服</a>
+</div>
+</dd>
+</dl>
+<dl class="fore2">
+<dt>配送方式</dt>
+<dd>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81-100.html">上门自提</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-81.html">211限时达</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/103-983.html">配送服务查询</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/109-188.html">配送费收取标准</a>
+</div>
+<div>
+<a target="_top" href="http://en.jd.com/chinese.html">海外配送</a>
+</div>
+</dd>
+</dl>
+<dl class="fore3">
+<dt>支付方式</dt>
+<dd>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-172.html">货到付款</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-173.html">在线支付</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-176.html">分期付款</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-174.html">邮局汇款</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-175.html">公司转账</a>
+</div>
+</dd>
+</dl>
+<dl class="fore4">
+<dt>售后服务</dt>
+<dd>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/321-981.html">售后政策</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-132.html">价格保护</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/130-978.html">退款说明</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://myjd.jd.com/repair/repairs.action">返修/退换货</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://help.jd.com/user/issue/list-50.html">取消订单</a>
+</div>
+</dd>
+</dl>
+<dl class="fore5">
+<dt>特色服务</dt>
+<dd>
+<div>
+<a target="_top" href="http://help.jd.com/user/issue/list-133.html">夺宝岛</a>
+</div>
+<div>
+<a target="_top" href="http://help.jd.com/user/issue/list-134.html">DIY装机</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://fuwu.jd.com/">延保服务</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://giftcard.jd.com/market/index.action">京东E卡</a>
+</div>
+<div>
+<a rel="nofollow" target="_top" href="http://mobile.jd.com/">京东通信</a>
+</div>
+</dd>
+</dl>
+<span class="clr"></span>
+</div>
+</div>
+<!-- 不支持自提商品列表隐藏域 -->
+<div class="w">
+<div id="footer-2014">
+<div class="links">
+<a rel="nofollow" target="_top" href="http://www.jd.com/intro/about.aspx">关于我们</a>
+|
+<a rel="nofollow" target="_top" href="http://www.jd.com/contact/">联系我们</a>
+|
+<a rel="nofollow" target="_top" href="http://www.jd.com/contact/joinin.aspx">商家入驻</a>
+|
+<a rel="nofollow" target="_top" href="http://jzt.jd.com/">营销中心</a>
+|
+<a rel="nofollow" target="_top" href="http://app.jd.com/">手机京东</a>
+|
+<a target="_top" href="http://club.jd.com/links.aspx">友情链接</a>
+|
+<a target="_top" href="http://media.jd.com/">销售联盟</a>
+|
+<a href="http://club.jd.com/" target="_top">京东社区</a>
+|
+<a href="http://gongyi.jd.com/" target="_top">京东公益</a>
+|
+<a href="http://en.jd.com/" target="_top">English Site</a>
+|
+<a href="http://help.en.jd.com/help/question-46.html" target="_top">Contact Us</a>
+</div>
+<div class="copyright">
+北京市公安局朝阳分局备案编号110105014669&nbsp;&nbsp;|&nbsp;&nbsp;京ICP证070359号&nbsp;&nbsp;|&nbsp;&nbsp;
+<a target="_top" href="53f16c24n7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;新出发京零&nbsp;字第大120007号
+<br>
+<a rel="nofollow" href="f_music.jpg" target="_top">音像制品经营许可证苏宿批005号</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;出版物经营许可证编号新出发(苏)批字第N-012号&nbsp;&nbsp;|&nbsp;&nbsp;互联网出版许可证编号新出网证(京)字150号
+<br>
+<a href="wlwhjyxkz.jpg" target="_top">网络文化经营许可证京网文[2014]2148-348号</a>
+&nbsp;&nbsp;违法和不良信息举报电话：4006561155&nbsp;&nbsp;Copyright&nbsp;©&nbsp;2004-2015&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+<br>
+京东旗下网站：
+<a target="_top" href="http://www.360top.com/">360TOP</a>
+&nbsp;&nbsp;
+<a href="http://www.paipai.com/" target="_top">拍拍网</a>
+&nbsp;&nbsp;
+<a href="https://www.wangyin.com/" target="_top">网银在线</a>
+</div>
+<div class="authentication">
+<a rel="nofollow" target="_top" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026">
+<img alt="经营性网站备案中心" src="__IMAGE__/54b8871ena9a7067e.png" class="err-product" height="32"
+             width="103"></a>
+<a rel="nofollow" target="_top" id="urlknet" tabindex="-1" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005">
+<img onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal"
+             alt="可信网站" src="__IMAGE__/54b8872dne37a9860.png" class="err-product" border="true"
+             height="32" width="103"></a>
+<a rel="nofollow" target="_top" href="http://www.bj.cyberpolice.cn/index.do">
+<img alt="朝阳网络警察" src="__IMAGE__/54b8874bn694454a5.png" class="err-product" height="32"
+             width="103"></a>
+<a rel="nofollow" target="_top" href="https://search.szfw.org/cert/l/CX20120111001803001836">
+<img src="__IMAGE__/54b8875fnad1e0c4c.png" class="err-product" height="32" width="103"></a>
+<a target="_top" href="http://jubao.china.cn:13225/reportform.do">
+<img src="__IMAGE__/54b8863dn8d2c61ec.png" class="err-product" height="32" width="185"></a>
+</div>
+</div>
+</div>
+<!-- footer end -->
+<!--/ /widget/footer-2015/footer-2015.tpl -->
+<div class="ui-tips ui-tips-top ui-tips-x-left qmarkTip" style="z-index: 101; top: 412px; left: 363.5px; display: none;"
+     id="uis-tips-1">
+<div class="ui-tips-main">
+即时到账，支持绝大数银行借记卡及部分银行信用卡
+<a href="http://help.jd.com/user/issue/223-562.html" target="_top" class="ftx-05">查看银行及限额</a>
+</div>
+<span class="ui-tips-arrow" style="z-index: 101;"></span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 102;"
+     id="uis-tips-2">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 102;"></span>
+<span class="ui-tips-close" style="z-index: 102;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 103;"
+     id="uis-tips-3">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 103;"></span>
+<span class="ui-tips-close" style="z-index: 103;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 104;"
+     id="uis-tips-4">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 104;"></span>
+<span class="ui-tips-close" style="z-index: 104;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 105;"
+     id="uis-tips-5">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 105;"></span>
+<span class="ui-tips-close" style="z-index: 105;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 106;"
+     id="uis-tips-6">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 106;"></span>
+<span class="ui-tips-close" style="z-index: 106;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 107;"
+     id="uis-tips-7">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 107;"></span>
+<span class="ui-tips-close" style="z-index: 107;">x</span>
+</div>
+<div class="ui-tips ui-tips-top" style="display: none; z-index: 108;"
+     id="uis-tips-8">
+<div class="ui-tips-main"></div>
+<span class="ui-tips-arrow" style="z-index: 108;"></span>
+<span class="ui-tips-close" style="z-index: 108;">x</span>
+</div>
+<div class="myCount" num="<{$count}>"></div>
+<form id="tj" action="__CONTROLLER__/order" method="post">
+  <div class="address"></div>
+  <div class="pay"></div>
+  <input type="hidden" name="total" value="<{$total}>" />
+  <div class="text"></div>
+  <input type="hidden" name="id" value="<{$idStr}>">
+  <div class="ships"></div>
+</form>
+  <!-- <script  src="__JS__/bootstrap.min.js"></script> -->
+<script type="text/javascript">
+  function tjdd() {
+    var $text = $('#remarkText').val();
+    if($text != '限45个字'){
+      $('.text').html('<input name="text" type="hidden" value="'+$text+'" />');
+    }
+    $('#tj').submit();
+  }
+  function app() {
+    var $number = $('.myCount').attr('num');
+    for(var i = 1;i <= $number;i++){
+      $('.ships').append('<input type="hidden" name="ship'+i+'" value="" />');
+    }
+  }
+  app();
+  function doShip(obj) {
+    $(obj).css('background','pink');
+    $(obj).siblings().css('background','white');
+    var $index = $(obj).parent('ul').attr('num');
+    var $value = $(obj).attr('name');
+    $('.ships input').eq($index).val($value);
+  }
+  function doAddress(obj) {
+    $(obj).children('a').css('border','1px solid green');
+    $(obj).siblings().children('a').css('border','0px solid white');
+    var $name = $(obj).children('a').children('span').eq(0).text();
+    var $address = $(obj).children('a').children('span').eq(1).text();
+    var $phone = $(obj).children('a').children('span').eq(2).text();
+    $('.consignee-foot p:first').text('寄送至：' + $address);
+    $('.consignee-foot p:last').text('收货人：' + $name + ' 　' + $phone);
+    var $id = $(obj).attr('name');
+    $('.address').html('<input type="hidden" name="address" value="'+$id+'" />');
+  }
+  function doPay(obj) {
+    $(obj).css('background','pink');
+    $(obj).siblings().css('background','white');
+    var $id = $(obj).attr('name');
+    $('.pay').html('<input type="hidden" name="pay" value="'+$id+'" />');
+  }
+
+
+</script>
+
+</body>
+
+</html>
