@@ -71,6 +71,7 @@ function _slider($arr,$e){
   });
 }
 
+
 $(function(){
   $('#banner').children('i').hover(function(){
     $(this).css({backgroundPosition:'0 -19px'});
@@ -93,6 +94,7 @@ $(function(){
   },function(){
     $(this).css({backgroundColor:'#f9f9f9'}).children('.line,.under').hide();
   });
+
 
   $('.class').children('div').children('div').hover(function(){
     $index = $(this).index();

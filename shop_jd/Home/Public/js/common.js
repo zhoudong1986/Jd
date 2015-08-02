@@ -23,6 +23,9 @@ $(function(){
       get_Msg($url);
     },2000)
   }
+
+
+
   /*
    * 头部公共部分JS
    * 2015-7-2 12:10
@@ -145,7 +148,72 @@ $(function(){
     //$('.navitems .myjd-info i').show();
     $(this).removeClass('hover');
   });
+  //购物车中双击删除指定id记录
+  $('div.under').delegate('a.deleteCar','dblclick',function(){
+      $car_id = $(this).attr('car_id');
+      $count = $('.nums').text();
+      //去后台删除相对应ID的记录
+    $.ajax({
+      url:$deleteUrl,
+      type:'post',
+      data:{'cart_id':$car_id},
+      success: function ($msg) {
+        if($msg=='1'){
+            $('div.under').find('li[car_id='+$car_id+']').remove();//删除该条购物记录
+            //购物车总记录数-1
+            $count-=1;
+            if($count<0){$count=0;}
+            $('.nums').text($count);
+        }else{
+            alert('删除失败');
+        }
+      }
+    });
+  });
+  //购物车中点击去购物车事件
+  $('div.under').delegate('button.goCar','click',function(){
+      window.location.href = $goCarUrl;
+  });
 
+  //用户中心头部nav中的购物车事件
+  $('.dorpdown').hover(function () {
+    $('.dorpdown-layer').show();
+    $('.hover .dorpdown-layer').show();
+    //去后台查询购物车表
+    $.ajax({
+      url:$getCarNav,
+      type:'post',
+      success:function($msg){
+        $('#settleup-content').html('').append($msg);
+      }
+    });
+  }, function () {
+    $('.dorpdown-layer').hide();
+    $('.hover .dorpdown-layer').hide();
+
+  });
+  //用户中心头部nav中的购物车事件删除
+  $('#settleup-content').delegate('a.delete','dblclick', function () {
+    var $car_id = $('a.delete').attr('car_id');
+    $count = $('#shopping-amount').text();
+    $.ajax({
+      url:$deleteCar,
+      type:'post',
+      data:{'cart_id':$car_id},
+      success:function($msg){
+          if($msg=='1'){
+            $('#settleup-content').find('li[car_id='+$car_id+']').remove();//删除该条购物记录
+            $count-=1;
+            if($count<0){$count=0;}
+            $('#shopping-amount').text($count);
+          }else{
+            alert('删除失败');
+          }
+      }
+    })
+  });
+
+  //轮循消息
     //get_Msg($url);
 
 });

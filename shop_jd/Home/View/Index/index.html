@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <title>京东网上商城-综合网购首选（JD.COM）-正品低价、品质保障、货到付款、配送及时、放心服务、轻松购物！</title>
   <link rel="stylesheet" href="__CSS__/index.css"/>
+  <link rel="stylesheet" href="__CSS__/common.css"/>
   <script>
     var $url = "__MODULE__/Common/car";
+    var $deleteUrl = '__MODULE__/Common/deleteCar';
+    var $goCarUrl = '__MODULE__/Index/mycar';
   </script>
   <script language="JavaScript" src="__JS__/jquery-1.10.2.min.js"></script>
   <script language="JavaScript" src="__JS__/common.js"></script>
@@ -45,10 +48,11 @@
       <div class="myCarBox">
         <div class="content">
           <a href="">我的购物车</a>
-          <i class="nums">0</i>
+          <i class="nums"><if condition="$count"><{$count}><else/>0</if></i>
           <i class="ci-right">></i>
           <div class="line"></div>
           <div class="under">
+            <img src="__IMAGE__/loading_001.gif" alt=""/>
             <!--<p class="none">购物车中还没有商品，赶紧选购吧！</p>-->
             <!--<p class="head">最新加入的商品</p>-->
             <!--<ul class="lists">-->

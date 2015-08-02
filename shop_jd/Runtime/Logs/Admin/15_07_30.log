@@ -1,0 +1,14 @@
+[ 2015-07-30T22:49:42+08:00 ] ::1 /index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'yoyo49' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-30T22:49:59+08:00 ] ::1 /index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'yoyo49' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+

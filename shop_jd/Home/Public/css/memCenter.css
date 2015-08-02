@@ -12,7 +12,7 @@ em, i, u { font-style: normal; }
 .clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
 .dorpdown { position: relative; }
 .dorpdown-layer { display: none; position: absolute; }
-.dorpdown:hover .dorpdown-layer, .hover .dorpdown-layer { display: block; }
+/*.dorpdown:hover .dorpdown-layer, .hover .dorpdown-layer { display: block; }*/
 .cw-icon { position: relative; cursor: default; }
 .cw-icon .i, .cw-icon i { display: block; position: absolute; overflow: hidden; }
 .w { width: 990px; margin: 0px auto; }
@@ -40,7 +40,6 @@ a:hover { color: rgb(200, 22, 35); }
 #shortcut-2014 #ttbar-mycity .dt { padding: 0px 25px 0px 10px; }
 #shortcut-2014 #ttbar-mycity:hover .dt { padding: 0px 24px 0px 9px; }
 #shortcut-2014 #ttbar-mycity .dd { width: 301px; padding: 10px 0px 10px 10px; }
-#shortcut-2014 #ttbar-mycity .dorpdown-layer {  }
 #shortcut-2014 #ttbar-mycity .item { float: left; width: 60px; padding: 2px 0px; }
 #shortcut-2014 #ttbar-mycity .item a { float: left; padding: 0px 8px; }
 #shortcut-2014 #ttbar-mycity .item a:hover { background: rgb(244, 244, 244) none repeat scroll 0% 0%; }

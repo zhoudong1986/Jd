@@ -18,6 +18,9 @@ class IndexController extends CommonController {
     // 实例化Model类
     $typeArr = $this->getType();
     // dump($typeArr);die;
+    //统计购物车
+    $count = M('cart')->where(array('user_id'=>$uid))->count('cart_id');
+    $this->assign('count',$count);
     $this->assign('typeArr',$typeArr);
 
     $this->display();
@@ -46,7 +49,7 @@ class IndexController extends CommonController {
     }
     $str = implode(',',$arrP);
     $idStr = I('id');
-    $user_id = $_SESSION['login_info']['uid'];
+    $user_id = $_SESSION['login_info']['uid']; //当前用户ID
     // 加入订单
     $order = M('order');
     $sn = time().uniqid();
@@ -85,7 +88,8 @@ class IndexController extends CommonController {
     $user_id = $_SESSION['login_info']['uid'];
     // 查询用户的收货地址
     $address = M('buy_address');
-    $addressInfo = $address->where('user_id=1')->select();
+    $addressInfo = $address->where(array('user_id'=>$user_id))->select();
+
     // 查询送货方式表
     $ship = M('shipping');
     $shipInfo = $ship->select();
@@ -93,7 +97,7 @@ class IndexController extends CommonController {
     $pay = M('payment');
     $payInfo = $pay->select();
     // 查询用户的购物车清单
-    $cartInfo = M()->table(array('jd_cart'=>'c','jd_sellers'=>'s'))->where('c.user_id=1 and c.sellers_id=s.sellers_id and c.cart_id in('.$idStr.')')->field('c.*,s.sname')->select();
+    $cartInfo = M()->table(array('jd_cart'=>'c','jd_sellers'=>'s'))->where("c.user_id={$user_id} and c.sellers_id=s.sellers_id and c.cart_id in(".$idStr.")")->field('c.*,s.sname')->select();
     foreach($cartInfo as $val){
       $sname[] = $val['sname'];
     }
@@ -116,6 +120,7 @@ class IndexController extends CommonController {
 
   // 商品详情页面
   public function detail() {
+    $uid = $_SESSION['login_info']['uid'];
     // 接收商品id
     $goods_id = I('good_id');
     // 查询商品详情
@@ -138,12 +143,15 @@ class IndexController extends CommonController {
         'group_concat(attr_value)' => 'value'
     );
     $attrInfo = $attr->where($where)->field($field)->group('attr_name')->select();
+    //统计购物车里面有多少件商品
+    $count = M('cart')->where(array('user_id'=>$uid))->count('cart_id');
     // dump($attrInfo);die;
     $this->pArr = array();
     $this->pArr[] = $goodInfo['goods_name'];
     $this->parents($goodInfo['cat_id']);
     // dump($this->pArr);die;
     // 分配变量
+    $this->assign('count',$count);
     $this->assign('goodInfo',$goodInfo);
     $this->assign('galInfo',$galInfo);
     $this->assign('attrInfo',$attrInfo);
@@ -255,10 +263,12 @@ class IndexController extends CommonController {
           'subtotal' => $subtotal,
       );
       $result = $cart->save($data);
+      //统计购物车里面有多少件商品
+      $count = M('cart')->where(array('user_id'=>$uid))->count('cart_id');
       if(!$result){
         $this->ajaxReturn(0);
       }else{
-        $this->ajaxReturn(1);
+        $this->ajaxReturn($count);
       }
     }else{//不存在
       // 插入购物车表
@@ -383,7 +393,7 @@ class IndexController extends CommonController {
     $page = array(
         'total' => $count,//数据总数
         'url' => !empty($param['url']) ? $param['url'] : '' ,//配置url
-        'max' => !empty($param['max']) ? $param['max'] : 1,//设置每页显示条数
+        'max' => !empty($param['max']) ? $param['max'] : 20,//设置每页显示条数
         'url_model' => 1,//设置为url模式
         'ajax' => !empty($param['ajax']) ? true :false,//开启ajax分页
         'out' => !empty($param['out']) ? $param['out'] : false,//输出设置

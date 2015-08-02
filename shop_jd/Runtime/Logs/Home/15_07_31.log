@@ -1,0 +1,1587 @@
+[ 2015-07-31T08:08:20+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0910s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:08:44+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:08:49+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:10:35+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:11:16+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:11:17+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:11:24+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:11:35+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:12:00+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:12:10+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:12:15+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:12:18+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T08:16:49+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:16:51+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0070s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:16:57+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:17:22+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0060s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:17:29+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:17:31+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T08:22:39+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A55%3A%22yoyo49%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yoyo49' for key 'user_name'
+
+[ 2015-07-31T08:22:48+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'password' cannot be null
+
+[ 2015-07-31T08:27:03+08:00 ] 127.0.0.1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T08:27:25+08:00 ] 127.0.0.1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0480s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:28:30+08:00 ] 127.0.0.1 /index.php/Home/Member/checknickName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE `user_id` = 3 AND `sname` = '哈哈520' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `details_id` FROM `jd_user_details` WHERE ( sname='哈哈520' AND user_id!='3' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:28:53+08:00 ] 127.0.0.1 /index.php/Home/Member/entering
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `sex`='2',`sname`='哈哈520',`birthDay`='2013/4/6',`hobbies`='1,5,8,11',`name`='呜呜呜',`address`='' WHERE `user_id` = 3 [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:31:22+08:00 ] 127.0.0.1 /index.php/Home/Member/actionMore
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user_details` SET `marriage`='1',`educate`='2',`income`='2',`id_card`='44444444444444' WHERE `user_id` = 3 [ RunTime:0.0000s ]
+
+[ 2015-07-31T08:46:07+08:00 ] 127.0.0.1 /index.php/Home/Member/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+
+[ 2015-07-31T10:18:12+08:00 ] 127.0.0.1 /index.php/Home/Member/setMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\MemberController.class.php 第 300 行.
+
+[ 2015-07-31T10:22:14+08:00 ] 127.0.0.1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'yoyo50' LIMIT 1   [ RunTime:0.0532s ]
+
+[ 2015-07-31T10:22:34+08:00 ] 127.0.0.1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0000s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0468s ]
+
+[ 2015-07-31T10:22:38+08:00 ] 127.0.0.1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:22:40+08:00 ] 127.0.0.1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T10:25:47+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A55%3A%22yoyo50%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yoyo50' for key 'user_name'
+
+[ 2015-07-31T10:27:51+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A55%3A%22yoyo50%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yoyo50' for key 'user_name'
+
+[ 2015-07-31T10:28:18+08:00 ] 127.0.0.1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:29:09+08:00 ] 127.0.0.1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'haha123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:29:48+08:00 ] 127.0.0.1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0420s ]
+
+[ 2015-07-31T10:29:53+08:00 ] 127.0.0.1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:29:56+08:00 ] 127.0.0.1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T10:30:09+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A56%3A%22haha123%2Ce10adc3949ba59abbe56e057f20f883e%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'sname'
+
+[ 2015-07-31T10:32:36+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A56%3A%22haha123%2Ce10adc3949ba59abbe56e057f20f883e%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'haha123' for key 'user_name'
+
+[ 2015-07-31T10:33:59+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A56%3A%22haha123%2Ce10adc3949ba59abbe56e057f20f883e%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'sname'
+
+[ 2015-07-31T10:35:03+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins555' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:35:07+08:00 ] ::1 /index.php/Index/checkVerify1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:35:25+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0460s ]
+
+[ 2015-07-31T10:35:34+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T10:35:36+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T10:36:55+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'sname'
+
+[ 2015-07-31T10:38:18+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'twins555' for key 'user_name'
+
+[ 2015-07-31T10:38:24+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'twins555' for key 'user_name'
+
+[ 2015-07-31T10:39:35+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'sname'
+
+[ 2015-07-31T10:43:38+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'twins555' for key 'user_name'
+
+[ 2015-07-31T10:44:05+08:00 ] 127.0.0.1 //index.php/Index/finishMailCheck/serialize/s%3A57%3A%22twins555%2Cf58f064c343d2c3ac4484ea4f7f45a60%2C11273548%40qq.com%22%3B.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'sname'
+
+[ 2015-07-31T10:52:49+08:00 ] ::1 /index.php/Index/checkRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'hahah123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:53:01+08:00 ] ::1 /index.php/Index/checkMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT user.user_name FROM `jd_user` `user`,`jd_user_details` `user_details` WHERE ( user.user_id=user_details.user_id AND user_details.email='11273548@qq.com' )  [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:53:07+08:00 ] ::1 /index.php/Index/checkVerify2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:53:09+08:00 ] ::1 /index.php/Index/setMail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 99 行.
+
+[ 2015-07-31T11:34:40+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/4
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_sellers' doesn't exist
+
+[ 2015-07-31T11:46:42+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/4
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_sellers' doesn't exist
+
+[ 2015-07-31T11:51:23+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T11:52:21+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T11:54:04+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:15:17+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:22:36+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:22:40+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:25:00+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:25:04+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:26:09+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:27:21+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:27:39+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:27:40+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:30:00+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:30:01+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:30:19+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:30:20+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:31:24+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0170s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0060s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_cart' doesn't exist
+
+[ 2015-07-31T13:32:32+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:32:33+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:34:05+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:34:06+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:38:13+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:38:14+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:40:33+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:40:34+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:41:28+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:41:29+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:42:51+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:42:52+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:43:40+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:43:41+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:44:25+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:44:26+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:45:15+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:45:16+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:46:01+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:46:03+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:47:49+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:47:50+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:49:37+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:49:38+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:51:07+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:51:39+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:51:40+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:51:51+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:51:52+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:52:10+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:52:11+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:55:43+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:55:44+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:57:25+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:57:26+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:57:57+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T13:57:58+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:58:33+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T13:58:35+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:00:04+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:00:05+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:00:57+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:00:58+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:02:31+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:02:32+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:02:45+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:02:46+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:02:55+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:02:56+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:04:15+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:04:16+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:04:46+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:04:47+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:09:40+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:09:41+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:13:19+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:13:20+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:13:55+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:13:57+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:14:30+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:14:31+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:15:11+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:15:12+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:16:00+08:00 ] ::1 /index.php/Home/Index/detail/good_id/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T14:16:01+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:17:58+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:19:36+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:20:20+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:26:42+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:28:15+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:28:33+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0060s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_cart' doesn't exist
+
+[ 2015-07-31T14:28:48+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:29:36+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0050s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_cart' doesn't exist
+
+[ 2015-07-31T14:33:37+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:35:26+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T14:36:09+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0050s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0580s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=0 and goods_id=2 ) LIMIT 1   [ RunTime:0.0270s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_img' at row 1
+
+[ 2015-07-31T14:39:04+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0060s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=0 and goods_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T14:43:29+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0060s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=0 and goods_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jd_cart` (`goods_id`,`user_id`,`goods_attr`,`goods_name`,`goods_img`,`goods_number`,`market_price`,`goods_price`,`sellers_id`,`subtotal`) VALUES ('2','0','无聊聊:随便写、','jjjjjj','/shop_jd/Public/Uploads/good/2015-07-31/mid_55baf14d254d6.jpg','3','55555.00','5566666.00','5','16699998') [ RunTime:0.0756s ]
+
+[ 2015-07-31T14:59:24+08:00 ] ::1 /index.php/Home/Index/jiesuan
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_address' doesn't exist
+
+[ 2015-07-31T15:05:41+08:00 ] ::1 /index.php/Home/Index/jiesuan
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_shipping' doesn't exist
+
+[ 2015-07-31T15:23:13+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:29:57+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:34:30+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:35:49+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:38:00+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:38:54+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:39:32+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:40:48+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:41:11+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:41:55+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:42:56+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:43:22+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:47:45+08:00 ] ::1 /index.php/Home/Index/pre
+ERR: 非法操作:pre
+
+[ 2015-07-31T15:48:00+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T15:49:28+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_info E:\Jd\shop_jd\Home\Controller\IndexController.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0602s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=1 and goods_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jd_cart` (`goods_id`,`user_id`,`goods_attr`,`goods_name`,`goods_img`,`goods_number`,`market_price`,`goods_price`,`sellers_id`,`subtotal`) VALUES ('1','0','无聊聊:随便写、','撒大大','/shop_jd/Public/Uploads/good/2015-07-31/mid_55baecbe751cb.jpg','5','111122.00','2222.00','5','11110') [ RunTime:0.0750s ]
+
+[ 2015-07-31T15:52:54+08:00 ] ::1 /index.php/Home/Index/order
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_img' at row 1
+
+[ 2015-07-31T15:57:56+08:00 ] ::1 /index.php/Home/Login/checkAccount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0468s ]
+SQL: SELECT `user_id` FROM `jd_user` WHERE `user_name` = 'twins49' AND `password` = 'f58f064c343d2c3ac4484ea4f7f45a60' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T15:58:10+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T16:01:06+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T16:01:13+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0156s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=1 and goods_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jd_cart` (`goods_id`,`user_id`,`goods_attr`,`goods_name`,`goods_img`,`goods_number`,`market_price`,`goods_price`,`sellers_id`,`subtotal`) VALUES ('1','1','无聊聊:随便写、','撒大大','/shop_jd/Public/Uploads/good/2015-07-31/mid_55baecbe751cb.jpg','1','111122.00','2222.00','5','2222') [ RunTime:0.0000s ]
+
+[ 2015-07-31T16:01:28+08:00 ] ::1 /index.php/Home/Index/order
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+
+[ 2015-07-31T16:33:51+08:00 ] ::1 /index.php/Home/Member/payMent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_order` [ RunTime:0.0050s ]
+SQL: UPDATE `jd_order` SET `order_status`='2' WHERE ( order_id=5 AND user_id=1 ) [ RunTime:0.0010s ]
+
+[ 2015-07-31T19:43:33+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:44:30+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:45:25+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:46:28+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:47:55+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:49:02+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:49:13+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:51:23+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:53:11+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:53:38+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:54:20+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:55:10+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T19:55:36+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:00:53+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:02:41+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:03:28+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:03:49+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:05:27+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:06:28+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:07:33+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:08:30+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:13:41+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T20:49:16+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:18:13+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:22:46+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:23:26+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:28:09+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:28:31+08:00 ] ::1 /index.php/Home/Member/orderDetail/uid/1/order_id/index_1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index_1' in 'where clause'
+
+[ 2015-07-31T21:53:59+08:00 ] ::1 /index.php/Home/Member/payMent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_order` [ RunTime:0.0060s ]
+SQL: UPDATE `jd_order` SET `order_status`='2' WHERE ( order_id=5 AND user_id=1 ) [ RunTime:0.1120s ]
+
+[ 2015-07-31T21:54:42+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T21:56:45+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T21:58:15+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:58:50+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T21:59:01+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T22:02:06+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T22:02:37+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T22:02:57+08:00 ] ::1 /index.php/Home/Member/home/uid/np
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'np' in 'where clause'
+
+[ 2015-07-31T22:47:20+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0624s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0916s ]
+
+[ 2015-07-31T22:47:23+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0170s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T22:48:09+08:00 ] ::1 /index.php/Home/Index/catList/cat_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T22:48:15+08:00 ] ::1 /index.php/Home/Index/detail/good_id/pre
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pre' in 'where clause'
+
+[ 2015-07-31T22:50:03+08:00 ] ::1 /index.php/Index/cart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_name`,`goods_img`,`market_price`,`shop_price`,`sellers_id` FROM `jd_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0156s ]
+SQL: SELECT `cart_id`,`goods_number`,`subtotal` FROM `jd_cart` WHERE ( user_id=1 and goods_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jd_cart` (`goods_id`,`user_id`,`goods_attr`,`goods_name`,`goods_img`,`goods_number`,`market_price`,`goods_price`,`sellers_id`,`subtotal`) VALUES ('1','1','无聊聊:随便写、','撒大大','/shop_jd/Public/Uploads/good/2015-07-31/mid_55baecbe751cb.jpg','1','111122.00','2222.00','5','2222') [ RunTime:0.1378s ]
+
+[ 2015-07-31T22:50:29+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T22:50:44+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T22:52:11+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T22:52:12+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T22:52:14+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T22:53:54+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:11:09+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:11:28+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0150s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:12:30+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:12:31+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:12:32+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:12:34+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:12:35+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:13:05+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:13:06+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:13:09+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:14:57+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2015-07-31T23:14:59+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2015-07-31T23:25:52+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-07-31T23:25:52+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T23:26:32+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0858s ]
+
+[ 2015-07-31T23:27:13+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:27:22+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2015-07-31T23:30:20+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:30:21+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:32:04+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:32:05+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:32:38+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0150s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-07-31T23:35:24+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:35:37+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0080s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:36:54+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:36:56+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:37:14+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:37:16+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:37:56+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:38:38+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:38:41+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:38:43+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:00+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:01+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0080s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:02+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:16+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:21+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:22+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0080s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:23+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:24+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:28+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:29+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:30+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:31+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:32+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0050s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-07-31T23:39:33+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:39:35+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:36+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0070s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:39:37+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0060s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T23:42:09+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:42:34+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:42:35+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T23:42:36+08:00 ] ::1 /index.php/Home/Common/car
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user_details` [ RunTime:0.0000s ]
+SQL: SELECT `pic` FROM `jd_user_details` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_cart` WHERE `user_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(cart_id) AS tp_count FROM `jd_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+

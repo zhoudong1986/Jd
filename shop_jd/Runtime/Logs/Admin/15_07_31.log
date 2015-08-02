@@ -1,0 +1,69 @@
+[ 2015-07-31T11:14:31+08:00 ] ::1 /index.php/Admin/Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_admin` WHERE `admin_name` = 'yoyo49' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:22:29+08:00 ] ::1 /index.php/Admin/Good/type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_brand` [ RunTime:0.0468s ]
+SQL: SELECT `brand_id`,`brand_name` FROM `jd_brand` WHERE ( cat_id=4                     )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: idArr E:\Jd\shop_jd\Admin\Controller\GoodController.class.php 第 185 行.
+NOTIC: [8] Undefined variable: nameArr E:\Jd\shop_jd\Admin\Controller\GoodController.class.php 第 185 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given E:\Jd\shop_jd\Admin\Controller\GoodController.class.php 第 185 行.
+
+[ 2015-07-31T11:26:17+08:00 ] ::1 /index.php/Admin/Good/type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_brand` [ RunTime:0.0000s ]
+SQL: SELECT `brand_id`,`brand_name` FROM `jd_brand` WHERE ( cat_id=4 )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:26:34+08:00 ] ::1 /index.php/Admin/Good/type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_brand` [ RunTime:0.0000s ]
+SQL: SELECT `brand_id`,`brand_name` FROM `jd_brand` WHERE ( cat_id=4                     )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:26:37+08:00 ] ::1 /index.php/Admin/Good/attr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT `attr_name`,`attr_value` FROM `jd_goods_attr` WHERE `brand_id` = 1 AND `cat_id` = 4 AND `good_id` = 0  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:27:04+08:00 ] ::1 /index.php/Admin/Good/doAdd
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_jd.jd_goods' doesn't exist
+
+[ 2015-07-31T11:34:05+08:00 ] ::1 /index.php/Admin/Good/type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_brand` [ RunTime:0.0000s ]
+SQL: SELECT `brand_id`,`brand_name` FROM `jd_brand` WHERE ( cat_id=4                     )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:34:07+08:00 ] ::1 /index.php/Admin/Good/attr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT `attr_name`,`attr_value` FROM `jd_goods_attr` WHERE `brand_id` = 1 AND `cat_id` = 4 AND `good_id` = 0  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:53:24+08:00 ] ::1 /index.php/Admin/Good/type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jd_brand` [ RunTime:0.0000s ]
+SQL: SELECT `brand_id`,`brand_name` FROM `jd_brand` WHERE ( cat_id=4                     )  [ RunTime:0.0000s ]
+
+[ 2015-07-31T11:53:28+08:00 ] ::1 /index.php/Admin/Good/attr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT `attr_name`,`attr_value` FROM `jd_goods_attr` WHERE `brand_id` = 1 AND `cat_id` = 4 AND `good_id` = 0  [ RunTime:0.0000s ]
+

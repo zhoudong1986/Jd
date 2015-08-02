@@ -1098,6 +1098,12 @@ a{text-decoration: none;}
 #nav .nav-r #settleup-2014 .ci-right { top: 9px; }
 #nav .nav-r #settleup-2014 .dorpdown-layer { top: 32px; }
 #nav .nav-r #hotwords-2014 { width: auto; display: none; }
+.nogoods b {
+  float: left;
+  width: 56px;
+  height: 49px;
+  background-image: url("../images/settleup-nogoods.png");
+}
 #nav .navitems .hover {
   z-index: 10;
 }
@@ -1182,4 +1188,16 @@ a.save-btn { height: 28px; line-height: 28px; padding: 0px 14px; font-size: 14px
 .op-order-method a.order-method-selected .i2 { top: -3px; background-position: -24px -54px; }
 .op-order-method a.order-method-selected .i3 { display: block; position: absolute; z-index: 2; width: 20px; height: 20px; overflow: hidden; top: -2px; right: -2px; background: transparent url('../images/eshop-20140109b.png') no-repeat scroll 0px 0px; }
 
-
+/*个人中心nav的购物车*/
+#settleup-content .smt { height: 25px; padding: 6px 8px; line-height: 25px; }
+#settleup-content .smc { background: rgb(255, 255, 255) none repeat scroll 0% 0%; height: auto ! important; max-height: 344px; overflow-y: auto; }
+#settleup-content .smb { padding: 8px; background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
+#settleup-content .smb .p-total { float: left; line-height: 29px; }
+#settleup-content .smb a { float: right; height: 29px; padding: 0px 10px; background: rgb(228, 57, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-align: center; font-weight: 700; line-height: 29px; border-radius: 3px; }
+#settleup-content ul { margin-top: -1px; }
+#settleup-content li { padding: 8px 10px; border-top: 1px dotted rgb(204, 204, 204); overflow: hidden; line-height: 17px; vertical-align: bottom; }
+#settleup-content li.hover, #settleup-content li:hover { background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
+#settleup-content .p-img { float: left; width: 50px; height: 50px; border: 1px solid rgb(221, 221, 221); padding: 0px; margin-right: 10px; font-size: 0px; }
+#settleup-content .p-name { float: left; width: 120px; height: 52px; }
+#settleup-content .p-detail { float: right; text-align: right; }
+#settleup-content .p-price { font-weight: 700; }

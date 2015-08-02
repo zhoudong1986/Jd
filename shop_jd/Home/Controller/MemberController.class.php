@@ -45,7 +45,7 @@ class MemberController extends CommonController {
     $uid = I('uid');
     if($uid){
       import('@.Class.Page');
-      $counts = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->where("o.user_id=$uid AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle != 0")->count('o.order_sn');
+      $counts = M()->table(array('jd_buy_address'=>'add','jd_order'=>'o','jd_payment'=>'p'))->where("o.user_id={$uid} AND o.address_id=add.address_id AND o.pay_id=p.pay_id AND o.recycle != 0")->count('o.order_id');
       $page = array(
           'total' => $counts,//总数
           'url' => !empty($param['url']) ? $param['url'] : '',//URL配置
